@@ -1,0 +1,32 @@
+# Unreal Engine — binarios y cachés locales (ajustad si versionáis Binaries/ por política del equipo)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+.vs/
+.vscode/
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Encrypted token / user-specific (no subir credenciales)
+**/Config/User*.ini
+**/Config/*Credentials*
+*.local.ini
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Content/ contains binary .uasset files — source code only in this repo
+Content/
+
+# Large asset folders
+Assets/
+

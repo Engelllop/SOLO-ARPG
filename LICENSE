@@ -1,0 +1,31 @@
+EMBERVEIL — Software propietario
+
+Copyright (c) 2026 los titulares de derechos de EMBERVEIL. Todos los derechos reservados.
+
+Se concede permiso para clonar y usar este repositorio únicamente a personas o entidades
+autorizadas por escrito por los titulares de derechos de EMBERVEIL, con fines acordados
+(por ejemplo: desarrollo interno, contratistas bajo NDA o colaboradores explícitamente
+aceptados según las políticas del proyecto).
+
+Queda prohibido, salvo autorización expresa por escrito:
+
+- redistribuir, sublicenciar, vender, alquilar o poner a disposición el Software o partes
+  sustanciales del mismo a terceros no autorizados;
+- usar el Software de forma que infrinja la ley aplicable o derechos de terceros;
+- eliminar u ocultar avisos de copyright o de propiedad intelectual.
+
+EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA,
+INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN
+PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS TITULARES SERÁN RESPONSABLES POR DAÑOS
+O RECLAMACIONES DERIVADOS DEL USO O LA IMPOSIBILIDAD DE USO DEL SOFTWARE.
+
+---
+
+Software de terceros
+
+Este proyecto puede depender de **Unreal Engine** y de otros materiales sujetos a licencias
+independientes (por ejemplo, el EULA de Epic Games, plugins del marketplace, SDKs de
+terceros). El uso de dicho software se rige exclusivamente por sus respectivas licencias;
+nada en este archivo limita tus obligaciones frente a esos titulares.
+
+Para enlaces oficiales y textos actualizados, consultad `Docs/LEGAL_NOTICES.md`.

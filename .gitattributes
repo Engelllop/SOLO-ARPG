@@ -1,0 +1,37 @@
+# Normalizar finales de línea en texto
+* text=auto eol=lf
+
+# Unreal / binarios
+*.uasset binary
+*.umap binary
+*.udk binary
+*.upk binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.dds binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.fbx binary
+*.obj binary
+*.blend binary
+
+# Fuentes y proyecto
+*.cpp text diff=cpp
+*.c text diff=cpp
+*.h text diff=cpp
+*.hpp text diff=cpp
+*.cs text diff=csharp
+*.ini text
+*.json text
+*.md text
+*.uproject text
+*.uplugin text
+*.xml text
+*.yaml text
+*.yml text
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
