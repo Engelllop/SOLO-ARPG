@@ -2,100 +2,86 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
-#include "GameplayEffectTypes.h"
 #include "EMBERVEILHUDOverlayWidget.generated.h"
 
-class UProgressBar;
-class UTextBlock;
+class UWG_VitalBars;
+class UWG_ExperienceBar;
+class UWG_Minimap;
+class UWG_QuestLogWidget;
+class UWG_BattleLogWidget;
+class UWG_StatusEffectsWidget;
+class UWidgetSwitcher;
 class UCanvasPanel;
-class UVerticalBox;
-class UAbilitySystemComponent;
-class UEMBERVEILInventoryComponent;
-class UEMBERVEILQuestComponent;
-class AEMBERVEILPlayerState;
 
 /**
- * HUD de partida: barras vitales (HP/MP/Stamina), nivel y monedas.
- * Construye el layout en código; WBP_HUD_Overlay hereda de esta clase.
+ * HUD Overlay principal — layout "Islas Flotantes" (V4).
+ * Compone todos los widgets del HUD en posiciones absolutas.
  */
-UCLASS()
+UCLASS(BlueprintType, Blueprintable)
 class EMBERVEILCORE_API UEMBERVEILHUDOverlayWidget : public UUserWidget
 {
 	GENERATED_BODY()
 
 public:
 	virtual void NativeConstruct() override;
-	virtual void NativeDestruct() override;
 
-	/** Actualiza el texto del tracker de misión principal (llamado desde el HUD vía delegates). */
-	void RefreshQuestTracker(UEMBERVEILQuestComponent* QuestComp);
+	// ─── Widgets V4 ───
 
-	/** Objetivo del delegate de moneda; enlazado desde AEMBERVEILHUDBase (no desde NativeConstruct). */
-	UFUNCTION()
-	void OnCurrencyChanged(int32 NewAmount);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "HUD|V4")
+	bool bUseV4Layout = true;
 
-	UFUNCTION()
-	void OnQuestObjectiveProgressUpdated(FName QuestID, FName ObjectiveID, int32 NewCount);
+	/** Top-left: Avatar + Vital Bars (HP/MP/Stamina) */
+	UPROPERTY(meta = (BindWidget, OptionalWidget = false))
+	TObjectPtr<UWG_VitalBars> VitalBars;
 
-protected:
-	void BuildLayout();
-	void TryBindToPlayerState();
-	void UnbindAll();
+	/** Top-center: XP Bar fina */
+	UPROPERTY(meta = (BindWidget, OptionalWidget = false))
+	TObjectPtr<UWG_ExperienceBar> ExperienceBar;
 
-	void OnHealthChanged(const FOnAttributeChangeData& Data);
-	void OnMaxHealthChanged(const FOnAttributeChangeData& Data);
-	void OnManaChanged(const FOnAttributeChangeData& Data);
-	void OnMaxManaChanged(const FOnAttributeChangeData& Data);
-	void OnStaminaChanged(const FOnAttributeChangeData& Data);
-	void OnMaxStaminaChanged(const FOnAttributeChangeData& Data);
-	void OnLevelChanged(const FOnAttributeChangeData& Data);
+	/** Top-right: Minimapa */
+	UPROPERTY(meta = (BindWidget, OptionalWidget = false))
+	TObjectPtr<UWG_Minimap> MinimapWidget;
 
-	void UpdateBars();
-	void RefreshLevelText();
-	void RefreshCurrencyText();
+	/** Right side: Quest Log (hover expandible) */
+	UPROPERTY(meta = (BindWidget, OptionalWidget = false))
+	TObjectPtr<UWG_QuestLogWidget> QuestLog;
 
-private:
-	UPROPERTY(Transient)
-	TObjectPtr<UCanvasPanel> RootCanvas;
+	/** Bottom-left: Battle Log (hover expandible) */
+	UPROPERTY(meta = (BindWidget, OptionalWidget = false))
+	TObjectPtr<UWG_BattleLogWidget> BattleLog;
 
-	UPROPERTY(meta = (BindWidget))
-	TObjectPtr<UProgressBar> PB_Health;
+	/** Bottom-right: Hotbar */
+	UPROPERTY(meta = (BindWidget, OptionalWidget = false))
+	TObjectPtr<class UWG_Hotbar> Hotbar;
 
-	UPROPERTY(meta = (BindWidget))
-	TObjectPtr<UProgressBar> PB_Mana;
+	/** Inline status effects (junto a vital bars) */
+	UPROPERTY(meta = (BindWidgetOptional))
+	TObjectPtr<UWG_StatusEffectsWidget> StatusEffects;
 
-	UPROPERTY(meta = (BindWidget))
-	TObjectPtr<UProgressBar> PB_Stamina;
+	/** Boss health bar (se muestra cuando hay boss activo) */
+	UPROPERTY(meta = (BindWidget, OptionalWidget = true))
+	TObjectPtr<class UWG_BossHealthBar> BossHealthBar;
 
-	UPROPERTY(meta = (BindWidget))
-	TObjectPtr<UTextBlock> TB_Level;
+	/** Combo counter */
+	UPROPERTY(meta = (BindWidgetOptional))
+	TObjectPtr<class UWG_ComboCounter> ComboCounter;
 
-	UPROPERTY(meta = (BindWidget))
-	TObjectPtr<UTextBlock> TB_Gold;
+	/** Party frames (multiplayer) */
+	UPROPERTY(meta = (BindWidgetOptional))
+	TObjectPtr<class UWG_PartyFrames> PartyFrames;
 
-	UPROPERTY(meta = (BindWidget))
-	TObjectPtr<UTextBlock> Text_QuestTracker;
+	/** Canvas contenedor del layout V4 */
+	UPROPERTY(meta = (BindWidgetOptional))
+	TObjectPtr<UCanvasPanel> V4Canvas;
 
-	UPROPERTY(Transient)
-	TObjectPtr<AEMBERVEILPlayerState> CachedPlayerState;
+	/** Switcher para alternar entre layouts (V4 / classic) */
+	UPROPERTY(meta = (BindWidgetOptional))
+	TObjectPtr<UWidgetSwitcher> LayoutSwitcher;
 
-	UPROPERTY(Transient)
-	TObjectPtr<UAbilitySystemComponent> CachedASC;
+	// ─── Boss helpers ───
+	UFUNCTION(BlueprintCallable, Category = "HUD|Boss")
+	void ShowBossHealthBar(class AEMBERVEILEnemyCharacter* Boss);
 
-	UPROPERTY(Transient)
-	TObjectPtr<UEMBERVEILInventoryComponent> CachedInventory;
-
-	UPROPERTY(Transient)
-	TObjectPtr<UEMBERVEILQuestComponent> CachedQuestComponent;
-
-	float CachedMaxHealth = 1.f;
-	float CachedMaxMana = 1.f;
-	float CachedMaxStamina = 1.f;
-
-	bool bDelegatesBound = false;
-	int32 BindRetryCount = 0;
-
-	FTimerHandle BindRetryTimerHandle;
-
-	void ScheduleBindRetry();
+	UFUNCTION(BlueprintCallable, Category = "HUD|Boss")
+	void HideBossHealthBar();
 };
