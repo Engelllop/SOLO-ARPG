@@ -1,5 +1,10 @@
 #include "UI/Widgets/WG_VitalBars.h"
+#include "Components/Image.h"
+#include "Components/TextBlock.h"
+#include "Engine/Texture2D.h"
 #include "Math/UnrealMathUtility.h"
+
+#define LOCTEXT_NAMESPACE "EMBERVEILVitalBars"
 
 void UWG_VitalBars::NativeConstruct()
 {
@@ -10,6 +15,14 @@ void UWG_VitalBars::NativeConstruct()
 	CurrentDelayHealthDisplay = 1.f;
 	CurrentManaDisplay = 1.f;
 	CurrentStaminaDisplay = 1.f;
+
+	// Default name
+	if (CharacterNameText && CharacterNameText->GetText().IsEmpty())
+	{
+		CharacterNameText->SetText(LOCTEXT("DefaultName", "Aelindra"));
+	}
+
+	UpdateValueTexts();
 }
 
 void UWG_VitalBars::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
@@ -70,14 +83,79 @@ void UWG_VitalBars::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 void UWG_VitalBars::SetHealthPercent(float Percent)
 {
 	HealthPercent = FMath::Clamp(Percent, 0.f, 1.f);
+	UpdateValueTexts();
 }
 
 void UWG_VitalBars::SetManaPercent(float Percent)
 {
 	ManaPercent = FMath::Clamp(Percent, 0.f, 1.f);
+	UpdateValueTexts();
 }
 
 void UWG_VitalBars::SetStaminaPercent(float Percent)
 {
 	StaminaPercent = FMath::Clamp(Percent, 0.f, 1.f);
+	UpdateValueTexts();
 }
+
+void UWG_VitalBars::SetCharacterName(const FText& NewName)
+{
+	if (CharacterNameText)
+	{
+		CharacterNameText->SetText(NewName);
+	}
+}
+
+void UWG_VitalBars::SetAvatarIcon(UTexture2D* Icon)
+{
+	if (AvatarImage && Icon)
+	{
+		AvatarImage->SetBrushFromTexture(Icon);
+	}
+}
+
+void UWG_VitalBars::SetVitalValues(float Health, float MaxHealth, float Mana, float MaxMana, float Stamina, float MaxStamina)
+{
+	CurrentHealth = FMath::RoundToInt(Health);
+	CurrentMaxHealth = FMath::RoundToInt(FMath::Max(MaxHealth, 1.f));
+	CurrentMana = FMath::RoundToInt(Mana);
+	CurrentMaxMana = FMath::RoundToInt(FMath::Max(MaxMana, 1.f));
+	CurrentStamina = FMath::RoundToInt(Stamina);
+	CurrentMaxStamina = FMath::RoundToInt(FMath::Max(MaxStamina, 1.f));
+
+	SetHealthPercent(MaxHealth > 0.f ? Health / MaxHealth : 0.f);
+	SetManaPercent(MaxMana > 0.f ? Mana / MaxMana : 0.f);
+	SetStaminaPercent(MaxStamina > 0.f ? Stamina / MaxStamina : 0.f);
+
+	UpdateValueTexts();
+	BP_OnVitalValuesUpdated();
+}
+
+void UWG_VitalBars::UpdateValueTexts()
+{
+	if (HealthValueText)
+	{
+		HealthValueText->SetText(FText::Format(
+			LOCTEXT("HPFmt", "{0}/{1}"),
+			FText::AsNumber(CurrentHealth),
+			FText::AsNumber(CurrentMaxHealth)));
+	}
+
+	if (ManaValueText)
+	{
+		ManaValueText->SetText(FText::Format(
+			LOCTEXT("MPFmt", "{0}/{1}"),
+			FText::AsNumber(CurrentMana),
+			FText::AsNumber(CurrentMaxMana)));
+	}
+
+	if (StaminaValueText)
+	{
+		StaminaValueText->SetText(FText::Format(
+			LOCTEXT("STAFmt", "{0}/{1}"),
+			FText::AsNumber(CurrentStamina),
+			FText::AsNumber(CurrentMaxStamina)));
+	}
+}
+
+#undef LOCTEXT_NAMESPACE

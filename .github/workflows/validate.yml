@@ -1,0 +1,75 @@
+name: validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate-structure:
+    name: Validate project structure
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate EMBERVEIL.uproject is valid JSON
+        run: |
+          python3 -c "import json; json.load(open('EMBERVEIL.uproject'))"
+
+      - name: Validate Config/*.ini exist
+        run: |
+          set -e
+          for f in DefaultEngine.ini DefaultGame.ini DefaultGameplayTags.ini DefaultInput.ini; do
+            test -f "Config/$f" || { echo "::error::Config/$f missing"; exit 1; }
+          done
+          echo "All required Config/*.ini present."
+
+      - name: Verify gameplay tags requested in code are declared
+        run: |
+          python3 - <<'PY'
+          import re, sys, pathlib
+          tag_pattern = re.compile(r'RequestGameplayTag\(\s*FName\(\s*"([^"]+)"', re.MULTILINE)
+          requested = set()
+          for path in pathlib.Path("Source").rglob("*.cpp"):
+              for m in tag_pattern.finditer(path.read_text(encoding='utf-8', errors='ignore')):
+                  requested.add(m.group(1))
+          declared_text = pathlib.Path("Config/DefaultGameplayTags.ini").read_text(encoding='utf-8', errors='ignore')
+          declared = set(re.findall(r'GameplayTagList=\(Tag="([^"]+)"', declared_text))
+          missing = sorted(requested - declared)
+          if missing:
+              print("::error::Tags requested in C++ but not declared in DefaultGameplayTags.ini:")
+              for t in missing:
+                  print(f"  - {t}")
+              sys.exit(1)
+          print(f"OK: {len(requested)} tags requested in C++, all declared in config.")
+          PY
+
+      - name: Check for headers with no matching .cpp (orphan report only)
+        run: |
+          python3 - <<'PY'
+          import pathlib
+          headers = {p.stem for p in pathlib.Path("Source").rglob("*.h")}
+          sources = {p.stem for p in pathlib.Path("Source").rglob("*.cpp")}
+          orphans = sorted(headers - sources - {"EMBERVEIL", "EMBERVEILCore"})
+          if orphans:
+              print("::warning::Headers without matching .cpp (header-only is OK for interfaces/types):")
+              for h in orphans:
+                  print(f"  - {h}")
+          else:
+              print("Every header has a matching .cpp.")
+          PY
+
+  lint-docs:
+    name: Lint markdown docs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v16
+        with:
+          globs: |
+            *.md
+            Docs/**/*.md
+            Design/**/*.md
+        continue-on-error: true
