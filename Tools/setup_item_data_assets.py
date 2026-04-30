@@ -1,6 +1,6 @@
-# Crea DataAssets UEMBERVEILItemBase bajo Content/Data/Items/...
+﻿# Crea DataAssets USOLOItemBase bajo Content/Data/Items/...
 #
-# UnrealEditor-Cmd.exe "E:\EMBERVEIL\EMBERVEIL.uproject" -nullrhi -unattended -ExecutePythonScript="E:\EMBERVEIL\Tools\setup_item_data_assets.py"
+# UnrealEditor-Cmd.exe "E:\SOLO\SOLO.uproject" -nullrhi -unattended -ExecutePythonScript="E:\SOLO\Tools\setup_item_data_assets.py"
 
 import unreal
 
@@ -19,9 +19,9 @@ def create_item_da(package_path: str, asset_name: str, **props) -> unreal.Object
     if unreal.EditorAssetLibrary.does_asset_exist(full):
         da = unreal.EditorAssetLibrary.load_asset(full)
     else:
-        cls = unreal.load_class(None, "/Script/EMBERVEILCore.EMBERVEILItemBase")
+        cls = unreal.load_class(None, "/Script/SOLOCore.SOLOItemBase")
         if not cls:
-            raise RuntimeError("LoadClass EMBERVEILItemBase failed")
+            raise RuntimeError("LoadClass SOLOItemBase failed")
         at = unreal.AssetToolsHelpers.get_asset_tools()
         da = at.create_asset(asset_name, package_path, cls, None)
         if not da:
@@ -37,9 +37,9 @@ def create_item_da(package_path: str, asset_name: str, **props) -> unreal.Object
 def main() -> None:
     unreal.log("setup_item_data_assets: start")
 
-    it = unreal.EMBERVEILItemType
-    r = unreal.EMBERVEILItemRarity
-    slot = unreal.EMBERVEILEquipmentSlot
+    it = unreal.SOLOItemType
+    r = unreal.SOLOItemRarity
+    slot = unreal.SOLOEquipmentSlot
 
     base = "/Game/Data/Items"
     for sub in ("Weapons", "Armor", "Consumables", "Materials"):

@@ -1,6 +1,6 @@
-# Crea UEMBERVEILLootTableDataAsset en Content/Data/LootTables/
+﻿# Crea USOLOLootTableDataAsset en Content/Data/LootTables/
 #
-# UnrealEditor-Cmd.exe "E:\EMBERVEIL\EMBERVEIL.uproject" -nullrhi -unattended -ExecutePythonScript="E:\EMBERVEIL\Tools\setup_loot_tables.py"
+# UnrealEditor-Cmd.exe "E:\SOLO\SOLO.uproject" -nullrhi -unattended -ExecutePythonScript="E:\SOLO\Tools\setup_loot_tables.py"
 
 import unreal
 
@@ -29,9 +29,9 @@ def create_loot_table(asset_name: str, entries, min_currency: int, max_currency:
     if unreal.EditorAssetLibrary.does_asset_exist(full):
         lt = unreal.EditorAssetLibrary.load_asset(full)
     else:
-        cls = unreal.load_class(None, "/Script/EMBERVEILCore.EMBERVEILLootTableDataAsset")
+        cls = unreal.load_class(None, "/Script/SOLOCore.SOLOLootTableDataAsset")
         if not cls:
-            raise RuntimeError("LoadClass EMBERVEILLootTableDataAsset failed")
+            raise RuntimeError("LoadClass SOLOLootTableDataAsset failed")
         at = unreal.AssetToolsHelpers.get_asset_tools()
         lt = at.create_asset(asset_name, pkg, cls, None)
         if not lt:

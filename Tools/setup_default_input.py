@@ -1,4 +1,4 @@
-# Proyecto EMBERVEIL — setup de Enhanced Input + BP del PlayerController.
+﻿# Proyecto SOLO â€” setup de Enhanced Input + BP del PlayerController.
 #
 # 1) Copia desde la plantilla UE 5.7 High (ajusta la ruta del motor si hace falta):
 #    New-Item -ItemType Directory -Force "Content/Input/Actions"
@@ -8,9 +8,9 @@
 #    Copy-Item "<UE>/Templates/TemplateResources/High/Input/Content/Actions/IA_Jump.uasset" "Content/Input/Actions/"
 #
 # 2) Ejecuta (crea IA_Dodge, IA_BasicAttack, IA_Interact, IA_ToggleInventory; mapea teclas;
-#    IA_Look = Mouse2D + Gamepad_Right2D; genera /Game/Player/BP_EMBERVEILPlayerController con defaults):
+#    IA_Look = Mouse2D + Gamepad_Right2D; genera /Game/Player/BP_SOLOPlayerController con defaults):
 #
-#    UnrealEditor-Cmd.exe "E:\EMBERVEIL\EMBERVEIL.uproject" -stdout -FullStdOutLogOutput -UTF8Output -nullrhi -unattended -ExecutePythonScript="E:\EMBERVEIL\Tools\setup_default_input.py"
+#    UnrealEditor-Cmd.exe "E:\SOLO\SOLO.uproject" -stdout -FullStdOutLogOutput -UTF8Output -nullrhi -unattended -ExecutePythonScript="E:\SOLO\Tools\setup_default_input.py"
 
 import unreal
 
@@ -67,12 +67,12 @@ def create_or_update_pc_blueprint(
     imc: unreal.InputMappingContext,
     actions: dict,
 ) -> unreal.Blueprint:
-    asset_name = "BP_EMBERVEILPlayerController"
+    asset_name = "BP_SOLOPlayerController"
     full_path = f"{package_path}/{asset_name}"
     # UObject path uses UHT name without leading AActor prefix
-    parent = unreal.load_class(None, "/Script/EMBERVEILCore.EMBERVEILPlayerController")
+    parent = unreal.load_class(None, "/Script/SOLOCore.SOLOPlayerController")
     if not parent:
-        raise RuntimeError("LoadClass failed for EMBERVEILPlayerController")
+        raise RuntimeError("LoadClass failed for SOLOPlayerController")
 
     at = unreal.AssetToolsHelpers.get_asset_tools()
     if unreal.EditorAssetLibrary.does_asset_exist(full_path):
@@ -101,7 +101,7 @@ def create_or_update_pc_blueprint(
 
 
 def main() -> None:
-    unreal.log("EMBERVEIL setup_default_input: start")
+    unreal.log("SOLO setup_default_input: start")
 
     actions_pkg = "/Game/Input/Actions"
     input_pkg = "/Game/Input"
@@ -155,7 +155,7 @@ def main() -> None:
     create_or_update_pc_blueprint(player_pkg, imc, actions)
 
     unreal.EditorLoadingAndSavingUtils.save_dirty_packages(True, True)
-    unreal.log("EMBERVEIL setup_default_input: done")
+    unreal.log("SOLO setup_default_input: done")
 
 
 main()

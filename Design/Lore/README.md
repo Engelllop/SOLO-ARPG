@@ -1,4 +1,4 @@
-﻿# EMBERVEIL — Lore Bible
+﻿# Solo — Lore Bible
 
 Documento vivo. Estos archivos son la **biblia narrativa** del juego: la fuente única de verdad sobre cosmología, antagonista, mundo y reglas internas. Toda quest, diálogo de NPC, descripción de ítem y cinemática debe respetar lo escrito aquí.
 

@@ -1,4 +1,6 @@
-# EMBERVEIL
+﻿# SOLO — Sunlight of the Last Online
+
+**SOLO Online** is a dark fantasy ARPG where the world ended in sunlight.
 
 Production-grade Action RPG built on **Unreal Engine 5.7** in C++. Features 84 gameplay systems spanning the full GAS (Gameplay Ability System) stack, AI behavior trees, real-time economy, guild mechanics, and a complete HUD framework.
 
@@ -13,17 +15,17 @@ Production-grade Action RPG built on **Unreal Engine 5.7** in C++. Features 84 g
 
 ### Core Design Principle: PlayerState-Centric Systems
 
-All persistent gameplay systems live in **AEMBERVEILPlayerState** — not in the character — so they survive respawn and can be queried without a valid pawn:
+All persistent gameplay systems live in **ASOLOPlayerState** â€” not in the character â€” so they survive respawn and can be queried without a valid pawn:
 
 ```
-AEMBERVEILPlayerState
-├── UInventoryComponent
-├── UQuestComponent
-├── USkillMasteryComponent
-├── UCraftingComponent
-├── UAbilityBarComponent
-├── UGuildComponent
-└── UAbilitySystemComponent  ← GAS lives here
+ASOLOPlayerState
+â”œâ”€â”€ UInventoryComponent
+â”œâ”€â”€ UQuestComponent
+â”œâ”€â”€ USkillMasteryComponent
+â”œâ”€â”€ UCraftingComponent
+â”œâ”€â”€ UAbilityBarComponent
+â”œâ”€â”€ UGuildComponent
+â””â”€â”€ UAbilitySystemComponent  â† GAS lives here
 ```
 
 This means HUD widgets, other players, and server code can always safely access game state without checking if a character exists.
@@ -32,8 +34,8 @@ This means HUD widgets, other players, and server code can always safely access 
 
 | Module | Files | Description |
 |--------|-------|-------------|
-| `EMBERVEIL` | Runtime | Engine target, build rules |
-| `EMBERVEILCore` | 84 headers / 64 .cpp | All gameplay systems |
+| `SOLO` | Runtime | Engine target, build rules |
+| `SOLOCore` | 84 headers / 64 .cpp | All gameplay systems |
 
 ## Systems (84 total)
 
@@ -54,36 +56,36 @@ This means HUD widgets, other players, and server code can always safely access 
 | `DamageExecCalc` | ExecutionCalculation | Final damage formula (stat-aware) |
 
 ### Character Systems
-- `AEMBERVEILPlayerCharacter` — movement, input forwarding to GAS, camera
-- `AEMBERVEILEnemyCharacter` — health, hit reactions, boss phase detection, `ULootComponent`
+- `ASOLOPlayerCharacter` â€” movement, input forwarding to GAS, camera
+- `ASOLOEnemyCharacter` â€” health, hit reactions, boss phase detection, `ULootComponent`
 
 ### AI
 - Behavior Trees with custom Tasks, Decorators, Services
-- Patrol → Alert → Combat state machine
+- Patrol â†’ Alert â†’ Combat state machine
 - `EQS` environment queries for cover and combat positioning
 - Target selection and threat management
 
 ### Inventory, Loot & Economy
-- `UInventoryComponent` — item stacks, equipment slots, persistent save
-- `ULootComponent` on enemy — table-driven drops with rarity weights
-- `UMarketplaceComponent` + `UShopNPCComponent` — gold-based buy/sell
+- `UInventoryComponent` â€” item stacks, equipment slots, persistent save
+- `ULootComponent` on enemy â€” table-driven drops with rarity weights
+- `UMarketplaceComponent` + `UShopNPCComponent` â€” gold-based buy/sell
 - 9 items defined (Weapons, Armor, Consumables, Materials)
 - 3 LootTables (CommonEnemy, EliteEnemy, Boss)
 
 ### Quest & Crafting
-- `UQuestComponent` — objectives, branching, completion callbacks via GameplayTags
-- `UCraftingComponent` — recipe DataAssets, material validation, output dispatch
+- `UQuestComponent` â€” objectives, branching, completion callbacks via GameplayTags
+- `UCraftingComponent` â€” recipe DataAssets, material validation, output dispatch
 
 ### Skill Mastery & Guild
-- `USkillMasteryComponent` — XP per damage type, tier unlocks
-- `UGuildComponent` — membership, rank, shared buff tags
+- `USkillMasteryComponent` â€” XP per damage type, tier unlocks
+- `UGuildComponent` â€” membership, rank, shared buff tags
 
 ### Tower Defense
-- `ATowerBase` — modular tower with range, targeting, upgrade states
+- `ATowerBase` â€” modular tower with range, targeting, upgrade states
 
 ### World Systems
-- `AEMBERVEILSavePoint` — checkpoint with respawn logic
-- `AEnemySpawner` — wave-based, supports density and cooldown config
+- `ASOLOSavePoint` â€” checkpoint with respawn logic
+- `AEnemySpawner` â€” wave-based, supports density and cooldown config
 - World Partition enabled on `L_OpenWorld`
 
 ### HUD & UI (11 widgets)
@@ -92,11 +94,11 @@ This means HUD widgets, other players, and server code can always safely access 
 ## Gameplay Tags
 
 100+ tags covering:
-- `State.*` — Attacking, Dodging, Dead, Staggered, Sprinting
-- `Ability.*` — per-ability identification
-- `DamageType.*` — Physical, Fire, Ice, Lightning, Poison
-- `Race.*` / `Class.*` — character archetype tags
-- `Event.*` — GAS event channels
+- `State.*` â€” Attacking, Dodging, Dead, Staggered, Sprinting
+- `Ability.*` â€” per-ability identification
+- `DamageType.*` â€” Physical, Fire, Ice, Lightning, Poison
+- `Race.*` / `Class.*` â€” character archetype tags
+- `Event.*` â€” GAS event channels
 
 ## Plugins Used
 
@@ -118,9 +120,9 @@ See [Docs/ONBOARDING.md](Docs/ONBOARDING.md) for full setup instructions.
 - Visual Studio 2022 with C++ workload, or Rider
 
 ```bash
-git clone https://github.com/Engelllop/emberveil-arpg
-# Right-click EMBERVEIL.uproject → Generate Visual Studio project files
-# Open EMBERVEIL.sln → Build → Run
+git clone https://github.com/Engelllop/SOLO-arpg
+# Right-click SOLO.uproject â†’ Generate Visual Studio project files
+# Open SOLO.sln â†’ Build â†’ Run
 ```
 
 ## Documentation

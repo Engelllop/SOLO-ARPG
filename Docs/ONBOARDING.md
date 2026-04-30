@@ -1,65 +1,65 @@
-# Orientación al proyecto (no perderse)
+﻿# OrientaciÃ³n al proyecto (no perderse)
 
-Guía corta para **nuevas personas** o para volver al repo después de tiempo. El detalle de carpetas está en el [README](../README.md) raíz; aquí va el **mapa mental** y decisiones que suelen confundir.
+GuÃ­a corta para **nuevas personas** o para volver al repo despuÃ©s de tiempo. El detalle de carpetas estÃ¡ en el [README](../README.md) raÃ­z; aquÃ­ va el **mapa mental** y decisiones que suelen confundir.
 
 ---
 
 ## Primeros 15 minutos
 
-1. Leer el [README](../README.md) (inicio rápido + módulos + plugins) y, si solo buscás docs, el índice [Docs/README.md](README.md).
+1. Leer el [README](../README.md) (inicio rÃ¡pido + mÃ³dulos + plugins) y, si solo buscÃ¡s docs, el Ã­ndice [Docs/README.md](README.md).
 2. Hojear el [GDD](../Design/GDD/GAME_DESIGN_DOCUMENT.md) para contexto de producto.
-3. Si vas a **documentar un sistema**, leer [Systems/README.md](Systems/README.md) y añadir tu guía al índice.
+3. Si vas a **documentar un sistema**, leer [Systems/README.md](Systems/README.md) y aÃ±adir tu guÃ­a al Ã­ndice.
 4. Si vas a **anotar un cambio de build**, usar [Changelog/CHANGELOG.md](Changelog/CHANGELOG.md).
-5. Si vas a **planear alcance** (qué va antes del lanzamiento vs después), leer [ROADMAP_FASES.md](ROADMAP_FASES.md).
+5. Si vas a **planear alcance** (quÃ© va antes del lanzamiento vs despuÃ©s), leer [ROADMAP_FASES.md](ROADMAP_FASES.md).
 
 ---
 
-## “Necesito…” → “Voy a…”
+## â€œNecesitoâ€¦â€ â†’ â€œVoy aâ€¦â€
 
-| Necesito… | Abro primero… |
+| Necesitoâ€¦ | Abro primeroâ€¦ |
 |-----------|----------------|
-| Entender qué es el juego y hasta dónde llega el diseño | `Design/GDD/GAME_DESIGN_DOCUMENT.md` |
+| Entender quÃ© es el juego y hasta dÃ³nde llega el diseÃ±o | `Design/GDD/GAME_DESIGN_DOCUMENT.md` |
 | Lore, referencias narrativas | `Design/Lore/` (y el GDD) |
-| Referencias de arte o audio de diseño | `Design/Art/`, `Design/Audio/` |
+| Referencias de arte o audio de diseÃ±o | `Design/Art/`, `Design/Audio/` |
 | Balance o tablas en JSON | `Config/Balance/`, `Config/Data/` |
 | Gameplay Tags | `Config/DefaultGameplayTags.ini` |
-| **C++ de gameplay** (GAS, inventario, UI, IA, etc.) | `Source/EMBERVEILCore/` → `Public/` / `Private/` |
-| Definición del módulo UE (dependencias de build) | `Source/EMBERVEILCore/EMBERVEILCore.Build.cs` y `Source/EMBERVEIL/EMBERVEIL.Build.cs` |
-| Motor, módulos y plugins del proyecto | `EMBERVEIL.uproject` |
-| Arte “plano” o fuera del Content Browser (sprites, modelos fuente, etc.) | `Assets/` |
-| Índice de guías técnicas por sistema | `Docs/Systems/README.md` |
-| Menú / perfil local antes del gameplay | `Docs/Systems/menu-y-perfil-local.md` |
+| **C++ de gameplay** (GAS, inventario, UI, IA, etc.) | `Source/SOLOCore/` â†’ `Public/` / `Private/` |
+| DefiniciÃ³n del mÃ³dulo UE (dependencias de build) | `Source/SOLOCore/SOLOCore.Build.cs` y `Source/Solo/Solo.Build.cs` |
+| Motor, mÃ³dulos y plugins del proyecto | `Solo.uproject` |
+| Arte â€œplanoâ€ o fuera del Content Browser (sprites, modelos fuente, etc.) | `Assets/` |
+| Ãndice de guÃ­as tÃ©cnicas por sistema | `Docs/Systems/README.md` |
+| MenÃº / perfil local antes del gameplay | `Docs/Systems/menu-y-perfil-local.md` |
 | Estado global de la torre (pisos) | `Docs/Systems/torre.md` |
 | Historial de cambios del producto | `Docs/Changelog/CHANGELOG.md` |
-| Prioridad FASE 0 / 1 / 2 (obligatorio vs después) | `Docs/ROADMAP_FASES.md` |
-| Siglas y términos (GAS, EOS, …) | `Docs/GLOSSARIO.md` |
+| Prioridad FASE 0 / 1 / 2 (obligatorio vs despuÃ©s) | `Docs/ROADMAP_FASES.md` |
+| Siglas y tÃ©rminos (GAS, EOS, â€¦) | `Docs/GLOSSARIO.md` |
 | Avisos legales / terceros (Epic, EOS) | `Docs/LEGAL_NOTICES.md` |
-| Índice maestro de documentación | `Docs/README.md` |
+| Ãndice maestro de documentaciÃ³n | `Docs/README.md` |
 
 ---
 
 ## Trampas habituales
 
-- **`Content/` existe pero puede estar vacío.** En Unreal, el contenido del editor vive en `Content/` (assets `.uasset`). Este repo también usa **`Assets/`** para material fuente o referencias fuera del Content Browser. Si el equipo decide versionar mucho contenido pesado, considerad Git LFS y documentadlo.
-- **`Source/` tiene carpetas “por dominio”** (Characters, Systems, World…) que sirven de **organización y futuro BP**; el **C++ que ya compila para gameplay** está sobre todo en **`EMBERVEILCore`**, no disperso en esas carpetas.
-- **`Config/Data/Quests/`** existe como lugar reservado; los JSON de quests pueden añadirse cuando haya formato acordado (y enlazarse desde el GDD y desde aquí).
-- **`Docs/API/`** es para referencia generada o índices; las explicaciones narrativas van mejor en **`Docs/Systems/`**.
+- **`Content/` existe pero puede estar vacÃ­o.** En Unreal, el contenido del editor vive en `Content/` (assets `.uasset`). Este repo tambiÃ©n usa **`Assets/`** para material fuente o referencias fuera del Content Browser. Si el equipo decide versionar mucho contenido pesado, considerad Git LFS y documentadlo.
+- **`Source/` tiene carpetas â€œpor dominioâ€** (Characters, Systems, Worldâ€¦) que sirven de **organizaciÃ³n y futuro BP**; el **C++ que ya compila para gameplay** estÃ¡ sobre todo en **`SOLOCore`**, no disperso en esas carpetas.
+- **`Config/Data/Quests/`** existe como lugar reservado; los JSON de quests pueden aÃ±adirse cuando haya formato acordado (y enlazarse desde el GDD y desde aquÃ­).
+- **`Docs/API/`** es para referencia generada o Ã­ndices; las explicaciones narrativas van mejor en **`Docs/Systems/`**.
 
 ---
 
-## Siglas útiles (UE / este repo)
+## Siglas Ãºtiles (UE / este repo)
 
-- **GAS** — Gameplay Ability System (`GameplayAbilities` plugin).
-- **GA / GE** — Gameplay Ability / Gameplay Effect (términos UE).
-- **EOS** — Epic Online Services (plugin `OnlineSubsystemEOS` en el `.uproject`).
-- **`WG_`** — prefijo habitual de widgets UMG en C++ en este proyecto (ver README raíz).
+- **GAS** â€” Gameplay Ability System (`GameplayAbilities` plugin).
+- **GA / GE** â€” Gameplay Ability / Gameplay Effect (tÃ©rminos UE).
+- **EOS** â€” Epic Online Services (plugin `OnlineSubsystemEOS` en el `.uproject`).
+- **`WG_`** â€” prefijo habitual de widgets UMG en C++ en este proyecto (ver README raÃ­z).
 
 ---
 
-## Flujo mínimo de documentación
+## Flujo mÃ­nimo de documentaciÃ³n
 
-1. Cambio **de diseño** → reflejarlo en el GDD o en `Design/` si es lore/arte.
-2. Cambio **de sistema técnico** → guía en `Docs/Systems/` + fila en su README + línea en el Changelog si es visible para el equipo o QA.
-3. Cambio **solo de datos** → JSON o balance en `Config/` + Changelog si afecta gameplay notable.
+1. Cambio **de diseÃ±o** â†’ reflejarlo en el GDD o en `Design/` si es lore/arte.
+2. Cambio **de sistema tÃ©cnico** â†’ guÃ­a en `Docs/Systems/` + fila en su README + lÃ­nea en el Changelog si es visible para el equipo o QA.
+3. Cambio **solo de datos** â†’ JSON o balance en `Config/` + Changelog si afecta gameplay notable.
 
-Si algo de esta guía deja de ser verdad (por ejemplo, aparece `Content/`), **actualizad este archivo** en el mismo PR o entrega.
+Si algo de esta guÃ­a deja de ser verdad (por ejemplo, aparece `Content/`), **actualizad este archivo** en el mismo PR o entrega.

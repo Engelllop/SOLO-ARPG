@@ -1,6 +1,6 @@
-# Crea WBP_Inventory (UserWidget vacío) y lo asigna a BP_EMBERVEILPlayerController.InventoryWidgetClass.
+﻿# Crea WBP_Inventory (UserWidget vacÃ­o) y lo asigna a BP_SOLOPlayerController.InventoryWidgetClass.
 #
-# UnrealEditor-Cmd.exe "E:\EMBERVEIL\EMBERVEIL.uproject" -nullrhi -unattended -ExecutePythonScript="E:\EMBERVEIL\Tools\setup_inventory_widget.py"
+# UnrealEditor-Cmd.exe "E:\SOLO\SOLO.uproject" -nullrhi -unattended -ExecutePythonScript="E:\SOLO\Tools\setup_inventory_widget.py"
 
 import unreal
 
@@ -33,9 +33,9 @@ def create_widget_blueprint(asset_name: str, package_path: str) -> unreal.Widget
 
 
 def assign_inventory_to_pc() -> None:
-    pc_path = "/Game/Player/BP_EMBERVEILPlayerController"
+    pc_path = "/Game/Player/BP_SOLOPlayerController"
     if not unreal.EditorAssetLibrary.does_asset_exist(pc_path):
-        raise RuntimeError(f"Missing {pc_path} — run setup_default_input.py first")
+        raise RuntimeError(f"Missing {pc_path} â€” run setup_default_input.py first")
 
     widget_class = unreal.load_class(None, "/Game/UI/HUD/WBP_Inventory.WBP_Inventory_C")
     if not widget_class:
@@ -51,13 +51,13 @@ def assign_inventory_to_pc() -> None:
 
 
 def main() -> None:
-    unreal.log("EMBERVEIL setup_inventory_widget: start")
+    unreal.log("SOLO setup_inventory_widget: start")
     hud_pkg = "/Game/UI/HUD"
     ensure_dir(hud_pkg)
     create_widget_blueprint("WBP_Inventory", hud_pkg)
     assign_inventory_to_pc()
     unreal.EditorLoadingAndSavingUtils.save_dirty_packages(True, True)
-    unreal.log("EMBERVEIL setup_inventory_widget: done")
+    unreal.log("SOLO setup_inventory_widget: done")
 
 
 main()
