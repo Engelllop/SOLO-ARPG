@@ -1,495 +1,420 @@
 # N10 — El Centinela de Granito
 
-**Duración estimada:** 2–3 horas (incluyendo narrativa pre y post combate)  
-**Tono:** Peso absoluto, claridad, culminación  
-**Grupo activo:** Protagonista, Sera, Garrik  
-**Jefe:** El Centinela de Granito  
-**Habilidades en juego:** Todo lo desbloqueado en N1–N9  
-**Objeto final:** Placa de nombre (diferente para cada jugador por sistema de First Attack)  
-**FIN DEL MODO HISTORIA INDIVIDUAL**
+> **Tipo:** Jefe Final — Plataforma
+> **Rango sugerido:** B+
+> **Jefe:** El Centinela de Granito → El Arquitecto — Obligatorio
+> **Duración estimada:** 2–3 horas (solo combate)
+> **Advertencia:** Sin puntos de guardado. Sin retorno. Sin opción de rendirse.
+
+## Resumen para el Jugador
+
+Este piso no tiene exploración. No hay tiendas, NPCs, misiones secundarias ni descanso. Es una sola pelea en tres fases contra el jefe final de todo el contenido en solitario. El jugador debe llegar con todos sus recursos al máximo: pociones, items de buff, equipo mejorado en N9. No hay vuelta atrás una vez que se cruza el umbral.
+
+Antes de comenzar, asegúrate de haber:
+- Mejorado tu arma principal en la forja de Oswin (N9)
+- Comprado suficientes consumibles en Argentia
+- Recogido el Ojo del Centinela del templo de N9
+- Hablado con Elia y obtenido el Fragmento del Arquitecto (si buscas el Final B)
+- Pronunciado mentalmente los nombres de los caídos
 
 ---
 
-## Descripción del Entorno
+### La Ascensión Final
 
-La plataforma de N9 sube y deposita al grupo en una sala que no debería existir en el interior de una Torre.
+La escalinata de plata desde Argentia sube durante lo que parecen ser horas. No hay descansos, no hay rellanos. Solo escalones y una luz blanca cada vez más intensa.
 
-Es un cielo.
+Garrik camina en silencio. Sera tampoco habla. Los tres saben que esto es el final.
 
-No en sentido poético — el techo de la sala es completamente translúcido y muestra un cielo nocturno que no corresponde a ningún punto geográfico conocido. Las estrellas son demasiadas y demasiado brillantes. No hay luna. No hay nubes. Solo estrellas, inmóviles como pintura.
+> **Garrik:** *(rompiendo el silencio)* "¿Crees que haya algo allá arriba?"
+> *(pausa)*
+> "Quiero decir... ¿algo real? ¿O solo más Torre?"
+> **Sera:** "Hay algo. Lo siento en el Tejido."
+> "No es un monstruo. Es... una conciencia."
+> *(pausa)*
+> "Y nos está esperando."
+> **Garrik:** "Bueno. Nunca me ha gustado esperar."
 
-El suelo es piedra blanca, perfectamente plana, sin juntas visibles — como si fuera una única pieza de roca del tamaño de una plaza de ciudad. Las paredes no se distinguen: la sala parece no tener bordes horizontales, o si los tiene, están más lejos de lo que la luz alcanza.
+## Ambientación
 
-Y en el centro de la sala, hay El Centinela.
+No hay ambientación. No hay lugar.
+
+Solo una plataforma circular de piedra gris, de 50 metros de diámetro, flotando en un vacío que no es negro ni blanco — es ambos y ninguno. Un blanco tan absoluto que duele mirarlo, pero al mismo tiempo tan vacío que parece negro.
+
+No hay sonido. No hay viento. No hay olor. No hay temperatura.
+
+Es el lugar más vacío que existe. El lugar donde la Torre termina.
+
+En el centro de la plataforma, **El Centinela de Granito** está de pie. No se mueve. No respira. Es una estatua de 8 metros de altura, esculpida en granito gris, con la forma de un guerrero antiguo. Su rostro no tiene rasgos — solo una superficie lisa. Sus brazos cuelgan a los lados. En su pecho, una grieta apenas visible, como si algo hubiera intentado romperlo desde dentro.
+
+No tiene armas. No necesita.
+
+## Llegada
+
+La puerta de luz se cierra detrás del grupo. No hay vuelta atrás.
+
+La plataforma se extiende ante ellos. El Centinela no se mueve. No los mira — no tiene ojos para mirar.
+
+Garrik desenvaina sus hojas.
+
+> **Garrik:** "Bueno. Aquí estamos."
+> *(pausa)*
+> "No sé ustedes, pero yo no pienso dar media vuelta ahora."
+> **Sera:** *(tranquila, desenvainando su katana)* "No hay media vuelta. Solo hacia adelante."
+> *(mira al Centinela)*
+> "No ataca primero. Espera."
+> *(pausa)*
+> "Sabe que llegamos. Y no tiene prisa."
+
+El grupo avanza. Cada paso resuena en el silencio.
+
+A 20 metros del Centinela, una voz. No sale de ningún lado — está en la cabeza.
+
+> **Voz del Centinela:** *(sin emoción, neutra, como una máquina que habla)* "Persistente detectado. Dos anómalos acompañantes."
+> *(pausa)*
+> "Acceso denegado."
+> *(pausa)*
+> "Iniciando protocolo de purga."
+
+El Centinela se mueve.
+
+## Combate: El Centinela de Granito
+
+> **Rango:** B+
+> **Vida:** 3 barras (Centinela físico 2 barras → Manifestación 1 barra)
+> **Debilidad:** Precisión, timing
+> **Resistencia:** Físico (90% reducción en fase 1), Mágico (70% reducción en fase 1)
+> **Ubicación:** Plataforma circular en el vacío blanco
+
+### Fase 1 — El Coloso
+
+El Centinela se mueve lentamente pero con una fuerza devastadora. Cada paso suyo hace temblar la plataforma. Sus golpes son amplios, lentos, pero si conectan, destruyen.
+
+No esquiva. No bloquea. Solo avanza y golpea.
+
+**Ataques de Fase 1:**
+- **Golpe Sísmico:** Levanta un puño y lo deja caer. El impacto crea ondas de choque que viajan por el suelo. Saltar sobre las ondas las evita.
+- **Barrido de Brazo:** Barre el brazo en un arco de 180 grados. Se esquiva agachándose.
+- **Pisotón:** Levanta un pie y lo deja caer. Si el jugador está debajo, daño masivo. El impacto crea grietas en el suelo que dañan si se pisan.
+- **Puños de Roca:** Del suelo (de las grietas que crea), emergen puños de roca que atrapan al jugador. Mantenerse en movimiento.
+- **Aliento de Polvo:** Exhala una nube de polvo de granito que ciega 5 segundos. No se esquiva — solo esperar.
+
+**Mecánica especial — Romper el Suelo:**
+Cada golpe del Centinela rompe parte del suelo de la plataforma. Después de 10 golpes, la plataforma se reduce al 50% de su tamaño original. Los bordes rotos son irregulares — se puede caer (muerte instantánea).
+
+**Mecánica — Sera y Garrik:**
+Sera y Garrik pelean junto al protagonista. Sera ataca las piernas del Centinela para ralentizarlo. Garrik flanquea y ataca las grietas de la armadura. Pero no pueden dañarlo significativamente — solo el protagonista puede.
+
+Si Sera o Garrik reciben demasiado daño, se retiran al borde de la plataforma y no pueden ayudar por 30 segundos.
+
+**Estrategia recomendada:**
+- Atacar las piernas primero (3 golpes fuertes en la misma pierna lo hacen caer de rodillas 5 segundos)
+- Durante la caída, atacar la grieta en el pecho (donde la armadura es más débil)
+- No enfrentar los golpes de frente — esquivar lateralmente
+- Escuchar: cada ataque tiene un sonido de "carga" de 1.5 segundos antes de ejecutarse
+
+**Diálogo durante la pelea:**
+> **Sera:** "¡Sus piernas! ¡Las articulaciones! ¡No puede moverse sin ellas!"
+> **Garrik:** *(esquivando un barrido)* "¡Ya lo sé, ya lo sé! ¡Es que no para de moverse!"
+
+**Transición a Fase 2:** Cuando la primera barra de vida llega a 0, el Centinela se detiene. Su cuerpo de granito se agrieta desde la cabeza hasta los pies. La luz blanca del vacío penetra las grietas.
+
+La armadura exterior cae en pedazos.
+
+Lo que queda es un **núcleo de luz blanca** — una esfera de 2 metros de diámetro que flota en el centro de la plataforma. Pulsa lentamente.
+
+Y una voz. No la voz del Centinela. Otra. Más calmada. Más humana.
+
+> **Voz:** "Llegaste. No esperaba que llegaras."
+
+### Fase 2 — La Manifestación
+
+El núcleo de luz blanca se expande. De él, emerge una **figura humanoide**. No de carne — de luz. Sin rasgos faciales, pero con una postura que es claramente humana. Camina hacia el protagonista. Se detiene a 3 metros.
+
+No ataca.
+
+> **El Arquitecto (Manifestación):** "Soy quien construyó esta Torre. O quien la encontró, y decidió usarla."
+> *(pausa)*
+> "No soy un dios. No soy un monstruo. Soy un compilador."
+> *(pausa)*
+> "Y tú has estado rompiendo mis compilaciones una por una."
+
+**Diálogo antes del combate:**
+
+> **Protagonista:** "¿Qué significa eso?"
+> **Arquitecto:** *(con calma, sin emoción)* "El mundo se reescribe. No es una metáfora. Es un proceso."
+> *(pausa)*
+> "Cada vez que alguien muere en la Torre, el Tejido registra esa muerte. Cada jefe que matas es una iteración que cierro. Una versión del mundo que ya no puedo recuperar."
+> *(pausa)*
+> "Cuando mataste al Guardián de la Primera Garganta, cerraste la versión donde Caín vivía."
+> *(pausa)*
+> "Cuando mataste a la Costurera... cerraste la versión donde Mira y Vassen llegaban al final."
+> *(pausa)*
+> "No eras tú quien mataba, claro. Eras su destino. Tú solo... lo ejecutabas."
+> *(mira fijamente al protagonista)*
+> "Eres mi mejor compilación hasta ahora. La más eficiente."
+> *(pausa)*
+> "Pero no te dejaré pasar."
+
+El Arquitecto extiende una mano. De ella, una espada de luz blanca.
+
+> **Arquitecto:** "Si quieres salir, tendrás que matar a quien te creó."
+
+**Garrik desde atrás:** "¿Quieres que luche contra el puto dios del mundo?"
+**Sera:** "No es un dios. Es un programador. Y los programas se corrigen."
+
+### Fase 3 — El Arquitecto
+
+El Arquitecto se mueve como un bailarín. Cada ataque es preciso, fluido, desprovisto de emoción. No hay fuerza bruta en sus movimientos — solo gracia letal.
+
+Esta pelea no es de tanqueo. Es de **timing**. El Arquitecto no se puede golpear con ataques normales — hay que esperar sus ataques y contraatacar en los microsegundos de vulnerabilidad.
+
+**Ataques de Fase 3:**
+- **Corte de Luz:** Estocada rápida. Se esquiva a milímetros. Contraatacar inmediatamente después.
+- **Danza del Vacío:** El Arquitecto se mueve en patrones circulares. Ataca y se mueve, ataca y se mueve. El jugador debe anticipar el siguiente punto de ataque.
+- **Onda de Realidad:** Una onda expansiva de luz que empuja al jugador hacia el borde de la plataforma. No hace daño, pero acerca al vacío.
+- **Precisión Absoluta:** Un ataque que no se puede esquivar si el jugador está en movimiento — solo si está quieto en el momento exacto.
+- **Copia de Luz:** Crea una copia de sí mismo que ataca 1 segundo detrás. El jugador debe esquivar ambos ataques o predecir el patrón de la copia.
+
+**Mecánica especial — El Baile:**
+El Arquitecto no tiene vida en el sentido tradicional. Cada vez que el jugador contraataca exitosamente, la luz del Arquitecto se atenúa un poco. Después de 20 contraataques exitosos (ataques esquivados + golpeados en la ventana de vulnerabilidad), el Arquitecto se detiene.
+
+**Mecánica — Sin compañeros:**
+Sera y Garrik no pueden ayudar en esta fase. Cuando intentan acercarse, el Arquitecto los congela con una mirada. Están atrapados en el borde de la plataforma, viendo.
+
+> **Sera:** "Es una pelea entre tú y él. Nosotros no podemos intervenir."
+> **Garrik:** *(golpeando una barrera invisible)* "¡Maldita sea!"
+
+**Estrategia recomendada:**
+- No atacar primero. Esperar. Observar. Reaccionar.
+- Cada ataque del Arquitecto tiene un "telegrafiado" sutil: un brillo en la espada antes del golpe, un giro de cadera antes de la estocada.
+- El contraataque debe ser exactamente en el momento de recuperación del Arquitecto (0.3 segundos después de que termina su ataque).
+- Mantenerse en el centro de la plataforma — los bordes son más peligrosos.
+- Usar items de buff de velocidad (velocidad = todo en esta pelea).
+- Si el jugador tiene el Anillo de Nombres de N9, pronunciar los nombres (Aldric, Mira, Vassen) durante la pelea distrae al Arquitecto por 2 segundos, dando una ventana de ataque gratuita.
+
+**Diálogo final del Arquitecto (al llegar a 0 contraataques restantes):**
+
+El Arquitecto se detiene. Su espada de luz se desvanece. Mira al protagonista.
+
+> **Arquitecto:** *(sin ira, sin tristeza)* "Lo hiciste."
+> *(pausa)*
+> "Sabía que lo harías. Por eso te puse aquí."
+> *(pausa)*
+> "No te creé a ti. Te encontré. Eras un error en el Tejido. Un Persistente. Alguien que no debería existir en esta compilación."
+> *(pausa)*
+> "Pero los errores a veces son mejores que el código original."
+> *(sonrisa — la primera emoción real en su voz)*
+> "La puerta está abierta. Detrás de mí. La salida."
+> *(pausa)*
+> "Pero antes de que te vayas... tengo una oferta."
+
+**La oferta del Arquitecto:**
+> **Arquitecto:** "Puedes quedarte. Tomar mi lugar. La Torre necesita un compilador. Alguien que decida qué mundos se escriben y cuáles se borran."
+> *(pausa)*
+> "Sera se quedará contigo. Su existencia depende del Tejido de la Torre. No puede salir."
+> *(pausa)*
+> "Garrik puede salir. Puede contar tu historia."
+> *(pausa)*
+> "O puedes irte. Los tres. Y la Torre se quedará vacía. Sin compilador. Las compilaciones se detendrán. El mundo dejará de reescribirse."
+> *(pausa)*
+> "Pero no sé qué pasará con el Tejido cuando yo no esté."
+> *(pausa)*
+> "Elige."
+
+## Post-combate / Los Dos Finales
+
+### Final A — El Escape
+
+El protagonista da un paso atrás. Mira a Garrik. Mira a Sera.
+
+> **Protagonista:** "Me voy."
+> **Arquitecto:** *(asiente)* "Como esperaba. Eres libre."
+> *(da un paso al lado)*
+> "La puerta está ahí."
+
+Detrás del Arquitecto, una puerta de luz blanca — diferente a todo lo visto. No es un arco, no es una entrada. Es una grieta en la realidad, un borde donde el blanco del vacío se desgarra para mostrar... un amanecer.
+
+Sera camina hacia la puerta. Se detiene en el umbral. Mira hacia atrás.
+
+> **Sera:** "Nunca he visto el sol."
+> *(pausa)*
+> "Espero que sea hermoso."
+
+**Escena final:**
+
+La Torre comienza a temblar. Grietas recorren la plataforma. El Arquitecto se desvanece en luz, su forma disolviéndose en partículas que ascienden.
+
+El grupo corre hacia la puerta. Garrik pasa primero. Sera después.
+
+El protagonista cruza el umbral.
 
 ---
 
-## El Centinela de Granito: Descripción
+**Afuera:**
 
-El Centinela no se parece a ninguno de los seres encontrados antes en la Torre.
+Un mundo devastado. Cielo gris. Tierra yerma. Ruinas de una civilización que ya no existe.
 
-Es enorme — 8 metros de altura, proporciones humanas pero sin ningún detalle que recuerde una persona: sin cara, sin manos articuladas, sin ropa, sin señales de vida. Es granito gris azulado, y cada superficie que debería ser articulación (codos, rodillas, cuello) es simplemente una transición de plano suave.
+Pero en el horizonte, una línea de luz. Dorada. Cálida.
 
-No tiene ojos. Su cabeza es una esfera ligeramente aplanada que rota lentamente, sin patrón, como si escuchara desde todas direcciones a la vez.
+El sol está saliendo.
 
-Está de pie. Quieto. No parece amenazante — parece antiguo. La diferencia es importante.
+Por primera vez en siglos.
 
-Sobre su pecho, en el granito, hay grabados. Nombres: miles de ellos, en letras pequeñas, superpuestas. Son todos los nombres de aspirantes que intentaron llegar hasta aquí. Incluidos los que se convirtieron en estatuas en N9.
+Sera mira el sol. Sus ojos se llenan de lágrimas — no de tristeza, de algo que no sabe nombrar.
 
-Uno de esos nombres es el que El Custodio de N8 dio al protagonista.
-
----
-
-## Acercamiento al Centinela
-
-El grupo camina hasta el centro de la sala. El Centinela no reacciona.
-
-> **SERA:** *(en voz muy baja)* ¿Está... dormido?
-
-> **GARRIK:** Nunca duerme. Espera. *(pausa)* Lleva esperando desde antes de que hubiera alguien que pudiera decir cuánto.
-
-El protagonista puede usar Eco Táctil desde aquí (sin tocar al Centinela): la lectura muestra una presencia blanca — la más antigua que se ha visto en todo el juego, tan densa que ocupa todo el espacio visual.
-
-Si lo hace:
-
-> **GARRIK:** *(observando la reacción del protagonista)* Lo ves, ¿verdad? No como algo amenazante. Como algo... establecido.
-
-> **SERA:** *(mira al Centinela)* Es la Torre misma. Lo que la Torre es cuando nadie la mira.
-
-Al acercarse a 10 metros, el Centinela da su primer paso.
-
-No hacia el grupo — solo un paso lateral, como ajustando su postura. El sonido es inmenso: piedra sobre piedra, un vibración que el jugador puede sentir en el control.
-
-Y entonces habla.
+> **Sera:** "Es... más de lo que imaginé."
+> **Garrik:** *(sentándose en una roca, respirando)* "Bueno. Ahora qué."
+> *(pausa)*
+> *Mira alrededor*
+> "Esto es un desierto."
+> *(pausa)*
+> "Pero tiene sol."
+> *(sonrisa)*
+> "Ya encontraremos agua."
 
 ---
 
-## Diálogo Pre-Combate
+### Final B — El Nuevo Arquitecto (Condiciones Secretas)
 
-La voz del Centinela no sale de ningún punto de su cuerpo. Sale de todas partes a la vez, como si la sala entera hablara.
+**Requisitos:**
+- Obtener el Fragmento del Arquitecto (N9, misión de Elia)
+- Hablar con el Arquitecto después de la pelea y elegir "Quedarme"
+- Sera debe estar viva
+- El jugador debe haber usado el Fragmento del Arquitecto durante la pelea (se consume)
 
-> **EL CENTINELA:** [NOMBRE DE LA EDAD ANTERIOR].
+**Escena:**
 
-*(El juego usa aquí el nombre del objeto que dio El Custodio en N8 — Aurel, Kael, Iven, o Sael, según la decisión del jugador.)*
+El protagonista no se mueve hacia la puerta.
 
-El protagonista se detiene.
+> **Protagonista:** "Y si me quedo... ¿qué pasa con ellos?"
+> *(señala a Garrik y Sera)*
+> **Arquitecto:** *(mira a Sera)* "Ella puede quedarse. Es del Tejido. La Torre es su hogar." *(mira a Garrik)* "Él... puede irse. O puede quedarse." *(a Garrik)* "¿Qué eliges?"
+> **Garrik:** *(pausa larga)* "...¿Puedo pensar en eso?"
+> **Arquitecto:** "No. La decisión es ahora."
 
-> **EL CENTINELA:** Llegaste antes. No llegaste aquí. Pero llegaste cerca.
+> **Garrik:** *(mirando al protagonista)* "Hermano... si te quedas, no vuelvo a verte."
+> *(pausa)*
+> "Pero alguien tiene que contar esta historia. Y no puedo contarla si me quedo."
+> *(sonrisa triste)*
+> "Me voy."
+> *(abreza al protagonista — un abrazo corto, fuerte)*
+> "Cuida de ella."
+> *(señala a Sera)*
+> **Protagonista:** "Cuida de ti."
+> **Garrik:** *(caminando hacia la puerta)* "Siempre lo hago."
 
-> **PROTAGONISTA:** *(respuestas: "Esta vez llego" / "¿Qué pasó la última vez?" / "No soy el mismo")*
-
-Si **"Esta vez llego"**:
-> **EL CENTINELA:** Eso no lo decides tú. Pero es la respuesta correcta.
-
-Si **"¿Qué pasó la última vez?"**:
-> **EL CENTINELA:** *(pausa larga)* No lo sé. Solo sé que llegaste cerca y no cruzaste. Los que no cruzan se quedan dentro del tejido. Tú no. Volviste a empezar.
-
-Si **"No soy el mismo"**:
-> **EL CENTINELA:** No lo eres. Pero cargas lo mismo. Por eso el nombre te pertenece.
-
-Continúa:
-
-> **EL CENTINELA:** Los que están contigo — *(gira la cabeza esférica muy levemente hacia Sera y Garrik)* — no estaban antes.
-
-> **SERA:** *(firme)* Estamos ahora.
-
-> **EL CENTINELA:** *(una pausa que podría ser reconocimiento)* Sí. Estáis ahora.
-
-> **EL CENTINELA:** Soy lo que queda cuando la Torre no tiene ya nada más que mostrar. No soy su guardián. No soy su juez. Soy su pregunta.
-
-> **PROTAGONISTA:** *(respuestas: "¿Cuál es la pregunta?" / "Entonces combatiremos" / "¿Puedes dejarnos pasar?")*
-
-Si **"¿Cuál es la pregunta?"**:
-> **EL CENTINELA:** Si lo que persiste merece seguir. *(pausa)* No como castigo. Como verificación.
-
-Si **"Entonces combatiremos"**:
-> **EL CENTINELA:** Sí. Es la forma en que siempre se ha respondido aquí.
-
-Si **"¿Puedes dejarnos pasar?"**:
-> **EL CENTINELA:** *(sin hostilidad)* No. Eso no está en lo que soy.
-
-Y luego, independientemente de la respuesta:
-
-> **EL CENTINELA:** Comenzamos.
-
-Sus pies se asientan en el suelo con un sonido como si algo llevara mucho tiempo quieto volviendo a moverse.
+Garrik cruza. La puerta se cierra detrás de él.
 
 ---
 
-## El Combate
+**Tiempo después:**
 
-### Preparación del Espacio
+Sera está sentada en la plataforma vacía, mirando el blanco infinito.
 
-Cuando el Centinela adopta postura de combate, el suelo a su alrededor se ilumina — no en puntos concretos, sino en una pauta de círculos concéntricos que irradian desde sus pies. Es información táctica: los círculos indican las zonas de impacto de sus ataques de área.
+> **Sera:** *(sin mirar al protagonista)* "Nunca imaginé que esto sería mi hogar."
+> *(pausa)*
+> "Pero si es contigo... no me quejo."
+> *(pausa)*
+> "¿Qué haremos ahora?"
+> **Protagonista:** "Reconstruir. Desde adentro."
+> **Sera:** *(sonrisa)* "Suena a más trabajo que matar dioses."
 
-El suelo más allá de cierto radio no se ilumina. Eso significa que el combate tiene un "fuera de rango" real — el Centinela no puede atacar en toda la sala, y esa distancia es recuperable pero no gratuita.
+Afuera, en el mundo real, Garrik camina por el desierto. El sol está saliendo. Lleva una espada al hombro — la espada del protagonista. Y una misión.
 
----
-
-### FASE 1: El Peso del Tiempo
-
-**Música:** Una sola nota grave, mantenida, que varía en intensidad según la proximidad al Centinela. No es música de combate — es un tono continuo.
-
-El Centinela de Fase 1 es lento. Sus movimientos están calculados en segundos, no en fracciones. Pero su presencia física tiene consecuencias:
-
-**Ataque 1 — Paso de Tierra:**
-El Centinela da un paso hacia el jugador. No golpea — solo camina. Pero la onda sísmica del paso hace caer al jugador si está sobre el suelo iluminado en el círculo interior. Daño moderado. Knockback.
-
-*Contramedida:* Estar en el círculo exterior o fuera de los círculos cuando el paso cae. El telegráfico es visual (el Centinela levanta el pie) y tiene 2.5 segundos de margen.
-
-**Ataque 2 — Mano Plana:**
-El Centinela extiende un brazo horizontalmente en arco. No es un puñetazo — es un barrido. El brazo de 8 metros barre un sector angular de 90 grados. Daño alto. Si el jugador no esquiva, es lanzado contra el borde de la zona iluminada.
-
-*Contramedida:* Esquivar hacia el Centinela (pasar por debajo del brazo) o estar fuera del alcance. Esquivar lejos no funciona — el brazo es demasiado largo.
-
-**Ataque 3 — Resonancia:**
-El Centinela se detiene completamente y emite una vibración desde su núcleo. El suelo a su alrededor tiembla durante 4 segundos. No hace daño directo, pero interfiere con las habilidades del jugador (misma mecánica que el Brote Parlante de N9, pero en área grande). Las habilidades del Tejido del protagonista tienen 40% de probabilidad de fallar durante los 4 segundos.
-
-*Contramedida:* Usar habilidades físicas durante la Resonancia. O aplicar una habilidad de Tejido antes de que empiece (se mantiene activa aunque la Resonancia caiga después).
+> **Garrik:** *(al viento)* "Había una vez una torre... y un tipo terco que no sabía cuándo rendirse."
+> *(pausa)*
+> "Todavía no sé cómo termina la historia. Pero voy a vivir lo suficiente para contarla."
 
 ---
 
-**Mecánica clave de Fase 1 — Lectura de Patrón:**
+## Epílogo — Lo que Queda
 
-El Centinela en Fase 1 usa sus ataques en secuencias de 3. No son aleatorias — el jugador que observa puede identificar el patrón:
+### En la Torre (Final B)
 
-Secuencia A: Resonancia → Paso de Tierra × 2  
-Secuencia B: Mano Plana × 2 → Resonancia  
-Secuencia C: Paso de Tierra → Mano Plana → Resonancia  
+Nadie sabe cuánto tiempo pasa. Adentro no hay días, no hay noches. Solo el pulso del Tejido y el eco de las compilaciones que ya no ocurren.
 
-El Centinela alterna entre secuencias sin repetir la misma dos veces seguidas. Después de las 3 primeras secuencias, el ciclo se reinicia.
+Sera se sienta al borde de la plataforma, mirando el vacío blanco. El protagonista se sienta a su lado.
 
-Un jugador que identifica el patrón puede posicionarse para el siguiente ataque antes de que el telegráfico aparezca.
+> **Sera:** "¿Te arrepientes?"
+> **Protagonista:** "No."
+> *(pausa)*
+> "¿Tú?"
+> **Sera:** *(sonrisa tenue)* "Nunca tuve nada que perder. Ahora tengo algo."
+> *(apoya la cabeza en su hombro)*
+> "Eso es más de lo que esperaba."
 
-**Garrik lo nota:**
+Abajo, en los pisos inferiores, los Jardines Flotantes comienzan a florecer de nuevo. Las flores que Sera tocó despiertan. El Tejido se estabiliza.
 
-> **GARRIK:** *(durante el combate, si el jugador falla 3 veces seguidas)* Tiene un ritmo. Míralo antes de atacar.
+La Torre ya no compila mundos. Ahora los preserva.
 
-> **GARRIK:** *(si el jugador supera el primer ciclo sin daño)* Bien. Ya lo tienes.
+### En la Superficie (Final A)
 
----
+Garrik camina solo durante días. El desierto no termina. Pero el sol sigue saliendo cada mañana.
 
-**Puntos débiles de Fase 1:**
+Eventualmente encuentra un pueblo. Gente que sobrevive en las ruinas de lo que fue una ciudad. Hablan de una torre que vieron caer desde lejos — una columna de luz que se desvaneció en el horizonte.
 
-El Centinela tiene 5 puntos débiles visibles: los 4 "nudos" de roca que unen sus extremidades al torso, y el centro de su pecho donde los nombres están más densamente grabados.
+Garrik se sienta en la plaza del pueblo, acepta un plato de comida caliente, y cuenta una historia.
 
-- Los nudos de extremidades aceptan daño del **25%** de valor cuando son golpeados. Son los objetivos prioritarios.
-- El pecho acepta daño normal pero requiere aproximarse al Centinela (zona de mayor riesgo).
+No dice que es verdad. Pero la gente escucha.
 
-Destruir los 4 nudos de extremidades antes de reducir el HP al 50% desencadena una transición a Fase 2 con el Centinela en estado de **equilibrio reducido** (sus ataques de área tienen menor rango en los primeros 30 segundos de Fase 2). Es la transición "óptima".
+> **Garrik:** "Había tres. Un tipo que no sabía rendirse, una mujer que no existía, y yo."
+> *(pausa)*
+> "Subieron hasta el final. Hasta donde el mundo se escribe."
+> *(pausa)*
+> "Y uno de ellos decidió quedarse para que el resto pudiera irse."
+> *(mira al cielo)*
+> "Todavía no sé si eso fue valentía o estupidez."
+> *(sonrisa)*
+> "Pero fue su elección. Y la respeto."
 
-Reducir el HP al 50% directamente en el pecho sin destruir los nudos desencadena la Fase 2 con el Centinela **completamente intacto** en capacidades.
+### El Legado
 
----
+En algún lugar del Refugio del Umbral (más allá de N10, donde comienza el contenido multijugador), hay un Paseo de los Primeros con diez estatuas.
 
-**Rol de Sera en Fase 1:**
+La última estatua es la del Centinela de Granito. Pero la inscripción en su base ha cambiado:
 
-Sera actúa como soporte ofensivo en los puntos débiles — su fuego puede marcar los nudos de extremidades con un indicador de calor que hace que el siguiente golpe del protagonista tenga +15% de daño en ese nudo.
+> *"Aquí descansa la última compilación.*
+> *Quien la rompió eligió su propio final.*
+> *Que su nombre sea recordado."*
 
-Su habilidad especial de Fase 1: **Cortina de Calor** — crea una barrera de fuego que detiene brevemente el barrido de la Mano Plana. No lo cancela — lo retrasa 1.5 segundos, suficiente para que el protagonista se reposicione.
-
-Si el jugador usa la Cortina de Calor en el momento correcto y esquiva el barrido:
-
-> **SERA:** *(gritando durante el combate)* ¡Funciona!
-
----
-
-**Rol de Garrik en Fase 1:**
-
-Garrik no combate directamente. Se mantiene en el perímetro exterior de la zona iluminada con un rol de observador activo:
-
-- Cada vez que el Centinela cambia de secuencia, Garrik lo anuncia (si el jugador ha fallado al menos una vez en esa secuencia): *"Cambia. Próximo será [ataque]."*
-- Si el jugador es derribado, Garrik puede reactivarlo desde lejos con un objeto de revitalización (una sola vez por combate en Fase 1).
-- Si el jugador llega al 20% de HP, Garrik tira al suelo su mochila como barrera de emergencia (una distracción que hace que el Centinela gire su cabeza hacia Garrik por 3 segundos — ventana de ataque en el pecho sin riesgo de Mano Plana).
-
-> **GARRIK:** *(al tirar la mochila)* ¡Aquí! ¡Soy más fácil de golpear!
+Debajo, un espacio vacío. Para que el nombre del protagonista sea grabado cuando el primer jugador complete el juego.
 
 ---
 
-### TRANSICIÓN A FASE 2
+*— FIN DEL JUEGO EN SOLITARIO —*
 
-Cuando el HP del Centinela llega al 50%, se detiene completamente.
+## Créditos Visuales (Arte Conceptual de Compañeros)
 
-Los círculos del suelo se apagan.
+**Caín.** Sonriendo con su espada al hombro. El sol detrás de él. Su armadura aún intacta.
 
-La música cesa.
+**Mira.** Tensando su arco, el viento en su cabello. Una flecha de luz dorada a punto de partir.
 
-El Centinela baja la cabeza — la primera vez que lo hace — y permanece quieto durante 5 segundos completos.
+**Vassen.** De pie frente a una puerta de luz, escudo en alto. Su rostro sereno, sin miedo.
 
-> **SERA:** *(en voz baja)* ¿Terminó?
+### Post-Créditos
 
-> **GARRIK:** No.
+Un paisaje. Una colina. Tres figuras desde lejos.
 
-Los nombres grabados en el pecho del Centinela comienzan a brillar. No todos — solo algunos. El brillo se extiende desde los nombres hacia el resto del cuerpo como venas de luz.
+La primera: un guerrero con una espada en la mano, mirando el horizonte.
+La segunda: una mujer con una katana en el cinto, sentada en la hierba.
+La tercera: un hombre con dos cuchillas en la espalda, riendo.
 
-El Centinela levanta la cabeza.
+El sol se pone lentamente. Las figuras no se mueven. Son solo siluetas contra la luz.
 
-Es diferente ahora: las proporciones son las mismas pero la textura ha cambiado — el granito se ha comprimido hasta ser casi negro, más denso, más pesado a la vista. Los nudos de las extremidades que el jugador destruyó (si lo hizo) se han reformado, pero en piedra diferente, más oscura.
+**"GRACIAS POR JUGAR."**
 
-Y se mueve más rápido. No mucho más rápido — no es un cambio radical. Pero lo suficiente para que el margen de los 2.5 segundos ahora sea 1.8.
-
-> **EL CENTINELA:** *(la voz más profunda ahora, como si hablara desde más adentro)* Lo que persiste no descansa.
-
----
-
-### FASE 2: La Memoria del Peso
-
-**Música:** La nota grave de Fase 1 vuelve, pero ahora hay una segunda voz sobre ella — aguda, intermitente, como un eco de algo muy distante. No es dramática. Es inquietante.
-
-La Fase 2 introduce dos mecánicas nuevas:
-
-**Mecánica 1 — Absorción Mágica:**
-Después de recibir un golpe físico de alto daño (umbral: >15% del HP por golpe), el Centinela activa por 8 segundos un estado de Absorción: sus puntos débiles brillan con un halo opaco. Las habilidades del Tejido que impacten en él durante esos 8 segundos se convierten en HP para el Centinela en lugar de daño.
-
-*Contramedida:* Atacar solo con habilidades físicas durante la Absorción. O usar Eco Táctil en el suelo adyacente al Centinela para "escuchar" cuándo termina la Absorción (el halo desaparece en la lectura de Eco Táctil antes de que sea visualmente evidente — ventaja de 1 segundo).
-
-**Mecánica 2 — Paso de Nombre:**
-Una vez por fase, el Centinela detiene todos sus ataques y su pecho brilla con un nombre específico. El jugador puede leerlo (la cámara hace zoom suave al nombre).
-
-El nombre es el del protagonista de la Edad Anterior (el mismo que El Custodio dio en N8).
-
-> **EL CENTINELA:** *(mientras el nombre brilla)* Lo llevo conmigo. Como a todos los que llegaron.
-
-Después, el Centinela realiza un ataque especial — el único ataque del juego que no puede esquivarse normalmente:
-
-**Gravedad Momentánea:** El protagonista es atraído hacia el Centinela por 2 segundos y recibe daño continuo. Para romper el agarre antes de que terminen los 2 segundos, el jugador puede:
-- Usar cualquier habilidad de movimiento
-- Usar Eco Táctil en el suelo (crea una capa de "memoria de piedra" entre el protagonista y el Centinela que interrumpe la atracción)
-- Si Sera tiene el Fragmento de Obsidiana disponible: activarlo envía un destello que interrumpe la atracción instantáneamente
+**"SUNLIGHT OF THE LAST ONLINE"**
 
 ---
 
-**Ataques nuevos de Fase 2:**
-
-**Ataque 4 — Doble Paso:**
-En lugar de un Paso de Tierra, el Centinela da dos pasos rápidos consecutivos en la misma dirección. El segundo paso tiene la mitad del telegráfico del primero (0.9 segundos). Requiere un doble esquive o estar fuera de rango desde el inicio.
-
-**Ataque 5 — Caída de Palma:**
-El Centinela levanta una palma plana hacia arriba y la deja caer verticalmente sobre el suelo. Es un impacto de área pequeña (3 metros de radio) pero el daño es el más alto del combate. El indicador es: el brazo se eleva lentamente, pero la caída ocurre en 0.4 segundos. Requiere que el jugador reconozca el inicio del telegraph (brazo subiendo), no espere la caída.
-
-**Ataque 6 — Resonancia Dirigida:**
-Como la Resonancia de Fase 1, pero el Centinela gira durante los 4 segundos, emitiendo la vibración en dirección hacia el jugador en lugar de radialmente. El jugador puede eludir moviéndose alrededor del Centinela en el sentido contrario a su rotación.
-
----
-
-**Mecánica de los nombres en el pecho:**
-
-En Fase 2, a medida que el Centinela recibe daño en el pecho, los nombres grabados comienzan a borrarse. No en un orden especial — los nombres desaparecen en grupos, desde la periferia hacia el centro.
-
-El jugador puede leer los nombres que quedan mientras combate. Son nombres genéricos — salvo, en algún momento antes de que el HP llegue al 20%, el nombre de la Edad Anterior del protagonista.
-
-Cuando el nombre del protagonista en el pecho está a punto de desaparecer:
-
-> **EL CENTINELA:** *(mientras el nombre se borra)* Sigue estando contigo. No en la piedra.
-
----
-
-**Rol de Sera en Fase 2:**
-
-Sera ahora actúa como escudo de emergencia además de soporte ofensivo. Si el jugador está en la zona de Gravedad Momentánea y usa el Fragmento de Obsidiana de Sera, ella lo lanza con un grito de combate corto ("¡Ahora!") y el efecto de destello ocurre.
-
-Si el Fragmento ya fue usado: Sera puede crear una Cortina de Calor en el suelo que actúa como una capa de separación que el protagonista puede activar manualmente (la misma mecánica que Eco Táctil pero desde Sera).
-
-> **SERA:** *(durante Gravedad Momentánea si el jugador aguanta los 2 segundos completos y sobrevive)* ¿Estás bien?
-
-**[El protagonista puede responder o no — Sera ya está moviéndose hacia el siguiente punto de ataque antes de terminar la pregunta.]**
-
----
-
-**Rol de Garrik en Fase 2:**
-
-Garrik asume un rol más activo. Sus instrucciones durante el combate son más precisas:
-
-- Anuncia el Paso de Nombre antes de que ocurra ("Va a mostrar un nombre. Prepárate para moverse.")
-- Identifica cuando el Centinela ha activado la Absorción ("No uses el Tejido. Espera.")
-- En el momento en que el HP del Centinela llega al 20%, Garrik dice:
-
-> **GARRIK:** Ya casi. No pares.
-
-No son palabras grandiosas. Pero vienen de Garrik.
-
----
-
-### DERROTA DEL CENTINELA
-
-Cuando el HP del Centinela llega a 0, no hay explosión. No hay derrumbe dramático. No hay grito final.
-
-El Centinela se detiene en mitad de su último ataque — como si hubiera recibido la respuesta que estaba esperando — y simplemente deja de moverse.
-
-Los nombres grabados en su pecho se apagan lentamente, uno a uno, en orden cronológico inverso (los más recientes primero). Cuando el último nombre se apaga, el granito emite un pulso suave de luz gris-azulada.
-
-Y el Centinela se sienta.
-
-No cae. Se sienta — lentamente, con cuidado — en el suelo blanco de la sala. La cabeza se inclina ligeramente hacia adelante.
-
-Silencio.
-
----
-
-## Narrativa Post-Combate
-
-> **SERA:** *(mirando al Centinela sentado)* ¿Está... bien?
-
-> **GARRIK:** No es algo que pueda estar bien o mal.
-
-> **SERA:** *(pausa)* ¿Lo matamos?
-
-> **GARRIK:** Lo respondimos. *(mira al protagonista)* Creo que eso era lo que pedía.
-
-El protagonista puede acercarse al Centinela sentado. Al tocarlo, Eco Táctil da una lectura diferente a todo lo anterior: no hay presencias. No hay tiempo. Solo la sensación de algo que ha terminado lo que vino a hacer.
-
----
-
-### El Refugio del Umbral
-
-En el lado opuesto de la sala donde estaba el Centinela, hay una puerta que no estaba visible antes del combate. Ahora está abierta — o más bien, la pared simplemente no está donde estaba.
-
-Más allá hay una sala más pequeña, circular, de techo bajo. Las paredes son de madera — la única madera en cualquier piso de la Torre — y están cubiertas de objetos colgados, anotaciones, mapas fragmentados, instrumentos de medición rotos, trozos de ropa. Son las cosas que otros dejaron cuando llegaron aquí.
-
-Es el **Refugio del Umbral**.
-
-En el centro de la sala hay una mesa de madera con tres sillas. Sobre la mesa hay:
-- Agua en una jarra de cerámica simple
-- Pan. Solo pan.
-- Y una única vela encendida.
-
-Alguien dejó esto aquí para quien llegara.
-
-> **SERA:** *(deteniéndose en la entrada, mirando la mesa)* ¿Quién...?
-
-> **GARRIK:** No lo sé. *(pausa)* Pero gracias a quien sea.
-
-Se sientan. No hay diálogo obligatorio. El jugador puede elegir que el protagonista se siente o que se quede de pie. Si se sienta, la cámara hace un plano largo de los tres en la mesa, con el Centinela visible al fondo a través de la abertura de la pared.
-
-Si Garrik se sienta, hace algo que nunca ha hecho: toma el pan sin contar nada, sin establecer contexto, sin preparar. Solo lo come.
-
-> **SERA:** *(después de un rato, mirando el techo)* ¿Qué hay después de esto?
-
-> **GARRIK:** Afuera. El mundo. Todo lo que no es la Torre.
-
-> **SERA:** ¿Y en la Torre?
-
-> **GARRIK:** El piso once. Pero eso ya no somos nosotros.
-
-*(Referencia directa al inicio del modo multijugador.)*
-
----
-
-### La Estatua y el Sistema First Attack
-
-En la pared circular del Refugio, a diferencia de las paredes de madera cargadas de objetos, hay una sección de piedra — como si la Torre hubiera querido dejar algo permanente aquí.
-
-En esa piedra hay una placa en blanco.
-
-Cuando el protagonista se acerca:
-
-> *[Se te pide que grabes tu nombre. Lo que escribas permanecerá en el Tejido. Quien llegue después lo leerá.]*
-
-El jugador puede escribir cualquier nombre (con filtro de contenido). Es el **sistema de First Attack narrativo**:
-
-- Si el jugador es el **primero en el mundo** en completar N10 desde el lanzamiento, la placa llevará una marca adicional: un símbolo angular — el símbolo que ha aparecido en N6, en el cuaderno de Mira, en los mapas. El juego no explica qué significa. Solo está ahí.
-- Si no es el primero, la placa muestra el nombre del jugador y debajo, en letra más pequeña: *"Llegó cuando ya había otros."* (No es peyorativo — es un hecho.)
-- Si el jugador es el primero del servidor regional, la placa lleva una segunda marca diferente.
-
-Lo que el jugador no puede cambiar: debajo de donde escriba su nombre, ya estaba grabado, antes de que llegaran, el nombre de la Edad Anterior (Aurel, Kael, Iven, o Sael).
-
-Al verlo:
-
-> **GARRIK:** *(mirando la placa)* Ya estaba.
-
-> **SERA:** *(en voz muy baja)* Ya estabas.
-
-El protagonista puede tocar el nombre antiguo. Sin Eco Táctil — simplemente toca la piedra. No pasa nada visible.
-
-Pero el protagonista no retira la mano inmediatamente.
-
----
-
-### Último Diálogo
-
-> **GARRIK:** *(de pie junto a la puerta del Refugio, mirando hacia la sala del Centinela)* He pasado 40 años yendo y volviendo de la Torre. Nunca pensé en lo que había más allá del N6.
-
-> **SERA:** ¿Y ahora?
-
-> **GARRIK:** Ahora sé que hay una mesa con pan y agua. *(pausa)* Es menos dramático de lo que esperaba.
-
-> **SERA:** *(una risa corta, real)* Sí.
-
-> **GARRIK:** *(a la protagonista, directamente, por primera vez de forma personal)* Tú ya estabas aquí. Tu nombre dice que llegaste antes de lo que eres ahora. *(pausa)* No sé qué significa eso. Pero llegaste de nuevo.
-
-> **GARRIK:** Los que subieron antes estaban solos también. Hasta que no lo estaban.
-
-Silencio.
-
-> **SERA:** *(mira la puerta que lleva al N11 — visible pero sellada, con una luz detrás que cambia color)* ¿Cuándo se abre esa?
-
-> **GARRIK:** Cuando haya otros. *(mira al protagonista)* Lo cual ya no depende solo de ti.
-
----
-
-## CRÉDITOS — Modo Historia
-
-La cámara se aleja lentamente del Refugio del Umbral mientras los créditos comienzan a fluir sobre la imagen.
-
-**Lo que se ve durante los créditos:**
-
-- El grupo de tres alrededor de la mesa
-- El Centinela sentado al fondo, quieto, con la vela del Refugio como única luz
-- La placa en la pared con el nombre del protagonista sobre el nombre de la Edad Anterior
-- En el fundido final, un plano del exterior de la Torre: desde lejos, de noche, con estrellas que coinciden exactamente con las del techo de la sala del Centinela
-
-**Lo que suena durante los créditos:**
-
-La nota grave de Fase 1 del Centinela, ahora transformada: ya no es un tono de combate. Es simplemente una nota sostenida que se desvanece lentamente. Sobre ella, los últimos acordes de la melodía del camino de N0 — el tema de viaje de los primeros capítulos, apenas reconocible, como un recuerdo de lo que fue el inicio.
-
----
-
-## Post-Créditos: Gancho Multijugador
-
-Después de los créditos, una escena final breve:
-
-La puerta sellada al N11, en el Refugio del Umbral.
-
-Alguien llama desde el otro lado.
-
-No se escucha la voz claramente. Solo el golpe en la madera.
-
-Y el símbolo angular, que ha aparecido en toda la historia, aparece grabado en la puerta — solo que ahora, por primera vez, el símbolo está completo.
-
-*(En todos los pisos anteriores, era una versión parcial o fragmentada.)*
-
-**FIN DEL MODO HISTORIA.**
-
----
-
-## Notas de Diseño
-
-### El Centinela como pregunta, no como obstáculo
-
-El Centinela no es el guardián malicioso de una recompensa. Es la Torre haciéndose a sí misma la pregunta de si quien llegó hasta aquí merece continuar — no como juicio moral, sino como verificación de que la persistencia fue real.
-
-El diseño de su combate refleja esto: no tiene movimientos arbitrarios o crueles. Cada ataque tiene un telegráfico, un ritmo, una respuesta aprendible. Es difícil pero legible. La dificultad es honesta.
-
-### Por qué el final son pan y agua
-
-La recompensa de N10 no es un tesoro, una revelación cósmica ni un poder. Es una mesa con pan y agua en una sala de madera.
-
-Esto es intencional: el juego ha estado construyendo durante 10 pisos la idea de que lo que persiste no es lo dramático, sino lo simple. Caín murió en una Garganta sin nombre. Mira y Vassen se fueron en N7 sin un combate final contra ellos. El duelo de N8 fue caminar en silencio.
-
-El final del modo historia individual es: sobreviviste, llegaste, hay algo aquí para ti. Es humano. Es suficiente.
-
-### La línea de Garrik como cierre del arco SP
-
-"Los que subieron antes estaban solos también. Hasta que no lo estaban." es la frase más cercana a un discurso que Garrik pronuncia en todo el juego. Y es sobre la transición al modo multijugador — la Torre que espera a otros, la puerta que se abre cuando llegan.
-
-Es un cierre del arco individual que abre la puerta (literalmente) al arco colectivo sin prometer nada que el single-player no entregó.
-
-### El símbolo angular
-
-En cada piso el símbolo angular apareció de forma fragmentada o sin explicación:
-- N4: grabado en corredores de nombres
-- N5: en el cuaderno de Mira (oculto en las curvas de los mapas)
-- N6: en la comida del Comensal (que lo encontraba sin entender)
-- N10 (post-créditos): completo en la puerta del N11
-
-La explicación del símbolo forma parte del contenido multijugador. El modo historia solo establece que existe y que culmina en la puerta que lleva más allá.
+## Datos Técnicos del Jefe
+
+| Aspecto | Detalle |
+|---------|--------|
+| **Vida total** | 3 barras (2 de Centinela físico + 1 de Arquitecto)
+| **Puntos débiles** | Precisión y timing (Fase 3), Piernas (Fase 1)
+| **Resistencias** | Físico 90% (F1), Mágico 70% (F1)
+| **Inmunidades** | Estados alterados (F3), Daño elemental (F3)
+| **Drops** | Ninguno (jefe final narrativo)
+| **Guardado** | No hay punto de guardado durante el combate
+| **Duración estimada** | 20-40 minutos de combate continuo
