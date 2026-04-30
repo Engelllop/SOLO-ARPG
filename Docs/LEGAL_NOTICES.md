@@ -1,26 +1,26 @@
-# Avisos legales y software de terceros
+﻿# Avisos legales y software de terceros
 
-Este documento **no sustituye** asesoramiento legal. Sirve para **localizar rápidamente** las licencias y términos que suelen aplicarse a un proyecto basado en Unreal Engine 5.
+Este documento **no sustituye** asesoramiento legal. Sirve para **localizar rÃ¡pidamente** las licencias y tÃ©rminos que suelen aplicarse a un proyecto basado en Unreal Engine 5.
 
 ## Unreal Engine (Epic Games)
 
-- El motor y las herramientas asociadas se usan bajo el **EULA de Epic Games** aplicable a tu situación (desarrollo, distribución, royalties, etc.).
-- Documentación y EULA: [https://www.unrealengine.com/en-US/eula](https://www.unrealengine.com/en-US/eula)
+- El motor y las herramientas asociadas se usan bajo el **EULA de Epic Games** aplicable a tu situaciÃ³n (desarrollo, distribuciÃ³n, royalties, etc.).
+- DocumentaciÃ³n y EULA: [https://www.unrealengine.com/en-US/eula](https://www.unrealengine.com/en-US/eula)
 
 ## Epic Online Services (EOS)
 
-- Si activáis o usáis EOS u otros servicios de Epic, revisad los términos y la consola de desarrollador correspondientes.
+- Si activÃ¡is o usÃ¡is EOS u otros servicios de Epic, revisad los tÃ©rminos y la consola de desarrollador correspondientes.
 - Portal: [https://dev.epicgames.com/](https://dev.epicgames.com/)
 
 ## Marketplace y plugins de terceros
 
-- Cada asset o plugin puede tener **licencia propia** (solo uso en este producto, sin redistribución del fuente, etc.).
-- Mantened un inventario interno (hoja o `Docs/` breve por paquete) si usáis muchos packs.
+- Cada asset o plugin puede tener **licencia propia** (solo uso en este producto, sin redistribuciÃ³n del fuente, etc.).
+- Mantened un inventario interno (hoja o `Docs/` breve por paquete) si usÃ¡is muchos packs.
 
-## Contenido propio (EMBERVEIL)
+## Contenido propio (Solo)
 
-- El código y los diseños originales del equipo están sujetos al archivo **`LICENSE`** en la raíz del repositorio, salvo que el equipo publique otra política por escrito.
+- El cÃ³digo y los diseÃ±os originales del equipo estÃ¡n sujetos al archivo **`LICENSE`** en la raÃ­z del repositorio, salvo que el equipo publique otra polÃ­tica por escrito.
 
-## Personalización
+## PersonalizaciÃ³n
 
-- Si el titular del copyright no es “EMBERVEIL” como entidad legal, actualizad **`LICENSE`** y, si aplica, este archivo con el nombre comercial correcto, con revisión jurídica cuando corresponda.
+- Si el titular del copyright no es â€œSoloâ€ como entidad legal, actualizad **`LICENSE`** y, si aplica, este archivo con el nombre comercial correcto, con revisiÃ³n jurÃ­dica cuando corresponda.

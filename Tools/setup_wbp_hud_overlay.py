@@ -1,8 +1,8 @@
-# Crea Content/UI/HUD/WBP_HUD_Overlay (Widget Blueprint) con layout Canvas descrito en la tarea.
+﻿# Crea Content/UI/HUD/WBP_HUD_Overlay (Widget Blueprint) con layout Canvas descrito en la tarea.
 #
-# UnrealEditor-Cmd.exe "E:\EMBERVEIL\EMBERVEIL.uproject" -nullrhi -unattended -ExecutePythonScript="E:\EMBERVEIL\Tools\setup_wbp_hud_overlay.py"
+# UnrealEditor-Cmd.exe "E:\SOLO\SOLO.uproject" -nullrhi -unattended -ExecutePythonScript="E:\SOLO\Tools\setup_wbp_hud_overlay.py"
 #
-# Requiere Python del editor. Si falla alguna llamada, monta el mismo árbol a mano en el Designer.
+# Requiere Python del editor. Si falla alguna llamada, monta el mismo Ã¡rbol a mano en el Designer.
 
 import unreal
 
@@ -46,7 +46,7 @@ def canvas_add(canvas: unreal.CanvasPanel, child: unreal.Widget, a: unreal.Ancho
 
 
 def attach_single_child(host: unreal.Widget, child: unreal.Widget) -> None:
-    """USizeBox / UContentWidget: asigna el único hijo (API varía ligeramente entre versiones)."""
+    """USizeBox / UContentWidget: asigna el Ãºnico hijo (API varÃ­a ligeramente entre versiones)."""
     for fn in ("set_content",):
         if hasattr(host, fn):
             getattr(host, fn)(child)
@@ -61,7 +61,7 @@ def attach_single_child(host: unreal.Widget, child: unreal.Widget) -> None:
 
 
 def sizeboxed_bar(outer, name_sz: str, name_pb: str, w: float, h: float, color: unreal.LinearColor) -> unreal.SizeBox:
-    """ProgressBar con tamaño fijo dentro de un SizeBox."""
+    """ProgressBar con tamaÃ±o fijo dentro de un SizeBox."""
     sz = new_widget(unreal.SizeBox, outer, name_sz)
     sz.set_editor_property("width_override", w)
     sz.set_editor_property("height_override", h)
@@ -198,7 +198,7 @@ def main() -> None:
     ensure_dir(pkg)
 
     if unreal.EditorAssetLibrary.does_asset_exist(full):
-        unreal.log_warning(f"setup_wbp_hud_overlay: ya existe {full} — se reconstruye el árbol.")
+        unreal.log_warning(f"setup_wbp_hud_overlay: ya existe {full} â€” se reconstruye el Ã¡rbol.")
         wb = unreal.EditorAssetLibrary.load_asset(full)
     else:
         factory = unreal.WidgetBlueprintFactory()

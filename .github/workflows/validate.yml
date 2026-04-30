@@ -1,4 +1,4 @@
-name: validate
+﻿name: validate
 
 on:
   push:
@@ -14,9 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Validate EMBERVEIL.uproject is valid JSON
+      - name: Validate SOLO.uproject is valid JSON
         run: |
-          python3 -c "import json; json.load(open('EMBERVEIL.uproject'))"
+          python3 -c "import json; json.load(open('SOLO.uproject'))"
 
       - name: Validate Config/*.ini exist
         run: |
@@ -52,7 +52,7 @@ jobs:
           import pathlib
           headers = {p.stem for p in pathlib.Path("Source").rglob("*.h")}
           sources = {p.stem for p in pathlib.Path("Source").rglob("*.cpp")}
-          orphans = sorted(headers - sources - {"EMBERVEIL", "EMBERVEILCore"})
+          orphans = sorted(headers - sources - {"SOLO", "SOLOCore"})
           if orphans:
               print("::warning::Headers without matching .cpp (header-only is OK for interfaces/types):")
               for h in orphans:

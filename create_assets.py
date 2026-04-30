@@ -1,4 +1,4 @@
-import unreal
+﻿import unreal
 
 def create_hud_overlay():
     asset_path = "/Game/UI/HUD/WBP_HUD_Overlay"
@@ -24,20 +24,20 @@ def create_hud_overlay():
 
 def create_recipe_data_assets():
     recipes_folder = "/Game/Data/Recipes/"
-    # Using the class name found in source code: UEMBERVEILRecipeDataAsset
+    # Using the class name found in source code: USOLORecipeDataAsset
     # If the user's AssetManager expects RecipeDataAsset, I'll assume they have a redirect 
     # or the class is indeed named that in their current build.
     # To be safe, I'll try to find the class.
     
-    recipe_class = unreal.load_class(None, "/Script/EMBERVEILCore.EMBERVEILRecipeDataAsset")
+    recipe_class = unreal.load_class(None, "/Script/SOLOCore.SOLORecipeDataAsset")
     if not recipe_class:
-        recipe_class = unreal.load_class(None, "/Script/EMBERVEILCore.RecipeDataAsset")
+        recipe_class = unreal.load_class(None, "/Script/SOLOCore.RecipeDataAsset")
     
     if not recipe_class:
         print("Error: Could not find RecipeDataAsset class. Please ensure it is compiled.")
         return
 
-    item_class = unreal.load_class(None, "/Script/EMBERVEILCore.EMBERVEILItemBase")
+    item_class = unreal.load_class(None, "/Script/SOLOCore.SOLOItemBase")
 
     recipes = [
         {

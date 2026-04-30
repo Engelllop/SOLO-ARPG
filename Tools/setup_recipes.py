@@ -1,6 +1,6 @@
-# Crea UEMBERVEILRecipeDataAsset en Content/Data/Recipes/ (prefijo DA_Recipe_*)
+﻿# Crea USOLORecipeDataAsset en Content/Data/Recipes/ (prefijo DA_Recipe_*)
 #
-# UnrealEditor-Cmd.exe "E:\EMBERVEIL\EMBERVEIL.uproject" -nullrhi -unattended -ExecutePythonScript="E:\EMBERVEIL\Tools\setup_recipes.py"
+# UnrealEditor-Cmd.exe "E:\SOLO\SOLO.uproject" -nullrhi -unattended -ExecutePythonScript="E:\SOLO\Tools\setup_recipes.py"
 
 import unreal
 
@@ -31,11 +31,11 @@ def create_recipe(asset_name: str, **props) -> unreal.Object:
     if unreal.EditorAssetLibrary.does_asset_exist(full):
         rec = unreal.EditorAssetLibrary.load_asset(full)
     else:
-        cls = unreal.load_class(None, "/Script/EMBERVEILCore.UEMBERVEILRecipeDataAsset")
+        cls = unreal.load_class(None, "/Script/SOLOCore.USOLORecipeDataAsset")
         if not cls:
-            cls = unreal.load_class(None, "/Script/EMBERVEILCore.EMBERVEILRecipeDataAsset")
+            cls = unreal.load_class(None, "/Script/SOLOCore.SOLORecipeDataAsset")
         if not cls:
-            raise RuntimeError("LoadClass UEMBERVEILRecipeDataAsset failed")
+            raise RuntimeError("LoadClass USOLORecipeDataAsset failed")
         at = unreal.AssetToolsHelpers.get_asset_tools()
         rec = at.create_asset(asset_name, pkg, cls, None)
         if not rec:

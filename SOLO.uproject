@@ -1,0 +1,30 @@
+﻿{
+	"FileVersion": 3,
+	"EngineAssociation": "5.7",
+	"Category": "Games",
+	"Description": "SOLO â€” Medieval Action RPG",
+	"Modules": [
+		{
+			"Name": "SOLO",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": ["Engine", "CoreUObject"]
+		},
+		{
+			"Name": "SOLOCore",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": ["Engine", "GameplayAbilities"]
+		}
+	],
+	"Plugins": [
+		{ "Name": "GameplayAbilities", "Enabled": true },
+		{ "Name": "EnhancedInput",     "Enabled": true },
+		{ "Name": "ModelingToolsEditorMode", "Enabled": true },
+		{ "Name": "PCG",               "Enabled": true },
+		{ "Name": "OnlineSubsystem",   "Enabled": true },
+		{ "Name": "OnlineSubsystemEOS","Enabled": true },
+		{ "Name": "CommonUI",          "Enabled": true },
+		{ "Name": "AsyncLoadingScreen","Enabled": false }
+	]
+}

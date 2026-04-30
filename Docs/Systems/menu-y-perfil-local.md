@@ -1,41 +1,41 @@
-# Menú principal y perfil local
+﻿# MenÃº principal y perfil local
 
-## Propósito
+## PropÃ³sito
 
-Dar un **punto de entrada antes del gameplay** en single-player: captura de **nombre visible**, persistencia mínima en disco y transición al mapa de juego. **No sustituye** a Epic Online Services ni a cuentas online; es la capa de **identidad local** (fase 0).
+Dar un **punto de entrada antes del gameplay** en single-player: captura de **nombre visible**, persistencia mÃ­nima en disco y transiciÃ³n al mapa de juego. **No sustituye** a Epic Online Services ni a cuentas online; es la capa de **identidad local** (fase 0).
 
-## Ubicación en código
+## UbicaciÃ³n en cÃ³digo
 
 | Pieza | Ruta |
 |--------|------|
-| Widget de menú (Slate mínimo) | `Source/EMBERVEILCore/Public/UI/Widgets/WG_MainMenu.h` |
-| GameMode de menú | `Source/EMBERVEILCore/Public/GameFramework/EMBERVEILMainMenuGameMode.h` |
-| PlayerController de menú (cursor + input UI) | `Source/EMBERVEILCore/Public/Player/EMBERVEILMenuPlayerController.h` |
-| Subsistema de perfil | `Source/EMBERVEILCore/Public/Profile/EMBERVEILProfileSubsystem.h` |
-| SaveGame de perfil | `Source/EMBERVEILCore/Public/Profile/EMBERVEILLocalProfileSave.h` |
-| Viaje al gameplay | `UEMBERVEILGameInstance::TravelToGameplayMap()` |
+| Widget de menÃº (Slate mÃ­nimo) | `Source/SOLOCore/Public/UI/Widgets/WG_MainMenu.h` |
+| GameMode de menÃº | `Source/SOLOCore/Public/GameFramework/SOLOMainMenuGameMode.h` |
+| PlayerController de menÃº (cursor + input UI) | `Source/SOLOCore/Public/Player/SOLOMenuPlayerController.h` |
+| Subsistema de perfil | `Source/SOLOCore/Public/Profile/SOLOProfileSubsystem.h` |
+| SaveGame de perfil | `Source/SOLOCore/Public/Profile/SOLOLocalProfileSave.h` |
+| Viaje al gameplay | `USOLOGameInstance::TravelToGameplayMap()` |
 
 ## Datos y config
 
-- **Slot de guardado:** `EMBERVEIL_LocalProfile` (índice de usuario `0`), vía `UGameplayStatics::SaveGameToSlot`.
-- **Nombre en sesión:** al confirmar en el menú se escribe en `UEMBERVEILProfileSubsystem` y se copia a `UEMBERVEILGameInstance::ActivePlayerData.CharacterName`.
-- **Mapa de gameplay por defecto:** propiedad `GameplayMapPackage` en `UEMBERVEILGameInstance` (`/Game/Maps/L_Gameplay` hasta que el mapa exista en `Content/`).
-- **Arranque del editor / paquete:** `Config/DefaultEngine.ini` → `GameDefaultMap=/Engine/Maps/Entry`, `GlobalDefaultGameMode=AEMBERVEILMainMenuGameMode`.
+- **Slot de guardado:** `SOLO_LocalProfile` (Ã­ndice de usuario `0`), vÃ­a `UGameplayStatics::SaveGameToSlot`.
+- **Nombre en sesiÃ³n:** al confirmar en el menÃº se escribe en `USOLOProfileSubsystem` y se copia a `USOLOGameInstance::ActivePlayerData.CharacterName`.
+- **Mapa de gameplay por defecto:** propiedad `GameplayMapPackage` en `USOLOGameInstance` (`/Game/Maps/L_Gameplay` hasta que el mapa exista en `Content/`).
+- **Arranque del editor / paquete:** `Config/DefaultEngine.ini` â†’ `GameDefaultMap=/Engine/Maps/Entry`, `GlobalDefaultGameMode=ASOLOMainMenuGameMode`.
 
 ## Dependencias
 
-- `UMG`, `Slate` (widget de menú construido en código).
+- `UMG`, `Slate` (widget de menÃº construido en cÃ³digo).
 - Sin EOS ni `OnlineSubsystem` para este flujo.
 
 ## Cuentas admin locales (QA / operador)
 
-- Usuarios válidos: **`Admin0` … `Admin10`** (prefijo `Admin` sin distinguir mayúsculas; número en base decimal sin ceros a la izquierda).
-- Contraseña: **`89722729`** (solo en cliente; definida en `EMBERVEILAdminAuth.cpp`).
-- En el menú, el campo de **contraseña es opcional**. Si se rellena, debe coincidir usuario admin + contraseña o se rechaza el inicio.
-- La sesión admin activa `UEMBERVEILGameInstance::bAdminUnrestrictedAccess` y `AdminSessionAccountName`. En **gameplay**, comprobar `HasAdminUnrestrictedAccess()` antes de aplicar bloqueos (inventario, torre, progresión, etc.). No se marca admin en el SaveGame del perfil: al relanzar el juego hay que volver a autenticar si se usó contraseña.
+- Usuarios vÃ¡lidos: **`Admin0` â€¦ `Admin10`** (prefijo `Admin` sin distinguir mayÃºsculas; nÃºmero en base decimal sin ceros a la izquierda).
+- ContraseÃ±a: **`89722729`** (solo en cliente; definida en `SOLOAdminAuth.cpp`).
+- En el menÃº, el campo de **contraseÃ±a es opcional**. Si se rellena, debe coincidir usuario admin + contraseÃ±a o se rechaza el inicio.
+- La sesiÃ³n admin activa `USOLOGameInstance::bAdminUnrestrictedAccess` y `AdminSessionAccountName`. En **gameplay**, comprobar `HasAdminUnrestrictedAccess()` antes de aplicar bloqueos (inventario, torre, progresiÃ³n, etc.). No se marca admin en el SaveGame del perfil: al relanzar el juego hay que volver a autenticar si se usÃ³ contraseÃ±a.
 
 ## Extensiones
 
-1. Sustituir `UWG_MainMenu` por un **Widget Blueprint** hijo con arte (mantener la clase C++ como base o migrar lógica a Blueprint).
-2. Añadir **ajustes de audio / gráficos** en el mismo mapa de menú o en pestañas del widget.
-3. Cuando exista **auth online**, leer el nombre de cuenta y fusionarlo con el perfil local (no borrar el slot local sin decisión de diseño).
+1. Sustituir `UWG_MainMenu` por un **Widget Blueprint** hijo con arte (mantener la clase C++ como base o migrar lÃ³gica a Blueprint).
+2. AÃ±adir **ajustes de audio / grÃ¡ficos** en el mismo mapa de menÃº o en pestaÃ±as del widget.
+3. Cuando exista **auth online**, leer el nombre de cuenta y fusionarlo con el perfil local (no borrar el slot local sin decisiÃ³n de diseÃ±o).
