@@ -1,5 +1,5 @@
-// N4 — Bosque Petrificado (Hambre)
-// Diálogos, NPCs, Quests, Items
+// N4 — Bosque Petrificado (Hambre) — v3
+// Dialogos, NPCs, Quests, Items, Esquirlas Explicacion, Codex
 
 #pragma once
 
@@ -26,6 +26,9 @@ Node: N4_Cabin_Eat
   Madre: "No hay un 'antes', ¿sabes? Solo hay ahora. Y ahora hay esto."
   → Heal: +40HP
   → SetFlag: "N4_Ate_With_Family"
+  → Narration: "Mira no come. Se queda mirando el plato."
+  → Narration: "Se levanta y sale. La encuentras afuera, vomitando."
+  → (Si Mira presente: relacion -5)
   → Next: N4_Continue
 
 Node: N4_Cabin_Leave
@@ -60,6 +63,19 @@ Node: N4_Heart_Destroy
   Narration: "El corazón se rompe. El bosque tiembla. El Coloso cae. Los árboles... no vuelven a ser personas."
   → SetFlag: "N4_Heart_Destroyed"
   → Reward: "Fragment_Hambre"
+
+=== ESCENA — ESQUIRLAS (v3, despues de la cueva) ===
+Node: N4_Esquirlas_Scene
+  Mira: "Garrik... que es una Esquirla de la 6ta Edad?"
+  Garrik: "Cada 'Edad' es una version de la Torre. La primera fue de piedra y fuego. La sexta fue la ultima antes de la actual."
+  Garrik: "En la 6ta Edad hubo una guerra entre los pisos. Todos contra todos."
+  Garrik: "Cuando termino, los que sobrevivieron quedaron atrapados en el codigo de la nueva version. Fragmentos de algo anterior que no fue limpiado."
+  Garrik: "Eso soy yo. No deberia estar aqui. Mi codigo pertenece a otra compilacion."
+  Garrik: "Pero no me eliminaron porque sirvo para algo."
+  Mira: "Para que?"
+  Garrik: "(pausa larga) Para recordar que ya hubo un apocalipsis aqui. Que el mundo termino antes. Y que siguio igual."
+  Player: "(internamente) Cada version termina. Y empieza otra. Que soy yo entonces?"
+  → Next: N4_Heart_Discovery
 
 === NPC: PEREGRINO MUERTO ===
 Node: N4_DeadPilgrim

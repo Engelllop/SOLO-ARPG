@@ -37,16 +37,19 @@ Node: N6_Miner_Feed
   → SetFlag: "N6_Miner_Fed"
   → PTSDComponent: -5 trauma
 
-=== CAPATAZ ===
-Node: N6_Foreman_First
-  Capataz: "¿Qué haces aquí? Esta es zona restringida."
-  Player: "Vine a ver cómo funciona la fábrica."
-  Capataz: "¿Fábrica? Esto es una cooperativa. Los niños trabajan voluntariamente."
-  Player: "¿Voluntariamente? ¿A los 8 años?"
-  Capataz: (ríe) "Creen que es un juego. Se divierten. Y producen jade. Todos ganan."
-  Player: "¿Y si quieren irse?"
-  Capataz: (silencio. La sonrisa se borra.) "Nadie quiere irse."
-  → Next: N6_Foreman_Confrontation
+=== CAPATAZ — VASSEN REACCIONA (v3) ===
+Node: N6_Foreman_VassenReacts
+  Capataz: "Son huérfanos. Les damos techo y comida. Es un negocio."
+  Capataz: (se ríe) "Además, nadie los extraña. Nadie vino a buscarlos."
+  Narration: "Vassen se queda quieto 3 segundos."
+  Narration: "Luego golpea al capataz en la cara sin avisar."
+  Vassen: "(respirando fuerte) No debiste decir eso."
+  Mira: "Vassen!"
+  Vassen: "(al capataz, en el suelo) Hay 47 niños aqui. 12 muertos. Y dices que nadie los extraña?"
+  Capataz: (sangrando) "Vas a... vas a pagar por esto-"
+  Vassen: "(se inclina) Ya pague. Baje lo que baje en esta Torre, ya pague."
+  → Combate contra el capataz comienza.
+  → SetFlag: "N6.VassenHitForeman"
 
 === CORO DE JADE (Capataz — Combate) ===
 Node: N6_Foreman_Combat_Start

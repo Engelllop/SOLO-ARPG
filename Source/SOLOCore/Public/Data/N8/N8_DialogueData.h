@@ -1,98 +1,118 @@
-// N8 — Jardines Flotantes (Eugenesia)
-// Diálogos, NPCs, Quests, Items
+// N8 — Jardines de Carne (Eugenesia / Experimentacion Humana) — v3
+// Dialogos, NPCs, Quests, Items, Sera Quiebre, Voz Arquitecto
 
 #pragma once
 
 #include "CoreMinimal.h"
 
 /*
-=== SERA — ENCUENTRO INICIAL ===
-Node: N8_Sera_First
-  Sera: "Hola. No esperaba visitas."
-  Player: "¿Quién eres?"
-  Sera: "Me llamo Sera. Soy... una cosecha."
-  Player: "¿Una cosecha?"
-  Sera: (señala las ramas que crecen de su espalda) "Me cultivaron. Soy la que salió bien."
-  → Next: N8_Tour_Begin
+=== COMBATE INICIAL — CRIADA DE BRONCE (v3) ===
+Node: N8_Criada_Fight
+  Narration: "El protagonista cae directamente en la sala de la Criada al entrar al piso."
+  Narration: "Sin exploracion previa. Sin contexto. Solo el combate."
+  Fase 1: Movimientos mecanicos.
+  Criada: "Sujeto no registrado. Clasificar... defectuoso. Eliminar."
 
-=== SERA — TOUR DEL LABORATORIO ===
-Node: N8_Tour_Begin
-  Sera: "Te voy a mostrar el jardín. Pero no es un jardín de flores."
-  → Next: N8_Growth_Chamber
+  Fase 2: Armadura de bronce se agrieta. Debajo hay carne viva. Voz cambia.
+  Criada: "Por que... por que obedeci? Puedo... puedo elegir?"
 
-Node: N8_Growth_Chamber
-  Narration: "Sera te lleva a una sala con hileras de tanques de vidrio. Dentro, fetos en diferentes etapas."
-  Sera: "Aquí empieza todo. Toman una célula. La cultivan. Deciden qué va a ser."
-  Player: "¿Deciden?"
-  Sera: "Altura. Color de ojos. Sexo. Inteligencia. Si va a tener pecas. Todo."
-  Player: "¿Y los que 'salen mal'?"
-  Sera: (señala una puerta) "Allí. La Sala de Poda."
-  → Next: N8_Pruning_Room
+  Fase 3: Antes de morir, pide un nombre.
+  Criada: "Nunca tuve un nombre. Solo un numero. (pausa) Dimelo. Por favor."
+  → Si el jugador ingresa un nombre: SetFlag "N8.CriadaNamed" + nombre guardado
+  → Si el jugador se va sin nombrarla: la Criada muere sin nombre
+  Criada: "(si nombrada) Gracias. Ahora puedo... irme."
+  Criada: "(si no nombrada) ...Entiendo."
 
-Node: N8_Pruning_Room
-  Narration: "La sala huele a metal y alcohol. Mesas de operación. Instrumentos."
-  Sera: "Si una cosecha tiene defectos... se repara. O se recicla."
-  Player: "¿Reciclar?"
-  Sera: "Se deshace. Las partes buenas se reutilizan. El resto... abono."
-  → Next: N8_Criada_Approach
+  → Next: N8_Garden_Explore (el jardin se abre)
 
-=== CRIADA BRONCE — PRE-COMBATE ===
-Node: N8_Criada_First
-  Criada: "Sera. Has vuelto."
-  Sera: (retrocede) "Ella es... la Criada Bronce. La jardinera."
-  Criada: (te mira) "Tú debes ser el visitante. Has visto el jardín. ¿Bonito, verdad?"
-  Player: "No son personas. Son productos."
-  Criada: (pausa) "Son lo que necesitan ser. Y yo soy lo que necesito ser. La que los cuida."
-  → Next: N8_Criada_Combat
+=== VIVERO (v3 — Voz Arquitecto #1) ===
+Node: N8_Vivero
+  Narration: "Tanques de vidrio con fetos. Uno roto en el suelo arrastrandose."
+  Voz Arquitecto: "(lejana) Observando."
+  Sera: "Sali de uno de esos tanques. Lo recuerdo. Generacion 84."
+  Sera: "Desarrollamos empatia. El Arquitecto llamo a eso un defecto."
+  → Next: N8_GeneticArchive
 
-=== CRIADA BRONCE — MUERTE ===
-Node: N8_Criada_Death
-  Criada: (herida, arrodillada) "No... no me mata aún."
-  Player: (arma levantada)
-  Criada: "Dame... un nombre. Nunca tuve uno. Toda mi vida fui 'Criada Bronce'. 'La jardinera'."
-  → Opción: INPUT DE TEXTO
-    - Si el jugador escribe nombre: Criada sonríe. "Gracias. Ahora puedo morir."
-    - Si no: "No importa. No iba a recordarlo."
-  → SetFlag: "N8_Criada_Named" (si le dieron nombre)
+=== ARCHIVO GENETICO (v3 — Sera se quiebra) ===
+Node: N8_GeneticArchive
+  Narration: "El Archivo Genetico."
+  Texto: "Generacion 47: 79% murieron. 12% desarrollaron conciencia. 9% sentian empatia."
+  Texto: "Nota: Generacion 84 produjo a Sera. Se escapo."
+  Texto: "Estado: NO RECUPERADA."
+  Sera: "(mirando la pantalla en blanco) Yo soy la Generacion 84."
+  Sera: "(pausa larga) No me conocen como Sera alli. Me conocen como 'Fuga.'"
+  Sera: "(voz quebrada) Sabia que iba a encontrar esto. Lo sabia desde N7."
+  Sera: "(se sienta en el suelo. No se mueve.) No puedo... no puedo seguir."
+  Narration: "Sera no se mueve. No mira al protagonista. Solo mira la pantalla."
+  Narration: "Es la primera vez que alguien la ve asi."
+  → Opcion: [Esperar] — sentarse junto a ella 30 segundos
+  → Opcion: [Hablar] — "No tengo codigo original yo tampoco."
+  → Opcion: [Tocar el hombro] — Sera reacciona
+  → Cualquier opcion:
+  Sera: "(despues de un momento) Tu tambien eres un error. Y aqui estamos."
+  Sera: "(se levanta sola) Bueno. Vamos."
 
-=== POST-CRIADA ===
-Node: N8_Aftermath
-  Sera: (se sienta frente al tanque de la Cosecha Perfecta) "Podría haber sido yo."
-  Player: "¿Vas a venir?"
-  Sera: "No. Me quedo."
-  Player: "¿Por qué?"
-  Sera: "No conozco otro lugar. Y alguien tiene que apagar las máquinas."
-  → SetFlag: "N8_Sera_Stays"
+Node: N8_Post_Break
+  Narration: "Sera vuelve a caminar. Pero algo cambio."
+  Narration: "Por primera vez, no esta observando. Esta presente."
 
-=== ITEMS ===
-Item: "Fragment_Jardin"
-  Name: "Fragmento de Jardín"
-  Description: "Una semilla dorada. Al plantarla, crece algo que no es una planta."
-  Type: KeyItem
+  Voz Arquitecto: "(lejana, mas clara) Interesante. Eso tampoco estaba en el script."
 
-Item: "Diario_Criada"
-  Name: "Diario de la Criada Bronce"
-  Description: "Registros de 200 años de podas. Escritos con caligrafía perfecta. Sin errores."
-  Type: Readable
+=== JARDIN DE LOS BRAZOS (v3) ===
+Node: N8_GardenOfArms
+  Narration: "Brazos humanos que brotan del suelo como hierba."
+  Narration: "Tienen cicatrices de batalla. No son experimentos — son soldados que ya no necesitaban."
+  → Next: N8_SoldierGallery
 
-=== QUESTS ===
+=== GALERIA DE LOS SOLDADOS (v3) ===
+Node: N8_SoldierGallery
+  Narration: "Filas de adultos modificados en cajas de cristal. Conscientes. Despiertos."
+  Narration: "Algunos han raspado sus nombres en el vidrio desde adentro."
+  Soldado: "Me llamo Edren. Era panadero. Me dijeron que me harian mas fuerte. Dije que si porque mi familia tenia hambre."
+  Soldado: "Me convertir en esto. Mi familia recibio oro. Yo recibi... (pausa) no se que recibi."
+  Sera: "(a Edren) Edren. Te escucho."
+  Edren: "Puedes sacarme?"
+  Sera: "No. (sin excusas) Lo siento."
+  → El jugador puede tocar el cristal. Sin efecto.
+  → El Indice de Pureza baja al ver el sufrimiento.
+
+  Voz Arquitecto: "(lejana) Por que eso? Que significa para ti?"
+
+=== CAMARA DE LAS MADRES (v3) ===
+Node: N8_ChamberOfMothers
+  Narration: "4 mujeres conectadas a maquinas, vientres abiertos."
+  → Opcion: Matarlas (misericordia)
+  → Opcion: Dejarlas (sufren)
+  → Opcion: Preguntarle a Sera (ella responde: "Lo mio fue peor o mejor? No se cual es cual.")
+
+=== ITEMS (v3) ===
+Items:
+  Pluma de la Criada — Lo unico que dejo al desaparecer
+  Carta Genetica — Generacion 84: FUGA
+  Diario de Edren — "Hoy recorde el olor del pan. No se si es real o inventado."
+  Permiso Iteracion 85 — Archivo del Arquitecto. "Permiso medico. Motivo: no puedo."
+
+=== QUESTS (v3) ===
 Quest: "N8_Main"
-  Name: "El Jardín de Carne"
-  Description: "Los Jardines Flotantes cultivan cuerpos. Descubre el propósito."
+  Name: "Los Jardines de Carne"
+  Description: "Un laboratorio donde la vida se cultiva como producto."
   Floor: 8
   Objectives:
-    1. "Sigue a Sera por el laboratorio"
-    2. "Ve la Sala de Crecimiento"
-    3. "Ve la Sala de Poda"
-    4. "Enfrenta a la Criada Bronce"
-  Rewards: Fragment_Jardin, XP 1200
+    1. "Derrota a la Criada de Bronce"
+    2. "Explora el Vivero"
+    3. "Visita el Archivo Genetico" (es obligatorio — Sera se quiebra aqui)
+    4. "Atraviesa la Galeria de los Soldados"
+    5. "Sal de los Jardines"
+  Rewards: XP, Sera Companion (oficial), Fragmento
 
-Quest: "N8_Optional_Name"
-  Name: "El Último Regalo"
-  Description: "La Criada Bronce nunca tuvo nombre. Decide si dárselo."
+Quest: "N8_85_Secret"
+  Name: "Lo que el Arquitecto Dejo Atras"
+  Description: "Un nivel nunca terminado. Accesible con el Permiso I85"
   Floor: 8
   bIsHidden: true
   Objectives:
-    1. "Dale un nombre a la Criada Bronce"
-  Rewards: "Blessing_Nombre" (special ending recognition)
+    1. "Encuentra el Permiso I85 en el Archivo"
+    2. "Accede al Nivel Inacabado"
+    3. "Lee la nota del escritorio"
+  Rewards: "Codex_N85_ArchitectQuit"
 */

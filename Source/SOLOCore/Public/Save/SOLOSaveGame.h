@@ -45,13 +45,21 @@ public:
 	UPROPERTY() TArray<FName> ActiveCompanionIDs;
 
 	// Floor-specific (N3-N10 choices)
-	UPROPERTY() TArray<FName> CollectedFragments; // Ending B keys
+	UPROPERTY() TArray<FName> CollectedFragments; // Ending B/C keys
 	UPROPERTY() bool bLookedIntoAbyss = false;
 	UPROPERTY() bool bSparedElia = false;
 	UPROPERTY() bool bSparedOswin = false;
 	UPROPERTY() bool bGaveCriadaName = false;
 	UPROPERTY() FString GivenNameCriada;
 	UPROPERTY() bool bClonedDefeatedPeacefully = false;
+
+	// v3 — New thematic choice flags
+	UPROPERTY() bool bAteHumanFleshN4 = false; // Final C condition
+	UPROPERTY() bool bListenedVerdugoN9 = false; // Final B and C condition
+	UPROPERTY() bool bBurnedThornwall = false; // (opcional — dark path)
+	UPROPERTY() bool bSawN85Subfloor = false; // Found the abandoned floor
+	UPROPERTY() bool bReadPlayerCodeN9 = false; // Read the code parchment
+	UPROPERTY() TArray<FName> UnlockedCodexEntries; // Codex tracking
 
 	// NG+ data
 	UPROPERTY() bool bIsNewGamePlus = false;
