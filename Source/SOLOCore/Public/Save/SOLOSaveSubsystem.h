@@ -14,28 +14,40 @@ class SOLOCORE_API USOLOSaveSubsystem : public UGameInstanceSubsystem
 public:
 	virtual void Initialize(FSubsystemCollectionBase& Collection) override;
 
+	// --- Save/Load ---
 	UFUNCTION(BlueprintCallable) void SaveGame(int32 SlotIndex = 0);
 	UFUNCTION(BlueprintCallable) void AutoSave();
 	UFUNCTION(BlueprintCallable) bool LoadGame(int32 SlotIndex = 0);
 	UFUNCTION(BlueprintCallable) void DeleteSave(int32 SlotIndex);
 	UFUNCTION(BlueprintCallable) bool DoesSaveExist(int32 SlotIndex) const;
 
-	// Floor transition
+	// --- Floor transition ---
 	UFUNCTION(BlueprintCallable) void SaveOnFloorTransition(int32 NextFloorID, const FVector& NewPosition);
-	UFUNCTION(BlueprintCallable) bool HasAllEndingBFragments() const;
 
-	// NG+
+	// --- v3 Ending requirements ---
+	UFUNCTION(BlueprintCallable) bool HasAllEndingBFragments() const;
+	UFUNCTION(BlueprintCallable) bool CheckEndingBRequirements() const;
+	UFUNCTION(BlueprintCallable) bool CheckEndingCRequirements() const;
+
+	// --- NG+ ---
 	UFUNCTION(BlueprintCallable) void StartNewGamePlus();
 	UFUNCTION(BlueprintCallable) bool IsNewGamePlus() const;
 	UFUNCTION(BlueprintCallable) int32 GetNGPlusCount() const;
 
-	// Choice tracking
+	// --- Choice tracking ---
 	UFUNCTION(BlueprintCallable) void RecordCollectedFragment(FName FragmentID);
 	UFUNCTION(BlueprintCallable) void RecordAbyssLooked();
 	UFUNCTION(BlueprintCallable) void RecordSparedNPC(const FString& NPCName, bool bSpared);
 	UFUNCTION(BlueprintCallable) void RecordCriadaName(const FString& Name);
 	UFUNCTION(BlueprintCallable) void RecordCloneDefeat(bool bPeaceful);
 	UFUNCTION(BlueprintCallable) void RecordEnding(FName EndingID);
+
+	// --- v3 New choice tracking ---
+	UFUNCTION(BlueprintCallable) void RecordAteHumanFlesh();
+	UFUNCTION(BlueprintCallable) void RecordListenedVerdugo();
+	UFUNCTION(BlueprintCallable) void RecordSawN85Subfloor();
+	UFUNCTION(BlueprintCallable) void RecordCodexEntry(FName EntryID);
+	UFUNCTION(BlueprintCallable) bool HasCodexEntry(FName EntryID) const;
 
 	USOLOSaveGame* GetCurrentSave() const { return CurrentSave; }
 
@@ -46,8 +58,6 @@ protected:
 	void GatherSaveData();
 	void ApplySaveData();
 	void CreateBackup(int32 SlotIndex);
-
-	bool CheckEndingBRequirements() const;
 
 	static const int32 MaxBackups = 3;
 	static const FString AutoSaveSlotName;

@@ -150,6 +150,8 @@ void USOLOSaveSubsystem::SaveOnFloorTransition(int32 NextFloorID, const FVector&
 	UGameplayStatics::SaveGameToSlot(CurrentSave, SlotName, 0);
 }
 
+// ========== v3 — Ending Requirement Checks ==========
+
 bool USOLOSaveSubsystem::HasAllEndingBFragments() const
 {
 	if (!CurrentSave) return false;
@@ -160,29 +162,28 @@ bool USOLOSaveSubsystem::CheckEndingBRequirements() const
 {
 	if (!CurrentSave) return false;
 
-	// Required fragments
-	TArray<FName> RequiredFragments = {
-		TEXT("Fragment_Espejo"),
-		TEXT("Fragment_Hambre"),
-		TEXT("Fragment_Thornwall"),
-		TEXT("Fragment_Jade"),
-		TEXT("Fragment_Sahal"),
-		TEXT("Fragment_Jardin")
-	};
+	// v3 requirements: Fragmento del Arquitecto + Escuchar al Verdugo
+	if (!CurrentSave->CollectedFragments.Contains(TEXT("Fragment_Arquitecto")))
+		return false;
+	if (!CurrentSave->bListenedVerdugoN9)
+		return false;
 
-	for (const FName& Frag : RequiredFragments)
-	{
-		if (!CurrentSave->CollectedFragments.Contains(Frag))
-			return false;
-	}
+	// Additional: need the actual fragment item
+	if (!CurrentSave->StoryFlags.FindRef(TEXT("N9.FragmentArquitecto")))
+		return false;
 
-	// Moral choices
-	if (!CurrentSave->bLookedIntoAbyss) return false; // N9
-	if (!CurrentSave->bSparedElia) return false;       // N9
-	if (!CurrentSave->bSparedOswin) return false;      // N9
+	return true;
+}
 
-	// All abilities (would need to check UnlockedSkillIDs count or specific skills)
-	if (CurrentSave->UnlockedSkillIDs.Num() < 6) return false;
+bool USOLOSaveSubsystem::CheckEndingCRequirements() const
+{
+	if (!CurrentSave) return false;
+
+	// v3: comprension tematica — opciones mas oscuras
+	if (!CurrentSave->bAteHumanFleshN4) return false;
+	if (CurrentSave->bGaveCriadaName) return false; // must NOT name her
+	if (!CurrentSave->bListenedVerdugoN9) return false;
+	if (!CurrentSave->StoryFlags.FindRef(TEXT("N9.VerdugoListened"))) return false;
 
 	return true;
 }
@@ -206,8 +207,6 @@ void USOLOSaveSubsystem::StartNewGamePlus()
 	CurrentSave->PlayerRotation = FRotator::ZeroRotator;
 	CurrentSave->FloorID = 0;
 
-	// Keep fragments and choices for ending tracking
-	// Keep NG+ flag
 	CurrentSave->SaveTimestamp = FDateTime::Now();
 
 	FString SlotName = FString::Printf(TEXT("NGPlus_%d"), CurrentSave->NGPlusCount);
@@ -224,7 +223,7 @@ int32 USOLOSaveSubsystem::GetNGPlusCount() const
 	return CurrentSave ? CurrentSave->NGPlusCount : 0;
 }
 
-// --- Choice tracking ---
+// --- Choice tracking (v3) ---
 
 void USOLOSaveSubsystem::RecordCollectedFragment(FName FragmentID)
 {
@@ -265,4 +264,37 @@ void USOLOSaveSubsystem::RecordEnding(FName EndingID)
 	{
 		CurrentSave->PreviousEndings.Add(EndingID);
 	}
+}
+
+// v3 — New choice tracking
+void USOLOSaveSubsystem::RecordAteHumanFlesh()
+{
+	if (CurrentSave) CurrentSave->bAteHumanFleshN4 = true;
+}
+
+void USOLOSaveSubsystem::RecordListenedVerdugo()
+{
+	if (CurrentSave)
+	{
+		CurrentSave->bListenedVerdugoN9 = true;
+		CurrentSave->StoryFlags.Add(TEXT("N9.VerdugoListened"), true);
+	}
+}
+
+void USOLOSaveSubsystem::RecordSawN85Subfloor()
+{
+	if (CurrentSave) CurrentSave->bSawN85Subfloor = true;
+}
+
+void USOLOSaveSubsystem::RecordCodexEntry(FName EntryID)
+{
+	if (CurrentSave && !CurrentSave->UnlockedCodexEntries.Contains(EntryID))
+	{
+		CurrentSave->UnlockedCodexEntries.Add(EntryID);
+	}
+}
+
+bool USOLOSaveSubsystem::HasCodexEntry(FName EntryID) const
+{
+	return CurrentSave && CurrentSave->UnlockedCodexEntries.Contains(EntryID);
 }
