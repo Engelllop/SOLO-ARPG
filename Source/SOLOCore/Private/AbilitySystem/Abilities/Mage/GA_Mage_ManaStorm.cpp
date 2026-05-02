@@ -1,4 +1,5 @@
-#include "AbilitySystem/Abilities/Mage/GA_Mage_ManaStorm.h"
+﻿#include "AbilitySystem/Abilities/Mage/GA_Mage_ManaStorm.h"
+#include "Engine/OverlapResult.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "Attributes/SOLOAttributeSet.h"
@@ -87,11 +88,12 @@ void UGA_Mage_ManaStorm::OnChannelTick()
 void UGA_Mage_ManaStorm::StopChannel()
 {
 	GetWorld()->GetTimerManager().ClearTimer(ChannelHandle);
-	auto* Handle = GetCurrentAbilitySpecHandle();
+	auto Handle = GetCurrentAbilitySpecHandle();
 	auto* ActorInfo = GetCurrentActorInfo();
-	auto* ActivationInfo = GetCurrentActivationInfoRef();
-	if (Handle && ActorInfo && ActivationInfo)
+	auto ActivationInfo = GetCurrentActivationInfoRef();
+	if (Handle.IsValid() && ActorInfo)
 	{
-		EndAbility(*Handle, ActorInfo, *ActivationInfo, true, false);
+		EndAbility(Handle, ActorInfo, ActivationInfo, true, false);
 	}
 }
+

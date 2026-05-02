@@ -8,7 +8,7 @@ void USOLOInventoryGridWidget::RefreshGrid(USOLOInventoryComponent* Inventory)
 	if (!Inventory || !GridPanel || !SlotWidgetClass) return;
 	GridPanel->ClearChildren();
 
-	CachedSlots = Inventory->GetAllSlots();
+	CachedSlots = Inventory->GetAllItems();
 	for (int32 i = 0; i < CachedSlots.Num(); i++)
 	{
 		UUserWidget* SlotWidget = CreateWidget<UUserWidget>(this, SlotWidgetClass);

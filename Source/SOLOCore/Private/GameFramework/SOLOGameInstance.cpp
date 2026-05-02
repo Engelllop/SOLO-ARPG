@@ -64,3 +64,21 @@ FString USOLOGameInstance::GetLocalUserId() const
 	}
 	return TEXT("LocalPlayer_0");
 }
+
+// ─── Story Flags ────────────────────────────────────────────────────────────────
+
+void USOLOGameInstance::SetStoryFlag(FName FlagName, bool bValue)
+{
+	StoryFlags.Add(FlagName, bValue);
+}
+
+bool USOLOGameInstance::HasStoryFlag(FName FlagName) const
+{
+	const bool* Found = StoryFlags.Find(FlagName);
+	return Found && *Found;
+}
+
+void USOLOGameInstance::ClearAllStoryFlags()
+{
+	StoryFlags.Empty();
+}

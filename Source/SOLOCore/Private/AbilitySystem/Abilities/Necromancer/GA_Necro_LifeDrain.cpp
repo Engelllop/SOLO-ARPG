@@ -1,4 +1,4 @@
-#include "AbilitySystem/Abilities/Necromancer/GA_Necro_LifeDrain.h"
+﻿#include "AbilitySystem/Abilities/Necromancer/GA_Necro_LifeDrain.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "Attributes/SOLOAttributeSet.h"
@@ -37,8 +37,9 @@ void UGA_Necro_LifeDrain::OnDrainTick()
 void UGA_Necro_LifeDrain::StopDrain()
 {
 	GetWorld()->GetTimerManager().ClearTimer(DrainHandle);
-	auto* Handle = GetCurrentAbilitySpecHandle();
+	auto Handle = GetCurrentAbilitySpecHandle();
 	auto* AI = GetCurrentActorInfo();
-	auto* ActivInfo = GetCurrentActivationInfoRef();
-	if (Handle && AI && ActivInfo) EndAbility(*Handle, AI, *ActivInfo, true, false);
+	auto ActivInfo = GetCurrentActivationInfoRef();
+	if (Handle.IsValid() && AI) EndAbility(Handle, AI, ActivInfo, true, false);
 }
+

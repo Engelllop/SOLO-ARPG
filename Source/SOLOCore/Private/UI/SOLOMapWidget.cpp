@@ -7,10 +7,10 @@ void USOLOMapWidget::UpdatePlayerPosition(FVector2D NormalizedPos)
 {
 	if (PlayerIcon)
 	{
-		if (UCanvasPanelSlot* Slot = Cast<UCanvasPanelSlot>(PlayerIcon->Slot))
+		if (UCanvasPanelSlot* MapSlot = Cast<UCanvasPanelSlot>(PlayerIcon->Slot))
 		{
-			FVector2D MapSize = Slot->GetSize();
-			Slot->SetPosition(NormalizedPos * MapSize);
+			FVector2D MapSize = MapSlot->GetSize();
+			MapSlot->SetPosition(NormalizedPos * MapSize);
 		}
 	}
 }

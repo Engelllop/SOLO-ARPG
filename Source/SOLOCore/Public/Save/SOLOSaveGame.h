@@ -44,6 +44,20 @@ public:
 	// Companions
 	UPROPERTY() TArray<FName> ActiveCompanionIDs;
 
+	// Floor-specific (N3-N10 choices)
+	UPROPERTY() TArray<FName> CollectedFragments; // Ending B keys
+	UPROPERTY() bool bLookedIntoAbyss = false;
+	UPROPERTY() bool bSparedElia = false;
+	UPROPERTY() bool bSparedOswin = false;
+	UPROPERTY() bool bGaveCriadaName = false;
+	UPROPERTY() FString GivenNameCriada;
+	UPROPERTY() bool bClonedDefeatedPeacefully = false;
+
+	// NG+ data
+	UPROPERTY() bool bIsNewGamePlus = false;
+	UPROPERTY() int32 NGPlusCount = 0;
+	UPROPERTY() TArray<FName> PreviousEndings;
+
 	// Meta
 	UPROPERTY() FDateTime SaveTimestamp;
 	UPROPERTY() int32 SaveSlot = 0;

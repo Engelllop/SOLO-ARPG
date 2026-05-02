@@ -1,4 +1,5 @@
-#include "AbilitySystem/Abilities/Bard/GA_Bard_HealingMelody.h"
+﻿#include "AbilitySystem/Abilities/Bard/GA_Bard_HealingMelody.h"
+#include "Engine/OverlapResult.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "Attributes/SOLOAttributeSet.h"
@@ -24,8 +25,8 @@ void UGA_Bard_HealingMelody::OnMelodyTick()
 	if (!Attrs || Attrs->GetMana() < ManaCostPerSecond)
 	{
 		GetWorld()->GetTimerManager().ClearTimer(MelodyHandle);
-		auto* Handle = GetCurrentAbilitySpecHandle(); auto* ActivInfo = GetCurrentActivationInfoRef();
-		if (Handle && AI && ActivInfo) EndAbility(*Handle, AI, *ActivInfo, true, false);
+		auto Handle = GetCurrentAbilitySpecHandle(); auto ActivInfo = GetCurrentActivationInfoRef();
+		if (Handle.IsValid() && AI) EndAbility(Handle, AI, ActivInfo, true, false);
 		return;
 	}
 
@@ -53,7 +54,8 @@ void UGA_Bard_HealingMelody::OnMelodyTick()
 	if (Elapsed >= MaxDuration)
 	{
 		GetWorld()->GetTimerManager().ClearTimer(MelodyHandle);
-		auto* Handle = GetCurrentAbilitySpecHandle(); auto* ActivInfo = GetCurrentActivationInfoRef();
-		if (Handle && AI && ActivInfo) EndAbility(*Handle, AI, *ActivInfo, true, false);
+		auto Handle = GetCurrentAbilitySpecHandle(); auto ActivInfo = GetCurrentActivationInfoRef();
+		if (Handle.IsValid() && AI) EndAbility(Handle, AI, ActivInfo, true, false);
 	}
 }
+

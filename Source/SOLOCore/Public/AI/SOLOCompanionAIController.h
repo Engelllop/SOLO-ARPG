@@ -24,7 +24,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly) UBehaviorTree* CompanionBehaviorTree;
 
 private:
-	ESOLOCompanionCommand CurrentCommand = ESOLOCompanionCommand::Follow;
+	ESOLOCompanionCommand CurrentCommand = ESOLOCompanionCommand::Attack;
 
 	UPROPERTY(Transient) AActor* FollowTarget = nullptr;
 	UPROPERTY(Transient) AActor* AggroTarget  = nullptr;

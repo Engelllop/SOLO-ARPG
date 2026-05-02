@@ -20,6 +20,23 @@ public:
 	UFUNCTION(BlueprintCallable) void DeleteSave(int32 SlotIndex);
 	UFUNCTION(BlueprintCallable) bool DoesSaveExist(int32 SlotIndex) const;
 
+	// Floor transition
+	UFUNCTION(BlueprintCallable) void SaveOnFloorTransition(int32 NextFloorID, const FVector& NewPosition);
+	UFUNCTION(BlueprintCallable) bool HasAllEndingBFragments() const;
+
+	// NG+
+	UFUNCTION(BlueprintCallable) void StartNewGamePlus();
+	UFUNCTION(BlueprintCallable) bool IsNewGamePlus() const;
+	UFUNCTION(BlueprintCallable) int32 GetNGPlusCount() const;
+
+	// Choice tracking
+	UFUNCTION(BlueprintCallable) void RecordCollectedFragment(FName FragmentID);
+	UFUNCTION(BlueprintCallable) void RecordAbyssLooked();
+	UFUNCTION(BlueprintCallable) void RecordSparedNPC(const FString& NPCName, bool bSpared);
+	UFUNCTION(BlueprintCallable) void RecordCriadaName(const FString& Name);
+	UFUNCTION(BlueprintCallable) void RecordCloneDefeat(bool bPeaceful);
+	UFUNCTION(BlueprintCallable) void RecordEnding(FName EndingID);
+
 	USOLOSaveGame* GetCurrentSave() const { return CurrentSave; }
 
 	UPROPERTY(BlueprintAssignable) FOnSaveCompleted OnSaveCompleted;
@@ -29,6 +46,8 @@ protected:
 	void GatherSaveData();
 	void ApplySaveData();
 	void CreateBackup(int32 SlotIndex);
+
+	bool CheckEndingBRequirements() const;
 
 	static const int32 MaxBackups = 3;
 	static const FString AutoSaveSlotName;

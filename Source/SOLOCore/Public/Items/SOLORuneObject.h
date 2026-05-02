@@ -2,6 +2,7 @@
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
 #include "GameplayTagContainer.h"
+#include "Inventory/SOLOItemTypes.h"
 #include "SOLORuneObject.generated.h"
 
 UCLASS(Blueprintable, DefaultToInstanced, EditInlineNew)

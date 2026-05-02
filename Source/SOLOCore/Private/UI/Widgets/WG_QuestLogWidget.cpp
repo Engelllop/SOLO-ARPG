@@ -13,13 +13,14 @@ void UWG_QuestLogWidget::NativeConstruct()
 	SetVisibility(ESlateVisibility::SelfHitTestInvisible);
 	ShowHint();
 
+	// Animations start paused; BP subclass handles the actual play rate
 	if (ExpandAnimation)
 	{
-		ExpandAnimation->SetPlaybackSpeed(0.f); // pause until expanded
+		StopAnimation(ExpandAnimation);
 	}
 	if (CollapseAnimation)
 	{
-		CollapseAnimation->SetPlaybackSpeed(0.f);
+		StopAnimation(CollapseAnimation);
 	}
 }
 
@@ -148,7 +149,7 @@ UUserWidget* UWG_QuestLogWidget::CreateQuestRow(const FQuestLogEntry& Entry, int
 			);
 			if (ObjRow)
 			{
-				Row->GetRootWidget()->SetContent(ObjRow->TakeWidget());
+				// Row layout handled in Blueprint via BindWidget children
 			}
 		}
 

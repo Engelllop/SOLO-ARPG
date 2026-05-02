@@ -1,4 +1,5 @@
-#include "AbilitySystem/Abilities/Druid/GA_Druid_NatureAvatar.h"
+﻿#include "AbilitySystem/Abilities/Druid/GA_Druid_NatureAvatar.h"
+#include "Engine/OverlapResult.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "Attributes/SOLOAttributeSet.h"
@@ -64,8 +65,9 @@ void UGA_Druid_NatureAvatar::EndAvatar()
 			ASC->RemoveLooseGameplayTag(FGameplayTag::RequestGameplayTag(FName("State.Uninterruptible")));
 	}
 
-	auto* Handle = GetCurrentAbilitySpecHandle();
+	auto Handle = GetCurrentAbilitySpecHandle();
 	auto* AI = GetCurrentActorInfo();
-	auto* ActivInfo = GetCurrentActivationInfoRef();
-	if (Handle && AI && ActivInfo) EndAbility(*Handle, AI, *ActivInfo, true, false);
+	auto ActivInfo = GetCurrentActivationInfoRef();
+	if (Handle.IsValid() && AI) EndAbility(Handle, AI, ActivInfo, true, false);
 }
+

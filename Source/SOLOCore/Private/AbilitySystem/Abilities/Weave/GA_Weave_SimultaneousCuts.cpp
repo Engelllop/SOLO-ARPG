@@ -1,4 +1,5 @@
-#include "AbilitySystem/Abilities/Weave/GA_Weave_SimultaneousCuts.h"
+﻿#include "AbilitySystem/Abilities/Weave/GA_Weave_SimultaneousCuts.h"
+#include "Engine/OverlapResult.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "GameFramework/Character.h"
@@ -21,7 +22,7 @@ void UGA_Weave_SimultaneousCuts::ActivateAbility(const FGameplayAbilitySpecHandl
 	{ EndAbility(Handle, ActorInfo, ActivationInfo, true, true); return; }
 	ASC->ApplyModToAttribute(USOLOAttributeSet::GetHealthAttribute(), EGameplayModOp::Additive, -(Attrs->GetMaxHealth() * 0.5f));
 
-	// Three cones spread at 0°, 120°, 240°
+	// Three cones spread at 0Â°, 120Â°, 240Â°
 	for (int32 i = 0; i < 3; i++)
 		PerformConeSweep(ASC, Caster, i * 120.f);
 

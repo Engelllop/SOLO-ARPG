@@ -1,6 +1,7 @@
 #include "Items/SOLOLootManager.h"
 #include "Items/SOLOLootPickup.h"
 #include "Data/SOLORarityHelper.h"
+#include "Data/SOLOEnums.h"
 
 TArray<FInventorySlot> USOLOLootManager::GenerateDeathLoot(AActor* DeadActor, float LuckBonus)
 {
@@ -33,10 +34,11 @@ TArray<FInventorySlot> USOLOLootManager::GenerateChestLoot(ESOLOChestType ChestT
 	float RarityBonus = LuckBonus;
 	switch (ChestType)
 	{
-	case ESOLOChestType::Common:   Count = 2; break;
-	case ESOLOChestType::Rare:     Count = 4; RarityBonus += 10.f; break;
-	case ESOLOChestType::Legendary:Count = 6; RarityBonus += 25.f; break;
-	default:                        Count = 2; break;
+	case ESOLOChestType::Wood:   Count = 2; break;
+	case ESOLOChestType::Iron:   Count = 4; RarityBonus += 10.f; break;
+	case ESOLOChestType::Silver: Count = 6; RarityBonus += 25.f; break;
+	case ESOLOChestType::Gold:   Count = 8; RarityBonus += 40.f; break;
+	default:                     Count = 2; break;
 	}
 
 	TArray<FName> RowNames = ChestLootTable->GetRowNames();

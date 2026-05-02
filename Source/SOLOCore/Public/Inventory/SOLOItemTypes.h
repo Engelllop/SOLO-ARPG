@@ -97,6 +97,14 @@ struct SOLOCORE_API FInventorySlot
     UPROPERTY(BlueprintReadOnly, Category = "Inventory Slot")
     TObjectPtr<USOLOItemInstance> ItemInstance;
 
+    /** DataAsset ID del item (para creaciÃ³n de instancias desde loot) */
+    UPROPERTY(BlueprintReadOnly, Category = "Inventory Slot")
+    FName ItemID;
+
+    /** Rareza del item (para loot generado proceduralmente) */
+    UPROPERTY(BlueprintReadOnly, Category = "Inventory Slot")
+    ESOLOItemRarity Rarity = ESOLOItemRarity::Common;
+
     /** Cantidad actual en este slot */
     UPROPERTY(BlueprintReadOnly, Category = "Inventory Slot")
     int32 Quantity = 0;

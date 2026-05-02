@@ -1,16 +1,16 @@
-#pragma once
-#include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
-#include "AbilitySystemInterface.h"
-#include "ASOLON0_CainDeathEventActor.generated.h"
+﻿#pragma once
 
+#include "CoreMinimal.h"
+#include "GameplayEffect.h"
+#include "GameFramework/Actor.h"
+#include "ASOLON0_CainDeathEventActor.generated.h"
 class ASOLOEnemyCharacter;
 class ACharacter;
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnCainDeathStep, int32, StepIndex);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnCainDeathEventFinished);
 
-// Orchestrates the 24-step Caín death sequence triggered when the Guardian reaches 25% HP.
+// Orchestrates the 24-step CaÃ­n death sequence triggered when the Guardian reaches 25% HP.
 // C++ manages gameplay logic; Blueprint handles camera, animation montages, and audio.
 // Each step fires OnStepReached so Blueprint can bind per-step visuals.
 UCLASS(BlueprintType, Blueprintable)
@@ -27,20 +27,20 @@ public:
 	UPROPERTY(BlueprintAssignable) FOnCainDeathStep OnStepReached;
 	UPROPERTY(BlueprintAssignable) FOnCainDeathEventFinished OnEventFinished;
 
-	// Level references — assign in editor
+	// Level references â€” assign in editor
 	UPROPERTY(EditInstanceOnly, Category = "N0|CainEvent") ACharacter* CainCharacter;
 	UPROPERTY(EditInstanceOnly, Category = "N0|CainEvent") ACharacter* MiraCharacter;
 	UPROPERTY(EditInstanceOnly, Category = "N0|CainEvent") ACharacter* VassenCharacter;
 	UPROPERTY(EditInstanceOnly, Category = "N0|CainEvent") ACharacter* ProtagonistCharacter;
 
-	// Abilities to grant after Caín dies
+	// Abilities to grant after CaÃ­n dies
 	UPROPERTY(EditDefaultsOnly, Category = "N0|CainEvent") TSubclassOf<UGameplayAbility> SimultaneousCutsClass;
 	UPROPERTY(EditDefaultsOnly, Category = "N0|CainEvent") TSubclassOf<UGameplayAbility> WeaveArrowClass;
 
 	// GE that applies the Guardian's 5s vulnerability window (notified to boss)
 	UPROPERTY(EditDefaultsOnly, Category = "N0|CainEvent") TSubclassOf<UGameplayEffect> GuardianVulnerableGE;
 
-	// GE applied to Caín at each stab step (non-lethal until step 4)
+	// GE applied to CaÃ­n at each stab step (non-lethal until step 4)
 	UPROPERTY(EditDefaultsOnly, Category = "N0|CainEvent") TSubclassOf<UGameplayEffect> StabDamageGE;
 
 protected:
@@ -64,3 +64,5 @@ private:
 	void ApplyStabToCharacter(ACharacter* Character, bool bLethal);
 	void TriggerGuardianVulnerability();
 };
+
+
