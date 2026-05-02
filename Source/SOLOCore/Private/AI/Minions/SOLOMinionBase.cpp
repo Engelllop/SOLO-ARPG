@@ -25,9 +25,9 @@ void ASOLOMinionBase::BeginPlay()
 	}
 }
 
-void ASOLOMinionBase::InitMinion(AActor* Owner, float AttackScale, float HPScale, float Duration)
+void ASOLOMinionBase::InitMinion(AActor* MinionOwnerActor, float AttackScale, float HPScale, float Duration)
 {
-	MinionOwner = Owner;
+	MinionOwner = MinionOwnerActor;
 	LifeSpanDuration = Duration;
 
 	if (AttributeSet && Owner)

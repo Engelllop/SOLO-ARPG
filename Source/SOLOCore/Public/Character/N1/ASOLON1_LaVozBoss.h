@@ -1,14 +1,26 @@
-#pragma once
+﻿#pragma once
+
 #include "CoreMinimal.h"
+#include "GameplayEffect.h"
+#include "ActiveGameplayEffectHandle.h"
 #include "Character/SOLOEnemyCharacter.h"
 #include "ASOLON1_LaVozBoss.generated.h"
+class ASOLON1_CrystalPillar;
+class ASOLON1_EchoShadow;
+class ASOLON1_WaterArm;
+class ASOLON1_VozManifestacion;
+class ASOLON1_VozReflejo;
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnLaVozWaveCleared, int32, WaveIndex);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnLaVozPhaseEntered, int32, PhaseIndex);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnLaVozDefeated);
 
-// La Voz — boss of N1, Santuario de Velmar.
-// Phase 0 (100–67%): invisible, untargetable, summons 3 waves of 2 AlmaErrante.
-// Phase 1 (66–34%): materializes, melee + ranged attacks (light ray cone + tracking orbs).
-// Phase 2 (33–0%):  condenses to white nucleus, spawns pulsing AOE shockwaves.
+// La Voz de Velmar â€” orchestrator boss of N1.
+// Phase 1 (Whispers): invisible, spawns EchoShadows, Charm/Whisper mechanic.
+//   Objective: destroy 4 of 6 Crystal Pillars.
+// Phase 2 (The Crack): Water Arms spawn, remaining 2 pillars emit AOE damage.
+//   Objective: destroy the last 2 pillars.
+// Phase 3 (The Fall): Crystal Tree shatters, VozManifestacion emerges from water.
+//   Objective: hit the VozReflejo to open vulnerability windows on the Manifestation.
 UCLASS(BlueprintType, Blueprintable)
 class SOLOCORE_API ASOLON1_LaVozBoss : public ASOLOEnemyCharacter
 {
@@ -17,72 +29,128 @@ public:
 	ASOLON1_LaVozBoss();
 
 	virtual void BeginPlay() override;
-	virtual void OnPhaseChanged_Implementation(int32 NewPhase) override;
 
-	// Bound to each Alma's OnEnemyDied delegate
-	UFUNCTION() void OnAlmaDied(AActor* DeadAlma);
+	UPROPERTY(BlueprintAssignable) FOnLaVozPhaseEntered OnPhaseEntered;
+	UPROPERTY(BlueprintAssignable) FOnLaVozDefeated OnLaVozDefeated;
 
-	UPROPERTY(BlueprintAssignable) FOnLaVozWaveCleared OnWaveCleared;
+	UFUNCTION(BlueprintPure, Category = "N1|LaVoz")
+	int32 GetBossPhase() const { return BossPhaseIndex; }
+
+	UFUNCTION(BlueprintPure, Category = "N1|LaVoz")
+	int32 GetDestroyedPillarCount() const { return DestroyedPillarCount; }
 
 protected:
-	// ─── Phase 0 config ─────────────────────────────────────────────────────────
-	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase0")
-	TSubclassOf<ASOLOEnemyCharacter> AlmaErranteClass;
+	// â”€â”€â”€ Phase 1 â€” Whispers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
-	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase0")
-	int32 AlmasPerWave = 2;
+	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase1")
+	TSubclassOf<ASOLON1_EchoShadow> EchoShadowClass;
 
-	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase0")
-	int32 TotalWaves = 3;
+	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase1")
+	float EchoSpawnDistance = 300.f;
 
-	// Spawn radius around La Voz for Almas
-	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase0")
-	float AlmaSpawnRadius = 600.f;
+	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase1")
+	float EchoSpawnCooldown = 0.5f;
 
-	// GE that makes La Voz invisible + untargetable in Phase 0
-	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase0")
+	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase1")
+	float EchoAttackDelay = 2.f;
+
+	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase1")
+	float WhisperInterval = 30.f;
+
+	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase1|GAS")
+	TSubclassOf<UGameplayEffect> CharmGE;
+
+	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase1|GAS")
 	TSubclassOf<UGameplayEffect> InvisibleGE;
 
-	// ─── Phase 1 config ─────────────────────────────────────────────────────────
-	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase1")
-	TSubclassOf<AActor> TrackingOrbClass;
-
-	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase1")
-	float LightRayConeHalfAngle = 30.f;
-
-	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase1")
-	TSubclassOf<UGameplayEffect> LightRayDamageGE;
-
-	// ─── Phase 2 config ─────────────────────────────────────────────────────────
-	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase2")
-	float ShockwaveRadius = 800.f;
+	// â”€â”€â”€ Phase 2 â€” The Crack â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase2")
-	float ShockwaveInterval = 2.5f;
+	TSubclassOf<ASOLON1_WaterArm> WaterArmClass;
 
 	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase2")
-	TSubclassOf<UGameplayEffect> ShockwaveDamageGE;
+	int32 WaterArmCount = 3;
 
 	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase2")
-	TSubclassOf<UGameplayEffect> StunGE;
+	float WaterArmSpawnRadius = 500.f;
+
+	// â”€â”€â”€ Phase 3 â€” The Fall â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+
+	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase3")
+	TSubclassOf<ASOLON1_VozManifestacion> ManifestacionClass;
+
+	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase3")
+	TSubclassOf<ASOLON1_VozReflejo> ReflejoClass;
+
+	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase3")
+	float RadialForceStrength = 500.f;
+
+	UPROPERTY(EditDefaultsOnly, Category = "LaVoz|Phase3")
+	float RadialForceRadius = 1200.f;
+
+	// â”€â”€â”€ Pillar references (set in editor) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+
+	UPROPERTY(EditInstanceOnly, Category = "LaVoz|Arena")
+	TArray<ASOLON1_CrystalPillar*> CrystalPillars;
+
+	// â”€â”€â”€ Crystal Tree (set in editor) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+
+	UPROPERTY(EditInstanceOnly, Category = "LaVoz|Arena")
+	AActor* CrystalTree;
+
+	UPROPERTY(EditInstanceOnly, Category = "LaVoz|Arena")
+	FVector ManifestacionSpawnPoint;
+
+	UPROPERTY(EditInstanceOnly, Category = "LaVoz|Arena")
+	FVector ReflejoSpawnPoint;
+
+protected:
+	// Blueprint hooks
+	UFUNCTION(BlueprintImplementableEvent) void BP_OnPhase1Start();
+	UFUNCTION(BlueprintImplementableEvent) void BP_OnPhase2Start();
+	UFUNCTION(BlueprintImplementableEvent) void BP_OnPhase3Start();
+	UFUNCTION(BlueprintImplementableEvent) void BP_OnCrystalTreeShatter();
+	UFUNCTION(BlueprintImplementableEvent) void BP_OnBossDefeated();
 
 private:
-	int32 AliveAlmaCount = 0;
-	int32 CurrentWave    = 0;
+	int32 BossPhaseIndex = 0;
+	int32 DestroyedPillarCount = 0;
+
+	FTimerHandle EchoSpawnTimer;
+	FTimerHandle WhisperTimer;
+
 	FActiveGameplayEffectHandle InvisibleHandle;
-	FTimerHandle ShockwaveTimer;
 
-	void EnterPhase0();
-	void EnterPhase1();
-	void EnterPhase2();
+	TWeakObjectPtr<ASOLON1_VozManifestacion> SpawnedManifestacion;
 
-	void SpawnNextAlmaWave();
+	// Phase management
+	void EnterPhase1_Whispers();
+	void EnterPhase2_Crack();
+	void EnterPhase3_Fall();
+
+	// Phase 1 logic
+	void StartEchoSpawner();
+	void StopEchoSpawner();
+	UFUNCTION() void TrySpawnEcho();
+	void StartWhisperLoop();
+	void StopWhisperLoop();
+	UFUNCTION() void ApplyWhisper();
+
+	// Phase 2 logic
+	void SpawnWaterArms();
+	void ActivateRemainingPillarAOE();
+
+	// Phase 3 logic
+	void ShatterCrystalTree();
+	void SpawnManifestacionAndReflejo();
+	UFUNCTION() void OnManifestacionDefeated();
+
+	// Pillar tracking
+	UFUNCTION() void OnPillarDestroyed(ASOLON1_CrystalPillar* Pillar, int32 PillarIdx);
+
+	void ApplyInvisibility();
 	void RemoveInvisibility();
-
-	UFUNCTION() void PulseShockwave();
-
-	// BlueprintImplementableEvents let BP add VFX/audio without touching these
-	UFUNCTION(BlueprintImplementableEvent) void BP_OnMaterialize();
-	UFUNCTION(BlueprintImplementableEvent) void BP_OnCondense();
-	UFUNCTION(BlueprintImplementableEvent) void BP_OnWaveSpawned(int32 WaveIdx);
+	void SetStoryFlag(FName Flag);
 };
+
+

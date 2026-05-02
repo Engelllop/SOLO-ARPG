@@ -1,4 +1,5 @@
-#include "AbilitySystem/Abilities/Bard/GA_Bard_BattleHymn.h"
+﻿#include "AbilitySystem/Abilities/Bard/GA_Bard_BattleHymn.h"
+#include "Engine/OverlapResult.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "GameFramework/Character.h"

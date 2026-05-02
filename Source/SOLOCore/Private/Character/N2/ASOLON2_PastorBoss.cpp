@@ -32,9 +32,9 @@ void ASOLON2_PastorBoss::OnPhaseChanged_Implementation(int32 NewPhase)
 	}
 }
 
-void ASOLON2_PastorBoss::OnDeath_Implementation()
+void ASOLON2_PastorBoss::Die_Implementation(AActor* InstigatorActor)
 {
-	Super::OnDeath_Implementation();
+	Super::Die_Implementation(InstigatorActor);
 
 	GetWorld()->GetTimerManager().ClearTimer(SummonTimer);
 

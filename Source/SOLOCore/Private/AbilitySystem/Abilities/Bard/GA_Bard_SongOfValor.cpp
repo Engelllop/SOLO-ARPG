@@ -1,4 +1,5 @@
-#include "AbilitySystem/Abilities/Bard/GA_Bard_SongOfValor.h"
+﻿#include "AbilitySystem/Abilities/Bard/GA_Bard_SongOfValor.h"
+#include "Engine/OverlapResult.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "Attributes/SOLOAttributeSet.h"
@@ -54,8 +55,9 @@ void UGA_Bard_SongOfValor::OnSongTick()
 void UGA_Bard_SongOfValor::StopSong()
 {
 	GetWorld()->GetTimerManager().ClearTimer(SongHandle);
-	auto* Handle = GetCurrentAbilitySpecHandle();
+	auto Handle = GetCurrentAbilitySpecHandle();
 	auto* AI = GetCurrentActorInfo();
-	auto* ActivInfo = GetCurrentActivationInfoRef();
-	if (Handle && AI && ActivInfo) EndAbility(*Handle, AI, *ActivInfo, true, false);
+	auto ActivInfo = GetCurrentActivationInfoRef();
+	if (Handle.IsValid() && AI) EndAbility(Handle, AI, ActivInfo, true, false);
 }
+

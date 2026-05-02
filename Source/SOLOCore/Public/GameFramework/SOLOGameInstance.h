@@ -86,7 +86,21 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Admin")
 	void SetAdminSession(bool bEnabled, const FString& CanonicalAdminName);
 
-	// â”€â”€â”€ Helpers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+	// ─── Story Flags ────────────────────────────────────────────────────────────
+
+	UFUNCTION(BlueprintCallable, Category = "Story")
+	void SetStoryFlag(FName FlagName, bool bValue);
+
+	UFUNCTION(BlueprintPure, Category = "Story")
+	bool HasStoryFlag(FName FlagName) const;
+
+	UFUNCTION(BlueprintCallable, Category = "Story")
+	void ClearAllStoryFlags();
+
+	UFUNCTION(BlueprintPure, Category = "Story")
+	const TMap<FName, bool>& GetAllStoryFlags() const { return StoryFlags; }
+
+	// ─── Helpers ────────────────────────────────────────────────────────────────
 	UFUNCTION(BlueprintCallable, Category = "Character")
 	void SetActivePlayerData(const FPlayerSaveData& Data) { ActivePlayerData = Data; }
 
@@ -107,4 +121,8 @@ public:
 	// Retorna el ID de usuario local (para guardado y EOS)
 	UFUNCTION(BlueprintCallable, Category = "Online")
 	FString GetLocalUserId() const;
+
+private:
+	UPROPERTY()
+	TMap<FName, bool> StoryFlags;
 };

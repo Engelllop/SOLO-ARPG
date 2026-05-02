@@ -1,4 +1,5 @@
-#include "AbilitySystem/Abilities/Necromancer/GA_Necro_TouchOfDeath.h"
+﻿#include "AbilitySystem/Abilities/Necromancer/GA_Necro_TouchOfDeath.h"
+#include "Engine/OverlapResult.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "Attributes/SOLOAttributeSet.h"

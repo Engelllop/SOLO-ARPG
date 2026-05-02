@@ -78,6 +78,16 @@ public:
 	UPROPERTY(meta = (BindWidgetOptional))
 	TObjectPtr<UWidgetSwitcher> LayoutSwitcher;
 
+	// â”€â”€â”€ Reactive UI helpers â”€â”€â”€
+	UFUNCTION()
+	void OnCurrencyChanged(int32 NewAmount);
+
+	UFUNCTION()
+	void OnQuestObjectiveProgressUpdated(FName QuestID, FName ObjectiveTag, int32 ObjectiveIndex);
+
+	UFUNCTION(BlueprintCallable, Category = "HUD|Quest")
+	void RefreshQuestTracker(class USOLOQuestComponent* QuestComponent);
+
 	// â”€â”€â”€ Boss helpers â”€â”€â”€
 	UFUNCTION(BlueprintCallable, Category = "HUD|Boss")
 	void ShowBossHealthBar(class ASOLOEnemyCharacter* Boss);

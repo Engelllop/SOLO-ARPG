@@ -1,4 +1,5 @@
-#include "AbilitySystem/Abilities/Necromancer/GA_Necro_BoneExplosion.h"
+﻿#include "AbilitySystem/Abilities/Necromancer/GA_Necro_BoneExplosion.h"
+#include "Engine/OverlapResult.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "AI/Minions/SOLOSkeletonMinion.h"

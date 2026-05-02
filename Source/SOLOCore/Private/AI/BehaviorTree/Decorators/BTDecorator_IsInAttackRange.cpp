@@ -43,7 +43,5 @@ FString UBTDecorator_IsInAttackRange::GetStaticDescription() const
 	return TEXT("In Attack Range");
 }
 
-FName UBTDecorator_IsInAttackRange::GetNodeIconName() const
-{
-	return FName("BTEditor.Graph.BTNode.Decorator.Blackboard.Icon");
-}
+
+

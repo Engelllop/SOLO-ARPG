@@ -20,12 +20,12 @@ void USOLOMenuWidget::CloseMenu()
 		PC->SetInputMode(FInputModeGameOnly());
 }
 
-FReply USOLOMenuWidget::NativeKeyDown(const FGeometry& Geometry, const FKeyEvent& KeyEvent)
+FReply USOLOMenuWidget::NativeOnKeyDown(const FGeometry& Geometry, const FKeyEvent& KeyEvent)
 {
 	if (KeyEvent.GetKey() == EKeys::Escape)
 	{
 		CloseMenu();
 		return FReply::Handled();
 	}
-	return Super::NativeKeyDown(Geometry, KeyEvent);
+	return Super::NativeOnKeyDown(Geometry, KeyEvent);
 }

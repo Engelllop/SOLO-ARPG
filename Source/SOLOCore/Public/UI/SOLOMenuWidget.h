@@ -16,7 +16,7 @@ public:
 
 protected:
 	virtual void NativeConstruct() override;
-	virtual FReply NativeKeyDown(const FGeometry& Geometry, const FKeyEvent& KeyEvent) override;
+	virtual FReply NativeOnKeyDown(const FGeometry& Geometry, const FKeyEvent& KeyEvent) override;
 
 	UPROPERTY(BlueprintReadOnly, meta=(BindWidget)) class UWidgetSwitcher* TabSwitcher;
 	UPROPERTY(BlueprintReadOnly, meta=(BindWidget)) class USOLOInventoryGridWidget* InventoryGrid;

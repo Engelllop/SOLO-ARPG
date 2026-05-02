@@ -1,6 +1,7 @@
 #include "Items/SOLOLootPickup.h"
 #include "Components/SphereComponent.h"
 #include "Inventory/SOLOInventoryComponent.h"
+#include "Inventory/SOLOItemInstance.h"
 
 ASOLOLootPickup::ASOLOLootPickup()
 {
@@ -34,7 +35,9 @@ void ASOLOLootPickup::OnSphereBeginOverlap(UPrimitiveComponent* Overlapped, AAct
 	if (!OtherActor) return;
 	if (USOLOInventoryComponent* Inv = OtherActor->FindComponentByClass<USOLOInventoryComponent>())
 	{
-		Inv->AddItem(ItemSlot.ItemID, ItemSlot.Quantity);
+		// Use ItemInstance if available, otherwise fall back to ID-based lookup (handled by BP override)
+		if (ItemSlot.ItemInstance && ItemSlot.ItemInstance->ItemData)
+			Inv->AddItem(ItemSlot.ItemInstance->ItemData, ItemSlot.Quantity);
 		Destroy();
 	}
 }

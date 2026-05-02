@@ -26,7 +26,7 @@ public:
 protected:
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditDefaultsOnly) ESOLOCompanionArchetype CompanionArchetype = ESOLOCompanionArchetype::Warrior;
+	UPROPERTY(EditDefaultsOnly) ESOLOCompanionArchetype CompanionArchetype = ESOLOCompanionArchetype::RangedDPS;
 	UPROPERTY(EditDefaultsOnly) FText CompanionName;
 	UPROPERTY(EditDefaultsOnly) float ReviveChannelTime = 5.f;
 

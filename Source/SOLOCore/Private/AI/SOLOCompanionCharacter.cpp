@@ -34,6 +34,6 @@ void ASOLOCompanionCharacter::SetDowned(bool bIsDowned)
 
 	// Toggle collision and movement
 	SetActorEnableCollision(!bIsDowned);
-	if (USkeletalMeshComponent* Mesh = GetMesh())
-		Mesh->SetSimulatePhysics(bIsDowned);
+	if (USkeletalMeshComponent* CharMesh = GetMesh())
+		CharMesh->SetSimulatePhysics(bIsDowned);
 }

@@ -1,4 +1,5 @@
 #include "UI/SOLOSkillTreeWidget.h"
+#include "GameFramework/PlayerState.h"
 #include "UI/SOLOSkillNodeWidget.h"
 #include "Systems/SOLOClassSubsystem.h"
 #include "Components/CanvasPanel.h"
@@ -28,11 +29,11 @@ void USOLOSkillTreeWidget::PopulateTree(FName ClassID)
 		if (!Node) continue;
 		Node->InitNode(Skill);
 
-		UCanvasPanelSlot* Slot = SkillCanvas->AddChildToCanvas(Node);
-		if (Slot)
+		UCanvasPanelSlot* SkillSlot = SkillCanvas->AddChildToCanvas(Node);
+		if (SkillSlot)
 		{
-			Slot->SetPosition(FVector2D(Skill.TreePosition.X * 120.f, Skill.TreePosition.Y * 120.f));
-			Slot->SetSize(FVector2D(80.f, 80.f));
+			SkillSlot->SetPosition(FVector2D(Skill.TreePosition.X * 120.f, Skill.TreePosition.Y * 120.f));
+			SkillSlot->SetSize(FVector2D(80.f, 80.f));
 		}
 		NodeMap.Add(Skill.SkillID, Node);
 	}

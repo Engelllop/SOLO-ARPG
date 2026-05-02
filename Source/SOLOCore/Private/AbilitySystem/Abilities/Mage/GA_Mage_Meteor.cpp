@@ -1,4 +1,5 @@
-#include "AbilitySystem/Abilities/Mage/GA_Mage_Meteor.h"
+﻿#include "AbilitySystem/Abilities/Mage/GA_Mage_Meteor.h"
+#include "Engine/OverlapResult.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "GameFramework/Character.h"

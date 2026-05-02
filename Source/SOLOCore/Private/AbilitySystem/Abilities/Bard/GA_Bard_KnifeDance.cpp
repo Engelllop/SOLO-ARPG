@@ -1,4 +1,5 @@
-#include "AbilitySystem/Abilities/Bard/GA_Bard_KnifeDance.h"
+﻿#include "AbilitySystem/Abilities/Bard/GA_Bard_KnifeDance.h"
+#include "Engine/OverlapResult.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemInterface.h"
 #include "GameFramework/Character.h"
@@ -54,7 +55,7 @@ void UGA_Bard_KnifeDance::ActivateAbility(const FGameplayAbilitySpecHandle Handl
 void UGA_Bard_KnifeDance::PerformHit(UAbilitySystemComponent* ASC, AActor* AvatarActor)
 {
 	ACharacter* Caster = Cast<ACharacter>(AvatarActor);
-	if (!Caster || !ASC || !DamageEffect) return;
+	if (!Caster || !ASC || !KnifeDamageEffect) return;
 
 	TArray<FOverlapResult> Overlaps;
 	FCollisionShape Shape = FCollisionShape::MakeSphere(HitRadius);
@@ -69,7 +70,7 @@ void UGA_Bard_KnifeDance::PerformHit(UAbilitySystemComponent* ASC, AActor* Avata
 			if (auto* TASC = TASI->GetAbilitySystemComponent())
 			{
 				FGameplayEffectContextHandle Ctx = ASC->MakeEffectContext();
-				FGameplayEffectSpecHandle Spec = ASC->MakeOutgoingSpec(DamageEffect, GetAbilityLevel(), Ctx);
+				FGameplayEffectSpecHandle Spec = ASC->MakeOutgoingSpec(KnifeDamageEffect, GetAbilityLevel(), Ctx);
 				if (Spec.IsValid())
 				{
 					Spec.Data->SetSetByCallerMagnitude(FGameplayTag::RequestGameplayTag("Data.SpellMultiplier"), SpellMultiplier);

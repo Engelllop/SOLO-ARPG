@@ -10,7 +10,7 @@ class SOLOCORE_API USOLOEquipmentScreenWidget : public UUserWidget
 	GENERATED_BODY()
 public:
 	UFUNCTION(BlueprintCallable) void RefreshEquipment(class USOLOInventoryComponent* Inventory);
-	UFUNCTION(BlueprintCallable) void OnSlotClicked(ESOLOEquipmentSlot Slot);
+	UFUNCTION(BlueprintCallable) void OnSlotClicked(ESOLOEquipmentSlot TargetSlot);
 
 protected:
 	// One widget per equipment slot; named slots matched by ESOLOEquipmentSlot

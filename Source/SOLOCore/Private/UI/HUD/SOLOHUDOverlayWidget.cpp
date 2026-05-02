@@ -63,3 +63,18 @@ void USOLOHUDOverlayWidget::HideBossHealthBar()
 		BossHealthBar->SetVisibility(ESlateVisibility::Collapsed);
 	}
 }
+
+void USOLOHUDOverlayWidget::OnCurrencyChanged(int32 NewAmount)
+{
+	// Handled in Blueprint via BindWidget
+}
+
+void USOLOHUDOverlayWidget::OnQuestObjectiveProgressUpdated(FName QuestID, FName ObjectiveTag, int32 ObjectiveIndex)
+{
+	// Handled in Blueprint via BindWidget
+}
+
+void USOLOHUDOverlayWidget::RefreshQuestTracker(USOLOQuestComponent* QuestComponent)
+{
+	// Handled in Blueprint via BindWidget
+}

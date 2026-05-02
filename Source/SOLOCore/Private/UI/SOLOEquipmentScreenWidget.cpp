@@ -7,7 +7,7 @@ void USOLOEquipmentScreenWidget::RefreshEquipment(USOLOInventoryComponent* Inven
 	// Each slot widget updated via Blueprint interface using Inventory->GetEquippedItem(Slot)
 }
 
-void USOLOEquipmentScreenWidget::OnSlotClicked(ESOLOEquipmentSlot Slot)
+void USOLOEquipmentScreenWidget::OnSlotClicked(ESOLOEquipmentSlot TargetSlot)
 {
 	// Unequip or open swap panel handled in Blueprint
 }

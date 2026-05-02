@@ -17,7 +17,7 @@ bool USOLOForgeComponent::CanUpgrade(FName ItemID, USOLOInventoryComponent* Inve
 	if (!Inventory) return false;
 	const FUpgradeRecipe* Recipe = FindRecipe(ItemID);
 	if (!Recipe) return false;
-	if (Inventory->GetCurrency() < Recipe->GoldCost) return false;
+	if (Inventory->Currency < Recipe->GoldCost) return false;
 	for (const TPair<FName, int32>& Mat : Recipe->RequiredMaterials)
 		if (Inventory->GetItemQuantity(Mat.Key) < Mat.Value) return false;
 	return true;
@@ -28,7 +28,7 @@ ESOLOItemRarity USOLOForgeComponent::UpgradeItem(FName ItemID, USOLOInventoryCom
 	if (!CanUpgrade(ItemID, Inventory)) return ESOLOItemRarity::Common;
 
 	const FUpgradeRecipe* Recipe = FindRecipe(ItemID);
-	Inventory->RemoveCurrency(Recipe->GoldCost);
+	Inventory->SpendCurrency(Recipe->GoldCost);
 	for (const TPair<FName, int32>& Mat : Recipe->RequiredMaterials)
 		Inventory->RemoveItem(Mat.Key, Mat.Value);
 
@@ -55,7 +55,7 @@ bool USOLOForgeComponent::RepairItem(FName ItemID, USOLOInventoryComponent* Inve
 	if (!Inventory) return false;
 	// Repair cost deducted from currency; durability restoration handled in BP/item data
 	int32 Cost = FMath::RoundToInt(RepairCostPerDurability * 100.f);
-	if (Inventory->GetCurrency() < Cost) return false;
-	Inventory->RemoveCurrency(Cost);
+	if (Inventory->Currency < Cost) return false;
+	Inventory->SpendCurrency(Cost);
 	return true;
 }

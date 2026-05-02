@@ -12,6 +12,6 @@ public:
 	UBTDecorator_HasCommand();
 protected:
 	virtual bool CalculateRawConditionValue(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) const override;
-	UPROPERTY(EditAnywhere) ESOLOCompanionCommand RequiredCommand = ESOLOCompanionCommand::Follow;
+	UPROPERTY(EditAnywhere) ESOLOCompanionCommand RequiredCommand = ESOLOCompanionCommand::Attack;
 	UPROPERTY(EditAnywhere) FBlackboardKeySelector CommandKey;
 };

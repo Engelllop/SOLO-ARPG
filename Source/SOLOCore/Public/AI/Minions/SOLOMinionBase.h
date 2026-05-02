@@ -3,6 +3,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "AbilitySystemInterface.h"
+#include "GameplayEffect.h"
 #include "SOLOMinionBase.generated.h"
 
 class UAbilitySystemComponent;
@@ -19,7 +20,7 @@ public:
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override { return AbilitySystemComponent; }
 
 	UFUNCTION(BlueprintCallable, Category = "Minion")
-	void InitMinion(AActor* Owner, float AttackScale, float HPScale, float Duration);
+	void InitMinion(AActor* MinionOwner, float AttackScale, float HPScale, float Duration);
 
 	UFUNCTION(BlueprintCallable, Category = "Minion")
 	void ApplyStatBuff(float Multiplier);

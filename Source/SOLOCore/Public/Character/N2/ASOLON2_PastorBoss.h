@@ -19,7 +19,7 @@ public:
 
 	virtual void BeginPlay() override;
 	virtual void OnPhaseChanged_Implementation(int32 NewPhase) override;
-	virtual void OnDeath_Implementation() override;
+	virtual void Die_Implementation(AActor* InstigatorActor) override;
 
 protected:
 	// ─── Phase 0/1 config ───────────────────────────────────────────────────────

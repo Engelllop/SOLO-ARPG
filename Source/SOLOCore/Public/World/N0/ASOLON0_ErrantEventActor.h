@@ -1,8 +1,9 @@
-#pragma once
+﻿#pragma once
+
 #include "CoreMinimal.h"
+#include "GameplayEffect.h"
 #include "GameFramework/Actor.h"
 #include "ASOLON0_ErrantEventActor.generated.h"
-
 class ASOLOEnemyCharacter;
 class ACharacter;
 
@@ -25,7 +26,7 @@ public:
 	UPROPERTY(BlueprintAssignable) FOnErrantStep OnStepReached;
 	UPROPERTY(BlueprintAssignable) FOnErrantEventFinished OnEventFinished;
 
-	// Level references — assign in editor
+	// Level references â€” assign in editor
 	UPROPERTY(EditInstanceOnly, Category = "N0|ErrantEvent") TSubclassOf<ASOLOEnemyCharacter> ErrantClass;
 	UPROPERTY(EditInstanceOnly, Category = "N0|ErrantEvent") FVector ErrantSpawnLocation;
 	UPROPERTY(EditInstanceOnly, Category = "N0|ErrantEvent") ACharacter* Guard1;
@@ -53,3 +54,5 @@ private:
 	void KillActor(ACharacter* Target);
 	void KillErrante();
 };
+
+
