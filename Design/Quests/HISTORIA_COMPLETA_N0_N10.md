@@ -45,6 +45,8 @@ El primer jefe de la Torre. Un coloso de piedra y sombra que guarda la entrada a
 ### N1 — Velmar (Ciudad Colgante)
 Una ciudad suspendida sobre un abismo de niebla. Aquí el protagonista lidia con la muerte de Caín mientras conoce a Mira (arquera, cartógrafa) y Vassen (escudero, templario caído). La ciudad está en duelo — algo la está consumiendo desde dentro. El grupo debe encontrar el camino hacia abajo.
 
+**Jefe: La Voz** — No tiene cuerpo. Es un fenómeno que habita la plaza central, donde los muertos solían reunirse. Habla con la voz de quienes perdiste. Cada persona escucha algo distinto. No mata directamente: mata porque te hace querer quedarte. El Viejo del Puente fue el primero en resistirla — perdió un oído en el proceso.
+
 ### N2 — El Pastor de Cenizas (Bioma)
 Llanuras quemadas bajo un cielo gris. Mecánica: **Medidor de Calor** de 5 segmentos. Refugios térmicos de piedra blanca. Enemigos: Perros de Ceniza (se regeneran sin daño de agua/frío), Espectros de Calor, Gusanos de Brasa. Lian aparece aquí como NPC consejero. Elección moral: hombre atrapado en el bosque petrificado (rescatar/ignorar/matar afecta la relación con Mira y Vassen). Jefe: **El Pastor de Cenizas** — 3 fases (Marcha con estallidos → Tormenta con columnas de fuego → Núcleo expuesto 30s). Transición: túnel subterráneo a N3.
 

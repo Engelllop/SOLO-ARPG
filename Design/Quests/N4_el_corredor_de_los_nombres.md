@@ -1,7 +1,7 @@
 # N4 — El Corredor de los Nombres
 
 > **Duración estimada:** 2–3 horas
-> **Compañeros:** Mira, Vassen, Sera, Garrik
+> **Compañeros:** Mira, Vassen, Garrik
 > **Rango mínimo:** C+
 > **Tono:** Historia, peso del pasado, el nombre como ancla de identidad
 > **Jefe:** El Heraldo Sin Escudo (Rango C+, Nv20)
@@ -21,7 +21,7 @@ Se extienden desde la entrada hasta donde alcanza la vista — y la vista no alc
 
 > **Mira:** *(girando despacio, mirando las paredes)* "Son nombres."
 > **Vassen:** *(leyendo algunos en voz baja)* "Nombres... fechas... en algunos casos, causa. 'Cayó en el tercer piso.' 'No volvió del agua.' 'Se quedó.' 'Eligió quedarse.'"
-> **Sera:** *(tocando uno con la punta del dedo)* "¿Los tallaron ellos mismos?"
+> **Mira:** *(tocando uno con la punta del dedo)* "¿Los tallaron ellos mismos?"
 > **Vassen:** "Los que pudieron, sí. Otros los tallaron quienes vinieron después."
 
 El grupo avanza despacio. La brújula de Mira vibra suavemente. No señala al frente ahora — señala hacia las paredes.
@@ -79,7 +79,7 @@ Sin fecha. La piedra alrededor está tan desgastada que es imposible saber cuán
 > *(comienza a caminar de nuevo)*
 > "Uno, dos, tres..."
 
-> **Sera:** *(en voz muy baja, solo para el protagonista)* "No le preguntes más. Ya dijo todo lo que podía decir."
+> **Vassen:** *(en voz muy baja, solo para el protagonista)* "No le preguntes más. Ya dijo todo lo que podía decir."
 
 ---
 
@@ -132,7 +132,7 @@ La primera vez que el protagonista la activa: ve las huellas del corredor. La ma
 > **Mira:** *(mirando las huellas que él ve)* "¿Qué ves?"
 > **Protagonista:** *(describe)*
 > **Mira:** *(escribe en el cuaderno)* "Así que el que volvió... salió corriendo de algo específico. No del piso entero."
-> **Sera:** *(con interés)* "¿Qué vio que los otros no?"
+> **Mira:** *(con interés)* "¿Qué vio que los otros no?"
 > **Vassen:** "Lo que está al final de este corredor."
 
 ---
@@ -342,7 +342,7 @@ El corredor desemboca en una zona donde la piedra del techo tiene grietas por do
 El aire cambia. Más húmedo. Más vivo.
 
 > **Mira:** *(respirando profundo)* "Hay plantas."
-> **Sera:** *(animada, corriendo un poco al frente)* "¡Hay luz verde! ¡Mira, luz verde!"
+> **Garrik:** *(animado, corriendo un poco al frente)* "¡Hay luz verde! ¡Mira, luz verde!"
 > **Vassen:** *(más cauteloso)* "El verde en la Torre no siempre es bienvenido."
 > **Mira:** "No, pero es..."
 
@@ -352,13 +352,13 @@ Pausa. Todos paran.
 
 El corredor termina en una puerta de madera cubierta de musgo verde, del que cuelgan enredaderas. No está cerrada — está entornada, y por la rendija entra la luz verde más intensa.
 
-> **Sera:** *(empujando la puerta, asomándose)* "Es un jardín."
+> **Mira:** *(empujando la puerta, asomándose)* "Es un jardín."
 > *(pausa)*
 > "Un jardín que crece hacia adentro."
 
 La puerta se abre.
 
-**N4 terminado. Grupo: 4 (Mira, Vassen, Sera, Garrik).**
+**N4 terminado. Grupo: 3 (Mira, Vassen, Garrik).**
 
 ---
 

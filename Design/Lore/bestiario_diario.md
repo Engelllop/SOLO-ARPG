@@ -270,7 +270,7 @@ Mira, la clériga, perdió a su compañero así. Ella lo vio sonreír mientras s
 
 ---
 
-### Guardián del Lago (Jefe N3)
+### Leviatán del Espejo — Guardián del Lago (Jefe N3)
 
 > *"El lago no es manso. Nunca lo fue. Lo que vive abajo es más viejo que Aelthar. Más viejo que los elfos. Tal vez más viejo que la Torre."*
 >
@@ -278,7 +278,7 @@ Mira, la clériga, perdió a su compañero así. Ella lo vio sonreír mientras s
 
 **Nota del Diario de Misiones:**
 
-El lago de Aelthar es un espejo perfecto. Siempre calmado. Siempre quieto. No hay ondas, no hay viento que lo toque. Pero hay algo debajo.
+El Leviatán del Espejo habita el lago de Aelthar. El lago es un espejo perfecto. Siempre calmado. Siempre quieto. No hay ondas, no hay viento que lo toque. Pero hay algo debajo.
 
 El Guardián del Lago emerge solo cuando alguien se acerca demasiado al santuario central. No sale del agua — el agua sale con él. Su cuerpo está hecho de la misma materia líquida y plateada del lago. Tiene brazos, muchos, y una cara que cambia constantemente, como si estuviera hecha de recuerdos líquidos.
 

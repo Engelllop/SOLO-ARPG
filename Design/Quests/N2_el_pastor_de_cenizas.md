@@ -2,10 +2,11 @@
 
 > **Duración estimada:** 2–3 horas
 > **Compañeros al entrar:** Mira, Vassen
-> **Compañeros que se unen aquí:** Sera, Garrik (si no vino del Pantano)
+> **Compañeros que se unen aquí:** Garrik (si no vino del Pantano)
 > **Rango mínimo:** C
 > **Tono:** Ceniza, duelo en movimiento, el mundo que sigue aunque tú no quieras
 > **Jefe:** El Pastor de Cenizas (Rango C, Nv16)
+> **Nota:** Sera NO aparece en N2. Se une en N8 (Jardines Flotantes).
 
 ---
 
@@ -65,32 +66,32 @@ A 10 minutos de la puerta, una estructura más grande que las demás: una cabañ
 
 Y sentada en la silla, dormida o simplemente quieta, con los ojos cerrados:
 
-**Sera.**
+**Garrik.**
 
-Túnica ligera. Bolsa de tela a los pies. Las manos sobre las rodillas. Una leve sonrisa en la cara incluso dormida.
+Túnica ligera. Bolsa de tela a los pies. Las manos sobre las rodillas. Una leve sonrisa en la cara incluso dormido.
 
 Cuando el grupo se acerca, abre los ojos sin sobresalto — como quien despierta de un sueño apacible, no de uno interrumpido.
 
-> **Sera:** *(parpadeando, sonriendo)* "¡Ah! Por fin. Llevaba un buen rato aquí."
+> **Garrik:** *(parpadeando, sonriendo)* "¡Ah! Por fin. Llevaba un buen rato aquí."
 
-Pausa. El grupo la mira. Mira la mira con el ceño fruncido.
+Pausa. El grupo lo mira. Mira lo mira con el ceño fruncido.
 
 > **Mira:** "¿Cómo llegaste aquí antes que nosotros? Entramos por la puerta hace diez minutos."
-> **Sera:** *(encogiendo los hombros)* "No sé. Yo solo... estaba aquí. Cuando me desperté, estaba aquí."
+> **Garrik:** *(encogiendo los hombros)* "No sé. Yo solo... estaba aquí. Cuando me desperté, estaba aquí."
 > *(pausa)*
 > "¿Eso es un problema?"
 
-**Vassen** (la mira un momento largo, luego a Mira, luego al protagonista):
+**Vassen** (lo mira un momento largo, luego a Mira, luego al protagonista):
 > "En este piso: no. Fuera de este piso: lo discutimos."
 
-**Sera** (levantándose, recogiendo su bolsa):
+**Garrik** (levantándose, recogiendo su bolsa):
 > "Perfecto. ¿Adónde vamos?"
 
 ---
 
 ### Si Garrik no vino del Pantano:
 
-Al rodear la cabaña, el grupo encuentra a Garrik sentado detrás, tallando un pedazo de madera carbonizada. No levanta la vista cuando llegan.
+Al rodear la cabaña, el grupo encuentra a **un viajero** sentado detrás, tallando un pedazo de madera carbonizada. No levanta la vista cuando llegan.
 
 > **Garrik:** *(sin mirarnos)* "Vine."
 > **Mira:** *(incrédula)* "¿Cómo?"
@@ -98,15 +99,14 @@ Al rodear la cabaña, el grupo encuentra a Garrik sentado detrás, tallando un p
 
 Mira mira a Vassen. Vassen no dice nada.
 
-> **Sera:** *(mirando a Garrik con interés genuino)* "Hola. Yo soy Sera."
-> **Garrik:** *(levantando la vista por primera vez, mirándola fijo durante 3 segundos)*
-> "Yo sé quién eres."
+> **Mira:** *(a Garrik)* "¿La conoces?"
+> **Garrik:** *(levantando la vista por primera vez)* "No. Pero... me suena."
 > *(vuelve a tallar)*
-> "Tú también lo sabes. Todavía no."
+> "De algo. De antes."
 
-Sera lo mira un segundo. Luego sonríe, diferente — no su sonrisa de siempre, sino una más pequeña, más adentro.
+Mira lo mira un segundo. Luego aparta la vista.
 
-> **Sera:** "Sí. Todavía no."
+> **Mira:** "La Torre hace eso. Te hace sentir que conoces cosas que no conoces."
 
 ---
 
@@ -134,13 +134,13 @@ Son humanas en silueta pero no en detalle: sin rasgos faciales distinguibles, he
 **Durante el combate:**
 > **Vassen:** *(golpeando una con el escudo, la nube lo cubre)* "¡Cuidado con el polvo!"
 > **Mira:** *(retrocediendo, tosiendo)* "¡No respiren profundo!"
-> **Sera:** *(de pie detrás, mirando cómo pelean, con interés genuino)* "¿No deberíamos también...?"
-> **Mira:** "¡SÍ, SERA, DEBERÍAMOS!"
+> **Garrik:** *(de pie detrás, contando en voz baja)* "Uno, dos, tres..."
+> **Mira:** "¡GARRIK, AYUDA!"
 
-Sera lanza una bola de fuego pequeña. No apunta al enemigo — apunta al suelo frente a él. La ceniza se enciende brevemente, crea una barrera de humo ardiente que la forma no puede cruzar.
+Garrik no se mueve. Sigue contando. Pero cuando una Forma se acerca a Mira por la espalda, Garrik lanza un cuchillo sin mirar. La Forma se desarma.
 
-> **Mira:** *(después, mirando a Sera)* "... Eso funcionó."
-> **Sera:** *(sonriendo)* "A veces el fuego limpia mejor que el filo."
+> **Mira:** *(después, mirando a Garrik)* "... Eso funcionó."
+> **Garrik:** *(sin dejar de contar)* "Cuarenta y dos, cuarenta y tres... A veces no hay que mirar para saber dónde está el problema."
 
 **Garrik** no pelea. Se queda de pie en el perímetro, mirando. Si el jugador lo mira durante el combate: está contando los movimientos de las formas, no de los compañeros. Como si buscara un patrón.
 
@@ -190,8 +190,8 @@ Cuando el grupo lleva 20 metros de distancia, el Pastor dice (sin volverse, sin 
 
 **Mira** (al grupo, en voz baja):
 > "Este sitio no tiene ovejas. No tiene nada vivo."
-> **Sera:** *(en voz igualmente baja)* "Él no lo sabe."
-> **Mira:** "¿Cómo que no lo sabe?"
+> **Mira:** *(en voz igualmente baja)* "Él no lo sabe."
+> **Vassen:** "¿Cómo que no lo sabe?"
 > **Garrik:** *(sin detenerse)* "Sabe. Pero si para de buscar, tiene que saber."
 > *(pausa, contando pasos)*
 > "Nadie quiere saber así."
@@ -247,14 +247,14 @@ Pausa.
 
 Vassen asiente. No insiste.
 
-> **Sera:** *(poniéndole una mano en el brazo a Mira)* "Bien que no."
+> **Garrik:** *(poniéndole una mano en el brazo a Mira)* "Bien que no."
 > *(pausa)*
 > "Las Formas repiten lo que el piso les pide que repitan. No son recuerdos tuyos. Son el piso usando tu miedo para hablar."
 
-**Mira** mira a Sera. Luego aparta la vista.
+**Mira** mira a Garrik. Luego aparta la vista.
 
 > **Mira:** "¿Cómo sabes eso?"
-> **Sera:** *(una pausa demasiado larga)* "... Intuición."
+> **Garrik:** *(una pausa demasiado larga)* "... He visto cosas. En el Pantano. Cosas que no deberían existir. Te enseñan a reconocer los trucos."
 
 ---
 
@@ -347,7 +347,7 @@ El Pastor no ataca. Las ovejas son el combate.
 
 > **Mira:** *(disparando a ovejas que rodean a Vassen)* "¡Son demasiadas! ¡No puedo con todas!"
 > **Vassen:** *(forcejeando)* "¡No las matéis! ¡Romped el bastón!"
-> **Sera:** *(haciendo una barrera de fuego para separar un grupo de ovejas)* "¡Yo las contengo! ¡Ve tú al viejo!"
+> **Garrik:** *(lanzando dagas a los ojos de las ovejas de ceniza)* "¡Yo las distraigo! ¡Ve tú al viejo!"
 
 Cuando el cayado baja a 20 HP, el Pastor lo nota. Mira su mano. La luz del cayado parpadea.
 
@@ -461,11 +461,11 @@ Los guarda.
 > **Mira:** *(mirándolo)* "¿Para qué guardas eso?"
 > **Vassen:** *(sin mirala)* "Para recordar que fue real."
 
-**Sera** está mirando hacia la puerta del norte, la que apareció.
+**Mira** está mirando hacia la puerta del norte, la que apareció.
 
-> **Sera:** "¿Lo dejamos aquí?"
+> **Mira:** "¿Lo dejamos aquí?"
 > **Vassen:** "No hay nada que dejar. Ya se fue."
-> **Sera:** *(pausa)* "¿A dónde?"
+> **Mira:** *(pausa)* "¿A dónde?"
 > **Vassen:** "No sé. Pero ya no estaba buscando cuando se fue. Eso tiene que ser mejor."
 
 Mira anota algo en su cuaderno. El jugador puede verla escribir, si se acerca: solo una frase — *"El piso no pone enemigos. El piso pone lo que perdiste."*
@@ -492,11 +492,11 @@ Del otro lado: el sonido del agua.
 
 > **Mira:** *(escuchando)* "¿Agua?"
 > **Vassen:** "Agua."
-> **Sera:** *(animada, entrando primero)* "¡Agua!"
+> **Garrik:** *(animado, entrando primero)* "¡Agua!"
 
 La puerta se cierra detrás de ellos.
 
-**N2 terminado. Grupo: 4 (Mira, Vassen, Sera, Garrik).**
+**N2 terminado. Grupo: 3 (Mira, Vassen, Garrik).**
 
 ---
 
@@ -505,7 +505,7 @@ La puerta se cierra detrás de ellos.
 | Elemento | Detalle |
 |----------|---------|
 | **Jefe** | El Pastor de Cenizas (Rango C, Nv16) |
-| **Compañeros que se unen** | Sera + Garrik (si no vino antes) |
+| **Compañeros que se unen** | Garrik (si no vino antes) |
 | **Mecánica central** | La niebla de ceniza desactiva el mapa; las Formas de Ceniza usan los miedos del grupo |
 | **Fase 1** | Rebaño de ovejas, hay que romper el cayado |
 | **Fase 2** | El Pastor recuerda: crece, usa ceniza como extensión, susurra nombres |
