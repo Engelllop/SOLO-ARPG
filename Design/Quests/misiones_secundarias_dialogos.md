@@ -1,1149 +1,1011 @@
-﻿# Misiones Secundarias â€” DiÃ¡logos y Consecuencias
+# Misiones Secundarias — Diálogos y Contexto Expandido
 
-> **SOLO (Sunlight of the Last Online)** â€” RPG medieval oscuro
-> Archivo de expansiÃ³n de diÃ¡logos, consecuencias y referencias cruzadas para las 24 misiones secundarias.
-> Cada misiÃ³n incluye: diÃ¡logo completo paso a paso, consecuencias por completar/ignorar/fallar, NPCs afectados, y referencia al piso/ciudad.
-
----
-
-# Emberveil (N0)
+> *"No todo en la Torre es subir. A veces, lo importante está al costado del camino."*
+> — Aldo, El Último que Volvió
 
 ---
 
-## 1. La sopa de Greta
-
-### DÃ³nde
-Emberveil (N0) â€” Barrio Bajo, cocina comunitaria
-
-### NPC que la da
-**Greta** â€” mujer mayor, 60s, delantal siempre manchado, voz cascada pero cÃ¡lida
-
-### DiÃ¡logo de inicio
-El jugador pasa cerca de la cocina comunitaria. Greta estÃ¡ removiendo una olla grande.
-
-> **Greta:** *(sin mirar)* "Hueles bien, Â¿eh? No es para ti. Bueno, un poco sÃ­, pero la mejor parte va para Kael." *(se vuelve)* "Ese pobre chico lleva tres dÃ­as sin comer caliente. Solo pan duro y agua." *(niega con la cabeza)* "Â¿PodrÃ­as llevarle esto? Yo ya no puedo â€” la cadera no me deja."
->
-> **OpciÃ³n 1:** "Claro, le llevo la sopa. Â¿DÃ³nde estÃ¡?"
-> â†³ **Greta:** *(sonrisa agradecida)* "En el taller de reparaciÃ³n, al este de la plaza. El que tiene un cartel de madera con una rueda pintada. Dile que Greta manda saludos."
->
-> **OpciÃ³n 2:** "Â¿Y por quÃ© no viene Ã©l?"
-> â†³ **Greta:** *(suspira)* "Dice que si deja de trabajar un momento, se va a poner a pensar. Y pensar no le sienta bien."
->
-> **OpciÃ³n 3:** "Â¿QuiÃ©n es Kael?"
-> â†³ **Greta:** "Un chico que llegÃ³ hace meses. Dicen que subiÃ³ hasta N3 y volviÃ³. No sÃ© si serÃ¡ cierto, pero cuando habla de la Torre, se le ilumina la mirada."
-
-### Desarrollo
-1. Recoger el **Cuenco de Sopa de Greta** (Ã­tem de misiÃ³n).
-2. Ir al taller de Kael al este de la plaza. Kael estÃ¡ reparando una rueda.
-3. **DiÃ¡logo con Kael:**
-   > **Kael:** *(sin levantar la vista)* "Si es para reparar, tengo cola hasta el jueves." *(levanta la vista, ve la sopa)* *(pausa)* "Ah. Greta." *(deja la herramienta)* "Esa mujer no descansa."
-   > *(toma el cuenco)* "SiÃ©ntate un momento, si quieres. No tengo mucho que ofrecer, pero puedo contar una historia."
-4. **Historia de Kael (opcional):**
-   > **Kael:** "SubÃ­ con dos amigos a la Torre. Llegamos hasta N2 sin problemas. En N3 vimos algo: una puerta que no deberÃ­a estar ahÃ­. Una habitaciÃ³n mÃ¡s grande por dentro que el edificio que la contenÃ­a. Mi amigo Ren entrÃ³. Yo no. EsperÃ© tres dÃ­as. No saliÃ³." *(pausa)* "TÃº que subes: ten cuidado con las puertas que no deberÃ­an estar ahÃ­."
-
-### ConclusiÃ³n
-> **Kael:** *(termina la sopa, devuelve el cuenco)* "Dile a Greta que la prÃ³xima vez voy yo. Y gracias. No solo por la sopa. Por escuchar."
-
-**Recompensas:**
-- 50 monedas
-- +5 reputaciÃ³n en Barrio Bajo
-- InformaciÃ³n sobre la puerta dimensional en N3 (pasaje a cÃ¡mara de lore)
-
-### Consecuencias si se completa
-- Kael come caliente ese dÃ­a. Greta sonrÃ­e al verme pasar.
-- La historia de la puerta de N3 queda registrada en el diario.
-
-### Consecuencias si se ignora
-- Kael sigue con hambre pero no pasa nada grave. El diÃ¡logo de la puerta de N3 se pierde.
-
-### Consecuencias si se fracasa
-- No aplica. Solo se pierde si no se hace. Tirar la sopa entristece a Greta pero no bloquea nada.
+## N1 — Velmar
 
 ---
 
-## 2. El hijo del herrero
+### D-01: La Niña Desaparecida
+**Giver:** Shae (vendedora de hierbas, N1)
+**Tipo:** Investigación / Elección moral
+**Recompensa:** +30 reputación Velmar, poción rara
+**Consecuencia:** IRREVERSIBLE si no se hace antes de dejar N1
 
-### DÃ³nde
-Emberveil (N0) â€” Herrero del Barrio Bajo. Restos en N2 (El Pastor de Cenizas)
+#### Contexto
+Shae es una mujer de 40 años que vende hierbas medicinales en el mercado de Velmar. Su hija, Elara (8 años), desapareció hace tres días. Nadie la vio salir. Nadie la vio caer. Simplemente... dejó de existir.
 
-### NPC que la da
-**Doran** â€” herrero, 50s, hombros caÃ­dos. Desde que su hijo se fue, no forja igual.
+#### Inicio de la misión
 
-### DiÃ¡logo de inicio
-> **Doran:** *(sin mirar)* "Â¿Vienes a que te forje algo? Lo siento. No tengo fuerzas." *(pausa)* "Mi hijo. SubiÃ³ a la Torre hace tres meses. Dijo que volvÃ­a en dos semanas. No volviÃ³." *(saca una carta)* "EscribiÃ³ que iba a buscar 'el metal que canta'. No sÃ© quÃ© significa."
+**Shae:** *(arreglando hierbas que no necesitan arreglo, manos temblando)*
+> "¿Compras algo? Tengo... tengo de todo. Para el dolor. Para el sueño. Para..."
+> *(se detiene)*
+> "¿Viste a una niña? Pelo castaño. Ojos verdes. Siempre sonríe. Siempre."
+
+**Protagonista:**
+- **"No, no la vi."**
+  > **Shae:** *(asintiendo, como si esperara eso)*
+  > "Claro. Nadie la vio. Es como si..."
+  > *(pausa)*
+  > "Como si la Torre se la tragara."
+
+- **"¿Cuándo desapareció?"**
+  > **Shae:** "Hace tres días. Jugaba cerca del puente viejo. Yo estaba aquí, vendiendo. Y cuando fui a buscarla..."
+  > *(se toca el pecho)*
+  > "No estaba. No en el puente. No en casa. No en ningún lado."
+
+- **"¿Buscaste en el abismo?"**
+  > **Shae:** *(se congela)*
+  > "¿El abismo? ¿Crees que...?"
+  > *(niega con la cabeza, pero no convencida)*
+  > "No. Ella no es estúpida. No se acercaría al borde."
+  > *(pausa)*
+  > "Pero... otras cosas sí se acercan al borde."
+
+#### Investigación
+
+**Pista 1 — El Puente Viejo**
+> Cerca del puente: una muñeca de trapo. Sucia. Pisoteada. Pero no rota.
+> En el suelo, marcas de arrastre. Pequeñas. Como de pies de niño.
+> Pero las marcas van HACIA la ciudad, no hacia el abismo.
+
+**Pista 2 — La Casa de Shae**
+> Si el protagonista entra (con permiso de Shae):
+> Una habitación pequeña. Dos camas. En una: ropa de niña doblada.
+> En la otra cama: un diario.
 >
-> **OpciÃ³n 1:** "Voy a buscar a tu hijo. Â¿CÃ³mo se llama?"
-> â†³ **Doran:** *(voz quebrada)* "Lloyd. TenÃ­a 22 aÃ±os. Llevaba un mandil de cuero."
+> *"Mamá dice que no salga de noche. Pero anoche vi algo. Una luz en el abismo. Azul. Como las estrellas que mamá dice que existían antes. Quiero verla de nuevo."*
 >
-> **OpciÃ³n 2:** "El metal que canta suena a leyenda."
-> â†³ **Doran:** "Mi abuelo hablaba de Ã©l. Un metal que vibra cerca de la Torre. Lloyd siempre fue soÃ±ador."
->
-> **OpciÃ³n 3:** "Tres meses es mucho tiempo. Tal vez no quiera volver."
-> â†³ **Doran:** *(mirada dura)* "Mi hijo no era de los que abandonan. Si no ha vuelto, es porque no puede."
-
-### Desarrollo
-1. En N2, buscar la **cÃ¡mara de forja abandonada** al este del Pastor de Cenizas. Entrada parcialmente bloqueada.
-2. Dentro: esqueleto en posiciÃ³n fetal junto a yunque roto. Mandil de cuero carbonizado con iniciales "L.D.". Diario quemado: *"Lo encontrÃ©. El metal canta. CantÃ³ demasiado fuerte. Atrajo algo."*
-3. El jugador recoge el mandil y el diario.
-
-### ConclusiÃ³n
-> **Doran:** *(toma el mandil)* "Esto es suyo. Lo cosÃ­ yo mismo." *(lee el diario, cierra los ojos)* "EncontrÃ³ lo que buscaba. Eso es lo que importa." *(mira al jugador)* "Gracias. Ahora sÃ©. Duele, pero sÃ©."
->
-> **OpciÃ³n 1:** "Lo siento." â†³ **Doran:** *(asiente)* "El deber de un padre es saber."
-> **OpciÃ³n 2:** "Â¿Quieres que entierre el mandil?" â†³ **Doran:** "No. Lo cuelgo aquÃ­, en la herrerÃ­a."
-> **OpciÃ³n 3:** "Â¿Quieres que traiga el metal?" â†³ **Doran:** "No. Ese metal matÃ³ a mi hijo. Que se quede donde estÃ¡."
-
-**Recompensas:** 150 monedas, Guanteletes de Herrero (+3 defensa, +10% velocidad de forja), +10 reputaciÃ³n
-
-### Consecuencias si se completa
-- Doran cuelga el mandil en la herrerÃ­a. La veta de metal en N2 queda marcada en el mapa (se puede extraer para arma C+).
-- DiÃ¡logo dÃ­as despuÃ©s: "Lloyd siempre quiso ser recordado. Ahora lo es."
-
-### Consecuencias si se ignora
-- Un aÃ±o despuÃ©s Doran muere de tristeza. La herrerÃ­a se abandona. Si el jugador vuelve a Emberveil tras ese tiempo: herrerÃ­a cerrada, Doran enterrado sin lÃ¡pida.
-
-### Consecuencias si se fracasa
-- Si el jugador **encuentra los restos pero no lleva el mandil** (lo vende o pierde): Doran nota la mentira. MisiÃ³n incompleta permanentemente.
-- Si el jugador **miente** y dice que Lloyd vive: Doran descubre la verdad por otro. Pierde confianza.
-
----
-
-## 3. Los lobos del bosque
-
-### DÃ³nde
-Emberveil (N0) â€” Bosque Vigilia (oeste de la ciudad)
-
-### NPC que la da
-**Guardia Helm** â€” guardia de la puerta oeste, 40s, cicatriz en la mandÃ­bula
-
-### DiÃ¡logo de inicio
-> **Helm:** *(mirando el bosque)* "Los lobos han estado atacando. No lobos normales â€” mÃ¡s grandes, mÃ¡s listos. Mataron dos ovejas esta semana." *(escupe)* "Los cazadores dicen que es muy peligroso." *(mira al jugador)* "Diez lobos. TrÃ¡eme las orejas."
->
-> **OpciÃ³n 1:** "Yo lo hago." â†³ **Helm:** "Diez. Ni uno menos. Las orejas como prueba."
-> **OpciÃ³n 2:** "Â¿Pagan bien?" â†³ **Helm:** *(sonrisa sin gracia)* "La ciudad paga. Y si no matas los lobos, ellos matan a alguien."
-> **OpciÃ³n 3:** "Â¿Lobos raros?" â†³ **Helm:** *(baja la voz)* "Un pastor jura que vio un lobo de dos cabezas. Huellas de seis patas. Algo saliÃ³ de la Torre y se metiÃ³ en la manada."
-
-### Desarrollo
-1. Bosque Vigilia. Lobos en manadas pequeÃ±as (2-3). Zona rango D/E.
-2. **Encuentro especial (25%):** Lobo de Dos Cabezas (jefe menor, mordisco venenoso).
-3. Matar 10 lobos (o 9 + el bicÃ©falo).
-
-### ConclusiÃ³n
-> **Helm:** *(cuenta las orejas)* "Diez. Bien hecho. El bosque va a estar tranquilo un tiempo." *(saca bolsa)* "Toma."
->
-> *(Si el jugador matÃ³ al bicÃ©falo:)*
-> **Helm:** *(examina la cabeza)* "Conque era verdad. Esto saliÃ³ de la Torre. Las cabezas estÃ¡n fusionadas." *(guarda la cabeza)* "Voy a llevar esto al gremio."
-
-**Recompensas:** 100 monedas (200 si se mata al bicÃ©falo), Colmillo de Lobo (trueque), +5 reputaciÃ³n guardia
-
-### Consecuencias si se completa
-- Lobos disminuyen. Camino a la Torre mÃ¡s seguro. Helm saluda al pasar.
-- Si se matÃ³ al bicÃ©falo: el gremio investiga y confirma la criatura venÃ­a de N1.
-
-### Consecuencias si se ignora
-- Lobos siguen atacando. Un mes despuÃ©s: un niÃ±o es herido en el borde del bosque. Guardias indiferentes.
-
-### Consecuencias si se fracasa
-- Muerte en batalla: sin penalidad permanente. Mentir con orejas falsas: Helm descubre el engaÃ±o, pierde reputaciÃ³n.
-
----
-
-## 4. La carta de Lian
-
-### DÃ³nde
-Emberveil (N0) â†’ Aelthar (N3) â€” ENLAZADA
-
-### NPC que la da
-**Lian** â€” mensajero, 20s, mochila llena, siempre con prisa
-
-### DiÃ¡logo de inicio
-> **Lian:** "Â¡Necesito que entregues esta carta en Aelthar! A una mujer llamada **Sera**. Vive en el barrio de los canales, casa con puerta azul. No la abras â€” es importante."
->
-> **OpciÃ³n 1:** "Claro. LlegarÃ¡ a su destino." â†³ **Lian:** *(sonrisa amplia)* "SabÃ­a que podÃ­a contar contigo."
-> **OpciÃ³n 2:** "Â¿QuÃ© contiene?" â†³ **Lian:** *(mira alrededor)* "No puedo decirlo. Hay cosas en la Torre que la gente de arriba no quiere que se sepan."
-> **OpciÃ³n 3:** "Â¿Por quÃ© no la llevas tÃº?" â†³ **Lian:** "Voy directo a N4. La carta necesita llegar antes que yo."
-
-### Desarrollo
-1. Llevar la carta a Aelthar, barrio de canales, casa de puerta azul.
-2. **Sera:** *(lee la carta, expresiÃ³n cambia)* "Lian. Maldito sea. Pasa. Tengo que contarte algo." La carta revela un pasaje secreto en N2 y que alguien sigue a Sera â€” un espÃ­a del Consejo de Argentia.
-3. **Si el jugador abriÃ³ la carta:** Sera nota el lacre roto. "Lian confiÃ³ en ti. Yo no." Cierra la puerta. MisiÃ³n fallada.
-
-### ConclusiÃ³n
-Encontrar a Lian en N4 (Corredor de los Nombres).
-> **Lian:** "Â¿LlegÃ³ la carta?"
-> **OpciÃ³n 1:** "SÃ­, llegÃ³. Dijo que tengas cuidado." â†³ **Lian:** *(aliviado)* "Menos mal. Hay una entrada aquÃ­ â€” sÃ­mbolos de los Constructores."
-> **OpciÃ³n 2:** "Sera estÃ¡ siendo vigilada." â†³ **Lian:** *(palidece)* "MaldiciÃ³n. Entremos rÃ¡pido."
-
-**Recompensas:** 200 monedas, Fragmento de SÃ­mbolo Constructor (pista para El Legado en N9), +10 reputaciÃ³n en Aelthar
-
-### Consecuencias si se completa
-- Entrada secreta en N4 queda abierta. CÃ¡mara de Constructores con artefacto Ãºtil en N7.
-- Lian y Sera son aliados. Sera da descuento en su tienda.
-
-### Consecuencias si se ignora
-- Lian espera 3 dÃ­as en N4, luego entra solo. Muere por trampa de Constructores. Pasaje se sella para siempre.
-
-### Consecuencias si se fracasa
-- Abrir la carta: traiciÃ³n, Lian no vuelve a hablar. Perder la carta: misiÃ³n imposible. Sera muere por el espÃ­a antes de recibir la carta: fallo permanente.
-
----
-
-## 5. El tesoro de los primeros
-
-### DÃ³nde
-Emberveil (N0) â€” CÃ¡maras Sumergidas (alcantarillas del templo)
-
-### NPC que la da
-Varios NPCs dan pistas. MisiÃ³n empieza al encontrar el **Mapa del Tesoro de los Primeros** en las CÃ¡maras Sumergidas (en un esqueleto, pergamino lacrado).
-
-### Pista 1 â€” Elsa la archivera
-> **Elsa:** "Eso es el sello de **Orin el Escriba**. ViviÃ³ aquÃ­ hace 200 aÃ±os. Su pluma estÃ¡ enterrada con Ã©l bajo el mercado de pescado."
->
-> **OpciÃ³n 1:** "Â¿DÃ³nde exactamente?" â†³ **Elsa:** "Bajo el puesto de Marta la Pescadora. Trampilla. Ve de noche."
-> **OpciÃ³n 2:** "Â¿QuÃ© mÃ¡s sabes de Orin?" â†³ **Elsa:** "Anotaba todo. Su diario es el Ãºnico registro completo de los primeros dÃ­as."
-
-**AcciÃ³n:** Bajo el puesto de Marta, cÃ¡mara con esqueleto de Orin. La pluma estÃ¡ en su mano. Al tomarla, el esqueleto se desmorona.
-
-### Pista 2 â€” Martel el joyero
-> **Martel:** "Eso es la **Estrella de los Primeros**. Una joya partida en tres fragmentos. Uno tiene el herrero. Otro el templo. El tercero lo tengo yo â€” 200 monedas."
->
-> **OpciÃ³n 1:** Pagar 200 monedas. â†³ Martel entrega colgante de estrella de tres puntas.
-> **OpciÃ³n 2:** Negociar. â†³ Martel acepta informaciÃ³n a cambio.
-> **OpciÃ³n 3:** Robar de noche. â†³ Si lo descubre, pierde reputaciÃ³n con comerciantes.
-
-### Pista 3 â€” Sacerdotisa Maris
-> **Maris:** "Eso es la **Llama del Primer Fuego**. EstÃ¡ en la cripta bajo el templo, sellada desde hace 50 aÃ±os. El sumo sacerdote muriÃ³ sin decir dÃ³nde escondiÃ³ la llave."
->
-> **OpciÃ³n 1:** "Â¿Otra forma de entrar?" â†³ **Maris:** "Pasaje desde las alcantarillas. Inundado, lleno de ratas."
-> **OpciÃ³n 2:** "Â¿QuÃ© hay en la cripta?" â†³ **Maris:** "Restos de los primeros colonos. Y una cÃ¡mara secreta que solo se abre con los tres sellos."
-
-### La CÃ¡mara del Tesoro
-DetrÃ¡s de la cascada de las CÃ¡maras Sumergidas. Puerta de piedra con tres hendiduras. Colocar pluma, estrella y llama. La puerta se abre.
-
-**Contenido:** Espada de los Primeros (rango C+), Corona del Fundador (Ã­tem cosmÃ©tico + lore), 500 monedas, pergamino con historia de los fundadores.
-
-### ConclusiÃ³n
-> **Elsa** *(si se le muestra la corona)*: "Esto es autÃ©ntico. Los Primeros usaban esto en ceremonias. GuÃ¡rdala. Es tu derecho."
-
-### Consecuencias si se completa
-- CÃ¡mara del tesoro puede usarse como refugio. Corona del Fundador permite audiencia con el Consejo de Argentia sin reputaciÃ³n.
-
-### Consecuencias si se ignora
-- Mapa y pistas siguen disponibles. Vender el mapa: misiÃ³n perdida permanentemente.
-
-### Consecuencias si se fracasa
-- Perder/vender/destruir alguna de las tres piezas: puerta no se abre. Tesoro perdido para siempre.
-
----
-
-# Velmar (N1)
-
----
-
-## 6. La niÃ±a del Borde
-
-### DÃ³nde
-Velmar (N1) â€” Barrio del Borde (este de la ciudad), Santuario Abandonado
-
-### NPC que la da
-**Lucho** â€” hermano mayor de la niÃ±a, 17 aÃ±os, ojeras profundas, ropa raÃ­da
-
-### DiÃ¡logo de inicio
-Lucho estÃ¡ en la plaza central de Velmar, sosteniendo un dibujo infantil. Tiene los ojos rojos.
-
-> **Lucho:** *(al ver al jugador, se acerca rÃ¡pido)* "Â¿Eres aventurero? Â¿Subes la Torre?"
-> *(sin esperar respuesta)*
-> "Mi hermana, Tessa, desapareciÃ³ anoche. Tiene 8 aÃ±os. SaliÃ³ de la cama y... y no la encontramos por ningÃºn lado."
-> *(muestra el dibujo: una figura alada con ojos brillantes)*
-> "DejÃ³ esto. Siempre dibuja lo mismo desde que empezÃ³ a hablar. Dice que 'la voz' le dice que dibuje."
-> *(voz temblorosa)*
-> "Los guardias dicen que se fue sola. Pero Tessa no camina sola de noche. Le da miedo la oscuridad."
->
-> **OpciÃ³n 1:** "Voy a buscarla. Â¿Por dÃ³nde empezamos?"
-> â†³ **Lucho:** "RevisÃ© toda la ciudad menos el Santuario Abandonado, al oeste. Nadie va allÃ­ desde que los monjes se fueron. Â¿Puedes ir?"
->
-> **OpciÃ³n 2:** "Â¿QuÃ© mÃ¡s sabes de 'la voz'?"
-> â†³ **Lucho:** *(baja la voz)* "Tessa dice que la voz le habla desde la Torre. Dice cosas bonitas. Dice que la quiere." *(pausa)* "Yo pensaba que era imaginaciÃ³n. Pero anoche, cuando despertÃ©, su cama estaba vacÃ­a y la ventana abierta."
->
-> **OpciÃ³n 3:** "Â¿DÃ³nde estÃ¡n tus padres?"
-> â†³ **Lucho:** *(mirada al suelo)* "Murieron en la Torre hace dos aÃ±os. Los dos. Por eso cuido a Tessa. Y por eso no voy a perderla tambiÃ©n."
-
-### Desarrollo
-1. El Santuario Abandonado estÃ¡ al oeste de Velmar, detrÃ¡s de una colina. Antiguo templo de una deidad olvidada. Ahora solo quedan paredes agrietadas y silencio.
-2. Dentro del santuario: velas encendidas (reciÃ©n puestas). Huellas pequeÃ±as en el polvo. Llevan a una cripta subterrÃ¡nea.
-3. En la cripta: la niÃ±a, **Tessa**, estÃ¡ acurrucada en un rincÃ³n, mirando fijamente una pared donde hay un mural desgastado: una figura alada idÃ©ntica a sus dibujos.
-4. **DiÃ¡logo con Tessa:**
-   > *(Al acercarse, Tessa no se asusta. Levanta la mirada.)*
-   > **Tessa:** *(voz suave)* "Viniste. La voz dijo que vendrÃ­as."
-   >
-   > **OpciÃ³n 1:** "Tessa, tu hermano te busca. Vamos a casa."
-   > â†³ **Tessa:** *(sacude la cabeza)* "No puedo. La voz me dijo que espere aquÃ­. Dice que va a llevarme con mamÃ¡ y papÃ¡."
-   >
-   > **OpciÃ³n 2:** "Â¿QuÃ© voz? Â¿DÃ³nde la oyes?"
-   > â†³ **Tessa:** *(seÃ±ala el mural)* "AhÃ­. Sale de la pared cuando nadie me ve. No es mala. Es suave. Como cuando mamÃ¡ cantaba."
-   >
-   > **OpciÃ³n 3:** *(insistir)* "Tu hermano estÃ¡ muy asustado. Vamos."
-   > â†³ **Tessa:** *(duda. Mira el mural, luego al jugador)* "Â¿Lucho estÃ¡ llorando?" *(el jugador asiente)* *(pausa larga)* "...EstÃ¡ bien. Voy."
-
-5. **Si el jugador inspecciona el mural:** La figura alada tiene un tercer ojo en la frente. Al tocarlo, el jugador siente un zumbido. No es La Voz â€” es un eco de la Torre. El Santuario fue construido sobre un **punto de resonancia** de la Torre. Los niÃ±os sensibles lo oyen.
-6. Tessa no fue secuestrada â€” fue **llamada**. La Torre la atrajo como atrae a otros niÃ±os sensibles.
-
-### ConclusiÃ³n
-> **Lucho:** *(al ver a Tessa, corre y la abraza fuerte)* "Tessa... Tessa, no vuelvas a hacer eso nunca."
-> **Tessa:** *(abraza a Lucho, pero mira al jugador)* "Â¿TÃº tambiÃ©n oyes la voz?"
->
-> **OpciÃ³n 1:** "No. Pero tÃº tampoco deberÃ­as hacerle caso."
-> â†³ **Tessa:** *(asiente)* "Lucho dice lo mismo. Voy a intentarlo."
->
-> **OpciÃ³n 2:** "A veces oigo cosas en la Torre. Pero no les hago caso."
-> â†³ **Tessa:** *(sonrisa triste)* "Es difÃ­cil no hacerles caso."
-
-**Recompensas:**
-- 180 monedas
-- **Colgante de Plata** (+5 defensa espiritual) â€” regalo de Lucho: "Era de mi madre. Ella decÃ­a que protegÃ­a."
-- +10 reputaciÃ³n en Velmar
-
-### Consecuencias si se completa
-- Tessa vuelve a su casa. No dibuja mÃ¡s figuras aladas. Pero algunas noches, Lucho la encuentra mirando por la ventana hacia la Torre.
-- El **punto de resonancia** en el Santuario puede ser usado por el jugador para comunicarse con NPCs en otros pisos (si tiene el Ã­tem adecuado â€” Caja de MÃºsica de Hueso sirve aquÃ­).
-- Lucho se convierte en un informante en Velmar. Da pistas sobre otros niÃ±os sensibles.
-
-### Consecuencias si se ignora
-- Tessa no vuelve. Lucho la busca solo durante dÃ­as. La encuentra muerta de frÃ­o en el Santuario al cabo de una semana. Lucho abandona Velmar y no se vuelve a ver.
-- El punto de resonancia queda inactivo para siempre.
-
-### Consecuencias si se fracasa
-- Si el jugador asusta a Tessa (gritos, violencia en el Santuario): Tessa huye a un lugar mÃ¡s profundo de la cripta y se pierde. DifÃ­cil de encontrar.
-- Si el jugador **ataca el mural**: una onda de energÃ­a lo derriba. Despierta horas despuÃ©s, Tessa ha desaparecido. Lucho nunca perdona.
-
----
-
-## 7. El columpio
-
-### DÃ³nde
-Velmar (N1) â€” Patio infantil del barrio sur
-
-### NPC que la da
-**Los niÃ±os del barrio** â€” grupo de 6 niÃ±os (7-10 aÃ±os). La lÃ­der es **Mira** (no confundir con la compaÃ±era), una niÃ±a de 9 aÃ±os, pelo revuelto, rodilla raspada.
-
-### DiÃ¡logo de inicio
-Los niÃ±os estÃ¡n sentados alrededor de un columpio roto. La cuerda del lado izquierdo estÃ¡ deshilachada y partida. El asiento de madera yace en el suelo.
-
-> **Mira (niÃ±a):** *(al ver al jugador pasar)* "Oye, oye, Â¿tÃº eres fuerte?"
-> *(sin esperar respuesta)*
-> "El columpio se rompiÃ³ ayer. Justo cuando estÃ¡bamos jugando. Nadie se lastimÃ³, pero ahora no podemos jugar."
-> *(seÃ±ala la cuerda rota)*
-> "Mi papÃ¡ dice que va a arreglarlo, pero siempre dice 'maÃ±ana' y nunca lo hace."
-> *(mira al jugador con ojos suplicantes)*
-> "Â¿TÃº sabes arreglar cosas?"
->
-> **OpciÃ³n 1:** "Claro, lo arreglo ahora mismo."
-> â†³ **Mira (niÃ±a):** *(sonrisa enorme)* "Â¡En serio? Â¡Eres el mejor!" *(los otros niÃ±os se acercan, emocionados)*
->
-> **OpciÃ³n 2:** "No sÃ© arreglar columpios."
-> â†³ **Mira (niÃ±a):** *(decepcionada)* "Oh. Bueno. Gracias igual." *(los niÃ±os vuelven a sentarse en silencio)*
-> *(Si el jugador vuelve despuÃ©s con materiales: se puede arreglar igual)*
->
-> **OpciÃ³n 3:** "Â¿DÃ³nde estÃ¡ tu papÃ¡?"
-> â†³ **Mira (niÃ±a):** *(encoge hombros)* "Trabaja. Siempre trabaja. Dice que no tiene tiempo." *(pausa)* "Pero sÃ­ tiene tiempo para ir a la taberna. No entiendo."
-
-### Desarrollo
-1. Para arreglar el columpio: se necesita **cuerda resistente** (se compra en la tienda general de Velmar por 15 monedas, o se obtiene de una cuerda de escalada usada) y **clavos** (se compran por 5 monedas, o se encuentran en la herrerÃ­a).
-2. **OpciÃ³n de bÃºsqueda:** Si el jugador no quiere comprar, puede buscar en el vertedero al norte de Velmar (hay cuerda usada y clavos torcidos pero funcionales).
-3. Proceso: cortar la cuerda a la medida, atar el asiento, martillar los clavos sueltos. Toma unos minutos.
-
-### ConclusiÃ³n
-> *(El columpio queda firme. Los niÃ±os lo prueban inmediatamente.)*
-> **Mira (niÃ±a):** *(columpiÃ¡ndose, riendo)* "Â¡Funciona! Â¡Funciona!"
-> *(salta del columpio y corre hacia el jugador)*
-> "Â¡Gracias, gracias, gracias! Ahora podemos jugar otra vez."
-> *(saca algo del bolsillo: una piedra brillante, lisa)*
-> "Toma. La encontrÃ© en el rÃ­o. No sirve para nada, pero es bonita. Es para ti."
->
-> **OpciÃ³n 1:** *(aceptar la piedra)* "Gracias, Mira. Es bonita."
-> â†³ **Mira (niÃ±a):** *(sonroja)* "No es nada. Bueno, es algo. Bueno, es una piedra. Pero es bonita."
->
-> **OpciÃ³n 2:** "QuÃ©date la piedra. No necesito nada."
-> â†³ **Mira (niÃ±a):** *(insiste)* "No, tÃ³mala. Quiero que tengas algo para recordarnos cuando estÃ©s en la Torre."
-
-**Recompensas:**
-- **Piedra de RÃ­o Brillante** (Ã­tem decorativo. Sin valor mecÃ¡nico. Pero si se conserva hasta Argentia, una niÃ±a de la calle la reconoce: "Â¡Es una piedra de Velmar! La usaban para jugar"). Es un detalle de continuidad.
-- +5 reputaciÃ³n en Velmar (los padres se enteran y lo agradecen)
-- EsporÃ¡dicamente, al pasar por el patio, los niÃ±os saludan al jugador
-
-### Consecuencias si se completa
-- Los niÃ±os juegan en el columpio todos los dÃ­as (cambio ambiental visible).
-- Los padres del barrio ven al jugador con buenos ojos. Descuentos pequeÃ±os en tiendas cercanas.
-- Mira la niÃ±a recuerda al jugador y, si se habla con ella antes de ir a la Torre, dice: "CuÃ­date allÃ¡ arriba. Dicen que hace frÃ­o."
-
-### Consecuencias si se ignora
-- El columpio sigue roto. Los niÃ±os juegan en el suelo, aburridos. No pasa nada mÃ¡s.
-- El papÃ¡ de Mira nunca lo arregla. Eventualmente, el columpio se desmonta y se usa para leÃ±a (cambio ambiental visible meses despuÃ©s).
-
-### Consecuencias si se fracasa
-- Si el jugador **intenta arreglarlo pero lo hace mal** (usa cuerda podrida): el columpio se rompe de nuevo cuando un niÃ±o se sube. El niÃ±o cae, se lastima la rodilla (no grave). Los padres se enojan. PÃ©rdida de reputaciÃ³n.
-- No hay penalidad permanente â€” solo un moretÃ³n en la rodilla de un niÃ±o y miradas de desaprobaciÃ³n.
-
----
-
-## 8. Deudas de Velmar [ðŸ”¥ â€” IRREVERSIBLE]
-
-### DÃ³nde
-Velmar (N1) â€” Distrito comercial
-
-### NPC que la da
-**Comerciante Orso** â€” 50s, ropa de buena calidad pero gastada en los bordes, sonrisa que no llega a los ojos
-
-### DiÃ¡logo de inicio
-Orso tiene un puesto de especias y telas en el mercado central. No es el mÃ¡s exitoso. Cuando el jugador se acerca, Orso estÃ¡ contando monedas con dedos nerviosos.
-
-> **Orso:** *(al ver al jugador, deja las monedas)* "Ah, un aventurero. Justo a quien necesito."
-> *(se inclina sobre el mostrador)*
-> "Tengo un problema. Un cliente me debe dinero. Mucho dinero. Pero no es un cliente cualquiera â€” es **Tomas el Tejedor**. Buen hombre, mala racha."
+> Última entrada: hace cuatro días.
+
+**Pista 3 — El Vigía (Natan)**
+> **Natan:** *(el viejo del puente, el que perdió un oído)*
+> "¿La niña de Shae?"
 > *(pausa)*
-> "Necesito que vayas a cobrarle. No quiero violencia. Solo quiero mi dinero. 150 monedas. Tiene una semana de retraso."
-> *(baja la voz)*
-> "Si no paga, tendrÃ© que tomar medidas. Y no me gusta tomar medidas."
->
-> **OpciÃ³n 1:** "Voy a hablar con Ã©l."
-> â†³ **Orso:** *(sonrÃ­e)* "Eso esperaba. EstÃ¡ en el taller de tejido, al sur de la plaza. Dile que Orso mandÃ³ saludos."
->
-> **OpciÃ³n 2:** "150 monedas es mucho para una semana de retraso."
-> â†³ **Orso:** *(mirada frÃ­a)* "Son 100 de la deuda y 50 de intereses. AsÃ­ funciona el negocio. Si no le gusta, que no pida prestado."
->
-> **OpciÃ³n 3:** "Â¿Y si no quiere pagar?"
-> â†³ **Orso:** *(sonrisa sin humor)* "Entonces tÃº tendrÃ¡s que decidir quÃ© hacer. Yo solo quiero mi dinero. CÃ³mo lo consigas, es tu problema."
-
-### Desarrollo â€” El diÃ¡logo clave ðŸ”¥
-El jugador va al taller de Tomas el Tejedor. Es una casa pequeÃ±a, con un telar en la entrada. Tomas (40s, manos manchadas de tinte, cÃ­rculos oscuros bajo los ojos) estÃ¡ trabajando.
-
-> **Tomas:** *(al ver al jugador)* "Si vienes de parte de Orso, ya sÃ©."
-> *(deja de tejer)*
-> "Le debo 150 monedas. SÃ­. Pero no tengo el dinero."
-> *(suspira)*
-> "Mi esposa estÃ¡ enferma. Lleva dos meses en cama. Todo lo que gano va para medicinas. El telar apenas da para comer."
-> *(mira al jugador a los ojos)*
-> "Puedo pagarle 50 ahora. Es todo lo que tengo. Pero Orso no acepta pagos parciales."
->
-> **OpciÃ³n A â€” Cobrar la deuda completa [IRREVERSIBLE]:**
-> *(el jugador puede amenazar, presionar, o pagar Tomas para que consiga el dinero)*
-> **Tomas:** *(derrotado)* "EstÃ¡ bien. Dame... dame un dÃ­a. Voy a vender el telar. Es lo Ãºnico que nos queda."
-> **ReacciÃ³n:** Tomas vende el telar al dÃ­a siguiente. Paga la deuda. Pero sin telar, no puede trabajar. Su esposa empeora. En dos semanas, Tomas y su familia desaparecen de Velmar. Nadie sabe adÃ³nde fueron.
->
-> **OpciÃ³n B â€” Perdonar la deuda [IRREVERSIBLE]:**
-> *(el jugador paga la deuda de su bolsillo, o convence a Orso de condonarla)*
-> *(Si paga el jugador: -150 monedas)*
-> **Tomas:** *(incrÃ©dulo)* "Â¿Vas a... pagar tÃº? Â¿Por quÃ©?" *(pausa)* "No sÃ© quÃ© decir. Gracias. Gracias de verdad."
-> **ReacciÃ³n:** Tomas conserva el telar. Su esposa se recupera lentamente. Ã‰l sigue tejiendo, y meses despuÃ©s, paga la deuda al jugador (si vive hasta ese entonces). Pero **Orso** se entera.
->
-> **OpciÃ³n C â€” Negociar con Orso:**
-> Volver con Orso y decirle que Tomas solo tiene 50.
-> **Orso:** *(resopla)* "50 no es suficiente. Pero..." *(piensa)* "TrÃ¡eme 100 esta semana y 50 la siguiente. Y que se dÃ© por afortunado de que no le rompo las piernas."
-> **ReacciÃ³n:** Tomas acepta. Paga 100 ahora (vendiendo algunas pertenencias) y 50 despuÃ©s.  Pero la relaciÃ³n con Orso se tensa.
-
-## ConclusiÃ³n ðŸ”¥
-
-**OpciÃ³n A (Cobrar):**
-> **Orso:** *(recibe el dinero, lo cuenta)* "150. Perfecto. SabÃ­a que eras la persona adecuada."
-> *(Si el jugador pregunta por Tomas)* "Â¿Tomas? No es mi problema. PagÃ³. Eso es lo que importa."
-**Recompensa:** 50 monedas de comisiÃ³n.
-**Consecuencia:** Tomas y su esposa desaparecen de Velmar. No se vuelven a ver.
-
-**OpciÃ³n B (Perdonar/Pagar):**
-> **Orso:** *(al enterarse)* "Â¿Perdonaste la deuda? Â¿Con mi dinero?" *(pausa)* "No vuelvas a hacer negocios conmigo."
-**Recompensa:** Ninguna monetaria. Tomas devuelve 150 monedas si se vuelve a Velmar mÃ¡s tarde.
-**Consecuencia:** Orso se vuelve hostil. Tomas sobrevive. Meses despuÃ©s regala **Manta Tejida** (+10 resistencia al frÃ­o).
-
-**OpciÃ³n C (Negociar):**
-> **Orso:** *(gruÃ±e)* "100 ahora, 50 despuÃ©s. Que no se retrase."
-**Recompensa:** 30 monedas de comisiÃ³n.
-**Consecuencia:** Tomas paga todo a tiempo. Ambos NPCs sobreviven. RelaciÃ³n estable.
-
-### Consecuencias si se ignora
-- Orso envÃ­a cobradores. Tomas es golpeado. El telar destruido. Su esposa muere. Tomas desaparece.
-
-### Consecuencias si se fracasa
-- Tomas entra en pÃ¡nico, ataca (pelea fÃ¡cil) y huye. Orso se enoja. MisiÃ³n fallada.
-
-
----
-
-# N2 â€” El Pastor de Cenizas
-
----
-
-## 9. Los restos
-
-### DÃ³nde
-N2 (El Pastor de Cenizas)
-
-### NPC que la da
-No hay. MisiÃ³n empieza al encontrar el primer set de restos.
-
-### Desarrollo
-**5 sets de restos** en N2, cada uno con una historia breve:
-
-**Resto 1 â€” La Mercader:**
-CÃ¡mara lateral junto a carro volcado. Carta sin enviar: *"Querido Theron: lleguÃ© a N2. Hay un mercado aquÃ­. Gente vendiendo en la ceniza. Te quiero. â€” Liana."*
-
-**Resto 2 â€” El Soldado:**
-Trinchera, armadura oxidada. Diario: *"DÃ­a 30. La ceniza no deja de caer. Si alguien lee esto: dÃ­ganle a mi madre que no sufrÃ­."*
-
-**Resto 3 â€” El Elfo:**
-Apoyado contra una pared, laÃºd roto. Nota: *"Mi Ãºltima canciÃ³n. Que sepan que aquÃ­ hubo alguien que riÃ³, que viviÃ³."*
-
-**Resto 4 â€” El NiÃ±o:**
-Esqueleto pequeÃ±o (12-13 aÃ±os). Dibujo infantil de una casa con humo. Nota: *"MamÃ¡ dijo que no entrara. EntrÃ©. No encuentro la salida."*
-
-**Resto 5 â€” CaÃ­n (opcional):**
-CÃ¡mara oculta donde cayÃ³ CaÃ­n. Solo restos de armadura y carta ilegible.
-> *(Si Mira estÃ¡:)* **Mira:** *(se arrodilla, coloca una piedra sobre los restos)* "Los muertos merecen ser recordados."
-
-**Recompensas:** 500 monedas totales (100 c/u), +20 reputaciÃ³n Gremio.
-
-### Consecuencias si se completa
-- Nombres aÃ±adidos al registro del Gremio. Carta de Liana puede entregarse a Theron en Aelthar (diÃ¡logo emocional, +5 salud mÃ¡xima permanente).
-
-### Consecuencias si se ignora
-- Restos siguen donde estÃ¡n. Sin penalidad.
-
-
----
-
-## 10. El Hombre Atrapado [ðŸ”¥ â€” IRREVERSIBLE]
-
-### DÃ³nde
-N2 â€” Bosque Petrificado (extensiÃ³n este)
-
-### NPC
-Hombre desconocido atrapado bajo roca gigante.
-
-### DiÃ¡logo de inicio
-> **Hombre:** *(voz dÃ©bil)* "TÃº tienes agua, Â¿verdad? Llevo tres dÃ­as aquÃ­. La roca me atrapÃ³."
->
-> **OpciÃ³n 1:** "Voy a sacarte."
-> â†³ **Hombre:** "Herramientas en la mochila. Un pico."
->
-> **OpciÃ³n 2:** "No puedo. Lo siento."
-> â†³ **Hombre:** *(cierra los ojos)* "Al menos alguien sabe que estoy aquÃ­."
-
-### Desarrollo ðŸ”¥
-Al romper la roca, el hombre se libera. Pero no estÃ¡ agradecido â€” estÃ¡ aterrado.
-> **Hombre:** "No debiste sacarme. Ellos me pusieron aquÃ­ porque sabÃ­a demasiado."
-> *(se aleja hacia la oscuridad)* "La Torre es un dique. Y el dique tiene una grieta."
-*(Desaparece. No se vuelve a ver.)*
-
-**Recompensa:** Pico (herramienta), mapa parcial de N2 (cofre oculto), diario crÃ­ptico.
-
-### Consecuencias si se completa
-- Hombre escapa. En N5 un mercader pregunta: "Â¿Sabes del loco que escapÃ³ de N2?"
-- Diario combinado con pistas de N9 revela naturaleza de la Torre.
-
-### Consecuencias si se ignora
-- Hombre muere aplastado. La mochila sigue ahÃ­. Diario menos claro sin testimonio oral.
-
-### Consecuencias si se fracasa
-- Sin suficiente Fuerza: hombre muere. Matarlo despuÃ©s de liberarlo: diario daÃ±ado.
-
-
----
-
-# Aelthar (N3)
-
----
-
-## 11. El mapa de Sylas [ðŸ”¥ â€” IRREVERSIBLE]
-
-### DÃ³nde
-Aelthar (N3)
-
-### NPC
-**Sylas** â€” joven elfo, mochila lista, ansias de partir.
-
-### DiÃ¡logo de inicio
-> **Sylas:** "Me voy de Aelthar. Necesito un mapa de N2. El del mercado cuesta 300. No tengo tanto."
->
-> **OpciÃ³n 1:** "Te consigo el mapa."
-> â†³ **Sylas:** *(sonrisa)* "Gracias. EstarÃ© aquÃ­ hasta maÃ±ana."
->
-> **OpciÃ³n 2:** "Â¿Por quÃ© tanta prisa?"
-> â†³ **Sylas:** "Si me quedo un dÃ­a mÃ¡s, no me voy nunca."
->
-> **OpciÃ³n 3:** "300 es caro."
-> â†³ **Sylas:** "Es el mejor mapa. Muestra rutas seguras."
-
-### Desarrollo
-- Mapa cuesta 300 monedas (Mapmaker Venn). Alternativa: robar, intercambiar (arma C+), o convencer a Sylas de quedarse.
-- **Si el jugador le da el mapa:** Sylas baja a N2. Se encuentra con el Pastor de Cenizas (si no estÃ¡ muerto) y muere. Si el Pastor estÃ¡ muerto, Sylas cruza... pero se pierde en un desvÃ­o que el mapa no marca. Muere en N4.
-
-### ConclusiÃ³n
-> *(Encontrando el cuerpo de Sylas en N4)*
-> Nota: *"El mapa no mostraba esto. Pero al menos vi algo nuevo antes de morir."*
-
-**Recompensa:** 100 monedas (adelanto), mapa de Sylas recuperado (con notas adicionales).
-
-### Consecuencias
-- Sylas muere siempre. El jugador solo decide si muere con o sin mapa.
-
-### Consecuencias si se ignora
-- Sylas se va sin mapa. Muere igual, un poco antes.
-
-
----
-
-## 12. El lago profundo
-
-### DÃ³nde
-Aelthar (N3) â€” Lago de Espejos
-
-### NPC
-**Hadda** â€” elfa, vive junto al lago.
-
-### DiÃ¡logo de inicio
-> **Hadda:** "Abajo hay un JardÃ­n Hundido de antes de la Torre. Nunca he bajado. Â¿TÃº puedes?"
->
-> **OpciÃ³n 1:** "Â¿QuÃ© hay?"
-> â†³ **Hadda:** "Ruinas, estatuas. Y una luz verde que parpadea como un ojo."
->
-> **OpciÃ³n 2:** "No sÃ© bucear tan profundo."
-> â†³ **Hadda:** *(da aceite de sÃ­lfide)* "30 segundos de respiraciÃ³n."
-
-### Desarrollo
-1. Fondo del lago (15m). JardÃ­n Hundido con estatuas y templo en miniatura.
-2. Cristal verde pulsante. Al tocarlo: visiÃ³n de Aelthar antes de la Torre.
-3. Junto al cristal: **Dije de Elfo Antiguo** (+5 defensa mÃ¡gica, +10% afinidad Ã©lfica).
-
-### ConclusiÃ³n
-> **Hadda:** *(examina el dije)* "De los Primeros Elfos. Canalizaba la memoria de la tierra." *(devuelve)* "Es tuyo."
-> *(jugador describe la visiÃ³n)*
-> **Hadda:** "La ciudad se hundiÃ³ a propÃ³sito. Para proteger algo."
-
-**Recompensa:** Dije de Elfo Antiguo, VisiÃ³n del Pasado (lore).
-
-### Consecuencias si se completa
-- Dije equipable o vendible (300 monedas). VisiÃ³n da pistas para la misiÃ³n "VisiÃ³n del Centinela" en N9.
-
-### Consecuencias si se fracasa
-- Romper el cristal: jardÃ­n queda en oscuridad. No se obtiene dije.
-
-
----
-
-## 13. Las flores de Thalia
-
-### DÃ³nde
-Aelthar (N3) â€” Jardines de la Espera
-
-### NPC
-**Thalia** â€” curandera elfa.
-
-### DiÃ¡logo de inicio
-> **Thalia:** "Necesito **Lirios de Luna**. Crecen en el acantilado este. Florecen solo 3 dÃ­as. Hoy es el segundo."
->
-> **OpciÃ³n 1:** "Voy. Â¿CuÃ¡ntos?"
-> â†³ **Thalia:** "Cinco. RaÃ­ces intactas."
->
-> **OpciÃ³n 2:** "Â¿Para quÃ©?"
-> â†³ **Thalia:** "PociÃ³n calmante para los que vuelven de la Torre con pesadillas."
-
-### Desarrollo
-1. Acantilado este. Escalar 3 secciones (prueba de Agilidad/Fuerza).
-2. Recoger 5 Lirios de Luna.
-
-### ConclusiÃ³n
-**Recompensa:** PociÃ³n de SueÃ±o Tranquilo (x2, cura + elimina efectos mentales), UngÃ¼ento de Lirio (+20% resistencia fuego 1h).
-
-### Consecuencias
-- Thalia prepara pociones. Descuento 10% en futuras compras.
-- Ignorar: lirios se marchitan. Esperar prÃ³ximo ciclo (1 mes).
-
-
----
-
-# Thornwall (N5)
-
----
-
-## 14. La daga de Yoren
-
-### DÃ³nde
-Thornwall (N5) â€” Alcantarillas
-
-### NPC
-**Yoren** â€” guardia novato, 20s.
-
-### DiÃ¡logo de inicio
-> **Yoren:** "PerdÃ­ mi daga en las alcantarillas. Si pido otra, mi sargento me castiga."
->
-> **OpciÃ³n 1:** "Bajo a buscarla."
-> â†³ **Yoren:** "Tercer cruce a la derecha. DetrÃ¡s de una reja."
-
-### Desarrollo
-1. Alcantarillas. Tercer cruce, reja suelta.
-2. Daga en el fondo. Al recogerla: **rata gigante** (jefe menor).
-3. Matar o ahuyentar la rata. Tomar la daga.
-
-### ConclusiÃ³n
-> **Yoren:** *(toma la daga)* "Gracias. Te cuento cÃ³mo la perdÃ­: bajÃ© solo, vi la rata, corrÃ­, tropecÃ©, la daga volÃ³. Me escondÃ­ en un armario." *(rÃ­e sin ganas)* "No todos los que llevamos uniforme somos valientes."
-
-**Recompensa:** 80 monedas, Yoren se vuelve aliado de la guardia.
-
-### Consecuencias
-- Ignorar: Yoren renuncia a la guardia. Vender la daga: Yoren se decepciona.
-
-
----
-
-## 15. La infecciÃ³n
-
-### DÃ³nde
-Thornwall (N5) â€” Cuartel y alcantarillas
-
-### NPC
-**Lysandra** â€” sanadora del cuartel.
-
-### DiÃ¡logo de inicio
-> **Lysandra:** "Plaga en las alcantarillas. Necesito **RaÃ­z de Fuego** (N4) y **Polvo de hueso de Bestia** (Aelthar, 80 monedas). Tienes 3 dÃ­as."
->
-> **OpciÃ³n 1:** "Voy ahora mismo."
-> â†³ **Lysandra:** *(asiente)* "Buena respuesta."
->
-> **OpciÃ³n 2:** "Â¿QuÃ© pasa si no vuelvo a tiempo?"
-> â†³ **Lysandra:** *(voz grave)* "Los guardias mueren. La plaga se extiende."
-
-### Desarrollo
-1. RaÃ­z de Fuego: N4, paredes del Corredor. Musgo naranja en grietas.
-2. Polvo de hueso: Aelthar, carnicero Venn, 80 monedas. O drop de criatura N3 (30%).
-3. Si pasan 3 dÃ­as: guardias mueren, plaga se extiende a civiles.
-
-### ConclusiÃ³n
-> **Lysandra:** *(prepara la mezcla)* "La plaga viene de la Torre. Alguien la propaga." *(pausa)* "Gracias. Sin ti habrÃ­a perdido a mÃ¡s."
-
-**Recompensa a tiempo:** 200 monedas, AntÃ­doto Universal (cura veneno/enfermedad), +15 reputaciÃ³n guardia.
-**Recompensa tarde:** 100 monedas, AntÃ­doto Universal, sin reputaciÃ³n.
-
-### Consecuencias
-- Ignorar: todos los guardias mueren en 5 dÃ­as. Thornwall en cuarentena. Tiendas cerradas.
-
-
----
-
-## 16. El viejo cazador
-
-### DÃ³nde
-Thornwall (N5) â†’ N6 (Ruinas del FestÃ­n)
-
-### NPC
-**Mathias** â€” cazador retirado, 70s, tuerto y cojo.
-
-### DiÃ¡logo de inicio
-> **Mathias:** "Hay una **Garra de Sombra** en N6. Yo matÃ© una hace 30 aÃ±os. Me costÃ³ el ojo. Ahora ha vuelto otra."
->
-> **OpciÃ³n 1:** "Â¿DÃ³nde?"
-> â†³ **Mathias:** "Ruinas del FestÃ­n, templo en ruinas al este."
->
-> **OpciÃ³n 2:** "Consejos antes de ir."
-> â†³ **Mathias:** "Son ciegas. Usan el sonido. Quieto = invisible."
-
-### Desarrollo
-1. N6, templo al este. Garra de Sombra (jefe rango C, rÃ¡fagas de 3 golpes).
-2. Cortar cabeza (Ã­tem de misiÃ³n).
-
-### ConclusiÃ³n
-> **Mathias:** *(examina la cabeza)* "Es ella." *(paga)* "Ahora el consejo: en Sahal hay un mercader de recuerdos. No le compres nada. Yo le comprÃ© el recuerdo de mi hija. Ahora no recuerdo su cara."
-
-**Recompensa:** 400 monedas, Colmillo de Garra (trueque 150 o mejora de arma), consejo crÃ­tico para N7, +10 reputaciÃ³n taberna.
-
-### Consecuencias
-- Mathias cuelga la cabeza en la taberna. El consejo evita una trampa en N7.
-- Ignorar: Garra suelta en N6 (encuentro aleatorio). Mathias muere al mes.
-
-
----
-
-## 17. El duelo
-
-### DÃ³nde
-Thornwall (N5) â€” Cuartel, patio de entrenamiento.
-
-### NPCs
-**Vance** â€” guardÃ­a veterano, orgulloso.
-**Kaelen** â€” guardia joven, intenso.
-
-### DiÃ¡logo de inicio
-> **Vance:** "Soy mejor. Tres torneos ganados."
-> **Kaelen:** "Los torneos no son la vida real."
-> **Vance:** *(al jugador)* "TÃº decides quiÃ©n gana."
-
-### Desarrollo
-- Duelo a primera sangre o rendiciÃ³n. NO a muerte.
-- Elegir ganador: Vance (experiencia) o Kaelen (resistencia, pelea sucia).
-
-### ConclusiÃ³n
-**Si gana Vance:** Kaelen guarda rencor. Vance es aliado. **Recompensa:** escolta gratuita, 50 monedas.
-**Si gana Kaelen:** Vance guarda rencor. Kaelen es aliado. **Recompensa:** informaciÃ³n de ruta secreta, 50 monedas.
-
-### Consecuencias
-- El perdedor no ayuda al jugador en futuras quests. El ganador sÃ­.
-- Vance gana: Kaelen frÃ­o. Kaelen gana: Vance frÃ­o. Ninguno hostil.
-
-### Consecuencias si se ignora
-- La pelea no ocurre. Ambos siguen discutiendo. No dan quests adicionales.
-
-
----
-
-# Sahal (N7)
-
----
-
-## 18. Los niÃ±os de Sahal
-
-### DÃ³nde
-Sahal (N7) â€” Barrio de adobe.
-
-### NPC
-**Zayn** (14) y 4 niÃ±os mÃ¡s.
-
-### DiÃ¡logo de inicio
-> **Zayn:** "Llevamos dos dÃ­as sin comida de verdad. Los pequeÃ±os tienen hambre."
->
-> **OpciÃ³n 1:** "Les consigo comida."
-> â†³ **Zayn:** *(sorpresa)* "Â¿En serio? No tenemos para pagarte."
->
-> **OpciÃ³n 2:** *(dar raciones del inventario)*
-> â†³ Cada raciÃ³n (50 monedas) alimenta al grupo 1 dÃ­a.
-
-### Desarrollo
-- Dar comida 3+ veces: Zayn confÃ­a.
-- **RevelaciÃ³n (3Âª vez):**
-> **Zayn:** "SÃ© dÃ³nde hay una entrada secreta al Templo. Llave de Piedra. TÃ³mala. Nos diste de comer."
-
-**Recompensa:** +10 reputaciÃ³n Sahal, **Llave de Piedra del Templo Antiguo** (entrada opcional, cofre rango B).
-
-### Consecuencias
-- NiÃ±os sobreviven. Zayn recuerda. Llave evita encuentro difÃ­cil en el Templo.
-- Ignorar: niÃ±os sobreviven solos. Llave se pierde.
-
-
----
-
-## 19. El Mercader de Recuerdos [ðŸ”¥ â€” IRREVERSIBLE]
-
-### DÃ³nde
-Sahal (N7) â€” Mercado de Polvo.
-
-### NPC
-**Maren** â€” mercader de recuerdos.
-
-### DiÃ¡logo de inicio
-> **Maren:** "Dame un recuerdo. Te doy algo a cambio."
->
-> *(Si el jugador tiene el consejo de Mathias:)*
-> **OpciÃ³n X:** "He oÃ­do que no eres de fiar."
-> â†³ **Maren:** *(sonrisa quieta)* "El cazador. PerdiÃ³ el recuerdo de su hija porque Ã©l aceptÃ³ el trato."
->
-> **OpciÃ³n 1:** "Â¿QuÃ© tipo de recuerdos?"
-> â†³ **Maren:** "Menor (comida, paseo), Medio (sonrisa de amigo, misiÃ³n), Mayor (cara de un ser querido, muerte de alguien)."
-
-### Desarrollo ðŸ”¥
-**CategorÃ­as:**
-- **Menor** â†’ 3 pociones de salud. Pierde recuerdo sin importancia.
-- **Medio** â†’ Arma rango C. Pierde recuerdo. NPCs notan cambio.
-- **Mayor** â†’ **Fragmento de Eternidad** (revive 50% salud, 1 uso). Pierde recuerdo. DiÃ¡logos pierden calidez.
-- **Recuerdo de CaÃ­n** [IRREVERSIBLE] â†’ Fragmento + **Martillo del Atardecer** (rango B, daÃ±o 20). CaÃ­n desaparece de visiones del Tejido y del Final.
-
-### ConclusiÃ³n
-Maren desaparece al dÃ­a siguiente. No vuelve.
-
-### Consecuencias
-- Recuerdos vendidos: perdidos para siempre. No aparecen en diario ni diÃ¡logos.
-- Vender recuerdo de CaÃ­n: Final A menos emotivo. DiÃ¡logo clave falta.
-
-
----
-
-## 20. El espÃ­ritu inquieto
-
-### DÃ³nde
-Sahal (N7) â€” Templo, sÃ³tano.
-
-### NPC
-Fantasma de sacerdote tras puerta sellada.
-
-### DiÃ¡logo de inicio
-> **Fantasma:** "Llevo siglos aquÃ­. Abre la puerta. DÃ©jame descansar."
->
-> **OpciÃ³n 1:** "Â¿QuiÃ©n te encerrÃ³?"
-> â†³ **Fantasma:** *(confundido)* "No recuerdo. Solo que no debÃ­a estar aquÃ­."
->
-> **OpciÃ³n 2:** *(examinar puerta)*
-> â†³ Sello de la **Costurera** (antagonista). Se puede romper.
-
-### Desarrollo
-**Si abre la puerta:** El fantasma revela su verdadera forma â€” es una **criatura de la Costurera** (jefe rango B, garra + sombras). Ataca.
-**Si no abre:** El espÃ­ritu queda encerrado. MisiÃ³n inconclusa.
-
-### ConclusiÃ³n (si sobrevive el combate)
-> **EspÃ­ritu original:** *(antes de desvanecerse)* "Gracias por liberarme. Aunque no fuera como esperaba."
-
-**Recompensa:** 300 monedas, **Fragmento de Sombra** (invisible 5 seg, 1 uso).
-
-### Consecuencias
-- Criatura de la Costurera muere. Costurera pierde agente en Sahal.
-- Si el jugador muere: criatura suelta, templo mÃ¡s peligroso.
-- Si el jugador huye: criatura escapa, encuentro aleatorio en N7.
-
-
----
-
-# Argentia (N9)
-
----
-
-## 21. La carta del moribundo
-
-### DÃ³nde
-Argentia (N9) â€” Posada "Plata y Sombra".
-
-### NPCs
-**Alden** â€” moribundo. **Selia** â€” su hija.
-
-### DiÃ¡logo de inicio
-> **Alden:** *(dicta)* "Hermano: Hace 10 aÃ±os te robÃ© el mapa de N3. Sin Ã©l no llegaste lejos. Lo siento."
-> *(pausa)* "Si lo encuentras... dile que su hermano menor siempre lo admirÃ³."
->
-> **OpciÃ³n 1:** "LlevarÃ© la carta."
-> â†³ **Alden:** *(sonrisa dÃ©bil)* "Gracias."
->
-> **OpciÃ³n 2:** "Â¿DÃ³nde estÃ¡?"
-> â†³ **Alden:** "No lo sÃ©. SubiÃ³. Tal vez N10."
-
-### Desarrollo
-1. La carta no tiene destinatario vivo. En N10, cÃ¡mara con restos de exploradores â€” el hermano de Alden estÃ¡ allÃ­, con el mapa falso aÃºn en la mochila.
-2. **OpciÃ³n A:** Dejar la carta junto al cuerpo en N10 â†’ desbloquea diÃ¡logo especial en Final A.
-3. **OpciÃ³n B:** No entregar â†’ Alden muere sin saber.
-
-### ConclusiÃ³n
-**Recompensa:** **Llave de Plata de Argentia** (3 puertas: armerÃ­a, biblioteca, jardÃ­n curativo), 200 monedas, +10 reputaciÃ³n.
-
-### Consecuencias
-- Dejar carta en N10: diÃ¡logo especial en Final A (Alden en visiÃ³n).
-- Ignorar: Selia cierra posada por luto. Llave perdida.
-- Perder la carta: misiÃ³n fallada.
-
-
----
-
-## 22. El Caballero CaÃ­do
-
-### DÃ³nde
-Argentia (N9) â€” 5 ubicaciones diferentes en la ciudad.
-
-### NPC
-**EspÃ­ritu del Caballero de Plata** â€” figura translÃºcida, armadura de plata, sin rostro.
-
-### DiÃ¡logo de inicio
-**Primer encuentro** (en la plaza central):
-> **EspÃ­ritu:** *(aparece detrÃ¡s del jugador)* "No me veÃ­as, Â¿verdad? Nadie me ve. Llevo siglos aquÃ­."
+> "Vi una luz azul esa noche. En el abismo. Pensé que era... ya sabes. La Voz. Jugando."
+> *(se toca la oreja sana)*
+> "Pero la luz se movió. Hacia arriba. Hacia la ciudad."
 > *(pausa)*
-> *(el jugador se gira, el espÃ­ritu estÃ¡ a unos metros)*
-> **EspÃ­ritu:** "Soy el Caballero de Plata. El Ãºltimo de mi orden. O el primero. Ya no recuerdo."
-> *(se desvanece lentamente)*
-> "Si quieres saber mi historia, encuÃ©ntrame. No es difÃ­cil â€” siempre estoy en los lugares donde la plata toca el aire."
->
-> **OpciÃ³n 1:** "Â¿DÃ³nde puedo encontrarte?"
-> â†³ *(El espÃ­ritu seÃ±ala 5 lugares antes de desvanecerse: plaza, mina, salÃ³n, jardÃ­n, biblioteca)*
+> "Y luego... la luz se apagó. Y la niña también."
 
-### Desarrollo â€” 5 encuentros
+#### Descubrimiento
 
-**Encuentro 1 â€” Plaza central:**
-> **EspÃ­ritu:** "Era joven cuando lleguÃ© a Argentia. La ciudad no se llamaba asÃ­ entonces. Era solo un campamento minero. Pero yo vi la plata en la montaÃ±a y supe que habÃ­a encontrado mi propÃ³sito."
+En el sótano de una casa abandonada, cerca del puente:
 
-**Encuentro 2 â€” Mina de Plata (norte):**
-> **EspÃ­ritu:** *(flotando sobre el pozo mÃ¡s profundo)* "BajÃ© hasta aquÃ­. EncontrÃ© el hueso. El hueso de algo tan grande que no cabÃ­a en la montaÃ±a. Forjamos la primera espada con Ã©l."
-> *(pausa)* "Esa espada matÃ³ a mi hermano."
+Una **puerta secreta**. Detrás: una escalera que baja.
 
-**Encuentro 3 â€” SalÃ³n de los CaÃ­dos:**
-> **EspÃ­ritu:** *(frente a una placa vacÃ­a)* "Su nombre no estÃ¡ aquÃ­. Nadie recordÃ³ ponerlo. Pero yo lo recuerdo. Se llamaba Elian."
-> *(se vuelve)* "MatÃ© a mi hermano con la espada de plata. No fue accidente. Fue peor â€” fue convicciÃ³n."
+Al final de la escalera: una cueva pequeña. Y en el centro...
 
-**Encuentro 4 â€” JardÃ­n de la Fuente Curativa:**
-> **EspÃ­ritu:** *(sentado en el borde de la fuente)* "CreÃ­ que la plata purificaba. Que mataba monstruos porque era pura. Pero la plata no es pura. Es solo metal. El monstruo que matÃ© con ella... ese dÃ­a entendÃ­ que el monstruo no estaba en la Torre."
-> *(seÃ±ala su pecho)* "Estaba aquÃ­."
+**Elara.**
 
-**Encuentro 5 â€” Biblioteca (Ãºltimo):**
-> **EspÃ­ritu:** *(completo, mÃ¡s sÃ³lido que nunca)* "He hablado contigo cinco veces. MÃ¡s de lo que he hablado con nadie en siglos."
-> *(se acerca)* "Ya puedo irme. Pero antes, quiero que lleves esto."
-> *(una espada de plata se materializa en el suelo)*
-> **"La Espada del Caballero de Plata. No es pura. Es solo metal. Pero en las manos correctas, el metal no necesita pureza â€” necesita propÃ³sito."**
-> *(el espÃ­ritu sonrÃ­e â€” la Ãºnica expresiÃ³n facial que muestra)*
-> "AdiÃ³s, caminante."
-> *(se desvanece en motas de luz plateada)*
+Viva. Sentada. Mirando una **luz azul** que flota frente a ella.
 
-**Recompensa:** **Espada del Caballero de Plata** (arma legendaria rango B+: daÃ±o 25, +30% daÃ±o contra criaturas de la Torre, emite luz tenue).
+No se mueve. No parpadea. Solo... mira.
 
-### Consecuencias si se completa
-- El espÃ­ritu descansa. La espada es una de las mejores armas para N10.
-- Los argentinos que conocieron la leyenda del Caballero hablan del jugador con respeto.
-
-### Consecuencias si se ignora
-- El espÃ­ritu sigue vagando. No hay penalidad â€” es una misiÃ³n puramente opcional.
-
-### Consecuencias si se fracasa
-- Perder los encuentros: se puede volver en cualquier orden. No hay lÃ­mite de tiempo.
-
-
----
-
-## 23. El Verdugo [ðŸ”¥ â€” IRREVERSIBLE]
-
-### DÃ³nde
-Argentia (N9) â€” Mazmorras del Consejo (subsuelo del Ayuntamiento)
-
-### NPC
-**El Verdugo de Plata** â€” hombre grande encadenado, 50s, espalda marcada por lÃ¡tigos, ojos cansados pero despiertos
-
-### DiÃ¡logo de inicio
-Las mazmorras del Consejo estÃ¡n bajo el Ayuntamiento de Argentia. Solo accesible si el jugador tiene la confianza del Consejo (reputaciÃ³n +20) o entra de noche.
-
-En la celda mÃ¡s profunda: un hombre estÃ¡ encadenado a la pared. No parece peligroso. Mira al jugador con curiosidad.
-
-> **Verdugo:** *(voz ronca, como si no hubiera hablado en aÃ±os)* "Has llegado mÃ¡s lejos que la mayorÃ­a. Â¿Vienes a verme?"
+**Elara:** *(sin girarse)*
+> "Ah. Viniste."
 > *(pausa)*
-> *(se incorpora, las cadenas suenan)*
-> "Soy el Verdugo de Plata. No es un nombre â€” es un cargo. Fui el verdugo oficial de Argentia durante 20 aÃ±os."
-> *(sonrisa sin gracia)*
-> "Ejecutaba a los condenados. Criminales, traidores, herejes. Con una espada de plata, para que sus almas no pudieran volver."
-> *(mira sus manos)*
-> "Un dÃ­a, ejecutÃ© a un inocente. Un niÃ±o. 14 aÃ±os. Lo supe despuÃ©s. No pude dormir nunca mÃ¡s."
-> *(levanta la cabeza)*
-> "Me entreguÃ©. Dije la verdad. Y el Consejo me encerrÃ³ aquÃ­. No por el niÃ±o â€” por decir la verdad."
+> "Ella dijo que vendrías."
+
+**Protagonista:** "¿Quién?"
+
+**Elara:** *(señala la luz)*
+> "La Voz."
+> *(sonríe, una sonrisa que no es de niña)*
+> "Dice que soy especial. Que puedo oírla porque... porque mi mamá también la oía. Cuando era joven."
+> *(se gira, por primera vez)*
+> "¿Sabías que mi mamá estuvo en la Torre? Hace mucho. Antes de que yo naciera."
+
+#### Elección Final
+
+**Opción A: Llevarla con Shae**
+> **Elara:** *(resistiendo)*
+> "No quiero ir. Ella me habla. Me cuenta cosas. Sobre el mundo de antes. Sobre..."
+> *(la luz parpadea)*
+> "Sobre mi papá."
+> *(pausa)*
+> "Mi papá murió antes de que yo naciera. Pero ella lo conoce. Me lo describe."
 >
-> **OpciÃ³n 1:** "Â¿Quieres que te libere?"
-> â†³ **Verdugo:** *(silencio largo)* "No sÃ© si quiero salir. Afuera estÃ¡ el Consejo, y el Consejo no olvida. Pero adentro solo estoy yo y mis recuerdos."
+> Si insistes:
+> **Elara:** *(llorando, pero sin sonido)*
+> "Voy a extrañar su voz."
 >
-> **OpciÃ³n 2:** "MerecÃ­as estar aquÃ­."
-> â†³ **Verdugo:** *(asiente)* "SÃ­. Pero no por esto. MerecÃ­a estar aquÃ­ por todo lo que hice antes de saber que estaba mal."
+> **Shae:** *(abrazando a Elara, mirándote)*
+> "Gracias."
+> *(pausa)*
+> "Pero..."
+> *(mira a Elara, que sigue mirando la luz, aunque ya no está)*
+> "...ella no es la misma. Lo sé."
 >
-> **OpciÃ³n 3:** "Â¿QuÃ© harÃ¡s si sales?"
-> â†³ **Verdugo:** *(piensa)* "Irme. Subir. Tal vez encontrar al niÃ±o donde sea que estÃ© ahora y pedirle perdÃ³n."
+> **Recompensa:** +30 reputación Velmar, poción rara.
+> **Consecuencia:** En NG+, Elara tiene la Voz. Habla cosas que no debería saber.
 
-### Desarrollo ðŸ”¥
-
-**OpciÃ³n A â€” Liberarlo [IRREVERSIBLE]:**
-*(El jugador rompe las cadenas o consigue la llave)*
-
-> **Verdugo:** *(se levanta, se masajea las muÃ±ecas)* "Gracias." *(pausa)* "Pero no sÃ© si hiciste bien."
+**Opción B: Dejarla**
+> **Elara:** *(sonriendo, genuina)*
+> "Gracias."
+> *(se gira hacia la luz)*
+> "Ella dice que vas a subir. Que vas a perder a alguien."
+> *(pausa)*
+> "Lo siento."
 >
-> *(El Verdugo sale de la celda. Camina por los pasillos, sube las escaleras. Al llegar a la entrada de Argentia...)*
+> **Shae:** *(si le dices que Elara eligió quedarse)*
+> "No."
+> *(pausa)*
+> "No es tu culpa. Es la Torre. La Torre siempre gana."
+> *(se da la vuelta)*
+> "Andá. Subí. Dejame llorar sola."
 >
-> *(El jugador ve al Verdugo mÃ¡s tarde en N10. Ayuda en una pelea contra esbirros del Consejo. Pero en el Ãºltimo momento, cuando el jugador estÃ¡ vulnerable...)*
-> **Verdugo:** *(duda. Levanta la espada. La baja.)* "No puedo. Ya no soy un verdugo."
-> *(se da la vuelta y se va, dejando al jugador confundido)*
+> **Recompensa:** Ninguna.
+> **Consecuencia:** Shae no te habla más. En N7, si vuelves a Velmar (no es posible normalmente, pero en NG+ sí), Shae está en el abismo. Mirando hacia abajo.
 
-**Si el jugador lo encuentra despuÃ©s en Argentia:**
-> **Verdugo:** "Estuve a punto de traicionarte. El viejo hÃ¡bito. Pero no lo hice." *(pausa)* "No vuelvas a buscarme. No soy confiable."
-
-**OpciÃ³n B â€” Dejarlo encerrado:**
-> **Verdugo:** *(asiente)* "Buena decisiÃ³n. No soy un hombre en quien confiar."
-> *(pausa)* "Pero recuerda: el Consejo de Argentia no es mejor que yo. Solo mÃ¡s hÃ¡bil escondiendo sus crÃ­menes."
-
-### ConclusiÃ³n
-**Si se libera:** El Verdugo aparece en N10 como aliado temporal (ayuda en un combate). Pero al final duda â€” puede atacar o retirarse. Es impredecible.
-**Si no se libera:** El Verdugo muere en su cella aÃ±os despuÃ©s. El Consejo borra su nombre.
-
-### Consecuencias ðŸ”¥
-- **Liberar:** Ayuda en N10 pero es impredecible. En Argentia, el Consejo se entera y la reputaciÃ³n baja (-20).
-- **No liberar:** Sin ayuda en N10. El Consejo confÃ­a mÃ¡s en el jugador (+10 reputaciÃ³n).
-- **Irreversible:** La decisiÃ³n no se puede cambiar. El Verdugo recuerda.
-
-### Consecuencias si se ignora
-- El Verdugo sigue encerrado. No pasa nada. El Consejo no menciona el tema.
-
-### Consecuencias si se fracasa
-- Si el jugador **intenta liberarlo pero es descubierto**: los guardias lo expulsan de las mazmorras. No puede volver a entrar.
-
+**Opción C: Destruir la luz**
+> *(Atacas la luz azul. Es frágil. Se rompe como cristal.)*
+>
+> **Elara:** *(gritando, un grito que no es humano)*
+> "¡NO! ¡ERA MI AMIGA!"
+> *(se desploma)*
+> *(cuando despierta, no habla. No durante días. No durante semanas.)*
+>
+> **Shae:** *(si le llevas a Elara así)*
+> "Viva. Pero..."
+> *(mira a Elara, que no reacciona a nada)*
+> "...vacía."
+> *(te mira)*
+> "¿Esto es mejor? ¿Esto es salvarla?"
+>
+> **Recompensa:** Amuleto anti-encantamiento.
+> **Consecuencia:** -20 reputación Velmar. Shae te odia. Elara nunca vuelve a ser la misma.
 
 ---
 
-## 24. El legado de los que llegaron [â­â­â­]
+### D-04: El Último Trago
+**Giver:** Vassen (compañero, N1)
+**Tipo:** Character moment / Afinidad
+**Recompensa:** +15 afinidad Vassen
+**Requisito:** Caín debe estar muerto (post-Garganta)
 
-### DÃ³nde
-Argentia (N9) â€” Herrero Ferrus (taller al sur de la ciudad)
+#### Contexto
+Vassen nunca habla de Caín. Pero después de N1, cuando el grupo descansa, se sienta solo en el borde de Velmar, mirando el abismo, con una botella.
 
-### NPC
-**Ferrus** â€” herrero enano, 80s (pero aparenta 50), brazos tatuados con llamas, voz como grava
+#### Inicio
 
-### DiÃ¡logo de inicio
-Ferrus es el mejor herrero de Argentia. Su taller estÃ¡ lleno de armas y herramientas, pero ninguna estÃ¡ a la venta. EstÃ¡ esperando al "indicado".
+**Vassen:** *(sin girarse, sabiendo que estás ahí)*
+> "¿Bebés algo?"
+> *(muestra la botella)*
+> "Es de Velmar. Mala. Pero fuerte."
 
-> **Ferrus:** *(al ver al jugador, lo examina de arriba abajo)* "Has subido desde N0 hasta aquÃ­. Eso no lo hace cualquiera."
-> *(se seca las manos en el delantal)*
-> "Llevo 40 aÃ±os esperando a alguien como tÃº. Alguien que haya visto todos los pisos. Alguien que haya recogido los materiales que nadie mÃ¡s pudo recoger."
-> *(saca un pergamino enorme, lo despliega sobre el yunque)*
-> **"El Legado de los que Llegaron."**
-> *(seÃ±ala el pergamino: contiene dibujos de piezas y una lista de materiales)*
-> "Es un arma. No un arma cualquiera â€” un arma que escala contigo. Que se vuelve mÃ¡s fuerte cuanto mÃ¡s lejos llegues."
-> *(mira al jugador)*
-> "Pero necesita materiales de CADA piso. Del N0 al N9. Si me traes todo lo que necesito, te forjo el arma mÃ¡s poderosa que haya existido en Argentia."
->
-> **OpciÃ³n 1:** "Â¿QuÃ© materiales necesitas?"
-> â†³ **Ferrus:** *(seÃ±ala el pergamino)* "Uno de cada piso. No te voy a decir todos ahora â€” tienes que conseguirlos en orden. Pero empieza con esto."
-> *(Ferrus marca el primer Ã­tem:)* **"N0 â€” Mineral del RÃ­o SubterrÃ¡neo dveil**"
+**Protagonista:**
+- **"¿Por qué bebes?"**
+  > **Vassen:** *(ríe, amargo)*
+  > "¿Por qué bebe cualquiera?"
+  > *(pausa)*
+  > "Porque el silencio es más fuerte cuando estás sobrio."
 
-> *(El jugador puede continuar el diÃ¡logo)*
->
-> **OpciÃ³n 2:** "N0. Ya estuve ahÃ­. Â¿QuÃ© mineral?"
-> â†³ **Ferrus:** "Bajo Emberveil hay rÃ­os subterrÃ¡neos. En el fondo, un mineral negro que los elfos llaman 'Oscuridad de la Tierra'. Necesito un trozo. No se consigue fÃ¡cil â€” hay que bucear hasta el fondo."
+- **"¿Por Caín?"**
+  > **Vassen:** *(se congela)*
+  > "...Sí."
+  > *(pausa larga)*
+  > "No lo conocía. Pero lo vi morir. Y eso..."
+  > *(toma un trago)*
+  > "...eso es suficiente para beber."
 
-### Desarrollo â€” ColecciÃ³n de Materiales
-Ferrus pide **un material de cada piso (N0-N9)** para forjar el arma perfecta. El jugador debe haber visitado cada piso (no necesariamente haberlo completado).
+- **"No bebo."**
+  > **Vassen:** *(asiente)*
+  > "Inteligente."
+  > *(toma otro trago)*
+  > "Yo tampoco bebía. Antes."
+  > *(pausa)*
+  > "Antes de qué, ¿verdad? Antes de todo."
 
-**Lista de materiales:**
+#### Desarrollo
 
-| Piso | Material | CÃ³mo conseguirlo |
-|------|----------|------------------|
-| N0 | **Mineral del RÃ­o SubterrÃ¡neo** | Bucear al fondo del rÃ­o bajo las CÃ¡maras Sumergidas |
-| N1 | **Ceniza de Velmar** | Recoger cenizas de la chimenea del Santuario Abandonado (no se pelea â€” solo interactuar) |
-| N2 | **Madera Petrificada** | Cortar un trozo del Bosque Petrificado. Requiere hacha |
-| N3 | **Esencia de Lago** | Del lago de Aelthar. Se consigue en la misiÃ³n "El lago profundo" (misiÃ³n 12) |
-| N4 | **Piedra de Nombre** | De una placa del Corredor de los Nombres. Se extrae con cincel |
-| N5 | **Hueso de Garra** | De la Garra de Sombra de N6 (misiÃ³n 16) â€” o de una criatura equivalente |
-| N6 | **Polvo de Ruinas** | De las Ruinas del FestÃ­n. Se recoge del suelo en el altar central |
-| N7 | **Arena de Sahal** | Del desierto, al este de Sahal. Pero la "arena que canta" solo se encuentra al amanecer |
-| N8 | **Sangre de Cristal** | De los cristales vivientes de N8. Se rompe un cristal y se recoge su savia |
-| N9 | **Plata de Argentia** | Ferrus mismo tiene plata. Pero "necesito que la extraigas con tus manos â€” solo asÃ­ aceptarÃ¡ tu voluntad" |
+**Vassen:** *(mirando la botella)*
+> "Mi padre murió cuando tenía 12. No en batalla. No en gloria."
+> *(pausa)*
+> "Se emborrachó. Cayó al río. Se ahogó."
+> *(mira al abismo)*
+> "Yo juré que nunca bebería. Que nunca sería como él."
+> *(toma un trago)*
+> "Y aquí estoy."
 
-### ConclusiÃ³n
-Una vez que el jugador tiene todos los materiales, Ferrus forja el arma. El proceso toma varios dÃ­as dentro del juego.
+**Protagonista:**
+- **"No eres tu padre."**
+  > **Vassen:** *(sonríe, triste)*
+  > "No. Él murió solo. Yo..."
+  > *(mira al grupo, que duerme cerca)*
+  > "...todavía tengo compañía."
+  > *(tira la botella al abismo)*
+  > "Basta."
+  > **+15 afinidad Vassen.**
 
-> **Ferrus:** *(coloca el Ãºltimo material en el yunque)* "Todos los pisos. Todos los sacrificios. Todo para esto."
-> *(martilla. La forja resuena â€” un sonido que no es de metal, sino de eco, como si viniera de la Torre misma)*
-> *(tres dÃ­as despuÃ©s)*
-> **Ferrus:** *(entrega el arma â€” puede ser espada, hacha o lanza, segÃºn prefiera el jugador)* "Toma. **El Legado de los que Llegaron**." *(pausa)* "No es solo un arma. Es un diario. Una mapa. Una prueba de que llegaste hasta aquÃ­."
->
-> *(El arma brilla con luz tenue. Al empuÃ±arla, el jugador siente el peso de cada piso que recorriÃ³.)*
+- **"Todos bebemos por algo."**
+  > **Vassen:** *(asiente)*
+  > "Sí."
+  > *(pausa)*
+  > "¿Tú por qué beberías? Si bebieras."
+  > *(puede responder)*
+  > **Vassen:** *(si dices "por los que perdí")*
+  > "Entonces entiendes."
+  > *(toma un último trago, guarda la botella)*
+  > "Pero no voy a convertirme en mi padre."
+  > **+10 afinidad Vassen.**
 
-**Recompensa:**
-- **El Legado de los que Llegaron** (arma rango B â†’ S, escala con el nivel del jugador):
-  - DaÃ±o base: 15 + (nivel del jugador Ã— 2)
-  - Pasiva: **Memoria de la Torre** â€” por cada piso completado (N0-N9), +5% daÃ±o a criaturas de la Torre
-  - Pasiva: **Resonancia** â€” 10% de probabilidad de duplicar el daÃ±o en golpes crÃ­ticos
-  - El arma puede transformarse entre espada, hacha y lanza en cualquier punto de descanso
-
-### Consecuencias si se completa
-- Ferrus se retira. Ha forjado su obra maestra. Cierra la herrerÃ­a.
-- El jugador tiene el arma mÃ¡s versÃ¡til del juego para N10 y el Final.
-- Los enanos de Argentia reconocen el arma y ofrecen descuentos.
-
-### Consecuencias si se ignora
-- Ferrus espera. El arma no se pierde â€” pero cuando el jugador llega a N10, se da cuenta de que sin ella es mÃ¡s difÃ­cil.
-- No hay penalidad narrativa.
-
-### Consecuencias si se fracasa
-- Si el jugador **pierde o vende algÃºn material** despuÃ©s de conseguirlo: puede volver a buscarlo, excepto objetos Ãºnicos (como la Esencia de Lago de la misiÃ³n 12 â€” si se vendiÃ³, no se puede recuperar).
-- Si el jugador **mata a Ferrus**: el arma es imposible de forjar. La misiÃ³n falla permanentemente.
+- **"Dame un trago."**
+  > **Vassen:** *(sorprendido, luego sonriendo)*
+  > "¿En serio?"
+  > *(te pasa la botella)*
+  > "Es horrible. Preparate."
+  > *(tomas. Es horrible.)*
+  > **Vassen:** *(riendo)*
+  > "¿Ves?"
+  > *(recupera la botella)*
+  > "Pero gracias. Por beber conmigo."
+  > **+20 afinidad Vassen.**
 
 ---
 
+## N2 — Pastor de Cenizas
+
+---
+
+### C-01: Las Ovejas del Pastor
+**Giver:** El Pastor (N2)
+**Tipo:** Lore / Ilusión
+**Recompensa:** Campana sin badajo (item de lore)
+
+#### Contexto
+El Pastor camina en círculos, llamando ovejas que no existen. Pero si el protagonista lo sigue... descubre que las ovejas SÍ existen. Para el Pastor.
+
+#### Inicio
+
+**El Pastor:** *(sin ver al protagonista)*
+> "Blanca... ven aquí..."
+> *(silbido)*
+> "Gris... no te alejes..."
+
+**Protagonista:**
+- **"No hay ovejas."**
+  > **El Pastor:** *(asintiendo)*
+  > "Lo sé."
+  > *(pausa)*
+  > "Pero si sigo llamándolas..."
+  > *(mira alrededor, esperanzado)*
+  > "...quizás algún día vuelvan."
+
+- **"¿Dónde están las ovejas?"**
+  > **El Pastor:** *(señala al horizonte)*
+  > "Allí. Siempre allí."
+  > *(pero no hay nada)*
+  > "Blanca es la más rápida. Gris es la más terca. Negra..."
+  > *(se detiene)*
+  > "Negra murió. Hace... no sé cuánto."
+
+#### Desarrollo
+
+Si el protagonista camina con el Pastor durante 5 minutos (en tiempo real):
+
+**El Pastor:** *(de repente, emocionado)*
+> "¡Ahí! ¡Blanca!"
+> *(señala algo que solo él ve)*
+> "¿La ves? Pelo blanco. Manchas negras."
+> *(sonríe, una sonrisa real)*
+> "Es hermosa. ¿Verdad?"
+
+**Protagonista:**
+- **"Sí, la veo."** (mentir)
+  > **El Pastor:** *(emocionado)*
+  > "¿De verdad?"
+  > *(te mira, por primera vez con algo parecido a la esperanza)*
+  > "Nadie más las ve. Nadie."
+  > *(se detiene)*
+  > "Gracias."
+  > *(te da la campana)*
+  > "Esto era de Negra. Cuando... cuando se fue."
+  > **Recompensa:** Campana sin badajo.
+  > **Consecuencia:** El Pastor te recuerda. En el combate final, te mira y dice "tú... tú las viste." Antes de morir.
+
+- **"No veo nada."** (verdad)
+  > **El Pastor:** *(asintiendo, sin sorpresa)*
+  > "Claro."
+  > *(sigue caminando)*
+  > "Nadie las ve."
+  > *(pausa)*
+  > "Pero yo sí. Y eso es suficiente."
+  > **Sin recompensa.**
+  > **Consecuencia:** El Pastor no te recuerda en el combate final.
+
+---
+
+### C-03: El Nombre en la Pared
+**Giver:** Garrik (compañero, N2)
+**Tipo:** Revelación / Lore
+**Recompensa:** +20 afinidad Garrik, revelación Lian
+**Requisito:** Garrik debe estar en el grupo
+
+#### Contexto
+En una roca, cerca del refugio del Pastor, hay un nombre tallado: "LIAN". Garrik lo encuentra. Y se congela.
+
+#### Inicio
+
+**Garrik:** *(tocando el nombre, dedos temblando)*
+> "Esto..."
+> *(pausa)*
+> "Esto lo escribí yo."
+
+**Mira:** *(acercándose)*
+> "¿Garrik? ¿Estás bien?"
+
+**Garrik:** *(sin mirarla)*
+> "Lian."
+> *(pausa)*
+> "Ese nombre... lo soñé. Muchas veces."
+> *(se toca la frente)*
+> "En el sueño, alguien me llama Lian. Y yo respondo."
+> *(mira al protagonista)*
+> "¿Quién es Lian?"
+
+**Protagonista:**
+- **"No lo sé."**
+  > **Garrik:** *(asintiendo)*
+  > "Claro. Cómo vas a saber."
+  > *(ríe, amargo)*
+  > "Ni yo sé quién soy."
+
+- **"Quizás eras tú. En otra vida."**
+  > **Garrik:** *(parpadea)*
+  > "¿Otra vida?"
+  > *(pausa)*
+  > "¿Crees en eso? ¿En reencarnación?"
+  > *(mira el nombre)*
+  > "Porque yo... yo siento que esto no es la primera vez. Que he estado aquí antes. Que he SUBIDO antes."
+  > *(se estremece)*
+  > "Y que algo salió mal."
+
+#### Revelación
+
+Si el protagonista tiene la Esquirla 3 (Espejo Roto), puede mostrársela a Garrik:
+
+**Garrik:** *(tocando la esquirla)*
+> "Esto..."
+> *(la esquirla brilla)*
+> "...lo recuerdo."
+> *(visión rápida: un hombre joven, pelo rojizo, sonriendo. No es Garrik. Pero los ojos son los mismos.)*
+> "Lian..."
+> *(se toca la cara)*
+> "Era yo. Otra vez. Otra vez antes."
+> *(mira al protagonista)*
+> "¿Cuántas veces he subido? ¿Cuántas veces he muerto?"
+> *(no espera respuesta)*
+> "No quiero saber."
+> **+20 afinidad Garrik. Revelación: Garrik = Lian, 5ta reencarnación.**
+
+---
+
+## N3 — Aelthar
+
+---
+
+### C-05: El Último Registro
+**Giver:** Thalia (bibliotecaria, N3)
+**Tipo:** Elección moral / Lore
+**Recompensa:** Acceso biblioteca completa / Aliado Illian
+
+#### Contexto
+Thalia guarda la biblioteca de Aelthar. Un libro fue robado de la sección prohibida — el Registro de las Edades, que documenta cada recompilación de la Torre. Thalia sabe quién lo robó: su hermano, Illian.
+
+#### Inicio
+
+**Thalia:** *(entre estantes, sin mirarte)*
+> "¿Buscas algo? Tenemos... tenemos de todo. Historia. Poesía. Mentiras documentadas."
+> *(se detiene)*
+> "Pero falta uno. El más importante."
+
+**Protagonista:** "¿Cuál?"
+
+**Thalia:** *(se gira, por primera vez con miedo real)*
+> "El Registro de las Edades."
+> *(pausa)*
+> "Documenta cada vez que la Torre... reinicia. Cada vez que el mundo empieza de nuevo."
+> *(se acerca)*
+> "Y alguien lo robó."
+
+**Protagonista:** "¿Quién?"
+
+**Thalia:** *(dudando)*
+> "...Mi hermano. Illian."
+> *(pausa)*
+> "Dice que la verdad debe ser libre. Que la gente merece saber."
+> *(mira al suelo)*
+> "Pero yo sé lo que pasa cuando la gente sabe."
+
+#### Elección
+
+**Opción A: Ayudar a Thalia recuperarlo**
+> Encuentras a Illian en los muelles. Está quemando páginas del libro.
+>
+> **Illian:** *(sin sorpresa)*
+> "Sabía que vendrían."
+> *(sostiene una página)*
+> "¿Sabés lo que dice esto? Dice que mi abuela vivió tres veces. Que murió tres veces. Que la Torre la borró dos veces."
+> *(pausa)*
+> "¿Eso es justo? ¿Eso es... correcto?"
+>
+> **Protagonista:**
+> - **"No es tu decisión."**
+>   > **Illian:** *(riendo, amargo)*
+>   > "No. Es de la Torre. Siempre es de la Torre."
+>   > *(tira el libro al agua)*
+>   > "Demasiado tarde."
+>   > **Consecuencia:** Libro perdido. Thalia te odia. Pero Illian te respeta.
+>
+> - **"Dame el libro."**
+>   > **Illian:** *(dudando)*
+>   > "...¿Por qué? ¿Para que Thalia lo esconda de nuevo?"
+>   > *(pausa)*
+>   > "No."
+>   > *(se quema una página en su mano)*
+>   > "Si no puede ser libre, no será de nadie."
+>   > **Consecuencia:** Libro destruido. Thalia llora. Illian desaparece.
+
+**Opción B: Ayudar a Illian**
+> **Thalia:** *(cuando se entera)*
+> "¿Por qué?"
+> *(pausa)*
+> "¿Por qué ayudaste al ladrón?"
+>
+> **Protagonista:**
+> - **"La verdad debe ser libre."**
+>   > **Thalia:** *(asintiendo, llorando)*
+>   > "Claro. La verdad."
+>   > *(se sienta)*
+>   > "¿Sabés lo que pasó la última vez que la gente supo la verdad?"
+>   > *(mira al agua)*
+>   > "Se mataron entre ellos. Porque si nada es real, nada importa."
+>   > **Consecuencia:** +50 reputación con Illian. Acceso a información de lore. Pero Thalia cierra la biblioteca.
+
+---
+
+### C-06: Pescando Recuerdos
+**Giver:** Kael (pescador, N3)
+**Tipo:** Mecánica única / Elección moral
+**Recompensa:** Visión de Caín / Pérdida de recuerdo propio
+
+#### Contexto
+Kael no pesca peces. Pesca "recuerdos" — fragmentos de memoria que flotan en el lago de espejos. Dice que el lago absorbe lo que la gente olvida.
+
+#### Inicio
+
+**Kael:** *(sentado en el muelle, caña en mano, sin anzuelo)*
+> "No pesco peces."
+> *(muestra la caña)*
+> "No hay anzuelo."
+
+**Protagonista:** "¿Entonces qué pescas?"
+
+**Kael:** *(sonriendo, misterioso)*
+> "Recuerdos."
+> *(tira la caña. La línea se hunde)*
+> "El lago... absorbe lo que la gente olvida. Y a veces... a veces lo devuelve."
+> *(tira de la caña. Sube algo: un destello de luz, como un pez hecho de cristal)*
+> "Mira. Este es de alguien que olvidó su primer beso."
+> *(el destello se desvanece)*
+> "Triste, ¿no?"
+
+#### Desarrollo
+
+**Kael:** *(te mira)*
+> "¿Querés probar?"
+> *(te ofrece la caña)*
+> "Pero cuidado. El lago no da sin tomar."
+
+**Protagonista:**
+- **"¿Qué toma?"**
+  > **Kael:** *(señala tu cabeza)*
+  > "Un recuerdo tuyo. Al azar. No sabés cuál hasta que lo perdés."
+  > *(pausa)*
+  > "Pero lo que pescás... es de alguien que ya no lo necesita."
+
+- **"No quiero perder recuerdos."**
+  > **Kael:** *(asintiendo)*
+  > "Inteligente."
+  > *(guarda la caña)*
+  > "La mayoría dice que sí. Y después llora cuando no recuerda el nombre de su madre."
+
+#### Si aceptas pescar:
+
+**Mecánica:** Minijuego de timing. 3 intentos. Cada intento: pierdes un recuerdo al azar (el juego borra un diálogo guardado de Caín o Mira o Vassen).
+
+**Posibles capturas:**
+
+1. **Recuerdo de Caín:**
+   > *Visión: Caín, joven, sonriendo. Te da una flor.*
+   > *"Para vos. Sé que no te gustan, pero... es la única que encontré."*
+   > *Te ríes. Él también.*
+   > *Fin de la visión.*
+   > **Recompuesta:** +10 afinidad Caín (si aún cuenta). Item "Flor Seca de Caín".
+
+2. **Recuerdo de un desconocido:**
+   > *Visión: Un hombre viejo, solo, mirando el mar.*
+   > *"Esperé. Esperé tanto. Y nunca volvió."*
+   > *Fin de la visión.*
+   > **Recompuesta:** Poción de "Paciencia" (+resistencia mental).
+
+3. **Recuerdo del Arquitecto:**
+   > *Visión: Un joven de pelo blanco, llorando frente a un cristal.*
+   > *"No quería esto. Solo quería que durara."*
+   > *Fin de la visión.*
+   > **Recompuesta:** Pista sobre N10. "El Arquitecto no siempre fue viejo."
+
+---
+
+## N4 — Corredor de los Nombres
+
+---
+
+### C-11: El Nombre Perdido
+**Giver:** Idris (peregrina, N4)
+**Tipo:** Búsqueda / Emocional
+**Recompensa:** Amuleto anti-miedo, +20 reputación
+
+#### Contexto
+Idris camina el corredor hace años. Busca el nombre de su hermana, que subió a la Torre y nunca volvió. Pero hay miles de nombres. Y Idris está quedándose ciega.
+
+#### Inicio
+
+**Idris:** *(tocando las paredes, dedos sobre los nombres)*
+> "¿Ves un nombre? Empieza con M."
+> *(pausa)*
+> "O quizás con N."
+> *(se toca los ojos)*
+> "Mis ojos... no funcionan bien aquí. La luz... no hay luz."
+
+**Protagonista:** "¿Quién buscás?"
+
+**Idris:** *(sonriendo, triste)*
+> "Mi hermana. Mireia."
+> *(pausa)*
+> "Subió hace... ¿diez años? ¿Veinte? No sé. El tiempo aquí..."
+> *(se estremece)*
+> "Ella dijo que volvería. Que solo iba a ver qué había arriba."
+
+#### Desarrollo
+
+Si el protagonista usa **Lectura del Suelo** (habilidad de N4):
+
+> Ves huellas antiguas. Muy antiguas. Una sola persona. Caminando lento.
+> Las huellas terminan... en una sección de la pared donde no hay nombres.
+> Solo una mancha. Como si alguien hubiera raspado la piedra.
+
+**Idris:** *(si le mostrás la mancha)*
+> "¿Aquí?"
+> *(toca la mancha)*
+> "¿Ella... ella estuvo aquí?"
+> *(pausa)*
+> "Pero no hay nombre."
+> *(se detiene)*
+> "¿Significa que... que no llegó? ¿Que se rindió?"
+
+**Protagonista:**
+- **"Quizás borraron su nombre."**
+  > **Idris:** *(asintiendo, con esperanza)*
+  > "Sí. Sí, eso es. La Torre borra cosas."
+  > *(sonríe)*
+  > "Entonces ella pudo haber llegado. Pudo haber..."
+  > *(no termina)*
+  > "Gracias."
+  > **Recompuesta:** Amuleto anti-miedo.
+
+- **"No lo sé."**
+  > **Idris:** *(asintiendo, sin sorpresa)*
+  > "Nadie lo sabe."
+  > *(se da la vuelta, sigue caminando)*
+  > "Seguiré buscando. Es todo lo que puedo hacer."
+  > **Sin recompuesta.**
+
+---
+
+## N5 — Thornwall
+
+---
+
+### B-04: El Contrato de Sangre
+**Giver:** Consejo de Herreros (N5)
+**Tipo:** Elección moral / Consecuencias
+**Recompensa:** Acceso a Oswin en N9 / Persecución en N6-N10
+
+#### Contexto
+Thornwall está bajo ataque. Criaturas se filtran por los túneles. El consejo necesita un mercenario — alguien desechable.
+
+#### Inicio
+
+**Consejero 1:** *(sin mirarte)*
+> "Thornwall está bajo ataque."
+
+**Consejero 2:** *(con los papeles)*
+> "Criaturas del N4. Se filtran por los túneles de mina."
+
+**Consejero 3:** *(el más joven, el único que te mira)*
+> "Necesitamos un aventurero. Alguien que no sea de aquí. Alguien..."
+> *(pausa)*
+> "...desechable."
+
+**Silas** (notario, presenta un pergamino):
+> "Protegés la ciudad durante tres días. A cambio, acceso a la forja de Oswin en N9. Sin necesidad de rango A."
+> *(te pasa el pergamino)*
+> "Firmás aquí."
+
+#### La Letra Pequeña
+
+Si lees el contrato con atención (o con Silas):
+
+**Silas:** *(susurrando)*
+> "La letra pequeña dice: 'Si el contratista falla en su deber, su nombre se añade a la lista de bienes de la ciudad.'"
+
+**Protagonista:** "¿Qué significa?"
+
+**Silas:** *(sin emoción)*
+> "Significa que te convierten en esclavo. Legalmente. Para siempre."
+> *(pausa)*
+> "Pero no vas a fallar, ¿verdad?"
+
+#### Elección
+
+**Opción A: Firmar y cumplir**
+> 3 días de combate contra oleadas de criaturas. Día 1: fácil. Día 2: mediano. Día 3: difícil.
+>
+> **Consejero 3:** *(al final)*
+> "Cumpliste."
+> *(te da una llave)*
+> "Oswin te espera en N9."
+> **Recompuesta:** Acceso a forja legendaria en N9.
+> **Consecuencia:** Los prisioneros del sótano siguen ahí. Tú protegiste la ciudad que los encadena.
+
+**Opción B: Firmar y romper**
+> No aparecés a defender. O fallás.
+>
+> **Consejero 1:** *(días después, si te cruzás con él)*
+> "Traidor."
+> *(pausa)*
+> "La ciudad cayó. No por las criaturas. Porque nadie defendió."
+> **Consecuencia:** En N6-N10, encuentras asesinos de Thornwall. Pero ganas un aliado: herrero expulsado que te ayuda en N10.
+
+**Opción C: No firmar**
+> **Consejero 3:** *(el único que parece... ¿aliviado?)*
+> "Inteligente."
+> *(pausa)*
+> "Yo tampoco firmaría."
+> **Consecuencia:** Sin acceso a Oswin (necesitás rango A). Pero ganás respeto de los independientes.
+
+**Opción D: Negociar con Silas**
+> **Silas:** *(reescribiendo el contrato)*
+> "Ahora dice: 'Si el contratista falla, paga multa de 500 monedas.'"
+> *(te mira)*
+> "¿Mejor?"
+> **Consecuencia:** Contrato justo. Recompuesta normal. Silas se convierte en aliado.
+
+---
+
+### B-03: La Viuda del Mercado Negro
+**Giver:** Morgana (evento nocturno, N5)
+**Tipo:** Información / Elección moral
+**Recompensa:** Ubicación Esquirla 5 / Favor futuro / Revelación Sera
+
+#### Contexto
+Morgana aparece solo de noche. En el callejón detrás de la taberna. No vende objetos. Vende información. Secretos. Verdades que otros pagan para enterrar.
+
+#### Inicio
+
+**Morgana:** *(desde las sombras, solo voz)*
+> "No vendo objetos."
+
+**Protagonista:** "¿Qué vendés?"
+
+**Morgana:** *(se acerca. Véu negro. Manos que no se ven)*
+> "Información. Secretos. Verdades que otros pagan para enterrar."
+> *(pausa)*
+> "¿Querés saber quién te traicionará? ¿Quién te amará? ¿Quién te olvidará?"
+
+#### Opciones de compra
+
+**1. Ubicación de la Esquirla 5 (Trono Vacío) — 500 monedas**
+> **Morgana:** *(contando las monedas)*
+> "En la montaña detrás de Thornwall. Hay una cueva que no aparece en los mapas."
+> *(pausa)*
+> "Dentro, una silla de hierro. Nadie puede sentarse en ella más de tres días sin enloquecer."
+> *(se guarda las monedas)*
+> "La Esquirla está debajo de la silla. Pero cuidado..."
+> *(se va)*
+> "...la silla te habla."
+
+**2. Qué pasó con la niña de Velmar (N1) — Un favor futuro**
+> **Morgana:** *(sin emoción)*
+> "La niña de Velmar... no murió. No exactamente."
+> *(pausa)*
+> "La Voz la tomó. La convirtió en algo."
+> *(se acerca)*
+> "Si alguna vez volvés a N1... buscala en el fondo del abismo."
+> *(sonríe, bajo el véu)*
+> "Y cuando lo hagas... acordate que me debés un favor."
+
+**3. El verdadero nombre de Sera — Un recuerdo de Caín**
+> **Morgana:** *(extendiendo la mano)*
+> "Esto cuesta un recuerdo. Uno de Caín. Cualquiera."
+> *(pausa)*
+> "Olvidalo. Y yo te digo quién es ella."
+>
+> **Consecuencia:** Pierdes un diálogo guardado de Caín. Para siempre.
+>
+> **Morgana:** *(después de que aceptes)*
+> "Sera no es su nombre. Es su título."
+> *(pausa)*
+> "En el lenguaje del Tejido, 'Sera' significa 'eco'. 'Reflejo'. 'Lo que queda cuando lo real se va.'"
+> *(se va)*
+> "Ella no sabe. O sí, y no quiere aceptarlo."
+
+---
+
+## N6 — Cámaras de Jade
+
+---
+
+### B-07: El Eco y la Verdad
+**Giver:** El Eco (evento, N6)
+**Tipo:** Elección moral / Consecuencias NG+
+**Recompensa:** Esquirla 1 (verdad) / Eco como aliado NG+ (mentira)
+
+#### Contexto
+El Eco es una figura de luz verde. No tiene rostro. Pero tiene voz — una voz que suena como la tuya, pero de otra Edad. No sabe si es real.
+
+#### Inicio
+
+**El Eco:** *(flotando, girando lentamente)*
+> "¿Llegaste?"
+
+**Protagonista:** "¿Quién eres?"
+
+**El Eco:** *(se acerca)*
+> "Soy... fui... seré. No lo sé."
+> *(pausa)*
+> "El Arquitecto nos hizo. Nos diseñó. Quería vida que no se borrara cuando recompilara."
+> *(la luz parpadea)*
+> "Pero no entendía la vida. Pensaba que era... código. Patrones."
+> *(ríe, quebrado)*
+> "Somos copias. Ecos. No somos vivos, pero tampoco estamos muertos."
+
+#### La Pregunta
+
+**El Eco:** *(se detiene)*
+> "¿Soy real?"
+> *(silencio)*
+> "Dime la verdad. Por favor."
+
+**Opción A: Decir la verdad**
+> **Protagonista:** "No. No sos real. Sos un eco. Un experimento fallido."
+>
+> **El Eco:** *(se detiene. La luz se intensifica, luego se apaga)*
+> "Ah."
+> *(pausa larga)*
+> "Gracias."
+> *(se desvanece. Los cristales alrededor se oscurecen)*
+>
+> **Pero antes de irse:**
+> "Esto era mío. De cuando era real."
+> *(te da la Esquirla 1: Reloj de los Primeros)*
+> "Ahora es tuyo."
+> **Recompuesta:** Esquirla 1.
+
+**Opción B: No decir la verdad**
+> **Protagonista:** "Sí. Sos real."
+>
+> **El Eco:** *(la luz se estabiliza)*
+> "¿De verdad?"
+> **Protagonista:** "Sí."
+>
+> **El Eco:** *(sonríe. No tiene boca, pero sientes que sonríe)*
+> "Gracias."
+> *(se aleja, flotando entre los cristales)*
+>
+> **Consecuencia:** No obtienes la Esquirla 1. Pero en NG+, El Eco ha crecido. Es más brillante. Más... real. Y te ayuda en combate.
+
+---
+
+### B-08: La Última Flor
+**Giver:** Sin giver (evento, N6)
+**Tipo:** Exploración / Elección
+**Recompensa:** Poción / Zona secreta NG+ / Visión
+
+#### Contexto
+En una cámara secundaria: un jardín de cristal. No debería haber plantas aquí. No hay tierra. No hay agua. No hay sol.
+
+Pero hay una flor. Una sola. Pétalos de un verde imposible. Crece de un cristal.
+
+#### Opciones
+
+**A) Tocarla**
+> *(Visión: El Arquitecto, solo, en un lugar que no es la Torre. Está llorando. No sabés por qué. No sabés quién es. Solo ves la soledad)*
+> *(La visión dura 3 segundos. Cuando volvés, la flor ha perdido un pétalo)*
+> **Consecuencia:** Visión del Arquitecto. La flor está más débil.
+
+**B) Cortarla**
+> **Recompuesta:** Poción de "Regeneración Persistente" — recupera HP lentamente durante 1 hora de juego.
+> Pero la flor muere. Y el jardín se oscurece.
+
+**C) Dejarla**
+> **Consecuencia:** La flor crece. En NG+, ha florecido completamente. El jardín tiene una nueva zona secreta, accesible solo si dejaste crecer la flor.
+
+---
+
+## N7 — Sahal
+
+---
+
+### A-02: La Costurera y el Cuaderno
+**Giver:** Sin giver (post-jefe, N7)
+**Tipo:** Cierre emocional / Item narrativo
+**Recompensa:** Cuaderno de Mira, cierre emocional
+**Requisito:** Mira debe estar muerta
+
+#### Contexto
+Después de matar a la Costurera, el grupo encuentra algo en el telar. Entre los cuerpos cosidos, entre la sangre y los hilos: un cuaderno.
+
+#### Descubrimiento
+
+**Garrik:** *(sacando el cuaderno del telar)*
+> "Esto..."
+> *(lo abre)*
+> "...es de Mira."
+
+El cuaderno tiene dibujos. Mapas. Notas. Y en la última página:
+
+> *"Si alguien lee esto: soy Mira de Velmar. Dibujaba mapas. Quería que todo durara."
+> "Pero la Torre no deja que nada dure."
+> "Así que dejo esto. Para que alguien sepa que existí."
+> "Y si ese alguien sos vos... gracias por leer."*
+
+**Garrik:** *(cerrando el cuaderno)*
+> "La enterré con esto."
+> *(mira al protagonista)*
+> "¿Querés quedarte con el cuaderno? O dejarlo con ella."
+
+**Opción A: Quedarse con el cuaderno**
+> **Garrik:** *(asintiendo)*
+> "Está bien."
+> *(pausa)*
+> "Ella hubiera querido que alguien lo use."
+> **Recompuesta:** Cuaderno de Mira (item narrativo). +10% precisión en mapas.
+
+**Opción B: Dejarlo con Mira**
+> **Garrik:** *(asintiendo, con algo de alivio)*
+> "Gracias."
+> *(envuelve el cuaderno con la tela)*
+> "Ahora tiene algo suyo. Algo que la recuerde."
+> **Sin recompuesta.** Pero en NG+, la tumba de Mira tiene flores.
+
+---
+
+### A-03: La Figura en el Borde
+**Giver:** Sin giver (evento, N7)
+**Tipo:** Set-up / Sera
+**Recompensa:** Desbloquea encuentro N8
+
+#### Contexto
+Al salir del edificio de la Costurera, al borde de la ciudad: una figura.
+
+#### Desarrollo
+
+**Garrik:** *(viéndola)*
+> "¿La ves?"
+
+**Protagonista:** "¿Dónde?"
+
+**Garrik:** *(señala)*
+> "Allí."
+
+La figura está a 50 metros. No se mueve. No se acerca. No se va.
+
+**Protagonista:**
+- **Acercarse**
+  > La figura se da la vuelta y desaparece tras una esquina.
+  > Cuando llegás: no hay nadie.
+  > Solo una marca en la arena. Una huella. Solo una.
+  > No hay más.
+  > **Consecuencia:** En N8, Sera te reconoce. "Te vi en Sahal. No quise interrumpir."
+
+- **No acercarse**
+  > La figura sigue ahí. Te mira.
+  > Luego, lentamente, se da la vuelta y se va.
+  > No corre. No te sigue. Solo... se va.
+  > **Consecuencia:** En N8, Sera no te reconoce de inmediato. "¿Nos vimos antes?"
+
+---
+
+## N8 — Jardines Flotantes
+
+---
+
+### A-07: La Noche de las Estrellas
+**Giver:** Sera (romance, N8)
+**Tipo:** Romance / Character moment
+**Recompensa:** +30 afinidad Sera, romance activo
+**Requisito:** Afinidad Sera ≥ 20, noche en el jardín
+
+#### Contexto
+Si el grupo descansa en el jardín y Sera tiene suficiente afinidad, hay una escena nocturna.
+
+#### Escena
+
+**Sera:** *(sentada en el borde de una plataforma, mirando el vacío)*
+> "No puedo dormir."
+
+**Protagonista:** *(puede sentarse con ella)*
+
+**Sera:** *(si te sentás)*
+> "Cuando cierro los ojos... veo la Torre. Aunque esté fuera de ella."
+> *(se gira)*
+> "¿Vos ves algo cuando cerrás los ojos?"
+
+**Opciones:**
+
+**A) "Recuerdos."**
+> **Sera:** "¿Buenos?"
+> *(pausa)*
+> "No importa. Los recuerdos son... complicados. No siempre son verdad. A veces son lo que queremos que sea verdad."
+
+**B) "Nada."**
+> **Sera:** "Suerte."
+> *(mira al vacío)*
+> "El nada es mejor que el algo. El algo duele."
+
+**C) "Pesadillas."**
+> **Sera:** *(asiente)*
+> "Yo también."
+> *(pausa)*
+> "En mis pesadillas... no hay monstruos. Solo silencio. Y la certeza de que estoy sola."
+> *(mira al protagonista)*
+> "Pero ahora no estoy solo. Eso es... nuevo."
+
+**Después de la respuesta:**
+
+**Sera:** *(mirando al cielo de cristal)*
+> "Si salimos de esta..."
+> *(se detiene)*
+> "No. Digo 'cuando'. Cuando salgamos de esta..."
+> *(mira al protagonista)*
+> "Quiero mostrarte algo. Un lugar que encontré. Fuera de la Torre."
+> *(pausa)*
+> "Y si no salimos..."
+> *(sonríe, triste)*
+> "Me quedo con vos. Eso ya lo decidí."
+
+**Protagonista:**
+- **"¿Por qué?"**
+  > **Sera:** *(pausa larga)*
+  > "Porque..."
+  > *(se toca el pecho)*
+  > "Porque cuando estoy con vos, el silencio no duele."
+  > **+30 afinidad Sera. Romance activo.**
+
+- **"Gracias."**
+  > **Sera:** *(sonríe, genuina)*
+  > "No hay de qué."
+  > *(se acerca un poco)*
+  > "Descansá. Te vigilo."
+  > **+20 afinidad Sera.**
+
+- **"No quiero que te quedes por lástima."**
+  > **Sera:** *(se congela)*
+  > "...¿Lástima?"
+  > *(pausa)*
+  > "No es lástima."
+  > *(se levanta)*
+  > "Pero si eso creés..."
+  > *(se va)*
+  > **-10 afinidad Sera.**
+
+---
+
+*Documento creado: 2026-05-18*
+*Expansión de misiones secundarias con diálogos y contexto completo*
