@@ -8,6 +8,8 @@
 
 #### Primera Vista (N7 — Sahal, final del piso)
 
+**NOTA: Sera NO aparece en el mundo exterior (Preludio/Overworld). Su primera aparición es DENTRO de la Torre, en N7.**
+
 El grupo acaba de enterrar a Mira y Vassen. Garrik está de rodillas en la tierra. El protagonista mira la tumba, vacío por dentro.
 
 En el borde de la torre, una figura solitaria.
