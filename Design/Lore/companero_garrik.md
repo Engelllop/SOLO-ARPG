@@ -5,7 +5,7 @@
 
 **Síntesis (llegada a N3):**
 
-Cuando el grupo llega al tercer piso de la Torre, encuentran señales de que alguien pasó antes — muy antes. Fogatas viejas, marcas en las paredes, restos de campamentos. Caín reconoce las marcas: "Esto es de Garrik."
+Cuando el grupo llega al tercer piso de la Torre, encuentran señales de que alguien pasó antes — muy antes. Fogatas viejas, marcas en las paredes, restos de campamentos. El protagonista reconoce las marcas: garabatos de una daga en la piedra, una señal que solo él y Garrik usaban de niños. "Esto es de Garrik."
 
 Garrik se fue de Luzmarca un año antes que el protagonista. No dijo adónde. Desapareció una noche. Todos asumieron que había muerto en el camino.
 

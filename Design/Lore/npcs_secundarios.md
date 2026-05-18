@@ -66,7 +66,7 @@
   - _"Y si oyes ruidos por la noche... no salgas a mirar."_
   - _(entregando la llave de las Mazmorras)_ _"Lo que sea que encuentres abajo... no intentes traerlo de vuelta arriba."_
 
-### El Viejo Cazador (Mathias / Torben)
+### El Viejo Cazador (Torben)
 - **Rol:** Ex-subidor retirado (llegó a P20), consejero.
 - **Apariencia:** Hombre de 60 años, cicatriz que le cruza todo el rostro de la frente a la mandíbula. Le falta un ojo. Siempre bebiendo cerveza oscura en la Taberna del Jabalí Sangrante.
 - **Personalidad:** Cansado, borracho pero lúcido, con un sentido del humor negro que solo los que han visto mucho pueden tener. Sabe que no volverá a subir y lo acepta.
@@ -120,11 +120,6 @@
 - **Diálogos clave:**
   - _"Cuevas. Cristales. Un zumbido que te vuelve loco. Yo llegué hasta la entrada y me devolví. Tres Almas de Persistente y te digo más."_
 
-### La Capitana Drenna
-- **Rol:** Jefa de la guardia (variante de Roderic para reclutamiento femenino).
-- Nota: Drenna y Roderic son intercambiables según la compilación del mundo. Solo uno existe por partida.
-- **Personalidad:** Desconfiada, competente, justa.
-- **Diálogo clave:** _"Las mazmorras están cerradas por una razón. No preguntes cuál. No es tu problema hasta que lo sea."_
 
 ---
 
@@ -257,7 +252,7 @@
   - _(sobre el Arquitecto)_ _"No te atacará. Te ofrecerá algo. Recuerda quién eres antes de responder."_
   - _(después de encender la vela de Lian)_ _"Gracias. Era mi hijo. No biológico. De otra manera."_
 
-### Maestro Ferrus / Oswin — Herrero Legendario
+### Oswin — Herrero Legendario
 - **Rol:** Herrero de Argentia. El único en toda la Torre capaz de mejorar equipo a rango A (Legendario).
 - **Apariencia:** Hombre enorme, manos callosas, espalda encorvada por años de trabajo. Su herrería es la mejor equipada de la Torre.
 - **Personalidad:** Parco, exigente, justo. No mejora armas que no lo merezcan. Pide materiales específicos.
@@ -270,7 +265,7 @@
   - _"La plata de Argentia no es como la de abajo. Esta plata ha visto morir a dioses."_
   - _(entregando el arma legendaria)_ _"Toma. Que el Tejido te reconozca."_
 
-### Iris / Rashida — Cartógrafa
+### Iris — Cartógrafa
 - **Rol:** Cartógrafa de los pisos superiores.
 - **Apariencia:** Mujer mayor, manos manchadas de tinta, montones de pergaminos alrededor. Gafas en la punta de la nariz.
 - **Personalidad:** Apasionada por los mapas, obsesiva con los detalles. Ha dedicado su vida a cartografiar lo incartografiable.
@@ -337,24 +332,24 @@
 
 Estos NPCs son especiales porque reaparecen en múltiples pisos. No todos son compañeros.
 
-### Lian
-- **Pisos:** N0 → N1 → N2 → (tumba en N3) → posible reencuentro en N5/N9
-- **Naturaleza:** Esquirla de la 6ta Edad. Ha reencarnado al menos 4 veces dentro de la Torre.
-- **Nota:** Su tumba vacía en Aelthar tiene una inscripción: _Lian — 4ta vez._
-- Si el jugador alcanza N9 antes de resolver su misterio, Elia revela que Lian era su "hijo" (no biológico).
-- **Final posible:** Si Lian ha sido ayudado suficientemente, puede aparecer en N10 como apoyo moral, no combatiente.
+### Lian (nombre anterior de Garrik)
+- **Pisos:** N0 → N1 → N2 → (tumba en N3) → N3-N10 como Garrik
+- **Naturaleza:** Esquirla de la 6ta Edad. Ha reencarnado al menos 4 veces dentro de la Torre. En su cuarta reencarnación adoptó el nombre **Garrik**.
+- **Nota:** Su tumba vacía en Aelthar tiene una inscripción: _Lian — 4ta vez._ Esto confunde a quienes la encuentran; Garrik mismo no recuerda haber sido Lian, pero siente una familiaridad inexplicable con la tumba.
+- Si el jugador alcanza N9 antes de resolver su misterio, Elia revela que Lian era su "hijo" (no biológico) — lo que implica que Elia conoció a Garrik en una vida anterior.
+- **Final posible:** Si la tumba de Lian ha sido honrada y Elia ha sido ayudada, Garrik recupera fragmentos de memoria de sus vidas pasadas en N10, ganando +20% de daño contra el Centinela.
 
-### El Viejo Cazador (Mathias / Torben)
+### El Viejo Cazador (Torben)
 - **Pisos:** N5 (principal). Retirado. No sube más.
 - **Natureleza:** Ex-subidor que llegó a P20. Uno de los pocos humanos que ha visto los pisos superiores y sobrevivido.
 
-### Garrik
+### Garrik (actualmente) / Lian (en vidas anteriores)
 - **Pisos:** N3 (reclutable), acompaña hasta N10.
-- **Naturaleza:** Esquirla de la 6ta Edad. Compañero permanente.
+- **Naturaleza:** Esquirla de la 6ta Edad. Ha reencarnado 4 veces; en esta quinta vida se llama Garrik. No recuerda sus vidas anteriores conscientemente, pero a veces sueña con lugares que nunca ha visitado.
 - [ARCHIVO SEPARADO]
 
 ### Sera
-- **Pisos:** N2 (primer encuentro), N3-N10 (compañera).
+- **Pisos:** N7 (primera vista, observando desde lejos al final del piso), N8-N10 (compañera).
 - **Naturaleza:** Fragmento del Tejido. No es humana — es una manifestación de la Torre.
 - [ARCHIVO SEPARADO]
 
@@ -367,7 +362,7 @@ Estos NPCs son especiales porque reaparecen en múltiples pisos. No todos son co
 | Yuri/La Niña de Shae | N1 | No investigar su desaparición | Aparece muerta 3 días después. Primera consecuencia irreversible del juego. |
 | Mira (arquera) | N7 | **Muerte permanente obligatoria en la trama** | Muere controlada por la Costurera. No hay opción de salvarla. |
 | Vassen (escudero) | N7 | **Muerte permanente obligatoria en la trama** | Muere controlado por la Costurera. No hay opción de salvarlo. |
-| Mira (comerciante) | N1 | No aplica — sobrevive siempre | Su tienda permanece abierta durante todo el juego. |
+| Myra (comerciante) | N1 | No aplica — sobrevive siempre | Su tienda permanece abierta durante todo el juego. No tiene relacion con Mira la arquera. |
 | Sylas | N3 | Se va de Aelthar si recibe el mapa | Reaparece en N5 como guardia novato. Si muere en N5, el jugador se entera por Yoren. |
 | El Pastor de Cenizas | N2 | **Jefe obligatorio** | Su muerte es inevitable. Es trágica. |
 | El Moribundo | N9 | Muere independientemente | Su carta puede entregarse en N10 para el Final A. |
@@ -386,7 +381,7 @@ Estos NPCs son especiales porque reaparecen en múltiples pisos. No todos son co
 | N0 | Maris (sacerdotisa) | Curaciones, bendiciones |
 | N0 | Sombra | Mercado negro |
 | N1 | Natan (herrero) | Equipo básico |
-| N1 | Mira (comerciante) | Suministros de viaje |
+| N1 | Myra (comerciante) | Suministros de viaje |
 | N1 | Shae (hierbas) | Pociones, antídotos |
 | N1 | El Viejo del Puente | Mapas de la Torre |
 | N3 | Kaelen (herrero elfo) | Armas mágicas rango C |
@@ -398,7 +393,7 @@ Estos NPCs son especiales porque reaparecen en múltiples pisos. No todos son co
 | N7 | Hakeem (curtido) | Armaduras de cuero |
 | N7 | Mercader de Recuerdos | Compra de memorias |
 | N9 | Oswin (herrero legendario) | Mejora rango A, arma legendaria |
-| N9 | Iris/Rashida (cartógrafa) | Mapa de N10 |
+| N9 | Iris (cartógrafa) | Mapa de N10 |
 | N9 | Anciano alquimista | Elixires máximos |
 | N9 | Elia (consejera) | Información, Fragmento del Arquitecto |
 
@@ -706,11 +701,14 @@ Estos NPCs son especiales porque reaparecen en múltiples pisos. No todos son co
 
 ---
 
-### Sera (presentación en N2)
+### Sera (primera vista en N7)
 - Ver Archivo de Compañero: Sera.
-- **Rol en N2:** Primer punto de encuentro. Aparece sentada en una cabaña, como si hubiera estado esperando. Se une al grupo.
-- **Diálogo clave al conocerla:**
-  - _"Llegaste. Te esperaba. No sé cómo, pero te esperaba."_
+- **Rol en N7:** Al final del piso, tras la muerte de Mira y Vassen, una figura solitaria observa desde el borde de la torre. No se acerca. No habla. Solo está ahí, esperando.
+- **Diálogo clave (N7):**
+  - *(No hay diálogo. Solo presencia.)*
+- **Rol en N8:** Primer punto de encuentro activo. Aparece en los Jardines Flotantes, meditando. Se une al grupo tras derrotar a la Arpía de Bronce.
+- **Diálogo clave al unirse (N8):**
+  - _"Tardaron más de lo que esperaba."_
   - _"¿Adónde vamos?"_ — como si ya formara parte del grupo.
 
 ---
