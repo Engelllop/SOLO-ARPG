@@ -227,7 +227,7 @@
 
 **Trigger:** Derrotar a la Arpía de Bronce. Sera se une oficialmente.
 
-**Transición:**
+**Transición (Base):**
 > *(Puerta de plata. Brillante)*
 >
 > **Sera:** "La última ciudad."
@@ -240,6 +240,39 @@
 >
 > "Solo el final."
 
+**Variante Romance Activo (Afinidad ≥ 60):**
+> *(Puerta de plata. Brillante)*
+>
+> **Sera:** *(se queda atrás, esperando al protagonista)*
+>
+> "¿Estás listo?"
+>
+> **Protagonista:** "¿Para qué?"
+>
+> **Sera:** *(mira la puerta, luego mira al protagonista)*
+>
+> "Para lo que venga. Para lo que sea."
+>
+> *(pausa)*
+>
+> "No te pregunto si estás bien. Sé que no lo estás. Pero..."
+>
+> *(toma la mano del protagonista, brevemente)*
+>
+> "No estás solo. Eso quería decir."
+>
+> *(suelta la mano, camina hacia la puerta)*
+>
+> **Garrik:** *(desde lejos)*
+>
+> "¡Vamos, tortolitos!"
+>
+> **Sera:** *(sin volverse)*
+>
+> "Callate, Garrik."
+>
+> **Garrik:** "Sí, señora."
+
 **Ambiente:** Ciudad de ancianos. Plateada. Triste.
 
 ---
@@ -248,8 +281,9 @@
 
 **Trigger:** Prepararse para el ascenso final.
 
-**Transición:**
-> *(Escalinata. No es una puerta. Es una subida. Infinita)*>
+**Transición (Base):**
+> *(Escalinata. No es una puerta. Es una subida. Infinita)*
+>
 > **Garrik:** "Bueno. Aquí estamos."
 >
 > **Sera:** "Aquí estamos."
@@ -258,15 +292,103 @@
 >
 > **Sera:** "No creo en las últimas palabras. Si tenés algo que decir... decilo ahora."
 >
-> **Garrik:** *(al protagonista)*>
+> **Garrik:** *(al protagonista)*
+>
 > "Te quiero, amigo. Eso."
 >
-> *(pausa)*>
+> *(pausa)*
+>
 > "No es gay. Es... fraternal."
 >
 > **Sera:** "Nadie pensaba que lo era."
 >
 > **Garrik:** "Bueno. Por si acaso."
+>
+> *(empiezan a subir)*
+
+**Variante Romance Activo (Afinidad ≥ 60):**
+> *(Escalinata. Infinita)*
+>
+> **Garrik:** "Bueno. Aquí estamos."
+>
+> **Sera:** "Aquí estamos."
+>
+> **Garrik:** "¿Alguna última palabra?"
+>
+> **Sera:** *(mira al protagonista)*
+>
+> "Tengo algo que decir. Pero no es una última palabra."
+>
+> *(pausa)*
+>
+> "Es una promesa."
+>
+> *(se acerca al protagonista, cerca)*
+>
+> "Si salimos de esta... quiero mostrarte algo. Fuera de la Torre."
+>
+> **Protagonista:** "¿Qué?"
+>
+> **Sera:** *(sonríe, apenas)*
+>
+> "Es una sorpresa. No puedo decirte. Pero..."
+>
+> *(pausa)*
+>
+> "Es algo real. Algo que no es esto."
+>
+> **Garrik:** *(tosiendo)*
+>
+> "¿Podemos subir? Por favor. Me estoy poniendo incómodo."
+>
+> **Sera:** *(sin volverse)*
+>
+> "Callate, Garrik."
+>
+> **Garrik:** "Sí, señora."
+>
+> *(empiezan a subir)*
+
+**Variante Romance Activo (Afinidad ≥ 80 — Romance Completo):**
+> *(Escalinata. Infinita)*
+>
+> **Garrik:** "Bueno. Aquí estamos."
+>
+> **Sera:** "Aquí estamos."
+>
+> **Garrik:** "¿Alguna última palabra?"
+>
+> **Sera:** *(no responde. Se queda quieta, mirando al protagonista.)*
+>
+> *(Garrik entiende. Se aparta, dándoles espacio.)*
+>
+> **Sera:** *(en voz baja, solo para el protagonista)*
+>
+> "No voy a decir 'te amo'."
+>
+> *(pausa)*
+>
+> "Porque esas palabras se usan mucho. Y no quiero que se gasten."
+>
+> *(toma la mano del protagonista, la aprieta)*
+>
+> "Pero si salimos de esta..."
+>
+> *(pausa)*
+>
+> "Quiero que sepas que elegí quedarme. Contigo. No porque tuviera que hacerlo. Porque quise."
+>
+> *(suelta la mano, camina hacia la escalera)*
+>
+> "Eso es todo."
+>
+> **Garrik:** *(desde lejos)*
+>
+> "¿Podemos subir ahora? Por favor."
+>
+> **Sera:** *(sonríe, de verdad esta vez)*
+>
+> "Sí. Subamos."
 >
 > *(empiezan a subir)*
 
@@ -279,16 +401,23 @@
 **Trigger:** Derrotar al Centinela. Diálogo con el Arquitecto.
 
 **Transición:**
-> *(El Centinela cae. La plataforma se desmorona)*>
-> *(Luz blanca)*>
-> *(El Arquitecto aparece)*>
-> **Arquitecto:** "Llegaste.">
-> *(pausa)*>
-> "Sabía que llegarías. Siempre llegás.">
+> *(El Centinela cae. La plataforma se desmorona)*
+>
+> *(Luz blanca)*
+>
+> *(El Arquitecto aparece)*
+>
+> **Arquitecto:** "Llegaste."
+>
+> *(pausa)*
+>
+> "Sabía que llegarías. Siempre llegás."
+>
 > *(el diálogo del final determina todo)*
 
 **Finales posibles:** A (Escape), B (Nuevo Arquitecto), C (Heredero), D (Destructor), E (Sacrificio).
 
 ---
 
-*Documento creado: 2026-05-18*
+*Documento actualizado: 2026-05-18*
+*Variantes de romance añadidas: N8→N9 y N9→N10*
