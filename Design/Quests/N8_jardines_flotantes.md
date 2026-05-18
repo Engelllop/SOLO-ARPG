@@ -1,104 +1,312 @@
-# N8 — Los Jardines de Carne
-## Tema: Experimentación Humana y Eugenesia
+# N8 — Los Jardines Flotantes
+## Tema: Conexión Después del Trauma
 
-### Contexto
-Ruinas de una "ciudad" que no es una ciudad. Es un **laboratorio de eugenesia élfica**. Los elfos de la Tercera Edad intentaron crear la "raza perfecta" mediante experimentación genética. Lo que queda son jardines colgantes de carne, plataformas donde crecen cuerpos como si fueran plantas. Brazos que brotan del suelo como raíces. Rostros en las paredes que hablan.
+> **Duración estimada:** 2-3 horas
+> **Compañeros:** Protagonista, Garrik
+> **Compañero que se une:** Sera
+> **Rango mínimo:** A
+> **Tono:** Aprendiste a no confiar. Ahora alguien te pide que vuelvas a hacerlo.
+> **Jefe:** La Arpía de Bronce (Rango A, Nv30)
 
-### La Verdad
-Los Jardines no son naturales. Son el resultado de siglos de **cruza forzada, inseminación artificial y modificación genética**. Los elfos querían crear soldados perfectos. Crearon **monstruos con conciencia** — seres que saben que son errores, que sienten dolor, que quieren morir pero no pueden.
+---
 
-### Señales para el jugador
+## 0. La Transición — El Lago
 
-1. **El suelo respira** — SM_Floor_Flesh (textura de piel humana, sube y baja 1cm cada 3s). Si te quedas quieto, escuchas un latido.
-2. **Caras en las paredes** — SM_Wall_Faces (bajorrelieves de rostros humanos. Todos diferentes. Todos con expresión de terror congelado). Si te acercas, parpadean.
-3. **El viento huele a sangre y formaldehído**
-4. **Los "árboles" son cuerpos** — SM_Tree_Body (tronco humanoide, 6m, brazos extendidos como ramas, dedos como hojas)
-   - Si golpeas un árbol: grita
-5. **Las "flores" son fetos** — SM_Flower_Fetus (flores con forma de feto, abiertas, embriones visibles)
-   - Algunos están vivos. Se mueven.
+Emergen del agua. Tosen. El frío es intenso — no el frío del hielo, el frío de algo que no debería existir.
 
-### Mecánica Especial — El "Indice de Pureza"
-- **UI:** Barra de 4 segmentos que mide qué tan "puro" eres según los estándares élficos
-- **Sube por:** Matar a los mutantes (cada mutante muerto +1)
-- **Baja por:** Ayudar a los mutantes / Negarte a matar / Mostrar empatía
-- **Al llegar a 4:** Los elfos (si quedan) te consideran "puro". Te dan acceso al laboratorio principal.
-- **Al llegar a 0:** Los mutantes no te atacan. Te reconocen como uno de ellos.
+Pero alrededor... belleza.
 
-### Zonas del Nivel
+Un jardín. No de tierra. De cristal.
 
-1. **El Vivero** (entrada) — Plataforma de 20m×20m llena de cuerpos en diferentes etapas de desarrollo:
-   - BP_Fetus_Tank ×12 (tanques de vidrio SM_Tank_Glass, 2m alto, fetos humanos de diferentes tamaños flotando en líquido verde)
-   - Algunos tanques están rotos — el feto está en el suelo, moviéndose (BP_Fetus_Crawling, 5 HP, no ataca, solo se arrastra)
-   - **Diálogo (Sera, si está en el grupo):** "Yo salí de uno de esos tanques. Lo recuerdo."
+Flores que brillan sin sol. Árboles de vidrio con hojas de luz. Un cielo que no es cielo — es un techo de cristal que refleja todo.
 
-2. **El Jardín de los Brazos** — El suelo está cubierto de brazos humanos que brotan como hierba (BP_ArmGrass ×∞, 3 HP cada uno, te agarran el tobillo si pasas, reducen velocidad 20%)
-   - Para liberarte: matarlos o que Sera los corte
+Y debajo: nada. El jardín flota sobre un vacío.
 
-3. **La Cámara de las Madres** — 4 mujeres (BP_SurrogateMother ×4) conectadas a máquinas (SM_Machine_Insemination). Están vivas. Conscientes. Sus vientres están abiertos — se pueden ver los fetos dentro.
-   - **Opción A:** Matar a las madres (misericordia). Los fetos mueren con ellas.
-   - **Opción B:** Liberar a las madres (desconectar máquinas). Los fetos sobreviven. Las madres te miran con odio. "Nos quitaste nuestro propósito."
-   - **No hay opción buena.**
-   - **Diálogo (una madre, si la liberas):** "Teníamos un propósito. Ahora solo somos carne vacía. Gracias."
+**Garrik:** *(de rodillas, tosiendo agua)*
+> "¿Dónde...?"
 
-4. **El Archivo Genético** — BP_Computer_Elven (pantalla de luz élfica, interactivable). Contiene:
-   - **Registros de la Tercera Edad:**
-     - "Proyecto Soldado Perfecto — Generación 47: 79% de sujetos murieron. 12% desarrollaron conciencia. 9% se volvieron inútiles (sentían empatía)."
-     - "Problema de la Conciencia: los sujetos conciente lloran. Preguntan 'por qué'. Hay que reiniciar el proyecto."
-   - **Nota al margen:** "La Generación 84 produjo un espécimen notable — alta inteligencia, cero empatía, regeneración completa. Prototipo nombrado 'Sera'. Se escapó."
+**Protagonista:** *(mirando alrededor)*
+> "No lo sé."
 
-5. **La Fuente de Carne** (arena del jefe) — Plataforma de 30m diámetro. En el centro: un pozo (SM_Well_Flesh, 4m diámetro). Del pozo brota carne líquida que se solidifica en formas humanoides.
+**Voz:** *(desde atrás)*
+> "Los Jardines Flotantes."
 
-### La Arpía de Bronce — Reescrita
+---
 
-**La Arpía no es una arpía.** Es la **criada del laboratorio** — la primera "éxito" del proyecto de eugenesia. Un ser alado de bronce que los elfos usaban para "podar" los especímenes defectuosos. Ha estado viva 500 años, sirviendo a un laboratorio que ya no existe. No sabe hacer otra cosa.
+## 1. Sera — El Encuentro
 
-**Fase 1 — La Criada**
-- BP_CriadaBronce (ASOLOEnemyCharacter):
-  - Mesh: SM_Humanoid_BronzeMaiden (mujer de bronce, 3m, alas de plumas de bronce, rostro sin expresión)
-  - HP: 250
-  - **Ataques:**
-    - **Podar:** Barrido con garras de bronce, 20 daño, sangra
-    - **Vuelo de Inspección:** Vuela sobre el jugador, suelta "semillas" (SM_Seed_Bronze que explotan en AOE 3m, 15 daño)
-    - **Clasificación:** Agarra al jugador, lo examina 2s ("Defectuoso."), lo tira al suelo (25 daño)
-  - **Diálogo (mecánico, sin emoción):**
-    - "Sujeto no registrado. Clasificar."
-    - "Procesando... defectuoso. Eliminar."
-    - "¿Por qué... por qué sientes tanto?"
-    - **Última línea (30% HP):** "Nunca... nunca me pregunté por qué."
+Está de pie, a 5 metros. No se movió. No hizo ruido.
 
-**Fase 2 — La Grieta**
-- Trigger: 150 HP perdidos
-- La armadura de bronce se agrieta. Debajo: **carne viva**. La Criada es un ser biológico envuelto en metal.
-- **Nuevos ataques:**
-  - **Grito Biométrico:** AOE 6m, 20 daño + miedo 2s. Su voz suena a humana por primera vez.
-  - **Carne Expuesta:** Invoca 3 tentáculos (BP_Tentacle_Flesh, 30 HP cada uno, golpe 10 daño)
-- **Mecánica "El Recuerdo":** Cada 15s, la Criada se detiene. Su rostro cambia de seco a confundido.
-  - "¿Por qué... por qué obedecía?"
-  - "Los elfos... se fueron... ¿por qué sigo aquí?"
-  - "Puedo... puedo elegir?"
+Mujer. 28-32 años. Ropa de viajero, gastada pero limpia. Una katana en la espalda.
 
-**Fase 3 — La Elección**
-- Trigger: muerte de la Criada
-- Antes de morir, la Criada cae al suelo. Su armadura se rompe completamente. Es una mujer joven, desnuda, deforme. **Pero sonríe.**
-- **Diálogo:** "Gracias... por dejarme elegir... por primera vez."
-  - (pausa) "Nunca tuve un nombre. Dame uno."
-- **Opción:** El jugador puede nombrarla (input de texto). El nombre aparece en una lápida (SM_Tombstone) que Sera coloca.
-  - Si no le pones nombre: la Criada muere con lágrimas. "Ni siquiera... al final..."
-- **CG:** Sera entierra el cuerpo. Coloca una flor (SM_Flower_SilverBloom) sobre la tumba.
+No sonríe. No frunce el ceño. Su cara no tiene expresión — o tiene todas a la vez.
 
-### Post-Combate
-1. La Criada muere. El laboratorio deja de palpitar.
-2. Los mutantes de los jardines (los que sobrevivieron) se reúnen alrededor de la tumba. No atacan. Se sientan en silencio.
-3. **Uno se acerca al protagonista.** Le toca la mano. **No tiene boca.** Pero su expresión dice todo.
-4. **Sera:** "Ellos... nos están agradeciendo."
-5. **Transición:** Un mutante señala una puerta de luz (SM_Door_LightBio) → N9
-6. Recompensa: 350 XP, 180 oro, **Carta Genética** (item, +20% daño a jefes élficos)
+**Sera:** *(sin acercarse)*
+> "Os esperaba."
 
-### Items y Recompensas
+**Garrik:** *(saltando, con hojas listas)*
+> "¿Quién eres?"
 
-| Item | Efecto |
-|------|--------|
-| Pluma de la Criada | +10% velocidad. "Todavía tiene su sangre." |
-| Carta Genética | +20% daño a enemigos élficos |
-| Frasco de Embrión | Consumible. Restaura 30 HP. Descripción: "No preguntes." |
-| Registro del Laboratorio | Lore completo del proyecto eugenesia |
+**Sera:** *(sin reaccionar a las hojas)*
+> "Sera."
+> *(pausa)*
+> "No tengo pasado que contar. No tengo familia. No tengo... nada, realmente."
+> *(mira al protagonista)*
+> "Pero tengo esto."
+
+Muestra la katana. No como amenaza. Como presentación.
+
+> "Y sé usarla."
+
+**Garrik:** *(bajando las hojas, pero no del todo)*
+> "¿Nos esperabas? ¿Desde cuándo?"
+
+**Sera:** *(mirando al protagonista, no a Garrik)*
+> "Desde Sahal."
+> *(pausa)*
+> "Os vi enterrar a vuestros amigos."
+
+Silencio.
+
+> "No quise interrumpir."
+
+---
+
+## 2. ¿Por qué se une?
+
+**Protagonista:** *(puede preguntar)*
+
+**Sera:** *(si preguntas "¿Por qué quieres unirte?")*
+> "Porque..."
+> *(busca las palabras)*
+> "Porque el Tejido me dijo tu nombre."
+> **Protagonista:** "¿Mi nombre?"
+> **Sera:** "No el que te dieron. El que eres. El que nadie conoce."
+> *(pausa)*
+> "Y cuando alguien conoce tu nombre verdadero..."
+> *(no termina la frase)*
+> "Puedo unirme igual?"
+
+**Sera:** *(si preguntas "¿Quién eres?")*
+> "No lo sé."
+> *(pausa)*
+> "En serio. No lo sé."
+> *(se toca la frente)*
+> "Tengo recuerdos que no son míos. Sueños de lugares donde no he estado. Y a veces..."
+> *(mira al cielo de cristal)*
+> "A veces sé cosas que no debería saber. Como tu nombre. Como que vendrías aquí. Como que..."
+> *(se detiene)*
+> "Como que vas a necesitar ayuda."
+
+**Sera:** *(si no preguntas nada)*
+> "No hablas mucho."
+> *(casi sonríe)*
+> "Está bien. Yo tampoco."
+> *(se acerca)*
+> "Voy con vosotros. No porque quiera. Porque debo."
+
+---
+
+## 3. El Jardín — Exploración
+
+Los Jardines Flotantes son una serie de plataformas de cristal. Cada plataforma tiene su propio ecosistema:
+
+- **Plataforma de Rosas:** Rosas de cristal. Si las tocas, cortan. Pero su néctar cura.
+- **Plataforma de Árboles:** Árboles de vidrio. Sus hojas son espejos. Ves reflejos de ti mismo... pero de otra edad.
+- **Plataforma de Agua:** Un lago en el cielo. Peces de luz que nadan en el aire.
+- **Plataforma de Sombras:** Oscura. Aquí crecen cosas que no deberían.
+
+**Garrik:** *(en la Plataforma de Árboles, viendo un reflejo)*
+> "¿Ese soy yo?"
+
+En el espejo: un Garrik más viejo. Con barba. Con cicatrices. Con ojos que han visto demasiado.
+
+**Reflejo:** *(no habla, pero mueve los labios)*
+> "...lo siento..."
+
+**Garrik:** *(alejándose)*
+> "No me gustan los espejos."
+
+**Sera:** *(en la misma plataforma, viendo su reflejo)*
+> "Yo tampoco tengo reflejo."
+
+Tiene razón. En los espejos, Sera no aparece.
+
+> "Nunca aparecí. Desde que tengo memoria."
+> *(pausa)*
+> "No sé si eso significa que no existo, o que los espejos no pueden verme."
+
+---
+
+## 4. La Noche en el Jardín
+
+Si el grupo descansa en el jardín, hay una escena nocturna.
+
+**Sera:** *(sentada en el borde de una plataforma, mirando el vacío)*
+> "No puedo dormir."
+
+**Protagonista:** *(puede sentarse con ella)*
+
+**Sera:** *(si te sientas)*
+> "Cuando cierro los ojos... veo la Torre. Aunque esté fuera de ella."
+> *(se gira)*
+> "¿Tú ves algo cuando cierras los ojos?"
+
+**Opciones:**
+
+**A) "Recuerdos."**
+> **Sera:** "¿Buenos?"
+> *(pausa)*
+> "No importa. Los recuerdos son... complicados. No siempre son verdad. A veces son lo que queremos que sea verdad."
+
+**B) "Nada."**
+> **Sera:** "Suerte."
+> *(mira al vacío)*
+> "El nada es mejor que el algo. El algo duele."
+
+**C) "Pesadillas."**
+> **Sera:** *(asiente)*
+> "Yo también."
+> *(pausa)*
+> "En mis pesadillas... no hay monstruos. Solo silencio. Y la certeza de que estoy sola."
+> *(mira al protagonista)*
+> "Pero ahora no estás solo. Eso es... nuevo."
+
+**Sera:** *(después de la respuesta)*
+> "Si salimos de esta..."
+> *(se detiene)*
+> "No. Digo 'cuando'. Cuando salgamos de esta..."
+> *(mira al protagonista)*
+> "Quiero mostrarte algo. Un lugar que encontré. Fuera de la Torre."
+> *(pausa)*
+> "Y si no salimos..."
+> *(sonríe, triste)*
+> "Me quedo contigo. Eso ya lo decidí."
+
+---
+
+## 5. La Arpía de Bronce — Jefe de Piso
+
+**Ubicación:** Plataforma más alta. Un nido de metal.
+
+La Arpía no es un pájaro. Es una **máquina**. O lo fue.
+
+Tiene cuerpo de mujer. Alas de bronce. Garras de acero. Y ojos... ojos de cristal que no ven, pero que lloran aceite.
+
+**Sera:** *(viéndola)*
+> "Era humana."
+
+**Garrik:** "¿Cómo lo sabes?"
+
+**Sera:** *(señalando)*
+> "Mira sus manos. Tiene uñas pintadas. Rojo."
+> *(pausa)*
+> "Alguien la pintó. Antes de convertirla en esto."
+
+**La Arpía:** *(despertando, girando la cabeza 180 grados)*
+> "¿V-v-v-visitantes?"
+> *(voz distorsionada, como un disco rayado)*
+> "H-h-hace... tiempo... que no veo... gente..."
+
+### Fase 1 — La Reina del Aire
+
+La Arpía vuela. Ataques desde arriba.
+
+- **Garras de Bronce:** Buceo desde el cielo, 25 daño.
+- **Ala Cortante:** AOE horizontal, 20 daño, empuja.
+- **Grito de Metal:** Stun 2s, daño sónico 15.
+
+**Durante el combate:**
+> **Arpía:** "¿Q-q-quieres... volar?"
+> *(señala sus alas)*
+> "Yo... quería... volar..."
+
+### Fase 2 — Danza Cuerpo a Cuerpo
+
+La Arpía aterriza. Ahora es más rápida. Más salvaje.
+
+- **Combo de Garras:** 3 golpes, 15 daño cada uno.
+- **Coletazo:** Su cola de metal golpea el suelo, 20 daño AOE.
+- **Abrazo de Bronce:** Agarra al jugador. 10 daño/s durante 3s. Hay que romper el agarre.
+
+**Sera ayuda:**
+> **Sera:** *(saltando, katana en alto)*
+> "¡Sus alas! ¡Son el punto débil!"
+
+### Fase 3 — Furia Enloquecida
+
+La Arpía pierde un ala. Caeda al suelo.
+
+Pero no se rinde. Se arrastra. Grita.
+
+> **Arpía:** "¿P-p-por qué... no me dejas... morir?"
+> *(llora aceite)*
+> "Yo... quería... ser... libre..."
+
+Ataques desesperados. Sin patrón. Solo dolor.
+
+**Al morir:**
+> La Arpía se detiene. Mira al cielo.
+> "Gracias..."
+> *(cierra los ojos de cristal)*
+> "Por fin... puedo... dejar de... volar..."
+
+Se desarma. Piezas de bronce caen al vacío.
+
+---
+
+## 6. Post-Combate — El Puente
+
+La Arpía dejó algo: un **puente de luz**.
+
+Sera lo crea. No explica cómo. Solo extiende la mano, y la luz se solidifica.
+
+**Garrik:** *(mirando el puente)*
+> "¿Cómo hiciste eso?"
+
+**Sera:** *(sin mirar atrás)*
+> "No lo sé."
+> *(cruza el puente)*
+> "A veces... las cosas que no entiendo son las únicas que funcionan."
+
+---
+
+## 7. Transición — Argentia
+
+Al final del puente: una ciudad.
+
+No es como las demás. Es... vieja. Plateada. Silenciosa.
+
+**Sera:** *(mirando la ciudad)*
+> "Argentia."
+> *(pausa)*
+> "La última ciudad antes del final."
+
+**Garrik:** "¿Cómo lo sabes?"
+
+**Sera:** *(mira al protagonista)*
+> "Porque después de esta..."
+> *(señala arriba)*
+> "No hay más ciudades. Solo el final."
+
+Entran.
+
+**N8 terminado. Grupo: 3 (Protagonista, Garrik, Sera).**
+
+---
+
+## Recompensa y Resumen Técnico
+
+| Elemento | Detalle |
+|----------|---------|
+| **Jefe** | La Arpía de Bronce (Rango A, Nv30) |
+| **Nuevo compañero** | Sera (katana, inmune al Borrador, sin reflejo) |
+| **Mecánica central** | Plataformas flotantes. Gravedad alterada. |
+| **Romance** | Escena nocturna opcional. Sera se abre si el protagonista escucha. |
+| **Transición** | Puente de luz → N9 (Argentia) |
+| **Nota de tono** | Después de perder a Mira y Vassen, Sera no los reemplaza. Es algo diferente. Algo que el protagonista elige dejar entrar. |
+
+---
+
+*Documento reescrito: 2026-05-18*
+*Enfoque: Conexión después del trauma. Aprender a confiar de nuevo. Sera no cura la pérdida — la acompaña.*

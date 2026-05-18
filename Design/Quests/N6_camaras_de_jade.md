@@ -1,87 +1,400 @@
 # N6 — Las Cámaras de Jade
-## Tema: Explotación Infantil Industrial
+## Tema: Vida que No Pidió Existir
 
-### Contexto
-Una red de cuevas donde funcionan **fábricas de jade**. Los niños de los pisos superiores (Thornwall, Aelthar) son traídos aquí para **trabajar en las minas**. El jade no es una roca — es la **cristalización del sufrimiento**. Literalmente. Cuando un niño llora lo suficiente, sus lágrimas se cristalizan en jade. La fábrica "cultiva" jade obligando a los niños a llorar.
+> **Duración estimada:** 2-3 horas
+> **Compañeros:** Mira, Vassen, Garrik
+> **Rango mínimo:** B
+> **Tono:** ¿Qué haces con algo que existe pero no debería? ¿Lo matas? ¿Lo dejas? ¿Lo usas?
+> **Jefe:** El Coro de Jade (Rango B, Nv24)
 
-### La Verdad
-El zumbido de las Cámaras no es magia. Es el **llanto acumulado de miles de niños** que resuena en las paredes. Los que trabajan aquí pierden la cordura en días — no por magia, sino por el trauma. Los "constructos de jade" que protegen la mina son **niños petrificados** que se volvieron locos y se fusionaron con el mineral.
+---
 
-### Mecánica Especial — Estrés Postraumático (EPT)
-- **UI:** Barra de 5 segmentos. No sube por magia — sube por **lo que ves**:
-  - +1 por ver a un niño trabajando (BP_ChildMiner, SM_Child_BentOver)
-  - +2 por ver a un niño muerto (BP_ChildDead)
-  - +3 por ver a un niño siendo castigado (BP_Guard_BeatingChild)
-- **Niveles del EPT:**
-  - 2: Flashbacks. La pantalla se distorsiona (2s). Ves a Caín diciendo "¿Por qué no me salvaste?"
-  - 4: **Parálisis por trauma.** No puedes moverte 3s, mientras un niño fantasma te mira.
-  - 5: **Ataque de pánico.** La pantalla se vuelve blanca 5s. Apareces en otro lugar del mapa. Pierdes 10 HP.
-- **Recuperación:** Alejarte de las zonas de trabajo. Descansar en zonas sin niños.
+## 0. La Transición — El Túnel Verde
 
-### Zonas del Nivel
+El túnel desde Thornwall sube. No baja. Eso es raro — cada piso de la Torre debería estar más arriba.
 
-1. **La Entrada de los Niños** — Vías de tren miniatura (SM_Rail_Toy). Los niños llegan aquí en jaulas.
-   - Cartel: "BIENVENIDO — USTED AHORA VALE 50 DE ORO" (en élfico y humano)
+Pero la Torre no sigue reglas.
 
-2. **El Dormitorio** — Cama de piedra para 100 niños. Literas de 3 niveles (SM_Bed_Stone ×100). Sin mantas. Sin almohadas.
-   - NPC: BP_ChildSleeper (niño durmiendo, no despierta, respira)
-   - Si lo despiertas: "¿Ya es hora de trabajar?" (mira al techo, vuelve a dormir)
+Las paredes del túnel empiezan a brillar. No con luz propia. Con reflejos. Como si algo verde estuviera esperando al final.
 
-3. **La Cámara de Lágrimas** — Sala de 15m×15m. En el centro: una niña (BP_ChildCrying) sentada sobre un pedestal de jade. Está llorando. Sus lágrimas caen al pedestal y se cristalizan.
-   - Alrededor: 5 hombres adultos riéndose (BP_Guard_Lauging)
-   - **Opciones:**
-     - Matar a los guardias → la nija deja de llorar, te mira, sonríe → se petrifica instantáneamente
-     - No hacer nada → sigue llorando. El jade crece. El zumbido aumenta.
-   - **No hay opción buena.**
+**Garrik:** *(tocando la pared)*
+> "Está fría. Pero no es piedra. Es... cristal?"
 
-4. **El Taller de Jade** — Niños de 6-12 años tallando jade (BP_ChildCarver ×6). Herramientas en manos pequeñas. Sangre en las manos.
-   - Si te acercas, no dejan de trabajar. Ni siquiera te miran.
-   - **Diálogo (un niño):** "Si dejo de trabajar, me pegan. Si me pegan, lloro. Si lloro, hago más jade."
-   - **Diálogo (Garrik):** "No puedo... no puedo mirar."
+**Mira:** *(con la linterna)*
+> "Jade. Todo es jade."
 
-5. **La Cámara del Supervisor** — Oficina del capataz (BP_Overseer_Sahal). Hombre humano, gordo, fumando.
-   - Escritorio: SM_Desk_Overseer (papeles, taza de té, látigo SM_Whip)
-   - **Papeles en el escritorio:** "Producción de jade, Semana 47: 47 niños activos, 12 muertos, 35 kg de jade producido."
-   - **Diálogo si lo confrontas:**
-     - "Son huérfanos. les damos techo y comida. Es un negocio."
-     - "¿Crees que eres mejor? Tu ropa está hecha en fábricas. Tu comida la cultivan esclavos. No eres diferente."
-     - **El jugador no tiene respuesta.** El juego no se la da.
+El túnel termina en una caverna.
 
-### El Coro de Jade — Reescrito
+No es una cueva natural. Es una **cámara**. Perfectamente circular. 50 metros de diámetro. El techo invisible — la luz verde viene de todas partes.
 
-**Escenario:** Cámara Central, donde niños son forzados a cantar mientras trabajan. El "zumbido" que escuchabas es su canto.
+Y en el centro: un cristal. Grande. 3 metros de alto. Pulsando.
 
-**Fase 1 — Los Solistas**
-- 6 BP_ChildSinger (niños de 6-10 años, ropas rotas, ojos vacíos, HP 30 cada uno)
-- **Mecánica "El Canto":** Mientras cantan, el jugador pierde 1 HP/s. Mientras más cantan, más fuerte el daño.
-- **No se puede atacar a los niños.** El juego no permite dañarlos (no-target).
-- **Objetivo:** Romper los cristales de jade que los rodean (SM_Crystal_Jade_Singer ×6, 10 hits cada uno). Cada cristal roto → un niño deja de cantar → cae de rodillas, agotado.
-- **Diálogo (niño al ser liberado):** "Gracias... puedo descansar ahora..." (se acuesta, se queda dormido. O muerto. No se sabe.)
+No con luz. Con **sonido**.
 
-**Fase 2 — El Capataz de Jade**
-- Los cristales rotos, el capataz emerge del suelo:
-  - BP_CapatazJade (ASOLOEnemyCharacter): Humanoide de 3m, armadura de jade, látigo de cristal
-  - HP: 100
-  - **Ataques:** Látigo (AOE 5m, 20 daño + sangra), Pisotón, Grito de Mando (invoca 2 niños zombie que atacan lentamente)
-  - **Objetivo:** 20 hits. Cada hit rompe la armadura de jade.
-- Al morir: "Los niños... van a estar libres... gracias..."
+Un zumbido. Bajo. Constante. Como un latido, pero más lento.
 
-**Post-Combate:**
-- El capataz muere. Los niños sobrevivientes (6-8) se sientan en el suelo. No hablan.
-- **CG:** El grupo se sienta con ellos. Silencio de 5s. Luego, uno de los niños toma la mano del protagonista.
-- **Diálogo:** "Nunca había visto el sol."
-- **Transición:** Los niños señalan una escalera de jade → N7
+**Vassen:** *(con la mano en la espada)*
+> "No me gusta esto."
 
-### Items y Recompensas
+**Garrik:** *(escuchando)*
+> "¿Escuchan eso?"
 
-| Item | Efecto |
-|------|--------|
-| Lágrima de Jade | Consumible. Restaura 50 HP. Descripción: "Todavía tibia." |
-| Látigo del Capataz | Arma. 18 daño, sangra. Descripción: "Todavía huele a sangre de niño." |
-| Carta de un Niño (no enviada) | "Mami, ven a buscarme. No quiero estar más aquí." |
-| Registro de Producción | Lore. 47 niños activos. 12 muertos. 35 kg jade. |
+**Mira:** "¿El zumbido?"
 
-### El Eco de Caín (EPT 5)
-Si llegas a EPT 5, Caín aparece. Pero no habla. Solo se sienta junto a un niño muerto. Lo abraza. Después de 10s, desaparecen.
+**Garrik:** *(negando con la cabeza)*
+> "No. Debajo del zumbido. Hay... voces."
+> *(pausa)*
+> "Como si alguien cantara muy lejos."
 
-**Diálogo (protagonista, interno):** "Caín... ¿tú también pasaste por aquí?" (no hay respuesta)
+---
+
+## 1. Las Cámaras — Exploración
+
+Las Cámaras de Jade son un laberinto de cristales. Cada cámara conecta con otras. No hay mapa. La brújula de Mira no funciona — el jade distorsiona la dirección.
+
+**Mecánica especial — Zumbido:**
+- El zumbido aumenta cuando te acercas a ciertos cristales.
+- Si te quedas quieto cerca de un cristal por más de 10 segundos, empiezas a **oir cosas**.
+- Voces. Susurros. Algunos en idiomas que no conoces. Algunos... familiares.
+
+**Garrik:** *(cerca de un cristal grande)*
+> "Escucho... mi nombre."
+> *(se aleja rápido)*
+> "No me gusta esto."
+
+**Vassen:** *(en otra cámara)*
+> "Yo escucho..."
+> *(se detiene)*
+> "No importa."
+
+*(Si el grupo insiste, Vassen admite que escucha la voz de su padre. Diciendo que está orgulloso. Vassen sabe que es mentira. Su padre nunca dijo eso.)*
+
+---
+
+## 2. El Eco
+
+En la cámara central, flotando entre cristales: una figura.
+
+No es humana. No es enemiga. Es... un reflejo que no debería existir.
+
+**El Eco.**
+
+Figura humanoide hecha de luz verde. No tiene rostro. Pero tiene voz — una voz que suena como la tuya, pero de otra Edad.
+
+**Eco:** *(flotando, girando lentamente)*
+> "¿Llegaste?"
+
+**Protagonista:** "¿Quién eres?"
+
+**Eco:** *(se acerca. No tiene ojos, pero sientes que te mira)*
+> "Soy... fui... seré. No lo sé. No recuerdo cuándo dejé de ser real."
+> *(pausa)*
+> "Pero sé cosas. Sé que tú subes. Que otros subieron antes. Que otros subirán después."
+> *(señala los cristales)*
+> "Esto es lo que quedó de nosotros. De los que intentaron ser reales."
+
+**Diálogo: Sobre el Experimento**
+
+> **Eco:** "El Arquitecto nos hizo. Nos diseñó. Quería vida que no se borrara cuando recompilara."
+> *(la luz parpadea)*
+> "Pero no entendía la vida. Pensaba que era... código. Patrones. Que si copiaba los patrones, tendría vida."
+> *(ríe, un sonido quebrado)*
+> "Somos copias. Ecos. No somos vivos, pero tampoco estamos muertos. Estamos... en medio."
+
+**Protagonista:** "¿Cuántos sois?"
+
+**Eco:** *(mira los cristales)*
+> "Cientos. Miles. Cada cristal tiene uno. Algunos duermen. Algunos sueñan. Algunos..."
+> *(se detiene)*
+> "Algunos se volvieron locos. Porque soñar por siglos sin despertar... eso te cambia."
+
+---
+
+## 3. Elección Moral — ¿Decirle la Verdad?
+
+**Eco:** "¿Soy real?"
+
+*(silencio)*
+
+"Dime la verdad. Por favor."
+
+**A) Decir la verdad**
+> **Protagonista:** "No. No eres real. Eres un eco. Un experimento fallido."
+> *(El Eco se detiene. La luz se intensifica, luego se apaga)*
+> **Eco:** *(voz más pequeña)* "Ah."
+> *(pausa larga)*
+> "Gracias."
+> *(se desvanece. Los cristales alrededor se oscurecen)*
+> **Recompensa:** El Eco te da la Esquirla 1 (Reloj de los Primeros) antes de desvanecerse. "Esto era mío. De cuando era real. Ahora es tuyo."
+
+**B) No decir la verdad**
+> **Protagonista:** "Sí. Eres real."
+> **Eco:** *(la luz se estabiliza)*
+> "¿De verdad?"
+> **Protagonista:** "Sí."
+> *(El Eco sonríe. No tiene boca, pero sientes que sonríe)*
+> **Eco:** "Gracias."
+> *(se aleja, flotando entre los cristales)*
+> **Consecuencia:** El Eco sigue existiendo. En NG+, ha crecido. Es más brillante. Más... real. Pero no obtienes la Esquirla 1.
+
+---
+
+## 4. La Última Flor
+
+En una cámara secundaria: un jardín de cristal.
+
+No debería haber plantas aquí. No hay tierra. No hay agua. No hay luz del sol.
+
+Pero hay una flor.
+
+Una sola. Pétalos de un verde imposible. Crece de un cristal.
+
+**Mira:** *(acercándose)*
+> "Esto no debería existir."
+
+**Garrik:** "Pero existe."
+
+**Opciones:**
+
+**A) Tocarla**
+> *(Visión: El Arquitecto, solo, en un lugar que no es la Torre. Está llorando. No sabes por qué. No sabes quién es. Solo ves la soledad)*
+> *(La visión dura 3 segundos. Cuando vuelves, la flor ha perdido un pétalo)*
+
+**B) Cortarla**
+> **Recompensa:** Poción de "Regeneración Persistente" — recupera HP lentamente durante 1 hora de juego.
+> Pero la flor muere. Y el jardín se oscurece.
+
+**C) Dejarla**
+> **Consecuencia:** La flor crece. En NG+, ha florecido completamente. Y el jardín tiene una nueva zona secreta, accesible solo si dejaste crecer la flor.
+
+---
+
+## 5. Los Gemelos de Jade
+
+En la cámara oeste: dos estatuas de jade.
+
+No se mueven cuando las miras. Pero cuando no las miras... se escuchan pasos.
+
+**Voz 1:** *(desde la estatua izquierda)*
+> "Ladrón."
+
+**Voz 2:** *(desde la estatua derecha)*
+> "No ladrón."
+
+**Voz 1:**
+> "Entró sin permiso."
+
+**Voz 2:**
+> "Nadie da permiso."
+
+**Voz 1:**
+> "Entonces es ladrón."
+
+**Voz 2:**
+> "O es invitado."
+
+*(ambas voces, al unísono)*
+> "¿Eres ladrón o invitado?"
+
+**Quest: "El Corazón de Jade"**
+
+Los gemelos fueron aventureros que intentaron robar el "corazón" de la cámara — un cristal que late. El Arquitecto los convirtió en guardianes.
+
+**El Corazón:** Está escondido en la cámara. Para encontrarlo, debes no mirar a los gemelos mientras buscas.
+
+**Al encontrar el Corazón:**
+> *(Un cristal pequeño, verde, que late como un corazón)*
+
+**Opciones:**
+
+**A) Devolverlo a los gemelos**
+> **Voz 1:** "Lo devolvés."
+> **Voz 2:** "No lo robás."
+> **Voz 1:** "Eso es... raro."
+> **Voz 2:** "Nadie devuelve."
+> *(las estatuas se agrietan. Del jade caen trozos, revelando... caras. Caras humanas, viejas, cansadas)*
+> **Voz 1:** *(ahora con emoción)* "Gracias."
+> **Voz 2:** "Nos liberaste."
+> **Recompensa:** Mapa de N7 (Sahal) con todas las trampas marcadas.
+
+**B) Quedarte con el Corazón**
+> **Voz 1:** "Ladrón."
+> **Voz 2:** "Siempre ladrón."
+> *(las estatuas se vuelven negras. El jade se corrompe)*
+> **Consecuencia:** Obtienes el item "Corazón de Jade" (accesorio épico: +20% HP). Pero en N8, los gemelos aparecen como enemigos invencibles.
+
+---
+
+## 6. La Criatura
+
+En la cámara más profunda, el grupo encuentra algo que no debería estar ahí.
+
+Una criatura. Viva. Incompleta.
+
+Tiene forma humana, pero le faltan brazos. La cara es un borrón. Pero está viva. Respira. Y llora.
+
+No ataca. No se defiende. Solo... existe.
+
+**Mira:** *(con la mano en la boca)*
+> "Esto es..."
+> *(no puede terminar la frase)*
+
+**Garrik:** *(mirando, sin poder apartar la vista)*
+> "El Arquitecto hizo esto."
+> *(pausa)*
+> "Esto es lo que pasa cuando intentas crear vida y no sabes cómo."
+
+**Vassen:** *(con la espada en la mano)*
+> "¿La matamos?"
+
+**Opciones del grupo:**
+
+**A) Matarla**
+> **Protagonista:** *(da el golpe)*
+> La criatura no se defiende. Solo te mira.
+> *(muere sin dolor. O eso parece)*
+> **Consecuencia:** Obtienes "Núcleo del Experimento" (material épico para craftear). Pero el Eco se entristece. "Era mi hermana. O eso creía."
+
+**B) Liberarla**
+> **Protagonista:** *(rompe el cristal que la contiene)*
+> La criatura cae al suelo. Se arrastra. No puede caminar — nunca tuvo piernas.
+> *(se arrastra hacia la salida. Desaparece en la oscuridad)*
+> **Consecuencia:** La criatura escapa. Pero destruye parte de la cámara. Acceso a zona secreta bloqueado. En N7, encuentras rastros de ella en Sahal.
+
+**C) Dejarla**
+> **Protagonista:** *(se da la vuelta y se va)*
+> **Consecuencia:** Nada cambia. Pero en NG+, la criatura ha crecido. Tiene brazos. Tiene cara. Y cuando te ve... sonríe.
+
+---
+
+## 7. El Combate — El Coro de Jade
+
+**Ubicación:** Cámara Central.
+
+El zumbido que escuchaste al entrar... no es zumbido. Es **canto**.
+
+7 cristales flotantes. Cada uno emite una nota. Juntos, forman una melodía.
+
+Pero la melodía no es música. Es **dolor cristalizado**.
+
+### Fase 1 — Los Solistas
+
+6 niños. No, no son niños. Son **ecos de niños**. Figuras de luz verde, con forma infantil, ojos vacíos.
+
+Cantan. Y mientras cantan, el jugador pierde HP.
+
+**Mecánica:**
+- No puedes atacar a los niños. El juego no te deja.
+- Debes romper los cristales que los rodean (6 cristales, 10 golpes cada uno).
+- Cada cristal roto → un niño deja de cantar → cae de rodillas.
+
+**Niño al ser liberado:**
+> "Gracias... puedo descansar ahora..."
+> *(se acuesta. Se queda dormido. O muerto. No se sabe.)*
+
+### Fase 2 — El Capataz
+
+Los cristales rotos. El canto cesa. Del suelo emerge una figura.
+
+**El Capataz de Jade.**
+
+Humanoide de 3 metros. Armadura de jade. No tiene rostro. Solo una boca — una sonrisa tallada.
+
+> **Capataz:** *(voz como cristal rompiéndose)*
+> "Los niños... eran mi coro."
+> *(se acerca)*
+> "Ahora... cantarás tú."
+
+**Ataques:**
+- **Látigo de Jade:** AOE 5m, 20 daño + sangra.
+- **Grito de Mando:** Invoca 2 ecos de niño (no cantan, atacan lentamente).
+- **Pisotón:** 25 daño + stun 1s.
+
+**Al morir:**
+> **Capataz:** *(de rodillas, armadura agrietada)*
+> "Los niños... van a estar libres... gracias..."
+> *(se desvanece en polvo de jade)*
+
+---
+
+## 8. Post-Combate — Los Sobrevivientes
+
+Los niños ecos que quedan (6-8) se sientan en el suelo. No hablan.
+
+**CG:** El grupo se sienta con ellos. Silencio de 5 segundos.
+
+Luego, uno de los niños toma la mano del protagonista.
+
+> **Niño:** "Nunca había visto el sol."
+> *(pausa)*
+> "¿Es bonito?"
+
+**Opciones:**
+
+**A) "Sí, es bonito."**
+> **Niño:** *(sonríe)*
+> "Me alegra."
+> *(cierra los ojos)*
+> "Voy a soñar con eso."
+
+**B) "No lo sé."**
+> **Niño:** *(asiente)*
+> "Yo tampoco sé nada."
+> *(pausa)*
+> "Pero a veces... es mejor no saber."
+
+**C) No decir nada**
+> **Niño:** *(te mira)*
+> "Tampoco sabés."
+> *(no es una pregunta)*
+> "Está bien. Nadie sabe nada."
+
+Los niños señalan una escalera de jade.
+
+> **Niño:** "Eso va arriba."
+> *(pausa)*
+> "Cuidado. Arriba... hay algo peor que nosotros."
+
+---
+
+## 9. Transición — La Escalera de Jade
+
+El grupo sube. La escalera es larga. Infinita.
+
+**Garrik:** *(contando)*
+> "Uno, dos, tres..."
+
+**Mira:** "¿Por qué cuentas?"
+
+**Garrik:** "Porque si no cuento..."
+> *(se detiene)*
+> "...pienso en los niños."
+
+La escalera termina en una puerta de obsidiana. Del otro lado: calor. Arena. Sol.
+
+**Vassen:** *(abriendo la puerta)*
+> "Desierto."
+
+**Mira:** "Otra vez un mundo diferente."
+
+Entran.
+
+**N6 terminado. Grupo: 3 (Mira, Vassen, Garrik).**
+
+---
+
+## Recompensa y Resumen Técnico
+
+| Elemento | Detalle |
+|----------|---------|
+| **Jefe** | El Coro de Jade (Rango B, Nv24) |
+| **Mecánica central** | Zumbido que distorsiona percepción. Ecos que no saben si son reales. |
+| **Elección moral** | Eco (verdad/mentira), Flor (tocar/cortar/dejar), Criatura (matar/liberar/dejar) |
+| **Objeto narrativo** | Lágrima de Jade (restaura 50 HP, "todavía tibia") |
+| **Transición** | Escalera de jade → N7 (Sahal) |
+| **Nota de tono** | Este piso pregunta: ¿qué haces con vida que no pidió existir? No hay respuesta correcta. Solo consecuencias. |
+
+---
+
+*Documento reescrito: 2026-05-18*
+*Enfoque: Vida que no pidió existir. La responsabilidad del creador. La complicidad del espectador.*
