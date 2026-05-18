@@ -22,13 +22,13 @@ Esta versión de la historia sigue la ruta canónica donde:
 | **N0** | Emberveil (Overworld) | Tutorial | El Errante | Protagonista, Caín |
 | **Garganta** | La Primera Garganta | Puente | Guardián de la Primera Garganta | Protagonista, Caín → Caín MUERE |
 | **N1** | Velmar — Ciudad Colgante | Ciudad | — | Protagonista, Mira, Vassen |
-| **N2** | El Pastor de Cenizas | Bioma | El Pastor de Cenizas | Protagonista, Mira, Vassen, Lian (NPC) |
-| **N3** | Aelthar | Ciudad | El Leviatán del Espejo | Protagonista, Mira, Vassen, Garrik (se une) |
-| **N4** | El Bosque Petrificado | Bioma | El Guardián Petrificado | Protagonista, Mira, Vassen, Garrik |
-| **N5** | Thornwall | Ciudad | El Carnicero | Protagonista, Mira, Vassen, Garrik |
-| **N6** | Las Cámaras de Jade | Bioma | El Coro de Jade | Protagonista, Mira, Vassen, Garrik |
-| **N7** | Sahal | Ciudad | La Costurera | Protagonista, Mira, Vassen, Garrik → Mira y Vassen MUEREN |
-| **N8** | Los Jardines Flotantes | Bioma | La Arpía de Bronce | Protagonista, Garrik, Sera (se une) |
+| **N2** | El Pastor de Cenizas (Bioma) | El Pastor de Cenizas | Protagonista, Mira, Vassen, Garrik (se une) |
+| **N3** | Aelthar (Ciudad) | El Leviatán del Espejo | Protagonista, Mira, Vassen, Garrik |
+| **N4** | El Corredor de los Nombres (Bioma) | El Heraldo Sin Escudo | Protagonista, Mira, Vassen, Garrik |
+| **N5** | Thornwall (Ciudad) | El Carnicero | Protagonista, Mira, Vassen, Garrik |
+| **N6** | Las Cámaras de Jade (Bioma) | El Coro de Jade | Protagonista, Mira, Vassen, Garrik |
+| **N7** | Sahal (Ciudad) | La Costurera | Protagonista, Mira, Vassen, Garrik → Mira y Vassen MUEREN |
+| **N8** | Los Jardines Flotantes (Bioma) | La Arpía de Bronce | Protagonista, Garrik, Sera (se une en N8) |
 | **N9** | Argentia | Ciudad | El Verdugo de Plata | Protagonista, Garrik, Sera |
 | **N10** | El Centinela de Granito | Jefe Final | Centinela → El Arquitecto | Protagonista, Garrik, Sera |
 
