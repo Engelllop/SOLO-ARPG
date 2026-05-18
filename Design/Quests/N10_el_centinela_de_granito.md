@@ -1,420 +1,336 @@
 # N10 — El Centinela de Granito
+## Tema: Confrontación con el Creador
 
-> **Tipo:** Jefe Final — Plataforma
-> **Rango sugerido:** B+
-> **Jefe:** El Centinela de Granito → El Arquitecto — Obligatorio
-> **Duración estimada:** 2–3 horas (solo combate)
-> **Advertencia:** Sin puntos de guardado. Sin retorno. Sin opción de rendirse.
-
-## Resumen para el Jugador
-
-Este piso no tiene exploración. No hay tiendas, NPCs, misiones secundarias ni descanso. Es una sola pelea en tres fases contra el jefe final de todo el contenido en solitario. El jugador debe llegar con todos sus recursos al máximo: pociones, items de buff, equipo mejorado en N9. No hay vuelta atrás una vez que se cruza el umbral.
-
-Antes de comenzar, asegúrate de haber:
-- Mejorado tu arma principal en la forja de Oswin (N9)
-- Comprado suficientes consumibles en Argentia
-- Recogido el Ojo del Centinela del templo de N9
-- Hablado con Elia y obtenido el Fragmento del Arquitecto (si buscas el Final B)
-- Pronunciado mentalmente los nombres de los caídos
+> **Duración estimada:** 2-3 horas (solo combate)
+> **Compañeros:** Protagonista, Garrik, Sera
+> **Jefe:** El Centinela de Granito → El Arquitecto
+> **Tono:** Llegaste al final. Ahora descubres que el final no es lo que creías. Nunca lo fue.
 
 ---
 
-### La Ascensión Final
+## 0. La Llegada — El Vacío Blanco
 
-La escalinata de plata desde Argentia sube durante lo que parecen ser horas. No hay descansos, no hay rellanos. Solo escalones y una luz blanca cada vez más intensa.
+La puerta de luz da a... nada.
 
-Garrik camina en silencio. Sera tampoco habla. Los tres saben que esto es el final.
+No hay suelo. No hay techo. No hay paredes. Solo una plataforma circular de piedra gris, flotando en un vacío blanco.
 
-> **Garrik:** *(rompiendo el silencio)* "¿Crees que haya algo allá arriba?"
-> *(pausa)*
-> "Quiero decir... ¿algo real? ¿O solo más Torre?"
-> **Sera:** "Hay algo. Lo siento en el Tejido."
-> "No es un monstruo. Es... una conciencia."
-> *(pausa)*
-> "Y nos está esperando."
-> **Garrik:** "Bueno. Nunca me ha gustado esperar."
+El cielo — si es cielo — es blanco. Sin sol. Sin nubes. Sin nada.
 
-## Ambientación
+**Garrik:** *(mirando alrededor)*
+> "¿Esto es... el final?"
 
-No hay ambientación. No hay lugar.
+**Sera:** *(sin mirar alrededor, mirando al centro de la plataforma)*
+> "No. Esto es el umbral."
 
-Solo una plataforma circular de piedra gris, de 50 metros de diámetro, flotando en un vacío que no es negro ni blanco — es ambos y ninguno. Un blanco tan absoluto que duele mirarlo, pero al mismo tiempo tan vacío que parece negro.
+En el centro de la plataforma: una figura.
 
-No hay sonido. No hay viento. No hay olor. No hay temperatura.
+No se movió. No apareció. Siempre estuvo ahí. Solo que nadie la vio hasta ahora.
 
-Es el lugar más vacío que existe. El lugar donde la Torre termina.
+**El Centinela.**
 
-En el centro de la plataforma, **El Centinela de Granito** está de pie. No se mueve. No respira. Es una estatua de 8 metros de altura, esculpida en granito gris, con la forma de un guerrero antiguo. Su rostro no tiene rasgos — solo una superficie lisa. Sus brazos cuelgan a los lados. En su pecho, una grieta apenas visible, como si algo hubiera intentado romperlo desde dentro.
+8 metros de alto. Hecho de granito gris. Sin rostro. Sin armas. Solo... presencia.
 
-No tiene armas. No necesita.
+Y espera.
 
-## Llegada
+---
 
-La puerta de luz se cierra detrás del grupo. No hay vuelta atrás.
+## 1. El Centinela — Fase 1
 
-La plataforma se extiende ante ellos. El Centinela no se mueve. No los mira — no tiene ojos para mirar.
+El Centinela no habla. No se mueve. Hasta que el grupo da un paso hacia él.
 
-Garrik desenvaina sus hojas.
+Entonces... se despierta.
 
-> **Garrik:** "Bueno. Aquí estamos."
-> *(pausa)*
-> "No sé ustedes, pero yo no pienso dar media vuelta ahora."
-> **Sera:** *(tranquila, desenvainando su katana)* "No hay media vuelta. Solo hacia adelante."
-> *(mira al Centinela)*
-> "No ataca primero. Espera."
-> *(pausa)*
-> "Sabe que llegamos. Y no tiene prisa."
-
-El grupo avanza. Cada paso resuena en el silencio.
-
-A 20 metros del Centinela, una voz. No sale de ningún lado — está en la cabeza.
-
-> **Voz del Centinela:** *(sin emoción, neutra, como una máquina que habla)* "Persistente detectado. Dos anómalos acompañantes."
-> *(pausa)*
-> "Acceso denegado."
-> *(pausa)*
-> "Iniciando protocolo de purga."
-
-El Centinela se mueve.
-
-## Combate: El Centinela de Granito
-
-> **Rango:** B+
-> **Vida:** 3 barras (Centinela físico 2 barras → Manifestación 1 barra)
-> **Debilidad:** Precisión, timing
-> **Resistencia:** Físico (90% reducción en fase 1), Mágico (70% reducción en fase 1)
-> **Ubicación:** Plataforma circular en el vacío blanco
-
-### Fase 1 — El Coloso
-
-El Centinela se mueve lentamente pero con una fuerza devastadora. Cada paso suyo hace temblar la plataforma. Sus golpes son amplios, lentos, pero si conectan, destruyen.
-
-No esquiva. No bloquea. Solo avanza y golpea.
+No es rápido. Es inevitable.
 
 **Ataques de Fase 1:**
-- **Golpe Sísmico:** Levanta un puño y lo deja caer. El impacto crea ondas de choque que viajan por el suelo. Saltar sobre las ondas las evita.
-- **Barrido de Brazo:** Barre el brazo en un arco de 180 grados. Se esquiva agachándose.
-- **Pisotón:** Levanta un pie y lo deja caer. Si el jugador está debajo, daño masivo. El impacto crea grietas en el suelo que dañan si se pisan.
-- **Puños de Roca:** Del suelo (de las grietas que crea), emergen puños de roca que atrapan al jugador. Mantenerse en movimiento.
-- **Aliento de Polvo:** Exhala una nube de polvo de granito que ciega 5 segundos. No se esquiva — solo esperar.
+- **Puño de Granito:** AOE 5m, 30 daño. El suelo tiembla.
+- **Pisotón:** La plataforma se agrieta. Si estás en la grieta: 25 daño + caída.
+- **Grito de Piedra:** Stun 3s, daño sónico 20. No es sonido — es silencio tan intenso que duele.
 
-**Mecánica especial — Romper el Suelo:**
-Cada golpe del Centinela rompe parte del suelo de la plataforma. Después de 10 golpes, la plataforma se reduce al 50% de su tamaño original. Los bordes rotos son irregulares — se puede caer (muerte instantánea).
+**Mecánica — La Plataforma:**
+- El Centinela rompe la plataforma con cada pisotón.
+- Si caes al vacío: muerte instantánea.
+- Tienes que esquivar las grietas mientras peleas.
 
-**Mecánica — Sera y Garrik:**
-Sera y Garrik pelean junto al protagonista. Sera ataca las piernas del Centinela para ralentizarlo. Garrik flanquea y ataca las grietas de la armadura. Pero no pueden dañarlo significativamente — solo el protagonista puede.
+**Garrik:** *(esquivando un puño)*
+> "¡Es demasiado grande!"
 
-Si Sera o Garrik reciben demasiado daño, se retiran al borde de la plataforma y no pueden ayudar por 30 segundos.
+**Sera:** *(saltando, katana en alto)*
+> "No pelees su tamaño. Pelea su lentitud."
 
-**Estrategia recomendada:**
-- Atacar las piernas primero (3 golpes fuertes en la misma pierna lo hacen caer de rodillas 5 segundos)
-- Durante la caída, atacar la grieta en el pecho (donde la armadura es más débil)
-- No enfrentar los golpes de frente — esquivar lateralmente
-- Escuchar: cada ataque tiene un sonido de "carga" de 1.5 segundos antes de ejecutarse
+---
 
-**Diálogo durante la pelea:**
-> **Sera:** "¡Sus piernas! ¡Las articulaciones! ¡No puede moverse sin ellas!"
-> **Garrik:** *(esquivando un barrido)* "¡Ya lo sé, ya lo sé! ¡Es que no para de moverse!"
+## 2. Fase 2 — El Centinela Se Rompe
 
-**Transición a Fase 2:** Cuando la primera barra de vida llega a 0, el Centinela se detiene. Su cuerpo de granito se agrieta desde la cabeza hasta los pies. La luz blanca del vacío penetra las grietas.
+A 50% HP, el Centinela se detiene.
 
-La armadura exterior cae en pedazos.
+Mira sus manos. Granito agrietado.
 
-Lo que queda es un **núcleo de luz blanca** — una esfera de 2 metros de diámetro que flota en el centro de la plataforma. Pulsa lentamente.
+Y luego... se rompe.
 
-Y una voz. No la voz del Centinela. Otra. Más calmada. Más humana.
+No muere. Se **desmorona**. Trozos de granito caen al vacío. Y de dentro... emerge algo.
 
-> **Voz:** "Llegaste. No esperaba que llegaras."
+No es un monstruo. Es un **hombre**.
 
-### Fase 2 — La Manifestación
+Viejo. 70 años, quizás. Cabello blanco. Ropa simple. Ojos... ojos que han visto demasiado.
 
-El núcleo de luz blanca se expande. De él, emerge una **figura humanoide**. No de carne — de luz. Sin rasgos faciales, pero con una postura que es claramente humana. Camina hacia el protagonista. Se detiene a 3 metros.
+**El Arquitecto.**
 
-No ataca.
-
-> **El Arquitecto (Manifestación):** "Soy quien construyó esta Torre. O quien la encontró, y decidió usarla."
+> **Arquitecto:** *(tosiento, como si no hablara hace siglos)*
+> "Ah."
+> *(se sienta en el suelo, entre los restos del Centinela)*
+> "Llegaste."
 > *(pausa)*
-> "No soy un dios. No soy un monstruo. Soy un compilador."
+> "Sabía que llegarías. Siempre llegas."
+
+**Protagonista:** "¿Quién eres?"
+
+**Arquitecto:** *(riendo, amargo)*
+> "¿Quién soy?"
+> *(se toca el pecho)*
+> "Soy el que construyó esto."
+> *(señala la Torre, aunque no se ve)*
+> "Soy el que diseñó cada piso. Cada jefe. Cada tragedia."
 > *(pausa)*
-> "Y tú has estado rompiendo mis compilaciones una por una."
+> "Soy el que te hizo sufrir."
 
-**Diálogo antes del combate:**
+---
 
-> **Protagonista:** "¿Qué significa eso?"
-> **Arquitecto:** *(con calma, sin emoción)* "El mundo se reescribe. No es una metáfora. Es un proceso."
+## 3. El Diálogo — La Verdad
+
+El Arquitecto no ataca. Solo habla.
+
+Y lo que dice... cambia todo.
+
+> **Arquitecto:** "¿Sabes qué es la Torre?"
+> *(no espera respuesta)*
+> "La Torre es un... experimento. No, eso suena frío."
 > *(pausa)*
-> "Cada vez que alguien muere en la Torre, el Tejido registra esa muerte. Cada jefe que matas es una iteración que cierro. Una versión del mundo que ya no puedo recuperar."
+> "La Torre es un intento. Mi intento."
+
+**Garrik:** "¿De qué?"
+
+**Arquitecto:** *(mirando a Garrik)*
+> "De salvar el mundo."
 > *(pausa)*
-> "Cuando mataste al Guardián de la Primera Garganta, cerraste la versión donde Caín vivía."
+> "El mundo de afuera... está muerto. Lo sabes, ¿verdad? El sol no sale. La tierra no produce. La gente muere."
+> *(se levanta, camina hacia el borde de la plataforma)*
+> "Así que construí esto. Un lugar donde la gente pudiera... persistir."
+> *(se gira)*
+> "Pero la persistencia tiene un precio."
+
+**Sera:** *(con voz baja)*
+> "La memoria."
+
+**Arquitecto:** *(mirando a Sera, sorprendido)*
+> "Ah. Tú lo sabes."
 > *(pausa)*
-> "Cuando mataste a la Costurera... cerraste la versión donde Mira y Vassen llegaban al final."
+> "Sí. La memoria. Cada vez que la Torre 'recompila' — cada vez que reinicia — la gente olvida."
+> *(mira al protagonista)*
+> "Pero tú... tú no olvidas. ¿Verdad?"
+
+**Protagonista:** *(puede negar o no responder)*
+
+**Arquitecto:** *(si no respondes)*
+> "No importa. Yo sé que no olvidas."
+> *(se acerca)*
+> "Eres un Persistente. Un error en el sistema. Alguien que sobrevivió a las recompilaciones."
 > *(pausa)*
-> "No eras tú quien mataba, claro. Eras su destino. Tú solo... lo ejecutabas."
-> *(mira fijamente al protagonista)*
-> "Eres mi mejor compilación hasta ahora. La más eficiente."
+> "Y eso me fascina."
+
+---
+
+## 4. La Elección Final
+
+El Arquitecto extiende una mano.
+
+> **Arquitecto:** "Te ofrezco algo."
 > *(pausa)*
-> "Pero no te dejaré pasar."
+> "Quédate. Conmigo. Ayúdame a reconstruir."
+> *(mira a Garrik y Sera)*
+> "Tus amigos pueden irse. Tú... tú te quedas."
 
-El Arquitecto extiende una mano. De ella, una espada de luz blanca.
+**Opciones:**
 
-> **Arquitecto:** "Si quieres salir, tendrás que matar a quien te creó."
-
-**Garrik desde atrás:** "¿Quieres que luche contra el puto dios del mundo?"
-**Sera:** "No es un dios. Es un programador. Y los programas se corrigen."
-
-### Fase 3 — El Arquitecto
-
-El Arquitecto se mueve como un bailarín. Cada ataque es preciso, fluido, desprovisto de emoción. No hay fuerza bruta en sus movimientos — solo gracia letal.
-
-Esta pelea no es de tanqueo. Es de **timing**. El Arquitecto no se puede golpear con ataques normales — hay que esperar sus ataques y contraatacar en los microsegundos de vulnerabilidad.
-
-**Ataques de Fase 3:**
-- **Corte de Luz:** Estocada rápida. Se esquiva a milímetros. Contraatacar inmediatamente después.
-- **Danza del Vacío:** El Arquitecto se mueve en patrones circulares. Ataca y se mueve, ataca y se mueve. El jugador debe anticipar el siguiente punto de ataque.
-- **Onda de Realidad:** Una onda expansiva de luz que empuja al jugador hacia el borde de la plataforma. No hace daño, pero acerca al vacío.
-- **Precisión Absoluta:** Un ataque que no se puede esquivar si el jugador está en movimiento — solo si está quieto en el momento exacto.
-- **Copia de Luz:** Crea una copia de sí mismo que ataca 1 segundo detrás. El jugador debe esquivar ambos ataques o predecir el patrón de la copia.
-
-**Mecánica especial — El Baile:**
-El Arquitecto no tiene vida en el sentido tradicional. Cada vez que el jugador contraataca exitosamente, la luz del Arquitecto se atenúa un poco. Después de 20 contraataques exitosos (ataques esquivados + golpeados en la ventana de vulnerabilidad), el Arquitecto se detiene.
-
-**Mecánica — Sin compañeros:**
-Sera y Garrik no pueden ayudar en esta fase. Cuando intentan acercarse, el Arquitecto los congela con una mirada. Están atrapados en el borde de la plataforma, viendo.
-
-> **Sera:** "Es una pelea entre tú y él. Nosotros no podemos intervenir."
-> **Garrik:** *(golpeando una barrera invisible)* "¡Maldita sea!"
-
-**Estrategia recomendada:**
-- No atacar primero. Esperar. Observar. Reaccionar.
-- Cada ataque del Arquitecto tiene un "telegrafiado" sutil: un brillo en la espada antes del golpe, un giro de cadera antes de la estocada.
-- El contraataque debe ser exactamente en el momento de recuperación del Arquitecto (0.3 segundos después de que termina su ataque).
-- Mantenerse en el centro de la plataforma — los bordes son más peligrosos.
-- Usar items de buff de velocidad (velocidad = todo en esta pelea).
-- Si el jugador tiene el Anillo de Nombres de N9, pronunciar los nombres (Aldric, Mira, Vassen) durante la pelea distrae al Arquitecto por 2 segundos, dando una ventana de ataque gratuita.
-
-**Diálogo final del Arquitecto (al llegar a 0 contraataques restantes):**
-
-El Arquitecto se detiene. Su espada de luz se desvanece. Mira al protagonista.
-
-> **Arquitecto:** *(sin ira, sin tristeza)* "Lo hiciste."
+**A) "¿Por qué yo?"**
+> **Arquitecto:** "Porque eres el primero que llega con la verdad. Consciente."
 > *(pausa)*
-> "Sabía que lo harías. Por eso te puse aquí."
-> *(pausa)*
-> "No te creé a ti. Te encontré. Eras un error en el Tejido. Un Persistente. Alguien que no debería existir en esta compilación."
-> *(pausa)*
-> "Pero los errores a veces son mejores que el código original."
-> *(sonrisa — la primera emoción real en su voz)*
-> "La puerta está abierta. Detrás de mí. La salida."
-> *(pausa)*
-> "Pero antes de que te vayas... tengo una oferta."
+> "Los demás llegan con odio. Con venganza. Con miedo."
+> *(mira al protagonista)*
+> "Tú llegas con... curiosidad. Eso es raro. Eso es valioso."
 
-**La oferta del Arquitecto:**
-> **Arquitecto:** "Puedes quedarte. Tomar mi lugar. La Torre necesita un compilador. Alguien que decida qué mundos se escriben y cuáles se borran."
+**B) "¿Qué pasa si me voy?"**
+> **Arquitecto:** *(sonríe, triste)*
+> "Te vas. Y la Torre sigue. Y el mundo de afuera sigue muriendo."
 > *(pausa)*
-> "Sera se quedará contigo. Su existencia depende del Tejido de la Torre. No puede salir."
-> *(pausa)*
-> "Garrik puede salir. Puede contar tu historia."
-> *(pausa)*
-> "O puedes irte. Los tres. Y la Torre se quedará vacía. Sin compilador. Las compilaciones se detendrán. El mundo dejará de reescribirse."
-> *(pausa)*
-> "Pero no sé qué pasará con el Tejido cuando yo no esté."
-> *(pausa)*
-> "Elige."
+> "Y yo... sigo solo."
 
-## Post-combate / Los Dos Finales
+**C) "¿Por qué hiciste esto?"**
+> **Arquitecto:** *(pausa larga)*
+> "Porque tenía miedo."
+> *(se toca la cara)*
+> "Tenía miedo de morir. De que todo lo que hice se perdiera."
+> *(pausa)*
+> "Así que construí algo que durara. Algo que no muriera."
+> *(mira la Torre)*
+> "Pero olvidé que lo que no muere... tampoco vive."
+
+---
+
+## 5. Fase 3 — El Combate Final
+
+Si el protagonista rechaza la oferta (o ataca), el Arquitecto... cambia.
+
+No se transforma en monstruo. Es peor.
+
+Se convierte en **todo**.
+
+La plataforma se desmorona. El vacío blanco se vuelve... recuerdos. Flashbacks de cada piso. Cada muerte. Cada pérdida.
+
+**Mecánica — El Baile:**
+- El Arquitecto no tiene HP. Tiene **paciencia**.
+- Cada 30 segundos, la escena cambia:
+  - N0: Caín muere. Tienes que cargarlo mientras esquivas.
+  - N1: La Voz susurra. Tienes que ignorarla y avanzar.
+  - N2: El Pastor camina en círculos. Tienes que romper el círculo.
+  - N3: El Leviatán emerge. Tienes que nadar hacia arriba.
+  - N4: Los nombres en la pared. Tienes que encontrar el tuyo.
+  - N5: El Carnicero. Tienes que esquivar sin atacar.
+  - N6: Los niños cantan. Tienes que romper los cristales.
+  - N7: Mira y Vassen mueren. Tienes que... verlo. Sin apartar la vista.
+  - N8: La Arpía llora. Tienes que... consolarla.
+  - N9: El Verdugo espera. Tienes que... perdonarlo.
+- Cada escena superada: el Arquitecto pierde "paciencia".
+- A 0 paciencia: cae de rodillas.
+
+**Al caer:**
+> **Arquitecto:** *(de rodillas, en el vacío)*
+> "Bien."
+> *(pausa)*
+> "Eso es... correcto."
+> *(mira al protagonista)*
+> "No quería ganar. Quería... perder."
+> *(cierra los ojos)*
+> "Porque perder significa que alguien mejor que yo... sigue."
+
+---
+
+## 6. Los Finales
 
 ### Final A — El Escape
 
-El protagonista da un paso atrás. Mira a Garrik. Mira a Sera.
+**Condición:** Derrotar al Arquitecto. No quedarte.
 
-> **Protagonista:** "Me voy."
-> **Arquitecto:** *(asiente)* "Como esperaba. Eres libre."
-> *(da un paso al lado)*
-> "La puerta está ahí."
+> La Torre empieza a desmoronarse.
+> El grupo corre hacia la salida.
+> Garrik primero. Sera después.
+> El protagonista... se detiene.
+> Mira atrás. Al Arquitecto. Muerto. Solo.
+> Y por primera vez, siente lástima.
+> Sale.
+> El sol... el sol sale. Por primera vez en siglos.
+> El mundo de afuera está devastado. Pero vivo.
+> Créditos con imágenes de Caín, Mira, Vassen.
+> No son fantasmas. Son recuerdos.
+> Y eso es suficiente.
 
-Detrás del Arquitecto, una puerta de luz blanca — diferente a todo lo visto. No es un arco, no es una entrada. Es una grieta en la realidad, un borde donde el blanco del vacío se desgarra para mostrar... un amanecer.
+### Final B — El Nuevo Arquitecto
 
-Sera camina hacia la puerta. Se detiene en el umbral. Mira hacia atrás.
+**Condición:** Aceptar quedarte. Tener todas las Esquirlas.
 
-> **Sera:** "Nunca he visto el sol."
-> *(pausa)*
-> "Espero que sea hermoso."
+> El protagonista se queda.
+> Garrik sale solo. Llorando.
+> Sera... Sera se queda con el protagonista.
+> "No voy a dejarte solo. Eso ya lo decidí."
+> La Torre se reconstruye. Pero diferente.
+> Más suave. Más humana.
+> El protagonista no es el Arquitecto.
+> Es... el Jardinero.
+> Alguien que cuida en lugar de controlar.
+> NG+ desbloqueado. Pero diferente.
 
-**Escena final:**
+### Final C — El Heredero
 
-La Torre comienza a temblar. Grietas recorren la plataforma. El Arquitecto se desvanece en luz, su forma disolviéndose en partículas que ascienden.
+**Condición:** Derrotar al Arquitecto. Tener el nombre del Arquitecto (de N4).
 
-El grupo corre hacia la puerta. Garrik pasa primero. Sera después.
+> "¿Sabes mi nombre?"
+> El protagonista lo dice.
+> El Arquitecto llora.
+> "Nadie lo había dicho en..."
+> No termina. No puede.
+> "Gracias."
+> Muere. Pero esta vez... en paz.
+> El grupo sale.
+> Pero el protagonista lleva algo.
+> El nombre. Y con él... la responsabilidad.
 
-El protagonista cruza el umbral.
+### Final D — El Destructor
 
----
+**Condición:** Derrotar al Arquitecto. Destruir todo en el camino.
 
-**Afuera:**
+> La Torre cae.
+> No se desmorona — se destruye.
+> El protagonista la destruye.
+> Piso por piso.
+> Con cada piso, un recuerdo muere.
+> Caín. Mira. Vassen. Todos.
+> Al final... el protagonista está solo.
+> En el vacío.
+> Con nada.
+> "Lo logré."
+> Pero no hay nadie para escucharlo.
 
-Un mundo devastado. Cielo gris. Tierra yerma. Ruinas de una civilización que ya no existe.
+### Final E — El Sacrificio
 
-Pero en el horizonte, una línea de luz. Dorada. Cálida.
+**Condición:** Morir en el combate final. (Sí, es un final válido.)
 
-El sol está saliendo.
-
-Por primera vez en siglos.
-
-Sera mira el sol. Sus ojos se llenan de lágrimas — no de tristeza, de algo que no sabe nombrar.
-
-> **Sera:** "Es... más de lo que imaginé."
-> **Garrik:** *(sentándose en una roca, respirando)* "Bueno. Ahora qué."
-> *(pausa)*
-> *Mira alrededor*
-> "Esto es un desierto."
-> *(pausa)*
-> "Pero tiene sol."
-> *(sonrisa)*
-> "Ya encontraremos agua."
-
----
-
-### Final B — El Nuevo Arquitecto (Condiciones Secretas)
-
-**Requisitos:**
-- Obtener el Fragmento del Arquitecto (N9, misión de Elia)
-- Hablar con el Arquitecto después de la pelea y elegir "Quedarme"
-- Sera debe estar viva
-- El jugador debe haber usado el Fragmento del Arquitecto durante la pelea (se consume)
-
-**Escena:**
-
-El protagonista no se mueve hacia la puerta.
-
-> **Protagonista:** "Y si me quedo... ¿qué pasa con ellos?"
-> *(señala a Garrik y Sera)*
-> **Arquitecto:** *(mira a Sera)* "Ella puede quedarse. Es del Tejido. La Torre es su hogar." *(mira a Garrik)* "Él... puede irse. O puede quedarse." *(a Garrik)* "¿Qué eliges?"
-> **Garrik:** *(pausa larga)* "...¿Puedo pensar en eso?"
-> **Arquitecto:** "No. La decisión es ahora."
-
-> **Garrik:** *(mirando al protagonista)* "Hermano... si te quedas, no vuelvo a verte."
-> *(pausa)*
-> "Pero alguien tiene que contar esta historia. Y no puedo contarla si me quedo."
-> *(sonrisa triste)*
-> "Me voy."
-> *(abreza al protagonista — un abrazo corto, fuerte)*
-> "Cuida de ella."
-> *(señala a Sera)*
-> **Protagonista:** "Cuida de ti."
-> **Garrik:** *(caminando hacia la puerta)* "Siempre lo hago."
-
-Garrik cruza. La puerta se cierra detrás de él.
-
----
-
-**Tiempo después:**
-
-Sera está sentada en la plataforma vacía, mirando el blanco infinito.
-
-> **Sera:** *(sin mirar al protagonista)* "Nunca imaginé que esto sería mi hogar."
-> *(pausa)*
-> "Pero si es contigo... no me quejo."
-> *(pausa)*
-> "¿Qué haremos ahora?"
-> **Protagonista:** "Reconstruir. Desde adentro."
-> **Sera:** *(sonrisa)* "Suena a más trabajo que matar dioses."
-
-Afuera, en el mundo real, Garrik camina por el desierto. El sol está saliendo. Lleva una espada al hombro — la espada del protagonista. Y una misión.
-
-> **Garrik:** *(al viento)* "Había una vez una torre... y un tipo terco que no sabía cuándo rendirse."
-> *(pausa)*
-> "Todavía no sé cómo termina la historia. Pero voy a vivir lo suficiente para contarla."
+> El protagonista cae.
+> El Arquitecto lo mira.
+> "No..."
+> Por primera vez, el Arquitecto siente algo.
+> Miedo. No por él. Por el protagonista.
+> "No puedes morir. Eres el primero que..."
+> El protagonista muere.
+> El Arquitecto se queda solo.
+> Otra vez.
+> "Lo siento."
+> La Torre reinicia.
+> Todo vuelve a empezar.
+> Pero esta vez...
+> El Arquitecto cambia algo.
+> Una pequeña cosa.
+> Para que el próximo...
+> tenga una oportunidad.
 
 ---
 
-## Epílogo — Lo que Queda
+## 7. Post-Créditos
 
-### En la Torre (Final B)
+Si completaste el juego con Sera en el grupo (y romance activo):
 
-Nadie sabe cuánto tiempo pasa. Adentro no hay días, no hay noches. Solo el pulso del Tejido y el eco de las compilaciones que ya no ocurren.
-
-Sera se sienta al borde de la plataforma, mirando el vacío blanco. El protagonista se sienta a su lado.
-
-> **Sera:** "¿Te arrepientes?"
-> **Protagonista:** "No."
-> *(pausa)*
-> "¿Tú?"
-> **Sera:** *(sonrisa tenue)* "Nunca tuve nada que perder. Ahora tengo algo."
-> *(apoya la cabeza en su hombro)*
-> "Eso es más de lo que esperaba."
-
-Abajo, en los pisos inferiores, los Jardines Flotantes comienzan a florecer de nuevo. Las flores que Sera tocó despiertan. El Tejido se estabiliza.
-
-La Torre ya no compila mundos. Ahora los preserva.
-
-### En la Superficie (Final A)
-
-Garrik camina solo durante días. El desierto no termina. Pero el sol sigue saliendo cada mañana.
-
-Eventualmente encuentra un pueblo. Gente que sobrevive en las ruinas de lo que fue una ciudad. Hablan de una torre que vieron caer desde lejos — una columna de luz que se desvaneció en el horizonte.
-
-Garrik se sienta en la plaza del pueblo, acepta un plato de comida caliente, y cuenta una historia.
-
-No dice que es verdad. Pero la gente escucha.
-
-> **Garrik:** "Había tres. Un tipo que no sabía rendirse, una mujer que no existía, y yo."
-> *(pausa)*
-> "Subieron hasta el final. Hasta donde el mundo se escribe."
-> *(pausa)*
-> "Y uno de ellos decidió quedarse para que el resto pudiera irse."
-> *(mira al cielo)*
-> "Todavía no sé si eso fue valentía o estupidez."
-> *(sonrisa)*
-> "Pero fue su elección. Y la respeto."
-
-### El Legado
-
-En algún lugar del Refugio del Umbral (más allá de N10, donde comienza el contenido multijugador), hay un Paseo de los Primeros con diez estatuas.
-
-La última estatua es la del Centinela de Granito. Pero la inscripción en su base ha cambiado:
-
-> *"Aquí descansa la última compilación.*
-> *Quien la rompió eligió su propio final.*
-> *Que su nombre sea recordado."*
-
-Debajo, un espacio vacío. Para que el nombre del protagonista sea grabado cuando el primer jugador complete el juego.
+> Un jardín. Fuera de la Torre.
+> Sera y el protagonista.
+> Sentados.
+> No hablan.
+> No necesitan.
+> El sol se pone.
+> Y por primera vez...
+> ambos cierran los ojos.
+> Y no ven la Torre.
 
 ---
 
-*— FIN DEL JUEGO EN SOLITARIO —*
+## Recompensa y Resumen Técnico
 
-## Créditos Visuales (Arte Conceptual de Compañeros)
-
-**Caín.** Sonriendo con su espada al hombro. El sol detrás de él. Su armadura aún intacta.
-
-**Mira.** Tensando su arco, el viento en su cabello. Una flecha de luz dorada a punto de partir.
-
-**Vassen.** De pie frente a una puerta de luz, escudo en alto. Su rostro sereno, sin miedo.
-
-### Post-Créditos
-
-Un paisaje. Una colina. Tres figuras desde lejos.
-
-La primera: un guerrero con una espada en la mano, mirando el horizonte.
-La segunda: una mujer con una katana en el cinto, sentada en la hierba.
-La tercera: un hombre con dos cuchillas en la espalda, riendo.
-
-El sol se pone lentamente. Las figuras no se mueven. Son solo siluetas contra la luz.
-
-**"GRACIAS POR JUGAR."**
-
-**"SUNLIGHT OF THE LAST ONLINE"**
+| Elemento | Detalle |
+|----------|---------|
+| **Jefe** | El Centinela de Granito → El Arquitecto |
+| **Mecánica central** | Baile de recuerdos. Cada piso revisitado. Cada trauma enfrentado. |
+| **Finales** | 5 finales (A/B/C/D/E) + variante romance |
+| **Objeto narrativo** | Fragmento del Arquitecto (de N9) cambia diálogo |
+| **Nota de tono** | El final no es una victoria. Es una despedida. De la Torre. Del dolor. De ti mismo. |
 
 ---
 
-## Datos Técnicos del Jefe
-
-| Aspecto | Detalle |
-|---------|--------|
-| **Vida total** | 3 barras (2 de Centinela físico + 1 de Arquitecto)
-| **Puntos débiles** | Precisión y timing (Fase 3), Piernas (Fase 1)
-| **Resistencias** | Físico 90% (F1), Mágico 70% (F1)
-| **Inmunidades** | Estados alterados (F3), Daño elemental (F3)
-| **Drops** | Ninguno (jefe final narrativo)
-| **Guardado** | No hay punto de guardado durante el combate
-| **Duración estimada** | 20-40 minutos de combate continuo
+*Documento reescrito: 2026-05-18*
+*Enfoque: Confrontación con el creador. La verdad que no querías saber. Y la elección que no querías hacer.*

@@ -1,9 +1,10 @@
 # N4 — El Corredor de los Nombres
+## Tema: Legado y Olvido
 
 > **Duración estimada:** 2–3 horas
 > **Compañeros:** Mira, Vassen, Garrik
 > **Rango mínimo:** C+
-> **Tono:** Historia, peso del pasado, el nombre como ancla de identidad
+> **Tono:** ¿Vale la pena ser recordado? ¿O es mejor ser olvidado?
 > **Jefe:** El Heraldo Sin Escudo (Rango C+, Nv20)
 > **Habilidad desbloqueada:** Lectura del Suelo (protagonista — ver huellas y rastros de quienes pasaron antes)
 
@@ -40,6 +41,8 @@ El jugador puede detenerse en cualquier punto y examinar un grupo de nombres. La
 - *"El viajero sin nombre. Llegó aquí y volvió. El único que volvió. No quiso decir cómo."*
 - *"Tal de ninguna parte. Los que lo conocían dicen que era gracioso. Los que lo conocían ya no están tampoco."*
 - *"Innombrable. Le quitaron el nombre antes de entrar. La Torre se lo devolvió aquí. No supo qué hacer con él."*
+- *"Mira de Velmar. Dibujaba mapas. Quería que todo durara."* — Este nombre NO está. Pero si Mira muere en N7, aparece aquí en NG+.
+- *"Vassen de Velmar. Escudero. Murió protegiendo a alguien. Como siempre."* — Este nombre tampoco está. Aparece en NG+ si muere.
 
 **Vassen** (leyendo uno que se detiene):
 > "Este es reciente. La piedra está limpia alrededor."
@@ -373,3 +376,8 @@ La puerta se abre.
 | **Objeto narrativo** | El nombre "ARYS" se menciona en N3 (el que volvió). En N4, es el Heraldo. |
 | **Transición** | Abertura en piedra → N5 (El Jardín que Crece Hacia Adentro) |
 | **Nota de tono** | El corredor es el piso más "tranquilo" de N0–N10. La mayor amenaza es lo que los nombres te hacen sentir, no los enemigos. |
+
+---
+
+*Documento reescrito: 2026-05-18*
+*Enfoque: Legado y olvido. El peso de ser recordado. La elección de dejar nombre o no.*
