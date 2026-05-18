@@ -1,4 +1,4 @@
-﻿#include "GameFramework/SOLOGameMode.h"
+#include "GameFramework/SOLOGameMode.h"
 #include "UI/HUD/SOLOHUDBase.h"
 #include "Character/SOLOPlayerCharacter.h"
 #include "Player/SOLOPlayerState.h"
@@ -16,21 +16,13 @@
 
 ASOLOGameMode::ASOLOGameMode()
 {
-	// C++ por defecto (hay Blueprint aÃºn). Si existe BP_PlayerCharacter, lo usa.
+	// C++ por defecto. Si existe BP en Content/SOLO/, lo usa.
 	DefaultPawnClass = ASOLOPlayerCharacter::StaticClass();
 	{
-		static ConstructorHelpers::FClassFinder<APawn> BpPawnFinder(TEXT("/Game/Blueprints/Characters/BP_PlayerCharacter"));
+		static ConstructorHelpers::FClassFinder<APawn> BpPawnFinder(TEXT("/Game/SOLO/Characters/Player/BP_SOLOPlayerCharacter"));
 		if (BpPawnFinder.Succeeded())
 		{
 			DefaultPawnClass = BpPawnFinder.Class;
-		}
-		else
-		{
-			static ConstructorHelpers::FClassFinder<APawn> LegacyPawnFinder(TEXT("/Game/Characters/Player/BP_PlayerCharacter"));
-			if (LegacyPawnFinder.Succeeded())
-			{
-				DefaultPawnClass = LegacyPawnFinder.Class;
-			}
 		}
 	}
 
@@ -39,23 +31,22 @@ ASOLOGameMode::ASOLOGameMode()
 	PlayerControllerClass = ASOLOPlayerController::StaticClass();
 	{
 		static ConstructorHelpers::FClassFinder<APlayerController> BpPlayerControllerFinder(
-			TEXT("/Game/Blueprints/Player/BP_PlayerController"));
+			TEXT("/Game/SOLO/Blueprints/BP_SOLOPlayerController"));
 		if (BpPlayerControllerFinder.Succeeded())
 		{
 			PlayerControllerClass = BpPlayerControllerFinder.Class;
 		}
-		else
-		{
-			static ConstructorHelpers::FClassFinder<APlayerController> LegacyPcFinder(
-				TEXT("/Game/Player/BP_SOLOPlayerController"));
-			if (LegacyPcFinder.Succeeded())
-			{
-				PlayerControllerClass = LegacyPcFinder.Class;
-			}
-		}
 	}
 
 	HUDClass = ASOLOHUDBase::StaticClass();
+	{
+		static ConstructorHelpers::FClassFinder<AHUD> BpHUDFinder(
+			TEXT("/Game/SOLO/UI/BP_SOLOHUD"));
+		if (BpHUDFinder.Succeeded())
+		{
+			HUDClass = BpHUDFinder.Class;
+		}
+	}
 }
 
 void ASOLOGameMode::PlayerDied(APlayerController* PlayerController)
