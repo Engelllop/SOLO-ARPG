@@ -4,11 +4,13 @@
 **Edad aparente:** 28-32 años (mayor que el protagonista, que tiene 18-20)
 **Estilo:** NierAutomata — movimientos fluidos, combos largos, esquivas perfectas, ataques que parecen bailar
 
+**Diseño visual (canon 2026-07-05):** pelo corto claro (bob rubio ceniza), expresión serena con media sonrisa de quien sabe más que vos — arquetipo Tenka (Yozakura) / Momoko (Araburu Kisetsu). Vestimenta tipo NieR Automata: vestido de combate negro elegante, entallado, con acentos blancos; sin armadura visible. Madurez sin frialdad. La katana envainada no hace ruido.
+
 ---
 
 #### Primera Vista (N7 — Sahal, final del piso)
 
-**NOTA: Sera NO aparece en el mundo exterior (Preludio/Overworld). Su primera aparición es DENTRO de la Torre, en N7.**
+**NOTA: Sera NO aparece en el mundo exterior (Preludio/Overworld). Dentro de la Torre está sembrada desde la Garganta (avistamientos — ver `Design/Quests/sera_integracion_lenta.md` §2); esta escena de N7 es la primera vez que el grupo la ve de cuerpo entero y consciente de que los observa.**
 
 El grupo acaba de enterrar a Mira y Vassen. Garrik está de rodillas en la tierra. El protagonista mira la tumba, vacío por dentro.
 

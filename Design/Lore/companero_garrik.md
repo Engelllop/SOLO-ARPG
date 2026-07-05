@@ -4,6 +4,8 @@
 **Edad:** 19 años (1 año mayor que el protagonista)
 **Relación con el protagonista:** Amigo de infancia. Crecieron juntos. Garrik era el que siempre se metía en problemas y el protagonista lo sacaba.
 
+**El arco de Mira (canon 2026-07-05):** desde N7, Garrik carga el arco de Mira cruzado a la espalda. No sabe usarlo bien — dispara torcido, maldice, insiste. No iba a dejarlo en Sahal. En N8-N10 le sirve para señales, cuerdas y algún tiro desesperado; nunca reemplaza a las dagas. Visualmente lo define: pícaro de hojas gemelas con un arco heredado que no le pertenece y no piensa soltar.
+
 ---
 
 #### El Secreto que Garrik No Sabe
