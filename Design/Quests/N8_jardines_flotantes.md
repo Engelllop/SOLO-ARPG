@@ -1,6 +1,8 @@
 # N8 — Los Jardines Flotantes
 ## Tema: Conexión Después del Trauma
 
+> ⚠️ **REWORK 2026-07-05:** Sera se une por necesidad mecánica (los caminos de cristal solo la reconocen a ella) y N8 es **desconfianza y fricción, sin romance**. Incluye la escena obligatoria "por qué no ayudé en N7". Ver `sera_integracion_lenta.md` §3.
+
 > **Duración estimada:** 2-3 horas
 > **Compañeros:** Protagonista, Garrik
 > **Compañero que se une:** Sera

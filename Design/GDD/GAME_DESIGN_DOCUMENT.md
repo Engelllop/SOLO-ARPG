@@ -45,7 +45,7 @@ SOLO es un ARPG en 3D construido en Unreal Engine 5.7. El jugador controla a un 
 - Q21-Q22: La Aguja y entrada a la Torre
 
 **Compañeros en Preludio:**
-- Caín (amigo de infancia, muere en Garganta)
+- Caín (amigo de infancia, BORRADO en Garganta — solo el protagonista lo recuerda)
 - Mira (arquera, dibujante de mapas)
 - Vassen (templario caído)
 - Garrik (amigo de infancia, DESAPARECE antes de la Torre)
@@ -61,7 +61,7 @@ SOLO es un ARPG en 3D construido en Unreal Engine 5.7. El jugador controla a un 
 | Piso | Nombre | Tema | Compañeros | Jefe |
 |------|--------|------|------------|------|
 | N0 | Emberveil | Tutorial | Caín | — |
-| Garganta | La Primera Caída | Transición | Caín (muere) | Guardián de la Garganta |
+| Garganta | La Primera Caída | Transición | Caín (borrado) | Guardián de la Garganta |
 | N1 | Velmar | Ciudad mercante | Mira, Vassen | La Voz |
 | N2 | Pastor de Cenizas | Ceniza, olvido | Mira, Vassen, Garrik | El Pastor |
 | N3 | Aelthar | Lago de espejos | Mira, Vassen, Garrik | Leviatán del Espejo |
@@ -73,13 +73,13 @@ SOLO es un ARPG en 3D construido en Unreal Engine 5.7. El jugador controla a un 
 | N9 | Argentia | Plata, ancianos | Garrik, Sera | Verdugo de Plata |
 | N10 | El Centinela | Piedra, final | Garrik, Sera | El Centinela de Granito |
 
-**Muertes en Acto I:**
-- Caín: Garganta (N0→N1)
-- Mira: N7 (Sahal, La Costurera)
-- Vassen: N7 (Sahal, La Costurera)
+**Pérdidas en Acto I:**
+- Caín: BORRADO en Garganta (archivado por la Torre, no muerto — `garganta_el_borrado_de_cain.md`)
+- Mira: N7 (Sahal, La Costurera) — sistema de falsa agencia (`N7_falsa_agencia.md`)
+- Vassen: N7 (Sahal, La Costurera) — sistema de falsa agencia
 
 **Romance:**
-- Sera se une en N8. Romance opcional, adulto, con iniciativa femenina.
+- Sera se une en N8 (necesidad mecánica, cero romance en N8). Romance opcional, adulto, con iniciativa femenina — gateado por medidor de apertura invisible, arranca en N9 (`sera_integracion_lenta.md`). Rama de amistad escrita completa, sin penalización.
 
 **Finales del Acto I (N10):**
 - A: Escape (destruir la Torre)
@@ -96,7 +96,7 @@ SOLO es un ARPG en 3D construido en Unreal Engine 5.7. El jugador controla a un 
 
 | Piso | Tema | Descripción |
 |------|------|-------------|
-| N0 | Pérdida de inocencia | Caín muere. El protagonista aprende que la Torre no perdona. |
+| N0 | Pérdida de inocencia | Caín es borrado. El protagonista aprende que la Torre no mata: archiva. |
 | N1 | Duelo negado | Velmar finge que todo está bien. La gente se niega a llorar. |
 | N2 | Identidad borrada | El Pastor olvidó quién era. Garrik no reconoce al protagonista. |
 | N3 | Verdad vs comodidad | Los elfos saben la verdad sobre la Torre. Pero es más fácil no saber. |
@@ -122,8 +122,8 @@ SOLO es un ARPG en 3D construido en Unreal Engine 5.7. El jugador controla a un 
 ### 3.2 Compañeros
 
 **Caín (N0-Garganta):**
-- Amigo de infancia. Optimista. Muere rápido.
-- Función: Enseñar al jugador que la Torre no perdona.
+- Amigo de infancia. Optimista. Borrado por el Guardián — el jugador elige quién paga el Peaje y todas las rutas convergen (primer uso del patrón de falsa agencia).
+- Función: motor del misterio. Nadie más lo recuerda; el protagonista carga la Espada Sin Nombre. Su destino se resuelve distinto en cada final.
 
 **Mira (N1-N7):**
 - Arquera, dibujante de mapas. Quiere que todo dure.
@@ -138,9 +138,10 @@ SOLO es un ARPG en 3D construido en Unreal Engine 5.7. El jugador controla a un 
 - Es Lian (5ta reencarnación). Recupera fragmentos de memoria progresivamente.
 - Relación con Sera: Se llevan mal. Pero se respetan.
 
-**Sera (N8-N10):**
+**Sera (Garganta-N10, se une en N8):**
 - Mujer de 28-32 años. Katana. No humana (fragmento del Tejido).
-- Iniciativa femenina en el romance. Directa. Vulnerable.
+- Sembrada desde la Garganta: rescates invisibles, reflejos en N3, avistamientos en N1/N5/N6/N7. La unión en N8 resuelve un misterio de 8 pisos, no introduce un personaje nuevo.
+- Iniciativa femenina en el romance — ganada, no default: solo con apertura acumulada, y desde N9.
 - Miedo: desaparecer. Ser olvidada.
 
 ---
@@ -217,7 +218,7 @@ SOLO es un ARPG en 3D construido en Unreal Engine 5.7. El jugador controla a un 
 ### 5.3 Muerte de compañeros
 
 - **Permanente.** No hay resurrección.
-- Mira y Vassen mueren en N7 (historia)
+- Mira y Vassen mueren en N7 (falsa agencia: rescates jugables y "ganables", resultado inevitable, variantes según quests de N3-N6 — ver `N7_falsa_agencia.md`)
 - Garrik puede morir en N5 (elección del jugador) o N10 (fallo mecánico)
 - Sera solo puede morir en N10 (fallo mecánico específico)
 
@@ -248,7 +249,7 @@ SOLO es un ARPG en 3D construido en Unreal Engine 5.7. El jugador controla a un 
 
 | Piso | Jefe | Mecánica | Tono |
 |------|------|----------|------|
-| Garganta | Guardián de la Garganta | Tutorial | Caín muere |
+| Garganta | Guardián de la Garganta | Peaje: el jugador elige quién paga | Caín es borrado |
 | N1 | La Voz | Ilusión, sonido | Duelo negado |
 | N2 | El Pastor de Cenizas | Círculos, ovejas invisibles | Identidad borrada |
 | N3 | Leviatán del Espejo | Reflejos, agua | Verdad vs comodidad |
@@ -406,6 +407,9 @@ Source/
 | `Design/Sistemas/sistema_facciones_CONSOLIDADO.md` | Facciones y reputación |
 | `Design/Sistemas/sistema_esquirlas.md` | New Game Plus |
 | `Design/Sistemas/sistema_finales.md` | Finales y variantes |
+| `Design/Quests/garganta_el_borrado_de_cain.md` | Rework: el Borrado de Caín (canónico) |
+| `Design/Quests/N7_falsa_agencia.md` | Rework: sistema de falsa agencia en N7 (canónico) |
+| `Design/Quests/sera_integracion_lenta.md` | Rework: siembra de Sera + romance N9+ (canónico) |
 
 ---
 

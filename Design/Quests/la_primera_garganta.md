@@ -1,5 +1,7 @@
 # N1 — El Umbral
 
+> ⚠️ **REWORK 2026-07-05:** Caín ya NO muere en la Garganta — es **BORRADO** (elección del Peaje, falsa agencia fundacional). El canon actual está en `garganta_el_borrado_de_cain.md`; las escenas de muerte de Caín en este archivo quedan superseded hasta alinear los diálogos.
+
 > Duración: 2-3 horas de juego
 > Compañeros: Caín, Mira, Vassen
 > Estado inicial: Grupo completo, descansados

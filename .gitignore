@@ -30,3 +30,8 @@ Content/
 # Large asset folders
 Assets/
 
+
+# Fase 2 descifrada — nunca commitear
+Design/Fase2_trabajo/
+piso_[2-9]0_*.md
+piso_100_*.md

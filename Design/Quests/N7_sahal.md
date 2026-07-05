@@ -1,6 +1,8 @@
 # N7 — Sahal: La Ciudad de Adobe
 ## Tema: Pérdida Irreversible
 
+> ⚠️ **REWORK 2026-07-05:** las muertes de Mira y Vassen ahora ocurren bajo el **sistema de falsa agencia** (separación nocturna, bifurcación jugable, variantes según quests N3-N6). Canon en `N7_falsa_agencia.md`; las escenas de este archivo se conservan como variantes base hasta alinear los diálogos.
+
 > **Duración estimada:** 3-4 horas
 > **Compañeros:** Mira, Vassen, Garrik
 > **Rango mínimo:** B

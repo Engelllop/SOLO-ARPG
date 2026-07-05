@@ -1,6 +1,8 @@
 # Sera — Romance Expandido
 ## Misiones, Iniciativa y Momentos Clave
 
+> ⚠️ **REWORK 2026-07-05:** el contenido sigue válido pero el timing cambió — cero romance en N8; todo el material romántico se muda a N9/víspera de N10, gateado por el medidor de apertura. Ver `sera_integracion_lenta.md` §4.
+
 > *"No voy a dejarte solo. Eso ya lo decidí."*
 > — Sera
 
